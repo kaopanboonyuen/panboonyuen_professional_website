@@ -97,7 +97,7 @@ My passion lies in advancing **AI technologies** to amplify human potential, wit
 
 You can find summaries of my academic, industry, and teaching experience in my [**CV**](https://kaopanboonyuen.github.io/files/panboonyuen_cv.pdf), and explore more about my personal life on my [**blog**](https://kaopanboonyuen.wordpress.com/). Additionally, check out some of my [**music on SoundCloud**](https://soundcloud.com/kaopanboonyuen).
 
-Call me [**Teerapong Panboonyuen (Kao)**](https://kaopanboonyuen.wordpress.com/), or just Kao (เก้า) in Thai: [**ธีรพงศ์ ปานบุญยืน**](https://kaopanboonyuen.wordpress.com/).
+Call me [**Teerapong Panboonyuen**](https://kaopanboonyuen.wordpress.com/), or just Kao (เก้า) in Thai: [**ธีรพงศ์ ปานบุญยืน**](https://kaopanboonyuen.wordpress.com/).
 
 {{< icon name="download" pack="fas" >}}{{< staticref "uploads/panboonyuen_cv.pdf" "newtab" >}}Download my CV{{< /staticref >}}.
 <!-- 
