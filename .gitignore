@@ -6,3 +6,5 @@ _site/
 .bundle/
 vendor/
 assets/.DS_Store
+themes/.DS_Store
+*.DS_Store
