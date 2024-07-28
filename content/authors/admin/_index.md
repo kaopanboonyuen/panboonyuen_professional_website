@@ -30,6 +30,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
+  - course: PostDoc Fellow in AI
+    institution: Chulalongkorn University
+    year: 2025
   - course: PhD in Computer Engineering
     institution: Chulalongkorn University
     year: 2020
@@ -37,10 +40,10 @@ education:
     institution: Chulalongkorn University
     year: 2017
   - course: BEng in Computer Engineering
-    institution: KMUTNB
+    institution: KMUTNB (Merit-based Admission Quota)
     year: 2015
   - course: Pre-Engineering School (PET21)
-    institution: KMUTNB (Merit-based Admission Quota)
+    institution: KMUTNB (Senior High School)
     year: 2012
 
 
