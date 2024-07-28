@@ -72,7 +72,7 @@ social:
   link: https://github.com/kaopanboonyuen
 - icon: download
   icon_pack: fas
-  link: uploads/panboonyuen_cv.pdf
+  link: https://kaopanboonyuen.github.io/files/panboonyuen_cv.pdf
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/teerapong-panboonyuen
