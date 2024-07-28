@@ -40,11 +40,11 @@ design:
   #   4 = Citation (publication only)
   view: 2 -->
 ---
-- [H.M. the King Bhumibhol Adulyadej’s 72nd Birthday Anniversary Scholarship](https://scholarships.example.com/king-bhumibhol-72nd-anniversary) (Master)
-- [The 100th Anniversary Chulalongkorn University Fund for Doctoral Scholarship](https://scholarships.example.com/chulalongkorn-100th-anniversary) (Ph.D.)
-- [The 90th Anniversary of Chulalongkorn University Scholarship](https://scholarships.example.com/chulalongkorn-90th-anniversary) (Ph.D.)
-- [Ratchadapisek Somphot Fund for Postdoctoral Fellowship](https://scholarships.example.com/ratchadapisek-somphot) (Chulalongkorn University, 2021, 2022, 2023, 2024, 2025)
-- 2017 [Best Student Paper Award](https://conferences.example.com/ICIT2017/best-student-paper) in International Conference on Computing and Information Technology
+- [H.M. the King Bhumibhol Adulyadej’s 72nd Birthday Anniversary Scholarship](https://kaopanboonyuen.github.io/files/scholarship/panboonyuen_72nd_anniversary_of_HM_King_Bhumibol_scholarship_v2.jpg) (Master)
+- [The 100th Anniversary Chulalongkorn University Fund for Doctoral Scholarship](https://kaopanboonyuen.github.io/files/scholarship/Recipient_100years_2_2560.pdf) (Ph.D.)
+- [The 90th Anniversary of Chulalongkorn University Scholarship](https://kaopanboonyuen.github.io/files/scholarship/Recipient_90yearsfund_2_2563.pdf) (Ph.D.)
+- [Ratchadapisek Somphot Fund for Postdoctoral Fellowship](https://kaopanboonyuen.github.io/files/postdoc/Recipient_Posdoc_6_65.pdf) (Chulalongkorn University, 2021, 2022, 2023, 2024, 2025)
+- 2017 [Best Student Paper Award](https://link.springer.com/book/10.1007/978-3-319-60663-7) in International Conference on Computing and Information Technology
 
 Reviewer for International Journals/Conferences:
 
