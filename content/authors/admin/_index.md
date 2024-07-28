@@ -64,6 +64,9 @@ social:
 - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: fas
   link: https://scholar.google.co.th/citations?user=myy0qDgAAAAJ&hl=en
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0001-8464-4476
 - icon: github
   icon_pack: fab
   link: https://github.com/kaopanboonyuen
