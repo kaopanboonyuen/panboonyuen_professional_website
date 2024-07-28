@@ -85,15 +85,14 @@ highlight_name: true
 ---
 My research focuses on **Machine Vision with Deep Learning**—developing algorithms that leverage **Optimization Theory** and **Statistical Learning** to enhance AI capabilities. I work extensively with **Stochastic Gradient Descent (SGD)** and **Attention Mechanisms** in **Transformer architectures**, and have a deep understanding of **Backpropagation** and **Generative Pre-Trained Transformers (GPT)**, including concepts like **Autoregressive Modeling** and **Self-Attention**.
 
-I am currently a **Senior AI Research Scientist** at [**MARS (Motor AI Recognition Solution)**](https://www.marssolution.io/) and a **Postdoctoral Fellow** at [**Chulalongkorn University**](https://www.chula.ac.th/en/). I earned my [**Ph.D. in Computer Engineering**](https://www.cp.eng.chula.ac.th/en/prospective/graduate/phd-computerengineering/) from [**Chulalongkorn University**](https://www.chula.ac.th/en/), where I specialized in AI.
+I am currently a **Senior AI Research Scientist** at [**MARS (Motor AI Recognition Solution)**](https://www.marssolution.io/) and a **Postdoctoral Fellow** at [**Chulalongkorn University**](https://www.chula.ac.th/en/). I earned my [**Ph.D. in Computer Engineering**](https://www.cp.eng.chula.ac.th/en/prospective/graduate/phd-computerengineering/) from  <a href="https://www.chula.ac.th/en/" style="color:#FF6FE7;" target="_blank">**Chulalongkorn University**</a>, where I specialized in AI.
 
 My passion lies in advancing **AI technologies** to amplify human potential, with a focus on **deep learning** and **computer vision**. I am particularly interested in applications in **remote sensing**, where AI can offer new insights into our world.
 
 You can find summaries of my academic, industry, and teaching experience in my [**CV**](https://kaopanboonyuen.github.io/files/panboonyuen_cv.pdf), and explore more about my personal life on my [**blog**](https://kaopanboonyuen.wordpress.com/). Additionally, check out some of my [**music on SoundCloud**](https://soundcloud.com/kaopanboonyuen).
 
-**English name:** [**Teerapong Panboonyuen (Kao)**](https://kaopanboonyuen.wordpress.com/)  
-**Thai name:** [**ธีรพงศ์ ปานบุญยืน (เก้า)**](https://kaopanboonyuen.wordpress.com/)
+Call me [**Teerapong Panboonyuen (Kao)**](https://kaopanboonyuen.wordpress.com/), or just Kao (เก้า) in Thai: [**ธีรพงศ์ ปานบุญยืน**](https://kaopanboonyuen.wordpress.com/).
 
 {{< icon name="download" pack="fas" >}}{{< staticref "uploads/panboonyuen_cv.pdf" "newtab" >}}Download my CV{{< /staticref >}}.
-
-{{< icon name="download" pack="fas" >}}{{< staticref "uploads/panboonyuen_cv_Thai.pdf" "newtab" >}}Download my Thai CV{{< /staticref >}}.
+<!-- 
+{{< icon name="download" pack="fas" >}}{{< staticref "uploads/panboonyuen_cv_Thai.pdf" "newtab" >}}Download my Thai CV{{< /staticref >}}. -->
