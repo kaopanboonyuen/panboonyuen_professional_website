@@ -31,13 +31,13 @@ interests:
 education:
   courses:
   - course: PhD in Computer Engineering
-    institution: Chulalongkorn University (GPAX 4.00/4.00)
+    institution: Chulalongkorn University
     year: 2020
   - course: MEng in Computer Engineering
-    institution: Chulalongkorn University (GPAX 4.00/4.00)
+    institution: Chulalongkorn University
     year: 2017
   - course: BEng in Computer Engineering
-    institution: KMUTNB (GPAX 3.11/4.00)
+    institution: KMUTNB
     year: 2015
   - course: Pre-Engineering School (PET21)
     institution: KMUTNB (Merit-based Admission Quota)
