@@ -11,7 +11,7 @@ superuser: true
 # Organizations/Affiliations to show in About widget
 organizations: 
 - name: Senior AI Research Scientist, PostDoc Fellow
-  url: https://research.google/people/NatashaJaques/
+  url: https://kaopanboonyuen.github.io/
 - name: MARS, Chula
 
 # Short bio (displayed in user profile at end of posts)
