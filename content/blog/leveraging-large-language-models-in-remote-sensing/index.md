@@ -40,7 +40,6 @@ projects: []
 2. [Understanding Large Language Models (LLMs)](#understanding-large-language-models-llms)
 3. [LLMs in LULC Classification](#llms-in-lulc-classification)
     - [Methodology](#methodology)
-    - [Formulas and Algorithms](#formulas-and-algorithms)
 4. [Case Study: LULC Classification on Sentinel-2 Imagery](#case-study-lulc-classification-on-sentinel-2-imagery)
 5. [Conclusion](#conclusion)
 
@@ -51,7 +50,7 @@ Remote sensing has revolutionized the way we observe and understand the Earth’
 </p>
 
 <p align="justify">
-In this blog, we will explore how LLMs can be applied to remote sensing, particularly in the domains of LULC and image classification. We will delve into the methodologies, algorithms, and formulas that can be utilized to harness the power of LLMs for these applications.
+In this blog, we will explore how LLMs can be applied to remote sensing, particularly in the domains of LULC and image classification. We will delve into the methodologies, algorithms, and techniques that can be utilized to harness the power of LLMs for these applications.
 </p>
 
 ## Understanding Large Language Models (LLMs)
@@ -87,54 +86,6 @@ The process of using LLMs for LULC classification can be summarized as follows:
     - Apply the trained model to classify the satellite images into LULC categories.
     - Validate the model using ground truth data and performance metrics like accuracy, precision, recall, and F1-score.
 
-### Formulas and Algorithms
-
-<p align="justify">
-The integration of LLMs into remote sensing applications involves several key formulas and algorithms. Here, we will discuss some of the essential ones:
-</p>
-
-#### Convolutional Neural Networks (CNNs)
-
-<p align="justify">
-CNNs are widely used for image classification tasks due to their ability to automatically learn spatial hierarchies of features. The basic operation of a CNN is the convolution, which can be represented as:
-</p>
-
-$$ 
-(Z * K)(i,j) = \sum_{m} \sum_{n} Z(i+m, j+n) K(m,n) 
-$$
-
-<p align="justify">
-where \(Z\) is the input image, \(K\) is the kernel (filter), and \((i, j)\) represents the coordinates of the image.
-</p>
-
-#### Attention Mechanism
-
-<p align="justify">
-LLMs often utilize attention mechanisms to focus on relevant parts of the input data. The scaled dot-product attention formula is given by:
-</p>
-
-$$ 
-\text{Attention}(Q, K, V) = \text{softmax}\left( \frac{QK^T}{\sqrt{d_k}} \right) V 
-$$
-
-<p align="justify">
-where \(Q\) is the query matrix, \(K\) is the key matrix, \(V\) is the value matrix, and \(d_k\) is the dimension of the keys.
-</p>
-
-#### Hybrid Model
-
-<p align="justify">
-Combining CNNs with LLMs can be done through a hybrid model approach. The CNN extracts spatial features, while the LLM provides contextual enhancement. The final classification can be achieved by:
-</p>
-
-$$ 
-\hat{y} = \text{softmax}(W_h [h_c; h_l] + b_h) 
-$$
-
-<p align="justify">
-where \(h_c\) is the feature vector from the CNN, \(h_l\) is the contextual vector from the LLM, \(W_h\) is the weight matrix, and \(b_h\) is the bias.
-</p>
-
 ## Case Study: LULC Classification on Sentinel-2 Imagery
 
 <p align="justify">
@@ -166,5 +117,5 @@ The integration of LLMs in remote sensing, particularly for LULC and image class
 </p>
 
 <p align="justify">
-In this blog, we explored the methodologies and algorithms for leveraging LLMs in remote sensing applications. The case study on Sentinel-2 imagery demonstrated the practical benefits of this approach. As we move forward, further research and development in this field will undoubtedly lead to more innovative and effective solutions for remote sensing challenges.
+In this blog, we explored the methodologies and techniques for leveraging LLMs in remote sensing applications. The case study on Sentinel-2 imagery demonstrated the practical benefits of this approach. As we move forward, further research and development in this field will undoubtedly lead to more innovative and effective solutions for remote sensing challenges.
 </p>
