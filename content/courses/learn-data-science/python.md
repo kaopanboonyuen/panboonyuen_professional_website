@@ -1,6 +1,6 @@
 ---
-title: Python basics
-date: '2021-01-01'
+title: Basic Python
+date: '2024-01-01'
 type: book
 weight: 20
 ---
