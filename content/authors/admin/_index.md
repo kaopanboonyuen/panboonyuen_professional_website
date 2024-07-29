@@ -89,7 +89,7 @@ email: ""
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-My research focuses on **Machine Vision with Deep Learning**—developing algorithms that leverage **Optimization Theory** and **Statistical Learning** to enhance AI capabilities. I work extensively with **Stochastic Gradient Descent (SGD)** and **Attention Mechanisms** in **Transformer architectures**, and have a deep understanding of **Backpropagation** and **Generative Pre-Trained Transformers (GPT)**, including concepts like **Autoregressive Modeling** and **Self-Attention**.
+My research focuses on **Pattern Recognition with Deep Learning**—developing cutting-edge algorithms that leverage **Optimization Theory** and **Statistical Learning** to push the boundaries of AI. I specialize in advanced models such as **Generative Adversarial Networks (GANs)** and **Diffusion Models**, and incorporate **Semi-Supervised Learning for Computer Vision** to enhance performance. My work explores **Adversarial Attacks** and the complexities of **Large Language Models (LLMs)**, aiming to revolutionize AI capabilities.
 
 I am currently a **Senior AI Research Scientist** at [**MARS (Motor AI Recognition Solution)**](https://www.marssolution.io/) and a **Postdoctoral Fellow** at [**Chulalongkorn University**](https://www.chula.ac.th/en/). I earned my [**Ph.D. in Computer Engineering**](https://www.cp.eng.chula.ac.th/en/prospective/graduate/phd-computerengineering/) from  <a href="https://www.chula.ac.th/en/" style="color:#FF6FE7;" target="_blank">**Chulalongkorn University**</a>, where I specialized in AI.
 
