@@ -93,7 +93,7 @@ My research focuses on **Pattern Recognition with Deep Learning**—developing c
 
 I am currently a **Senior AI Research Scientist** at [**MARS (Motor AI Recognition Solution)**](https://www.marssolution.io/) and a **Postdoctoral Fellow** at [**Chulalongkorn University**](https://www.chula.ac.th/en/). I earned my [**Ph.D. in Computer Engineering**](https://www.cp.eng.chula.ac.th/en/prospective/graduate/phd-computerengineering/) from  <a href="https://www.chula.ac.th/en/" style="color:#FF6FE7;" target="_blank">**Chulalongkorn University**</a>, where I specialized in AI.
 
-My passion lies in advancing **AI technologies** to amplify human potential, with a focus on **deep learning** and **computer vision**. I am particularly interested in applications in **remote sensing**, where AI can offer new insights into our world.
+My passion lies in advancing **AI Technologies** to unlock human potential and redefine our understanding of the world. This drive extends to **Remote Sensing**, where AI unveils transformative insights and pushes the boundaries of how we perceive and interact with our environment.
 
 You can find summaries of my academic, industry, and teaching experience in my [**CV**](https://kaopanboonyuen.github.io/files/panboonyuen_cv.pdf), and explore more about my personal life on my [**blog**](https://kaopanboonyuen.wordpress.com/). Additionally, check out some of my [**music on SoundCloud**](https://soundcloud.com/kaopanboonyuen).
 
