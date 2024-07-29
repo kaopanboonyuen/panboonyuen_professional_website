@@ -13,7 +13,7 @@ Build a foundation in Python.
 
 ## Learn
 
-{{< youtube rfscVS0vtbw >}}
+{{< youtube nLRL_NcnK-4 >}}
 
 ## Quiz
 
