@@ -15,7 +15,7 @@ organizations:
 - name: MARS, Chula
 
 # Short bio (displayed in user profile at end of posts)
-bio: My work centers on advanced AI techniques, particularly leveraging deep learning and computer vision to enhance semantic understanding, visual recognition, and data analytics. I develop innovative methods for image recognition, remote sensing, and geospatial data analysis to address real-world challenges.
+bio: My research is focused on leveraging sophisticated AI techniques, specifically deep learning and computer vision, to enhance semantic understanding, pattern recognition, visual recognition, and data analytics. I develop innovative techniques for image recognition, remote sensing, and geospatial data analysis, incorporating generative AI, adversarial attacks, and diffusion models to address real-world challenges.
 
 # Interests to show in About widget
 interests:
