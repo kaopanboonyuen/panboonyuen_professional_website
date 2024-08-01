@@ -37,6 +37,11 @@ projects: []
 
 ---
 
+
+{{% callout note %}}
+You can view the presentation slides for the talk 😃 [here](https://kaopanboonyuen.github.io/files/slides/20240801_Panboonyuen_GenerativeAI.pdf).
+{{% /callout %}}
+
 {{< toc mobile_only=true is_open=true >}}
 
 ## Introduction
@@ -137,6 +142,9 @@ The future of generative AI holds immense potential, with opportunities for inte
 Here is a simple Python code snippet demonstrating the basic structure of a Generative Adversarial Network (GAN) using PyTorch:
 </p>
 
+
+<!-- {{< icon name="python" >}}Python -->
+
 ```python
 import torch
 import torch.nn as nn
@@ -185,7 +193,36 @@ class Discriminator(nn.Module):
 Diffusion models have emerged as a powerful approach in generative AI, especially for tasks involving image generation and editing. These models iteratively denoise images to recover the original data distribution. The objective function for diffusion models can be expressed as:
 </p>
 
-- Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
+$$
+C(x) = -\frac{1}{\sigma \sqrt{2\pi}} \left(\frac{x - \mu}{\sigma}\right)^2 e^{-\frac{1}{2}\left(\frac{x - \mu}{\sigma}\right)^2}
+$$
+<code>Where:</code>
+
+- $\theta$ represents the model parameters.
+- $t$ is a time step uniformly sampled from the interval [0, 1].
+- $\lambda(t)$ is a time-dependent weighting function.
+- $x_0$ is the original data point (e.g., an image).
+- $\epsilon$ is Gaussian noise sampled from a normal distribution.
+- $\epsilon_\theta(x_t, t)$ is the predicted noise at time step $t$ by the model.
+
+$$
+L(x) = \frac{1}{2} \left( \frac{x - \mu}{\sigma} \right)^2 + \frac{1}{2} \log(2 \pi \sigma^2)
+$$
+
+In this form:
+
+-  $\( \frac{1}{2} \left( \frac{x - \mu}{\sigma} \right)^2 \)$ represents the squared deviation from the mean, often used in diffusion models to measure the distance between generated and target distributions.
+-  $\( \frac{1}{2} \log(2 \pi \sigma^2) \)$ represents the entropy term, which accounts for the normalization factor in the Gaussian distribution.
+
+You can also represent the diffusion objective function in a more general form related to a stochastic process:
+
+$$
+L(x) = \mathbb{E} \left[ \frac{1}{2} \| x - \mu \|^2 + \frac{1}{2} \log(2 \pi \sigma^2) \right]
+$$
+
+Here, $\( \mathbb{E} \)$ denotes the expectation over the diffusion process, capturing the average cost.
+
+This objective function measures the discrepancy between the true noise added to the data and the noise predicted by the model, aiming to train the model to accurately reverse the diffusion process.
 
 <p align="justify">
 where \(x_t\) is the noised image at timestep \(t\), and \(\epsilon_\theta\) is the noise prediction network. Recent works like DALL-E 2 and Stable Diffusion have demonstrated the remarkable capabilities of diffusion models in text-to-image generation and image editing tasks. These models leverage large-scale training on diverse datasets and incorporate additional conditioning information to enable fine-grained control over generated images.
@@ -229,12 +266,9 @@ Generative AI presents both exciting opportunities and significant challenges. T
   - [ ] Explore challenges related to bias, fairness, and security
   - [ ] Study frameworks for responsible AI development
 
-
-##### Did you find this page helpful? Consider sharing it 🙌
-
 ## Citation
 
-Panboonyuen, Teerapong. (Aug 2024). *Generative AI: Current Trends and Practical Applications*. Blog post on Kao Panboonyuen. [https://kaopanboonyuen.github.io/generative-ai-current-trends](https://yourblogurl.com/generative-ai-current-trends).
+> Panboonyuen, Teerapong. (Aug 2024). *Generative AI: Current Trends and Practical Applications*. Blog post on Kao Panboonyuen. [https://kaopanboonyuen.github.io/generative-ai-current-trends](https://yourblogurl.com/generative-ai-current-trends).
 
 Or
 
@@ -248,6 +282,10 @@ Or
   url     = "https://kaopanboonyuen.github.io/generative-ai-current-trends/"
 }
 ```
+
+{{% callout note %}}
+Did you find this page helpful? Consider sharing it 🙌
+{{% /callout %}}
 
 ## References
 
