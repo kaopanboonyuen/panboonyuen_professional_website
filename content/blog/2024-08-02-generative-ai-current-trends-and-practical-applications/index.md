@@ -27,7 +27,7 @@ math: true
 
 # Featured image
 image:  
-  caption: "Generative AI: Transforming the Future"  
+  caption: "Image source: https://marketoonist.com/2023/01/ai-tidal-wave.html"  
   placement: 2  
   focal_point: "Smart"  
   preview_only: false
@@ -52,8 +52,12 @@ Generative AI refers to a category of artificial intelligence models designed to
 
 <div style="text-align: center;">
   <img src="genai_01.png" alt="Introduction Image">
-  <p style="font-style: italic; margin-top: -40px;">Fig. 1. Sample of generative AI task (Image source: Lin et al. 2024, <a href="https://arxiv.org/abs/2405.01525" target="_blank">arXiv:2405.01525</a>)</p>
+  <p style="font-style: italic; margin-top: -40px;">Fig. 1. Sample of generative AI task (Image source: telecats.com, <a href="https://www.telecats.com/blog-en/ai-for-rookies/" target="_blank">blog-en/ai-for-rookies</a>)</p>
 </div>
+
+On May 26, 1995, Bill Gates wrote the influential “Internet Tidal Wave” memo at Microsoft, which marked a major shift for the company towards the emerging World Wide Web. This moment was reminiscent of a recent analogy from HubSpot CTO Dharmesh Shah, who compared Netscape's impact on the Internet to ChatGPT's influence on AI. Just as Netscape made the Internet accessible, ChatGPT is reshaping our understanding of AI, though its full effects on work and creativity remain uncertain.
+
+Microsoft, now a major supporter of OpenAI (the creator of ChatGPT), is again at the forefront of this change, potentially challenging Google Search with ChatGPT integration into Bing. Former U.S. Treasury Secretary Larry Summers likened AI to a "caddie" that enhances our creativity and accuracy, though he cautioned against over-reliance on AI, which could lead to uniform and uninspired results. Summers also highlighted AI's potential as a transformative technology, comparable to the printing press or electricity.
 
 ## Key Trends in Generative AI
 
