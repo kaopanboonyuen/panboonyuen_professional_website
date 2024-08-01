@@ -1,5 +1,5 @@
 ---
-title: 🚀 Learn Data Science
+title: Data Science for Beginners
 linkTitle: Data Science
 summary: An sample of using Wowchemy's Book layout for publishing online courses.
 date: '2024-01-24'

@@ -13,3 +13,5 @@ header:
   caption: ""
   image: ""
 ---
+
+👋 Hi, this is **Kao**. I'm leading a team at MARS focused on **practical AI**, and I'm also sharing my learning notes here on the blog. If you notice any grammar errors, it's probably because I lean on ChatGPT a bit.

@@ -15,8 +15,8 @@ tags:
 - THEOS  
 categories:  
 - remote-sensing  
-- AI  
-- machine-learning  
+- LULC
+- LLM
 date: "2024-07-28T00:00:00Z"  
 lastmod: "2024-07-28T00:00:00Z"  
 featured: true  
