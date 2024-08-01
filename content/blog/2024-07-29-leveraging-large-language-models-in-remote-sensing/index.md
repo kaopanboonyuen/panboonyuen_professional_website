@@ -24,7 +24,8 @@ draft: false
 
 # Featured image
 image:  
-  caption: "Applying LLMs in Remote Sensing"  
+  caption: "Image source: https://botpenguin.com/blogs/understanding-custom-llm-models" 
+
   placement: 2  
   focal_point: "Smart"  
   preview_only: false
