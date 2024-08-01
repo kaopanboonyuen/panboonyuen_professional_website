@@ -77,8 +77,8 @@ highlight_languages:
   - golang
   - python
   - latex
-math: false
-diagram: false
+math: true
+diagram: true
 privacy_pack: false
 edit_page:
   repo_url: ''
