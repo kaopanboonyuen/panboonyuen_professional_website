@@ -89,7 +89,7 @@ email: ""
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-My research focuses on **Pattern Recognition**—developing cutting-edge algorithms with **Optimization Theory** and **Statistical Learning** to push AI's limits. I work with advanced models like **GANs** and **Diffusion Models**, use **Semi-Supervised Learning**, and explore **Adversarial Attacks** and **Large Language Models (LLMs)** to revolutionize AI capabilities.
+My research focuses on **Pattern Recognition**—developing cutting-edge algorithms with **Optimization Theory** and **Statistical Learning** to push AI's limits. I work with advanced models like **GANs** and **Diffusion Models**, use **Self-Supervised Learning**, and explore **Adversarial Attacks** and **Large Language Models (LLMs)** to revolutionize AI capabilities.
 
 I am currently a **Senior AI Research Scientist** at [**MARS (Motor AI Recognition Solution)**](https://www.marssolution.io/) and a **Postdoctoral Fellow** at [**Chulalongkorn University**](https://www.chula.ac.th/en/). I earned my [**Ph.D. in Computer Engineering**](https://www.cp.eng.chula.ac.th/en/prospective/graduate/phd-computerengineering/) from  <a href="https://www.chula.ac.th/en/" style="color:#FF84FB;" target="_blank">**Chulalongkorn University**</a>, where I specialized in AI.
 
