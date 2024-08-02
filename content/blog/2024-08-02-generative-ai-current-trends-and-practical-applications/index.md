@@ -283,7 +283,7 @@ Or
   journal = "kaopanboonyuen.github.io/",
   year    = "2024",
   month   = "Aug",
-  url     = "https://kaopanboonyuen.github.io/generative-ai-current-trends/"
+  url     = "https://kaopanboonyuen.github.io/blog/2024-08-02-generative-ai-current-trends-and-practical-applications/"
 }
 ```
 
