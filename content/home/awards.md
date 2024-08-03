@@ -44,7 +44,7 @@ design:
 - [The 100th Anniversary Chulalongkorn University Fund for Doctoral Scholarship](https://kaopanboonyuen.github.io/files/scholarship/Recipient_100years_2_2560.pdf) (Ph.D.)
 - [The 90th Anniversary of Chulalongkorn University Scholarship](https://kaopanboonyuen.github.io/files/scholarship/Recipient_90yearsfund_2_2563.pdf) (Ph.D.)
 - [Ratchadapisek Somphot Fund for Postdoctoral Fellowship](https://kaopanboonyuen.github.io/files/postdoc/Recipient_Posdoc_6_65.pdf) (Chulalongkorn University, 2021, 2022, 2023, 2024, 2025)
-- 2017 [Best Student Paper Award](https://link.springer.com/book/10.1007/978-3-319-60663-7) in International Conference on Computing and Information Technology ([IC2IT](https://link.springer.com/conference/ic2it))
+- 2017 [Best Student Paper Award](https://link.springer.com/chapter/10.1007/978-3-319-60663-7_18) in International Conference on Computing and Information Technology ([IC2IT](https://link.springer.com/conference/ic2it))
 - 2019 [Best Young Researcher Paper Award](https://ieeexplore.ieee.org/document/9018796) in First International Conference on Smart Technology & Urban Development ([STUD](https://saki.siit.tu.ac.th/stud2019/))
 
 Reviewer for International Journals/Conferences:
