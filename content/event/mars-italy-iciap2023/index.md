@@ -83,7 +83,7 @@ The extensive experiments conducted as part of my research demonstrated that MAR
 <!-- ![Teerapong Panboonyuen at Italy](mars_italy_iciap0008.jpg) -->
 <div style="text-align: center;">
   <img src="mars_italy_iciap0008.jpg" alt="Introduction Image">
-  <p style="font-style: italic; margin-top: -40px;">I have published an article with Techsauce. (Image source: techsauce.co, <a href="https://techsauce.co/news/mars-deep-tech-startup-thaivivat-ai" target="_blank">mars-deep-tech-startup-thaivivat-ai</a>)</p>
+  <p style="font-style: italic; margin-top: 0px;">Fig. 1. I have published an article with Techsauce. (Image source: techsauce.co, <a href="https://techsauce.co/news/mars-deep-tech-startup-thaivivat-ai" target="_blank">mars-deep-tech-startup-thaivivat-ai</a>)</p>
 </div>
 
 > Thank you to Techsauce, the Thai tech news agency, for showcasing my research on the application of AI in the auto insurance and garage industry. You can read the full article here: [Techsauce](https://techsauce.co/news/mars-deep-tech-startup-thaivivat-ai).

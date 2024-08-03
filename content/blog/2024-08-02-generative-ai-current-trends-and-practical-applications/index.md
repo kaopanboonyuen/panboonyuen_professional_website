@@ -52,7 +52,7 @@ Generative AI refers to a category of artificial intelligence models designed to
 
 <div style="text-align: center;">
   <img src="genai_01.png" alt="Introduction Image">
-  <p style="font-style: italic; margin-top: -40px;">Fig. 1. Sample of generative AI task (Image source: telecats.com, <a href="https://www.telecats.com/blog-en/ai-for-rookies/" target="_blank">blog-en/ai-for-rookies</a>)</p>
+  <p style="font-style: italic; margin-top: 0px;">Fig. 1. Sample of generative AI task (Image source: telecats.com, <a href="https://www.telecats.com/blog-en/ai-for-rookies/" target="_blank">blog-en/ai-for-rookies</a>)</p>
 </div>
 
 On May 26, 1995, Bill Gates wrote the influential “Internet Tidal Wave” memo at Microsoft, which marked a major shift for the company towards the emerging World Wide Web. This moment was reminiscent of a recent analogy from HubSpot CTO Dharmesh Shah, who compared Netscape's impact on the Internet to ChatGPT's influence on AI. Just as Netscape made the Internet accessible, ChatGPT is reshaping our understanding of AI, though its full effects on work and creativity remain uncertain.
