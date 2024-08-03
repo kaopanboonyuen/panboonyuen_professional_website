@@ -40,6 +40,37 @@ design:
   #   4 = Citation (publication only)
   view: 2 -->
 ---
+
+* [Visiting Faculty - College of Computing, Khon Kaen University](https://kaopanboonyuen.github.io/files/panboonyuen_kku.pdf)
+  * June 2023 - Present
+  * Teach courses:
+    * [SC310005 Artificial Intelligence and Machine Learning Application](https://github.com/kaopanboonyuen/SC310005_ArtificialIntelligence_2023s1): Introduction to AI and ML concepts and their applications.
+    * [CP020002 Smart Process Management](https://github.com/kaopanboonyuen/CP020002_SmartProcessManagement_2024s1): Techniques for optimizing and automating business processes.
+    * [SC320002 Business Intelligence](https://github.com/kaopanboonyuen/CS101): Methods for data analysis and decision-making in business contexts.
+    * [CP020001 Introduction to Computers and Programming](https://github.com/kaopanboonyuen/CP020001_ComputerProgramming_2023s1): Basics of computer systems and introductory programming skills.
+  * [Ministerial Order on the Appointment of Academic Staff (Order 5907-2566)](https://kaopanboonyuen.github.io/files/panboonyuen_kku.pdf)
+  * [Invitation Letter for a Special Lecturer Position (Order อว 660301.26/24844)](https://kaopanboonyuen.github.io/files/panboonyuen_kku_ai.pdf)
+  * [Invitation Letter for a Special Lecturer Position (Order อว 660101.26/13320)](https://kaopanboonyuen.github.io/files/panboonyuen_kku_spm.pdf)
+
+* Guest Lecturer and AI Committee Member
+  * [2108421 Modern Integrated Survey Technology (MIST) - Chulalongkorn University](https://kaopanboonyuen.github.io/files/invitation_letters/Invitation_toSurvey_CU_2023.pdf)
+    * Guided students in applying Machine Learning to survey engineering.
+
+  * [The 7th KVIS Invitational Science Fair](https://kaopanboonyuen.github.io/files/invitation_letters/KVIS_Science_Fair_2024_Panboonyuen.pdf)
+    * Served as a committee member for the AI project at Kamnoetvidya Science Academy, Rayong, Thailand (29 January - 2 February 2024).
+
+  * [AI and ML Instructor - Nomklao Kunnathi Demonstration School](https://kaopanboonyuen.github.io/files/invitation_letters/Invitation_toKunnatee_AI_2021.pdf)
+    * Taught AI and ML under the Design Graphics Science and Technology Learning Group for high school students (Grade 10) in the Science and Mathematics Curriculum Plan.
+
+  * [Deep Learning Instructor - Thammasat University](https://kaopanboonyuen.github.io/files/invitation_letters/Invitation_toThammasat_AI_2023.pdf)
+    * Conducted training on satellite data processing and interpretation for advanced military and disaster missions at the Faculty of Liberal Arts.
+
+  * [Senior Project Advisor - Thammasat University](https://kaopanboonyuen.github.io/files/invitation_letters/Invitation_toThammasat_AI_Projects_2022.pdf)
+    * Advised students on senior projects in the Department of Geography, Faculty of Liberal Arts.
+
+  * [AI Instructor - Department of Lands, Thailand](https://kaopanboonyuen.github.io/files/invitation_letters/Invitation_toLandDept_AI_2024.pdf)
+    * Taught AI using land title deed data. [Code and Lecture Slides](https://github.com/kaopanboonyuen/ai_for_dept_of_lands)
+
 * [The Bangkok Urbanscapes Dataset for Semantic Urban Scene Understanding Using Deep Learning](https://kaopanboonyuen.github.io/bkkurbanscapes)
   * To further study self-driving cars in Thailand, we provide both the proposed methods and the proposed dataset in this project. We hope that our architecture and our dataset would help self-driving autonomous developers improve systems for driving in many cities with unique traffic and driving conditions similar to Bangkok and elsewhere in Thailand.
   * [Project](https://kaopanboonyuen.github.io/bkkurbanscapes), [Dataset](https://www.cityscapes-dataset.com/), [PDF](https://ieeexplore.ieee.org/document/9779212), [Cite](https://kaopanboonyuen.github.io/files/citation/kao_phd_chula.txt), [Code](https://github.com/kaopanboonyuen/bkkurbanscapes)
