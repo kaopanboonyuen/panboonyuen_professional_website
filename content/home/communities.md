@@ -56,8 +56,15 @@ design:
   * [2108421 Modern Integrated Survey Technology (MIST) - Chulalongkorn University](https://kaopanboonyuen.github.io/files/invitation_letters/Invitation_toSurvey_CU_2023.pdf)
     * Guided students in applying Machine Learning to survey engineering.
 
+  * [CP411701 AI Inspiration Course - Khon Kaen University](https://kaopanboonyuen.github.io/files/panboonyuen_kku_ai.pdf)
+    * Delivered a lecture on "Generative AI: Current Trends and Practical Applications" at the College of Computing, Khon Kaen University.
+    * [Slide: Generative AI](https://kaopanboonyuen.github.io/blog/2024-08-02-generative-ai-current-trends-and-practical-applications/)
+
   * [The 7th KVIS Invitational Science Fair](https://kaopanboonyuen.github.io/files/invitation_letters/KVIS_Science_Fair_2024_Panboonyuen.pdf)
     * Served as a committee member for the AI project at Kamnoetvidya Science Academy, Rayong, Thailand (29 January - 2 February 2024).
+
+  * [Industrial Advisory Board (IAB) - ECE KMUTNB](https://kaopanboonyuen.github.io/files/invitation_letters/Invitation_toKMUTNB_asIAB.pdf)
+    * Contributed to curriculum assessment and provided comments for the Department of Electrical and Computer Engineering (ECE).
 
   * [AI and ML Instructor - Nomklao Kunnathi Demonstration School](https://kaopanboonyuen.github.io/files/invitation_letters/Invitation_toKunnatee_AI_2021.pdf)
     * Taught AI and ML under the Design Graphics Science and Technology Learning Group for high school students (Grade 10) in the Science and Mathematics Curriculum Plan.
