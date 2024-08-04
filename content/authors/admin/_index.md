@@ -34,10 +34,10 @@ education:
     institution: Chulalongkorn University
     year: 2025
   - course: PhD in Computer Engineering
-    institution: Chulalongkorn University (GPA 4.00/4.00)
+    institution: Chulalongkorn University
     year: 2020
   - course: MEng in Computer Engineering
-    institution: Chulalongkorn University (GPA 4.00/4.00)
+    institution: Chulalongkorn University
     year: 2017
   - course: BEng in Computer Engineering
     institution: KMUTNB (Merit-based Admission Quota)
