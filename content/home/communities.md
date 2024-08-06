@@ -56,7 +56,7 @@ design:
   * [2108421 Modern Integrated Survey Technology (MIST) - Chulalongkorn University](https://kaopanboonyuen.github.io/files/invitation_letters/Invitation_toSurvey_CU_2023.pdf)
     * Guided students in applying Machine Learning to survey engineering.
 
-  * [CP411701 AI Inspiration Course - Khon Kaen University](https://kaopanboonyuen.github.io/files/panboonyuen_kku_ai.pdf)
+  * [CP411701 AI Inspiration Course - Khon Kaen University](https://kaopanboonyuen.github.io/files/panboonyuen_kku_ai_inspiration.pdf)
     * Delivered a lecture on "Generative AI: Current Trends and Practical Applications" at the College of Computing, Khon Kaen University.
     * [Slide: Generative AI](https://kaopanboonyuen.github.io/blog/2024-08-02-generative-ai-current-trends-and-practical-applications/)
 
