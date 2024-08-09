@@ -106,6 +106,6 @@ design:
   * We present a novel global convolutional network for segmenting multi-objects from aerial and satellite images.
   * [Paper](https://www.mdpi.com/2078-2489/13/1/5), [Cite](https://kaopanboonyuen.github.io/files/citation/kao_phd_chula.txt)
 
-* [Flood Risk Assessment in Ayutthaya Province](https://github.com/kaopanboonyuen/Rainfall-Prediction-A-Machine-Learning-Approach)
+* [Flood Risk Assessment in Ayutthaya Province](https://kaopanboonyuen.github.io/rainfall-prediction-a-machine-learning-approach)
   * We described a more efficient method to create flood susceptibility map - using Thailand’s Ayutthaya Province as a case study to assess flood prone areas.
-  * [Paper](https://tis.wu.ac.th/index.php/tis/article/view/2038), [Code](https://github.com/kaopanboonyuen/Rainfall-Prediction-A-Machine-Learning-Approach), [Cite](https://kaopanboonyuen.github.io/files/citation/kao_phd_chula.txt)
+  * [Project (GitHub Page)](https://kaopanboonyuen.github.io/rainfall-prediction-a-machine-learning-approach), [Paper](https://tis.wu.ac.th/index.php/tis/article/view/2038), [Code](https://github.com/kaopanboonyuen/rainfall-prediction-a-machine-learning-approachh), [Cite](https://kaopanboonyuen.github.io/files/citation/kao_phd_chula.txt)

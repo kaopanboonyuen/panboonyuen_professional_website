@@ -3,7 +3,7 @@ title: "Image Vectorization of Road Satellite Data Sets"
 authors:
 - admin
 - P. Vateekul
-- P. Srestasathiern
+
 - S. Lawawirojwong
 
 date: "2016-09-01T00:00:00Z"

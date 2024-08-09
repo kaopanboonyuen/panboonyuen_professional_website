@@ -3,7 +3,7 @@ title: "Road segmentation of remotely-sensed images using deep convolutional neu
 authors:
 - admin
 - P. Vateekul
-- P. Srestasathiern
+
 - S. Lawawirojwong
 
 date: "2017-09-01T00:00:00Z"

@@ -3,7 +3,7 @@ title: "Semantic Segmentation on Remotely Sensed Images Using an Enhanced Global
 authors:
 - admin
 - P. Vateekul
-- P. Srestasathiern
+
 - S. Lawawirojwong
 
 date: "2019-02-01T00:00:00Z"

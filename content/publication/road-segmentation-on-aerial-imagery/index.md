@@ -3,7 +3,7 @@ title: "An enhanced deep convolutional encoder-decoder network for road segmenta
 authors:
 - admin
 - P. Vateekul
-- P. Srestasathiern
+
 - S. Lawawirojwong
 
 date: "2017-01-01T00:00:00Z"
