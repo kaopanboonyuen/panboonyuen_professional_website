@@ -43,7 +43,7 @@ education:
     institution: KMUTNB (Merit-based Admission Quota)
     year: 2015
   - course: Pre-Engineering School (PET21)
-    institution: KMUTNB (Senior High School)
+    institution: KMUTNB (Senior High School, 10th - 12th Grade)
     year: 2012
 
 
