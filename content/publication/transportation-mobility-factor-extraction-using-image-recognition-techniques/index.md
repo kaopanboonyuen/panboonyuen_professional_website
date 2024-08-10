@@ -58,12 +58,14 @@ links:
 # - name: ACM
 #   url: https://dl.acm.org/doi/10.1007/978-3-031-51023-6_3
 - name: GitHub Page
-  url: https://kaopanboonyuen.github.io/bkkurbanscapes
+  url: 'https://kaopanboonyuen.github.io/quality-of-life-ai-transportation/'
+- name: Best Young Researcher Paper Award
+  url: 'https://kaopanboonyuen.github.io/quality-of-life-ai-transportation/'
 url_pdf: https://ieeexplore.ieee.org/document/9018796
-url_code: https://github.com/kaopanboonyuen
+url_code: https://github.com/kaopanboonyuen/quality-of-life-ai-transportation
 url_dataset: ''
 url_poster: ''
-url_project: ''
+url_project: 'https://kaopanboonyuen.github.io/quality-of-life-ai-transportation/'
 url_slides: ''
 url_source: ''
 url_video: ''
