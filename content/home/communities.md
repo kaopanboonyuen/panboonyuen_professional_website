@@ -79,7 +79,7 @@ design:
     * Taught AI using land title deed data. [Code and Lecture Slides](https://github.com/kaopanboonyuen/ai_for_dept_of_lands)
 
 * [AI-Powered Image Recognition for Transportation Mobility Factors: A Quality of Life Perspective for Bangkok City](https://kaopanboonyuen.github.io/quality-of-life-ai-transportation/)
-  * We propose a method that automatically extract mobility indicators using two image recognition techniques: Semantic Segmentation and Object Recognition.
+  * Urban development hinges on improving the Quality of Life (QOL) for city inhabitants. Traditionally, QOL assessments rely heavily on questionnaire surveys, which, while informative, can be costly and time-consuming.
   * [Project (GitHub Page)](https://kaopanboonyuen.github.io/quality-of-life-ai-transportation/), [Paper](https://ieeexplore.ieee.org/document/9018796), [Code](https://github.com/kaopanboonyuen/quality-of-life-ai-transportation), [Cite](https://kaopanboonyuen.github.io/files/citation/kao_phd_chula.txt)
 
 * [Medium-Resolution Vision Transformer for Semantic Segmentation on Landsat Satellite Imagery in Thailand](https://kaopanboonyuen.github.io/MeViT/)
