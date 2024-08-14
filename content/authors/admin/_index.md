@@ -19,13 +19,13 @@ bio: My research is focused on leveraging sophisticated AI techniques, specifica
 
 # Interests to show in About widget
 interests:
-- Pattern Recognition
+- Applied Earth Observations
+- Geoscience and Remote Sensing
 - Computer Vision
-- Deep Learning
-- Machine Learning
-- Reinforcement Learning
+- Pattern Recognition
+- Learning Representations
 - Human-AI Interaction
-- Remote Sensing
+
 
 # Education to show in About widget
 education:
