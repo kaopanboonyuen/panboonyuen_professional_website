@@ -23,8 +23,8 @@ interests:
 - Geoscience and Remote Sensing
 - Computer Vision
 - Pattern Recognition
-- Learning Representations
 - Human-AI Interaction
+- Learning Representations
 
 
 # Education to show in About widget
