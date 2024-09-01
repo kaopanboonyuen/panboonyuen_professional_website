@@ -2,7 +2,7 @@
 title: Courses
 type: page
 
-view: 3
+view: 1
 
 header:
   caption: ""

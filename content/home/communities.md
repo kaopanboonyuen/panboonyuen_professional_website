@@ -94,11 +94,11 @@ design:
   * To further study self-driving cars in Thailand, we provide both the proposed methods and the proposed dataset in this project. We hope that our architecture and our dataset would help self-driving autonomous developers improve systems for driving in many cities with unique traffic and driving conditions similar to Bangkok and elsewhere in Thailand.
   * [Project (GitHub Page)](https://kaopanboonyuen.github.io/bkkurbanscapes), [Dataset](https://www.cityscapes-dataset.com/), [Paper](https://ieeexplore.ieee.org/document/9779212), [Code](https://github.com/kaopanboonyuen/bkkurbanscapes), [Cite](https://kaopanboonyuen.github.io/files/citation/kao_phd_chula.txt)
 
-* [Object Detection of Road Assets Using Transformer-Based YOLOX with Feature Pyramid Decoder on Thai Highway Panorama](https://www.mdpi.com/2078-2489/13/1/5)
+<!-- * [Object Detection of Road Assets Using Transformer-Based YOLOX with Feature Pyramid Decoder on Thai Highway Panorama](https://www.mdpi.com/2078-2489/13/1/5)
   * Identifying road asset objects in Thailand highway monitoring image sequences is essential for intelligent traffic monitoring and administration of the highway. We introduce transformer-based Feature Pyramid Network (FPN) decoder designs, injecting the FPN style of decoder design into Transformer-based YOLOX reasoning.
-  * [Project](https://www.mdpi.com/2078-2489/13/1/5), [PDF](https://www.mdpi.com/2078-2489/13/1/5/pdf?version=1640592615), [Cite](https://kaopanboonyuen.github.io/files/citation/kao_phd_chula.txt), [Code](https://github.com/kaopanboonyuen/)
+  * [Project](https://www.mdpi.com/2078-2489/13/1/5), [PDF](https://www.mdpi.com/2078-2489/13/1/5/pdf?version=1640592615), [Cite](https://kaopanboonyuen.github.io/files/citation/kao_phd_chula.txt), [Code](https://github.com/kaopanboonyuen/) -->
 
-* [Geospatial Big Data Analytics 2023](https://kaopanboonyuen.github.io/files/talks/panboonyuen_Geospatial_Big_Data_Analytics_2023.jpg)
+<!-- * [Geospatial Big Data Analytics 2023](https://kaopanboonyuen.github.io/files/talks/panboonyuen_Geospatial_Big_Data_Analytics_2023.jpg)
   * Extract data using web scraping with python, Visualizations using Looker Studio of Google, and PySpark for Machine Learning
   * [Poster](https://kaopanboonyuen.github.io/files/talks/panboonyuen_Geospatial_Big_Data_Analytics_2023.jpg), [Code](https://github.com/kaopanboonyuen/GISTDA2023/tree/main/code), [Slides](https://github.com/kaopanboonyuen/GISTDA2023/tree/main/lecture_slides)
 
@@ -108,4 +108,4 @@ design:
 
 * [Achieve Data Science First Meet](https://kaopanboonyuen.github.io/files/talks/panboonyuen_data_science_talk.jpeg)
   * More and more companies realize the importance of data science, AI, and machine learning. Regardless of industry or size, organizations that wish to remain competitive in the age of big data ought to efficiently originate and implement data science capabilities or risk being left behind.
-  * [Poster](https://kaopanboonyuen.github.io/files/talks/panboonyuen_data_science_talk.jpeg), [Slides](https://kaopanboonyuen.github.io/files/talks/panboonyuen_talks_2020.pdf)
+  * [Poster](https://kaopanboonyuen.github.io/files/talks/panboonyuen_data_science_talk.jpeg), [Slides](https://kaopanboonyuen.github.io/files/talks/panboonyuen_talks_2020.pdf) -->
