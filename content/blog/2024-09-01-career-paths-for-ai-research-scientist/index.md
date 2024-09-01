@@ -39,23 +39,24 @@ projects: []
 
 
 {{% callout note %}}
-You can view the presentation slides for the talk 😃 [here](https://kaopanboonyuen.github.io/files/slides/20240902_Career_Paths_for_Research_Scientists.pdf).
+You can view the presentation slides for the talk 🌿 [here](https://kaopanboonyuen.github.io/files/slides/20240902_Career_Paths_for_Research_Scientists.pdf).
 {{% /callout %}}
 
 {{< toc mobile_only=true is_open=true >}}
 
 ## Introduction
-Welcome to my blog! I'm thrilled to share insights from my journey in the world of Artificial Intelligence (AI) research. My name is Teerapong Panboonyuen, but you can call me Kao. I'm a Senior AI Research Scientist at MARS (Motor AI Recognition Solution) and a Postdoctoral Fellow at Chulalongkorn University. In this post, I'll discuss my career path, the balance between academic and industrial research, and some exciting trends in AI.
+Welcome to my blog! I'm thrilled to share insights from my journey in the world of Artificial Intelligence (AI) research. My name is Teerapong Panboonyuen (in Thai: ธีรพงศ์ ปานบุญยืน), but you can call me Kao (เก้า). I'm a Senior AI Research Scientist at MARS (Motor AI Recognition Solution) and a Postdoctoral Fellow at Chulalongkorn University. In this post, I'll discuss my career path, the balance between academic and industrial research, and some exciting trends in AI.
 
 ## My Journey into AI Research
 My passion for AI began during my Master's degree in Computer Engineering at Chulalongkorn University. It was there that I first encountered the intriguing challenges and opportunities that AI research offered. However, my commitment to AI deepened during my Ph.D. studies at the same university. I graduated with a Master's degree at the age of 24 and earned my Ph.D. by 27. Since then, I have been immersed in AI research, focusing on fields like Remote Sensing and Computer Vision.
 
-Currently, I am a Postdoctoral Fellow in AI research, a role I have held from age 27 to the present, 31. My research spans the development of advanced algorithms in Pattern Recognition, Optimization Theory, and Statistical Learning. At MARS, I am involved in applying AI to real-world problems, particularly in the auto insurance industry.
+> Currently, I am a Postdoctoral Fellow in AI research, a role I have held from age 27 to the present, 31. My research spans the development of advanced algorithms in Pattern Recognition, Optimization Theory, and Statistical Learning. At MARS, I am involved in applying AI to real-world problems, particularly in the auto insurance industry.
 
 ## Balancing Academia and Industry
 Why do I juggle both academic and industrial roles? The answer lies in the different kinds of excitement each provides. In academia, I'm drawn to the elegance and complexity of theoretical work—understanding AI at its core and pushing its boundaries. On the other hand, the industrial side offers the thrill of seeing AI solutions deployed in real-world applications, making a tangible impact.
 
-I firmly believe that combining both worlds enriches my research. It's incredibly fulfilling to publish groundbreaking work and even more exhilarating when that research translates into practical solutions that benefit society. This dual approach keeps me grounded in the realities of implementation while allowing me to explore theoretical possibilities.
+{{% callout note %}}
+I firmly believe that combining both worlds enriches my research. It's incredibly fulfilling to publish groundbreaking work and even more exhilarating when that research translates into practical solutions that benefit society. This dual approach keeps me grounded in the realities of implementation while allowing me to explore theoretical possibilities.{{% /callout %}}
 
 ## Key Qualities for Ideal AI Agents
 
@@ -78,7 +79,9 @@ There are various strategies to develop agents with these properties. At GoodAI,
 ## The Cool Factor in Research
 One of the key motivators for any researcher is the "cool factor"—that sense of excitement when working on something groundbreaking. For me, that thrill comes from applying AI to satellite imagery for Land Use and Land Cover (LULC) analysis in agriculture. The very idea of using AI to derive insights from images captured from space is inherently fascinating.
 
+{{% callout note %}}
 Imagine using AI to assist in medical diagnostics. For instance, developing an AI model that can detect polyps or tumors during a colonoscopy more accurately than current state-of-the-art methods. Not only is this research cool, but it also has a profound impact—it can save lives. AI might not yet match human experts in every scenario, but as an early detection tool, its potential is undeniable.
+{{% /callout %}}
 
 ## Understanding the Three Types of Artificial Intelligence
 
@@ -184,12 +187,12 @@ The field of AI is constantly evolving, with several exciting trends emerging. H
 ## Inspiration for Aspiring Researchers
 For those considering a career in AI research, my advice is simple: find a topic that excites you. Choose projects that you find inherently cool. This passion will sustain you through the challenges of research. Start by exploring current literature to understand what has already been done and identify gaps. Decide whether to build on existing models or innovate from scratch. Focus on how you can improve accuracy, speed, or applicability of AI solutions.
 
-Remember, research is a journey, not a destination. Be curious, be patient, and never stop learning. The most rewarding part of research is not just the recognition that comes from publishing a paper but seeing your work make a real-world impact. Whether it's through advancing technology or improving lives, your contribution as a researcher can make a difference. 
+> Remember, research is a journey, not a destination. Be curious, be patient, and never stop learning. The most rewarding part of research is not just the recognition that comes from publishing a paper but seeing your work make a real-world impact. Whether it's through advancing technology or improving lives, your contribution as a researcher can make a difference. 
 
 ## Conclusion
 Being part of the AI revolution is a unique privilege. It's a field where theoretical elegance meets real-world impact, offering endless opportunities for those willing to explore. Whether you are inclined toward academia or industry, or like me, both, there is a place for you in AI research. Let's continue to push the boundaries and contribute to a future where AI plays a positive and transformative role in our lives.
 
-Thank you for reading! I look forward to hearing your thoughts and engaging in discussions about AI research and career paths. Feel free to leave comments or reach out to me directly.
+> Thank you for reading! I look forward to hearing your thoughts and engaging in discussions about AI research and career paths. Feel free to leave comments or reach out to me directly.
 
 ## Citation
 
@@ -198,7 +201,7 @@ Thank you for reading! I look forward to hearing your thoughts and engaging in d
 Or
 
 ```bash
-@article{panboonyuen2024careerppaths,
+@article{panboonyuen2024careerpaths,
   title   = "Career Paths for AI Research Scientists: My Journey and Insights.",
   author  = "Panboonyuen, Teerapong",
   journal = "kaopanboonyuen.github.io/",
