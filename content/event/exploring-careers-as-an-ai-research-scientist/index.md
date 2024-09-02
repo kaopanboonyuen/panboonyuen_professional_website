@@ -113,9 +113,11 @@ Reflecting on my experiences as a postdoctoral researcher, I emphasized the cont
 
 Engaging with students and discussing their potential career paths in AI was incredibly rewarding. My aim was to inspire and provide practical guidance on how to enter and excel in the field of AI. As AI continues to evolve, the opportunities for new research and innovations are vast. I hope my insights into the various career paths and my own journey will motivate young minds to explore and pursue their passions in this exciting field.
 
-Super excited to share that I’ve snagged a scholarship from Her Royal Highness Princess Maha Chakri Sirindhorn to hit up the Global Young Scientists Summit (GYSS) in Singapore from January 6-10, 2025. It’s a huge boost for my commitment to pushing the boundaries of innovation!
+> Super excited to share that I’ve snagged a scholarship from Her Royal Highness Princess Maha Chakri Sirindhorn to hit up the Global Young Scientists Summit (GYSS) in Singapore from January 6-10, 2025. It’s a huge boost for my commitment to pushing the boundaries of innovation!
 
 ![](panboonyuen_GYSS2025.jpg)
+
+**P.S.** For a deep dive into career paths for AI research scientists, including my personal journey and insights, check out the full blog and slides here: [Career Paths for AI Research Scientists](https://kaopanboonyuen.github.io/blog/2024-09-01-career-paths-for-ai-research-scientist/)
 
 ### Conclusion
 
