@@ -53,6 +53,10 @@ design:
   * [Invitation Letter for a Special Lecturer Position (Order อว 660101.26/13320)](https://kaopanboonyuen.github.io/files/panboonyuen_kku_spm.pdf)
 
 * Guest Lecturer and AI Committee Member
+  * [NSTDA One Day Camp at Sirindhorn Science Home](https://kaopanboonyuen.github.io/files/GYSS/panboonyuen_NSTDA2024_invitation_letter.pdf)
+    * Talking about career opportunities and becoming a research scientist in AI as part of the GYSS2025 scholarship program.
+    * [Full Blog and Slide: Career Paths for AI Research Scientists](https://kaopanboonyuen.github.io/blog/2024-09-01-career-paths-for-ai-research-scientist/)
+
   * [2108421 Modern Integrated Survey Technology (MIST) - Chulalongkorn University](https://kaopanboonyuen.github.io/files/invitation_letters/Invitation_toSurvey_CU_2023.pdf)
     * Guided students in applying Machine Learning to survey engineering.
 
