@@ -13,7 +13,7 @@ tags:
 - deep-learning  
 - computer-vision  
 image:
-  caption: 'Image credit: [**goodai.com**](https://www.goodai.com/goodai-research-roadmap-2021-2022/)'
+  caption: 'Image credit: [**NSTDA**](https://www.nstda.or.th/en/)'
 categories:  
 - ai-research
 - ai-industry
@@ -27,7 +27,7 @@ math: true
 
 # Featured image
 image:  
-  caption: "Image source: https://www.goodai.com/goodai-research-roadmap-2021-2022/"  
+  caption: "Image source: https://www.nstda.or.th/en/"  
   placement: 2  
   focal_point: "Smart"  
   preview_only: false
@@ -51,6 +51,8 @@ Welcome to my blog! I'm thrilled to share insights from my journey in the world 
 My passion for AI began during my Master's degree in Computer Engineering at Chulalongkorn University. It was there that I first encountered the intriguing challenges and opportunities that AI research offered. However, my commitment to AI deepened during my Ph.D. studies at the same university. I graduated with a Master's degree at the age of 24 and earned my Ph.D. by 27. Since then, I have been immersed in AI research, focusing on fields like Remote Sensing and Computer Vision.
 
 > Currently, I am a Postdoctoral Fellow in AI research, a role I have held from age 27 to the present, 31. My research spans the development of advanced algorithms in Pattern Recognition, Optimization Theory, and Statistical Learning. At MARS, I am involved in applying AI to real-world problems, particularly in the auto insurance industry.
+
+![](featured_vertical.png)
 
 ## Balancing Academia and Industry
 Why do I juggle both academic and industrial roles? The answer lies in the different kinds of excitement each provides. In academia, I'm drawn to the elegance and complexity of theoretical work—understanding AI at its core and pushing its boundaries. On the other hand, the industrial side offers the thrill of seeing AI solutions deployed in real-world applications, making a tangible impact.
@@ -189,10 +191,24 @@ For those considering a career in AI research, my advice is simple: find a topic
 
 > Remember, research is a journey, not a destination. Be curious, be patient, and never stop learning. The most rewarding part of research is not just the recognition that comes from publishing a paper but seeing your work make a real-world impact. Whether it's through advancing technology or improving lives, your contribution as a researcher can make a difference. 
 
+## Before I Go: Here’s Some Exciting News!
+
+I’m thrilled to announce that I’ve been awarded a prestigious scholarship by Her Royal Highness Princess Maha Chakri Sirindhorn to attend the Global Young Scientists Summit (GYSS) in Singapore from January 6-10, 2025. This recognition is a major boost for my passion and drive to push the envelope in innovation!
+
+![](panboonyuen_GYSS2025.jpg)
+
+The **Global Young Scientists Summit (GYSS)** is a dynamic annual event that brings together exceptional young researchers and leading scientific minds from around the world. Held in Singapore, this summit is a unique platform for discussing groundbreaking research and exploring how it can address major global challenges. 
+
+With a strong emphasis on innovation and collaboration, GYSS is where future scientific leaders converge to share ideas and shape the future of research. To dive deeper into this inspiring event, visit [GYSS](https://www.gyss-one-north.sg) and join the conversation using #GYSS!
+
+![](GYSS-logo.jpg)
+
+> Just a heads up—once I wrap up at GYSS, I'll be crafting a new blog to share all the awesome experiences with you. Stay tuned!
+
 ## Conclusion
 Being part of the AI revolution is a unique privilege. It's a field where theoretical elegance meets real-world impact, offering endless opportunities for those willing to explore. Whether you are inclined toward academia or industry, or like me, both, there is a place for you in AI research. Let's continue to push the boundaries and contribute to a future where AI plays a positive and transformative role in our lives.
 
-> Thank you for reading! I look forward to hearing your thoughts and engaging in discussions about AI research and career paths. Feel free to leave comments or reach out to me directly.
+> Thank you for reading! I look forward to hearing your thoughts and engaging in discussions about AI research and career paths.
 
 ## Citation
 
