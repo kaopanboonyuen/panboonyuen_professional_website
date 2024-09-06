@@ -76,7 +76,6 @@ This chart presents a comparison of performance metrics between our Enhanced YOL
 ![](Kao_iCHE2024/kao_mars_x_iche2024_05.jpg)
 
 Finally, this image illustrates the training process for the Enhanced YOLOv8 model. It depicts the stages of optimization and fine-tuning, with various datasets and augmentation techniques used to enhance the model’s performance. The iterative process shown here is crucial for achieving the high accuracy demonstrated in our results. Observing these training phases provides insights into how we refined the model. This rigorous approach is key to ensuring the model’s effectiveness and reliability in practical applications.
-![](Kao_iCHE2024/kao_mars_x_iche2024_06.jpg)
 
 ## Paper Highlights:
 

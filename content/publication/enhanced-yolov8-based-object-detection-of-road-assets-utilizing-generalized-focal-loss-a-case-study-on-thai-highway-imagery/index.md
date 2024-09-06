@@ -110,7 +110,6 @@ Here I am, presenting our work on the Enhanced YOLOv8 model and its application 
 ![](Kao_iCHE2024/kao_mars_x_iche2024_03.jpg)
 ![](Kao_iCHE2024/kao_mars_x_iche2024_04.jpg)
 ![](Kao_iCHE2024/kao_mars_x_iche2024_05.jpg)
-![](Kao_iCHE2024/kao_mars_x_iche2024_06.jpg)
 
 #### Paper Highlights:
 Our research tackles a critical challenge in road safety and infrastructure management: detecting essential road assets such as pedestrian bridges, pavilions, signs, and concrete guardrails. We introduce an enhanced YOLOv8 model integrated with **Generalized Focal Loss**, which significantly improves detection accuracy, especially in complex environments with varied lighting and backgrounds.
