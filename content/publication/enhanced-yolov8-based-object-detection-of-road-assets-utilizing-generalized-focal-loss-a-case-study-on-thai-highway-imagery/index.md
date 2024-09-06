@@ -95,10 +95,14 @@ slides: ""
 
 I am thrilled to share that our paper titled **"Enhanced YOLOv8-Based Object Detection of Road Assets Utilizing Generalized Focal Loss: A Case Study on Thai Highway Imagery"** has been accepted for an oral presentation at the **5th International Conference on Highway Engineering (iCHE 2024)**! After a long absence from international conferences since my Ph.D. studies, I'm incredibly excited to rejoin the academic community in person and present our latest research.
 
+> Dive into the complete details of our research on road asset detection in Thai highways with advanced vision models. Check out the full blog post here: [Refined Generalized Focal Loss for Road Asset Detection](https://kaopanboonyuen.github.io/blog/2024-09-06-refined-generalized-focal-loss-for-road-asset-detection-on-thai-highways-using-vision-models/)
+
 Stay tuned for updates, and a big thank you to my incredible research team:  
 **N. Rattanachona**, **P. Thungthin**, **N. Subsompon**, **S. Thongbai**, **W. Wongweeranimit**, and **R. Phukham**. I’m grateful for your hard work and dedication to this project!
 
 ![](Kao_iCHE2024/kao_mars_x_iche2024_00.jpg)
+
+![](featured_v3.png)
 
 Here I am, presenting our work on the Enhanced YOLOv8 model and its application in detecting road assets!
 
