@@ -58,6 +58,7 @@ Stay tuned for updates, and a big thank you to my incredible research team:
 **N. Rattanachona**, **P. Thungthin**, **N. Subsompon**, **S. Thongbai**, **W. Wongweeranimit**, and **R. Phukham**. Your hard work and dedication were essential to this project!
 
 ![](Kao_iCHE2024/kao_mars_x_iche2024_00.jpg)
+![](featured_full.png)
 
 Here I am, presenting our work on the Enhanced YOLOv8 model and its application in detecting road assets!
 
