@@ -141,7 +141,7 @@ Looking forward to presenting more of our findings at iCHE 2024 and engaging wit
 
 ## Citation
 
-> Panboonyuen, Teerapong. (Sep 2024). *Refined Generalized Focal Loss for Road Asset Detection on Thai Highways Using Vision Models*. Blog post on Kao Panboonyuen. [https://kaopanboonyuen.github.io/blog/2024-09-01-refined-generalized-focal-loss-for-road-asset-detection-on-thai-highways-using-vision-models/](https://kaopanboonyuen.github.io/blog/2024-09-01-refined-generalized-focal-loss-for-road-asset-detection-on-thai-highways-using-vision-models/)
+> Panboonyuen, Teerapong. (Sep 2024). *Refined Generalized Focal Loss for Road Asset Detection on Thai Highways Using Vision Models*. Blog post on Kao Panboonyuen. [https://kaopanboonyuen.github.io/blog/2024-09-06-refined-generalized-focal-loss-for-road-asset-detection-on-thai-highways-using-vision-models/](https://kaopanboonyuen.github.io/blog/2024-09-06-refined-generalized-focal-loss-for-road-asset-detection-on-thai-highways-using-vision-models/)
 
 **For a BibTeX citation:**
 
@@ -152,8 +152,7 @@ Looking forward to presenting more of our findings at iCHE 2024 and engaging wit
   journal = "kaopanboonyuen.github.io/",
   year    = "2024",
   month   = "Sep",
-  url     = "https://kaopanboonyuen.github.io/blog/2024-09-01-refined-generalized-focal-loss-for-road-asset-detection-on-thai-highways-using-vision-models/"
-}
+  url     = "https://kaopanboonyuen.github.io/blog/2024-09-06-refined-generalized-focal-loss-for-road-asset-detection-on-thai-highways-using-vision-models/"}
 ```
 
 {{% callout note %}}
