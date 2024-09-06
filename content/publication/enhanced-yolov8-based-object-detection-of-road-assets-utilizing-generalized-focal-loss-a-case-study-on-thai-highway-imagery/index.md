@@ -33,8 +33,8 @@ publishDate: "2024-09-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *5th International Conference on Highway Engineering 2024*
-publication_short: In *5th International Conference on Highway Engineering 2024*
+publication: In *5th International Conference on Highway Engineering* **ICHE 2024**
+publication_short: In *5th International Conference on Highway Engineering* **ICHE 2024**
 
 abstract: This paper presents a comprehensive investigation into the object detection of critical road assets on Thai highways, employing an innovative approach that integrates an enhanced version of the YOLOv8 model with Generalized Focal Loss. Detecting pivotal road elements such as pavilions, pedestrian bridges, information signs, warning signs, and concrete guardrails is crucial for ensuring road safety and effective infrastructure management. Prior research in this domain has shown significant potential in deep learning-based object detection methods; however, the performance of conventional models often needs to improve in accurately identifying and localizing road assets under various conditions, including complex backgrounds and lighting variations. To address these challenges, this study presents integrating the YOLOv8 architecture with Generalized Focal Loss, aiming to enhance the model’s robustness and accuracy in detecting road assets. Our experimental results demonstrate the efficacy of the proposed method, showing significant improvements in detection metrics. The YOLOv8x model achieved the highest performance with mAP50 of 80.340, mAP50-95 of 60.840, precision of 79.100, recall of 76.680, and an F1-score of 77.870. These results highlight the superiority of the YOLOv8x model in comparison to other YOLOv8 variants. The study underscores the potential of advanced deep learning techniques in enhancing highway safety and infrastructure maintenance practices, particularly under challenging conditions such as complex backgrounds and varying lighting.
 
