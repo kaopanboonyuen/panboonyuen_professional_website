@@ -15,7 +15,7 @@ organizations:
 - name: MARS, Chula
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research is focused on leveraging sophisticated AI techniques, specifically deep learning and computer vision, to enhance semantic understanding, pattern recognition, visual recognition, and geospatial data analysis.
+bio: My research focuses on leveraging advanced machine intelligence techniques, specifically computer vision, to enhance semantic understanding, learning representations, visual recognition, and geospatial data interpretation.
 
 # Interests to show in About widget
 interests:
@@ -89,7 +89,7 @@ email: ""
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-My research focuses on **Pattern Recognition**—developing cutting-edge algorithms with **Optimization Theory** and **Statistical Learning** to push AI's limits. I work with advanced models like **GANs** and **Diffusion Models**, use **Self-Supervised Learning**, and explore **Adversarial Attacks** and **Large Language Models (LLMs)** to revolutionize AI capabilities.
+My research focuses on **Learning Representations**—developing cutting-edge algorithms with optimization theory to push AI's limits. I work with advanced models like GANs and Diffusion Models, leverage Self-Supervised Learning, delve into Adversarial Attacks and Large Language Models (LLMs) to revolutionize AI capabilities.
 
 I am currently a **Senior AI Research Scientist** at [**MARS (Motor AI Recognition Solution)**](https://www.marssolution.io/) and a **Postdoctoral Fellow** at [**Chulalongkorn University**](https://www.chula.ac.th/en/). I earned my [**Ph.D. in Computer Engineering**](https://www.cp.eng.chula.ac.th/en/prospective/graduate/phd-computerengineering/) from  <a href="https://www.chula.ac.th/en/" style="color:#FF69B4;" target="_blank">**Chulalongkorn University**</a>, where I specialized in AI.
 
