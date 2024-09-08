@@ -99,7 +99,7 @@ You can find summaries of my academic, industry, and teaching experience in my [
 
 Call me [**Teerapong Panboonyuen**](https://kaopanboonyuen.wordpress.com/), or just Kao (เก้า) in Thai: [**ธีรพงศ์ ปานบุญยืน**](https://kaopanboonyuen.wordpress.com/).
 
-{{< icon name="download" pack="fas" >}}{{< staticref "https://kaopanboonyuen.github.io/files/panboonyuen_cv.pdf" "newtab" >}}Download my CV{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}}{{< staticref "https://kaopanboonyuen.github.io/files/panboonyuen_cv.pdf" "newtab" >}}Download my CV{{< /staticref >}}.   {{< icon name="download" pack="fas" >}}{{< staticref "https://kaopanboonyuen.github.io/files/panboonyuen_cv_Thai.pdf" "newtab" >}}Download my Thai CV{{< /staticref >}}.
 
 <!-- 
 {{< icon name="download" pack="fas" >}}{{< staticref "uploads/panboonyuen_cv_Thai.pdf" "newtab" >}}Download my Thai CV{{< /staticref >}}. -->
