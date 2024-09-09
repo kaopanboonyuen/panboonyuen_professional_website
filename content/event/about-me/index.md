@@ -1,7 +1,7 @@
 ---
-title: About Me
+title: GET TO KNOW ME BETTER
 
-event: About Me
+event: GET TO KNOW ME BETTER
 
 date: 2018-01-19
 
@@ -22,8 +22,8 @@ location: Faculty of Engineering, Chulalongkorn University
   postcode: '10330'
   country: Thailand -->
 
-summary: I’m Teerapong Panboonyuen (ธีรพงศ์ ปานบุญยืน), also known as Kao (เก้า). While pursuing my Ph.D. in Computer Engineering at Chulalongkorn University, I was honored to receive the 100th Anniversary Chulalongkorn University Fund for Doctoral Scholarship. Earlier, during my master's studies, I was awarded the H.M. the King Bhumibhol Adulyadej’s 72nd Birthday Anniversary Scholarship. Throughout my academic journey, I took on teaching roles and engaged in numerous data science projects. I also had the opportunity to assist in lecturing university classes on machine learning. My passion is directed towards conducting research on artificial intelligence and pushing the boundaries of what AI can achieve.
-abstract: I’m Teerapong Panboonyuen (ธีรพงศ์ ปานบุญยืน), also known as Kao (เก้า). While pursuing my Ph.D. in Computer Engineering at Chulalongkorn University, I was honored to receive the 100th Anniversary Chulalongkorn University Fund for Doctoral Scholarship. Earlier, during my master's studies, I was awarded the H.M. the King Bhumibhol Adulyadej’s 72nd Birthday Anniversary Scholarship. Throughout my academic journey, I took on teaching roles and engaged in numerous data science projects. I also had the opportunity to assist in lecturing university classes on machine learning. My passion is directed towards conducting research on artificial intelligence and pushing the boundaries of what AI can achieve.
+summary: Hi guys, I’m Teerapong Panboonyuen (ธีรพงศ์ ปานบุญยืน), but you can just call me Kao (เก้า). I’m into creating AI that actually makes a difference. While I was working on my Ph.D. in Computer Engineering at Chula, I managed to score some sweet scholarships—like the 100th Anniversary Chulalongkorn University Fund. Even during my master’s, I picked up the H.M. King Bhumibhol’s 72nd Birthday Anniversary Scholarship. Along the way, I’ve done some teaching, worked on cool data science projects, and even helped out with machine learning classes. My focus? Taking AI to the next level and using it to help make this world a better place to live. Let’s make some tech that matters!
+abstract: Hi guys, I’m Teerapong Panboonyuen (ธีรพงศ์ ปานบุญยืน), but you can just call me Kao (เก้า). I’m into creating AI that actually makes a difference. While I was working on my Ph.D. in Computer Engineering at Chula, I managed to score some sweet scholarships—like the 100th Anniversary Chulalongkorn University Fund. Even during my master’s, I picked up the H.M. King Bhumibhol’s 72nd Birthday Anniversary Scholarship. Along the way, I’ve done some teaching, worked on cool data science projects, and even helped out with machine learning classes. My focus? Taking AI to the next level and using it to help make this world a better place to live. Let’s make some tech that matters!
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -41,7 +41,7 @@ tags: []
 featured: false
 
 image:
-  caption: 'Dr.Teerapong Panboonyuen, ดร.ธีรพงศ์ ปานบุญยืน'
+  caption: 'Teerapong Panboonyuen (Kao), ธีรพงศ์ ปานบุญยืน (เก้า)'
   focal_point: Right
 
 links:
@@ -69,15 +69,15 @@ projects:
 ![Teerapong Panboonyuen](panboonyuen_img01.jpg)
 <!-- {{< youtube traKBhJm4lQ >}} -->
 
+Alright, let’s break the ice! Beyond the research papers and tech jargon, here’s the real scoop about me:
 
-> In the realm of **AI vision**, my heart takes flight,  
-Not in the spectrum of colors or vibrant light.  
-But in the elegance of a single band’s view,  
-Where grayscale or black-and-white holds the clue.  
+I’m a tech enthusiast with a serious passion for using technology to make the world a better place. When I’m not buried in code or geeking out over the latest tech, you might find me lacing up my running shoes or gearing up for a triathlon. Yep, marathons and triathlons are my thing—they keep me fit and remind me that anything’s possible with a little grit and a lot of sweat.
 
-> My journey mirrors this, clear and precise,  
-A singular focus amidst complexity's slice.  
-Though color may dazzle and images gleam,  
-It's the simplicity in shades that fuels my dream.
+I’m a lifelong learner at heart. Whether it’s catching the latest tech trends, diving into new research, or just chatting with fellow nerds, I’m always on the lookout for the next big thing in technology.
+
+But it’s not all work and no play. I love giving back to the community and am always up for volunteering at events that spark my interest. Connecting with people and making a difference is what keeps me motivated.
+
+So, if you want to swap stories about the newest gadgets, discuss the latest research, or just chat about anything under the sun, hit me up at [panboonyuen.kao@gmail.com](mailto:panboonyuen.kao@gmail.com)!
+
 
 **Kao Panboonyuen**
