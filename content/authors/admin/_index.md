@@ -22,10 +22,9 @@ interests:
 - Applied Earth Observations
 - Geoscience and Remote Sensing
 - Computer Vision
-- Pattern Recognition
+- Semantic Distillation
 - Human-AI Interaction
 - Learning Representations
-
 
 # Education to show in About widget
 education:
