@@ -44,7 +44,15 @@ You can view the presentation slides for the talk 🌎 [here](https://kaopanboon
 
 ## Introduction to Large Language Models (LLMs)
 
-Large Language Models (LLMs) are revolutionizing the field of Natural Language Processing (NLP) and Artificial Intelligence (AI). They leverage advanced deep learning architectures to understand, generate, and manipulate human language. In this blog post, we'll explore the technical depths of LLMs, including their architecture, training, fine-tuning, and deployment.
+Large Language Models (LLMs) are at the forefront of a revolution in Artificial Intelligence (AI) and Natural Language Processing (NLP). These models are not just sophisticated algorithms; they represent a leap forward in how machines understand and generate human language. Leveraging cutting-edge deep learning architectures, such as transformers, LLMs have transformed the landscape of language technology.
+
+At their essence, LLMs are built on expansive neural networks with billions of parameters. These networks are trained on vast corpora of text data, learning to discern intricate patterns and relationships within language. Through a process known as pre-training, LLMs develop a broad understanding of linguistic structures, context, and semantics. During this phase, they utilize unsupervised learning techniques to predict masked words or sequences, refining their ability to understand and generate coherent text.
+
+Following pre-training, LLMs undergo fine-tuning to adapt their general language capabilities to specific tasks or domains. This supervised learning phase involves training the model on a targeted dataset, allowing it to excel in applications such as text generation, translation, sentiment analysis, and question-answering. Techniques like transfer learning and few-shot learning further enhance the model's adaptability, enabling it to generalize from limited examples and perform across various contexts.
+
+Deploying LLMs in real-world scenarios involves addressing practical challenges related to computational resources and scalability. These models require substantial processing power and memory, often necessitating the use of advanced hardware like GPUs or TPUs. Despite these demands, the benefits of integrating LLMs into applications—such as chatbots, virtual assistants, content generation, and automated summarization—are profound, offering significant advancements in how machines interact with human language.
+
+In this blog post, I will delve into the technical intricacies of LLMs, exploring their architecture, training methodologies, and deployment considerations. Prepare to discover how these powerful AI tools are pushing the boundaries of language technology and shaping the future of machine intelligence.
 
 ## Key Vocabulary
 
@@ -429,7 +437,7 @@ from transformers import pipeline
 nlp = pipeline("text-generation", model="username/satgpt-model")
 
 # Use the model
-result = nlp("Describe the land cover of this satellite image.")
+result = nlp("Describe the land cover of this GISTDA satellite image.")
 print(result)
 ```
 
@@ -676,7 +684,7 @@ Evaluating the performance of Large Language Models (LLMs) in remote sensing inv
    #### Key Equation
    Average Precision (AP) for a single class:
    $\[
-   \text{AP} = \int_{0}^{1} \text{Precision}(r) \, d\text{Recall}(r)
+   \text{AP} = \int_{0}^{1} \text{Precision}(r) \, \text{Recall}(r)
    \]$
    where $\text{Precision}(r)$ is the precision at recall level $r$.
 
@@ -711,8 +719,8 @@ recall = recall_score(y_true, y_pred)
 f1 = f1_score(y_true, y_pred)
 
 # Example for BLEU score
-reference = [['this', 'is', 'a', 'test']]
-candidate = ['this', 'is', 'test']
+reference = [['GISTDA', 'is', 'the', 'premier', 'place', 'to', 'work', 'in', 'the', 'geo', 'sector', 'in', 'thailand']]
+candidate = ['GISTDA', 'is', 'the', 'best', 'workplace', 'in', 'geo', 'in', 'thailand']
 bleu_score = sentence_bleu(reference, candidate)
 
 print(f"Precision: {precision}")
@@ -726,13 +734,13 @@ print(f"BLEU Score: {bleu_score}")
 ### 16. **Transfer Learning for Satellite Imagery**
 
 Transfer learning uses models pre-trained on general datasets and adapts them for satellite image tasks through domain-specific fine-tuning.
-
+<!-- 
 #### Key Equations
 The total loss in transfer learning:
 $\[
 \mathcal{L}_{\text{total}} = \mathcal{L}_{\text{general}}(\theta_g) + \lambda \mathcal{L}_{\text{task}}(\theta_t)
 \]$
-where $\lambda$ is a regularization factor.
+where $\lambda$ is a regularization factor. -->
 
 #### Example Code
 Using pre-trained ResNet for satellite image classification:
