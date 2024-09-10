@@ -41,11 +41,11 @@ You can view the presentation slides for the talk 🛺 [here](https://kaopanboon
 
 {{< toc mobile_only=true is_open=true >}}
 
-### Introduction and Motivation
+## Introduction
 
 We are pleased to announce that our paper, titled *“Enhanced YOLOv8-Based Object Detection of Road Assets Utilizing Generalized Focal Loss: A Case Study on Thai Highway Imagery”*, has been accepted for oral presentation at the 5th International Conference on Highway Engineering (iCHE 2024). This opportunity marks a significant moment in our academic journey, especially after a hiatus from international conferences since completing my Ph.D. I am eager to re-engage with the academic community and share our recent advancements in person.
 
-### Motivation and Relevance
+## Motivation and Relevance
 
 Thailand's highway infrastructure plays a critical role in its economic development and connectivity. However, managing and maintaining these extensive road networks presents numerous challenges, particularly in detecting and assessing road assets. Accurate identification of road features such as signs, barriers, and markings is essential for effective maintenance and safety management.
 

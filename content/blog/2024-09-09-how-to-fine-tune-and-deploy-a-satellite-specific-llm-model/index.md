@@ -36,7 +36,7 @@ projects: []
 ---
 
 {{% callout note %}}
-You can view the presentation slides for the talk 🌎 [here](https://kaopanboonyuen.github.io/files/slides/20240906_Panboonyuen_AI_ThaiHighway.pdf).
+You can view the presentation slides for the talk 🌎 [here](https://kaopanboonyuen.github.io/files/slides/20240910_Panboonyuen_How_to_Fine_Tune_Satellite_Specific_LLM.pdf).
 {{% /callout %}}
 
 {{< toc mobile_only=true is_open=true >}}
@@ -196,7 +196,7 @@ Remotely sensed images, which are collected from satellite or aerial platforms, 
 
 <div style="text-align: center;"> 
   <img src="Figure2.png" alt="VLM Comparison for Benchmark Tasks"> 
-  <p style="font-style: italic; margin-top: 0px;">Fig. 1. A comparison of inputs and outputs from benchmark tasks using different VLMs. The snippet includes user prompts and model responses, highlighting key areas of model performance.
+  <p style="font-style: italic; margin-top: 0px;">Fig. 2. A comparison of inputs and outputs from benchmark tasks using different VLMs. The snippet includes user prompts and model responses, highlighting key areas of model performance.
   <a href="https://arxiv.org/pdf/2401.17600v1" target="_blank">[Good at captioning, bad at counting]</a></p> 
 </div>
 
