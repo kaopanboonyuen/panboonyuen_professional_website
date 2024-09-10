@@ -191,7 +191,7 @@ They deliver an in-depth analysis of GPT-4V’s performance across different tas
 
 These findings offer valuable insights into GPT-4V’s capabilities and limitations, especially in the context of earth observation data.
 
-<div style="text-align: center;"> <img src="sample_apps.png" alt="Earth observation data"> <p style="font-style: italic; margin-top: 0px;">Fig. 1. Here are examples of inputs and outputs from various benchmark tasks and how five different VLMs stack up. We’ve included just a snippet of the user prompts and model responses to highlight the key points. <a href="https://arxiv.org/pdf/2401.17600v1" target="_blank">[Good at captioning, bad at counting]</a></p> </div>
+<div style="text-align: center;"> <img src="sample_apps.png" alt="Earth observation data"> <p style="font-style: italic; margin-top: 0px;">Fig. 1. Here are examples of inputs and outputs from various benchmark tasks and how five different VLMs stack up. They’ve included just a snippet of the user prompts and model responses to highlight the key points. <a href="https://arxiv.org/pdf/2401.17600v1" target="_blank">[Good at captioning, bad at counting]</a></p> </div>
 
 
 ---
