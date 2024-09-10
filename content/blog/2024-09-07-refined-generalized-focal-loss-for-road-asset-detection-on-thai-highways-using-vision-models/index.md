@@ -283,7 +283,91 @@ Next, in the second image, the focus shifts to instance segmentation, where inst
 
 To summarize, our proposed enhancements to the YOLOv8 model—through the integration of refined Generalized Focal Loss—deliver significant improvements in both object detection and instance segmentation. The results across both images clearly demonstrate that our approach excels at accurately detecting and precisely segmenting objects. Whether it’s drawing clean bounding boxes or defining exact pixel regions, our method proves to be the clear winner. This shows that refining loss functions can have a big impact on model performance, pushing the boundaries of what’s possible with deep learning in computer vision.
 
-### What’s Next?
+---
+
+## Quick Thoughts on Refined Generalized Focal Loss for Road Asset Detection on Thai Highways
+
+---
+
+### 1. **Introduction to Generalized Focal Loss**
+
+In our paper, *'Refined Generalized Focal Loss for Road Asset Detection on Thai Highways Using Vision-Based Detection and Segmentation Models'*, we explore advancements in object detection and segmentation models tailored for detecting road assets on Thai highways. These assets include a variety of elements crucial for road safety and efficiency.
+
+#### Generalized Focal Loss for Detection Tasks
+
+Generalized Focal Loss (GFL) is an enhancement over traditional focal loss, which aims to address class imbalance by focusing more on hard-to-detect objects. It introduces a dynamic focal weight that is adaptive to different classes, improving detection performance in complex scenarios.
+
+#### Key Equation for Detection
+The Generalized Focal Loss is formulated as:
+$\[
+\text{GFL}_{\text{det}} = - \frac{1 - \text{p}_i^{\gamma}}{1 - \text{p}_i} \cdot \text{log}(\text{p}_i)
+\]$
+where $\text{p}_i$ is the predicted probability for the $i$-th class, and $\gamma$ is the focusing parameter.
+
+#### Generalized Focal Loss for Segmentation Tasks
+
+For segmentation tasks, GFL adapts by focusing on pixel-wise predictions, enhancing the model's ability to handle imbalanced data and challenging regions within the images.
+
+<!-- #### Key Equation for Segmentation
+The Generalized Focal Loss for segmentation is:
+$\[
+\text{GFL}_{\text{seg}} = - \frac{(1 - \text{p}_{i,j}^{\gamma})}{(1 - \text{p}_{i,j})} \cdot \text{log}(\text{p}_{i,j})
+\]$
+where $\text{p}_{i,j}$ represents the predicted probability for pixel $(i, j)$. -->
+
+### 2. **Formula for Difference Between Detection and Segmentation Models**
+
+The primary difference in the loss functions for detection and segmentation tasks is how they handle spatial versus class-level data. Detection models often deal with bounding boxes and class predictions, while segmentation models handle pixel-wise classification.
+
+<!-- #### Detection vs. Segmentation Loss Formula
+For detection:
+$\[
+\text{Loss}_{\text{det}} = \text{GFL}_{\text{det}} + \text{Reg}_{\text{det}}
+\]$
+where $\text{Reg}_{\text{det}}$ is the regression loss for bounding box coordinates.
+
+For segmentation:
+$\[
+\text{Loss}_{\text{seg}} = \text{GFL}_{\text{seg}} + \text{Dice}_{\text{seg}}
+\]$
+where $\text{Dice}_{\text{seg}}$ is the Dice coefficient for measuring overlap between predicted and ground truth masks. -->
+
+### 3. **Optimization in Object Detection and Segmentation**
+
+Optimization in object detection and segmentation models involves tuning hyperparameters and adjusting learning rates to improve convergence and performance.
+
+<!-- #### Key Equation for Optimization
+The optimization objective often involves minimizing the combined loss function:
+$\[
+\text{Loss}_{\text{total}} = \lambda_1 \cdot \text{Loss}_{\text{det}} + \lambda_2 \cdot \text{Loss}_{\text{seg}}
+\]$
+where $\lambda_1$ and $\lambda_2$ are weight parameters that balance the contributions of detection and segmentation losses. -->
+
+### 4. **Mathematical Formulas to Know**
+
+Understanding the following formulas is crucial for implementing and refining GFL in detection and segmentation tasks:
+
+- **Softmax Function**:
+$\[
+\text{softmax}(z_i) = \frac{e^{z_i}}{\sum_{j} e^{z_j}}
+\]$
+where $z_i$ is the score for class $i$.
+
+- **Cross-Entropy Loss**:
+$\[
+\text{CrossEntropy}(y, \hat{y}) = - \sum_{i} y_i \log(\hat{y}_i)
+\]$
+where $y_i$ is the ground truth and $\hat{y}_i$ is the predicted probability.
+
+- **Dice Coefficient**:
+$\[
+\text{Dice} = \frac{2 |A \cap B|}{|A| + |B|}
+\]$
+where $A$ and $B$ are the predicted and true segmentation masks.
+
+---
+
+## What’s Next?
 
 Our paper will undergo a **fast-track formal review process** for potential publication in the **Transportmetrica A journal**. We’re optimistic that this research will significantly contribute to highway engineering and road asset management fields.
 

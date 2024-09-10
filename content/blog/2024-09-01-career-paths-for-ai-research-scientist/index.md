@@ -62,7 +62,7 @@ I firmly believe that combining both worlds enriches my research. It's incredibl
 
 ## Key Qualities for Ideal AI Agents
 
-The ideal characteristics (Fig. 1) envisioned for AI agents are numerous, each presenting its own significant research challenge before even considering the automatic acquisition of these traits:
+The ideal characteristics (Fig. 2) envisioned for AI agents are numerous, each presenting its own significant research challenge before even considering the automatic acquisition of these traits:
 
 - **Learning to learn**: The ability to enhance its learning process over time [2]–[8].
 - **Lifelong learning**: Engaging in continual and incremental learning throughout its existence [9]–[13].
@@ -72,8 +72,13 @@ The ideal characteristics (Fig. 1) envisioned for AI agents are numerous, each p
 - **Out-of-distribution generalization**: Extending its learning capabilities to new and previously unseen problems [21]–[24] and making logical extrapolations beyond its initial training data [25], [26].
 
 <div style="text-align: center;">
-  <img src="featured.png" alt="Proposed Method Image">
-  <p style="font-style: italic; margin-top: 0px;">Fig. 1. The proposed Enhanced YOLOv8-based object detection framework integrates Generalized Focal Loss for improved detection accuracy. This approach includes various YOLOv8 model variants, ranging from YOLOv8n to YOLOv8x, each offering a balance between computational efficiency and detection performance. The network architecture leverages convolutional layers with Batch Normalization and Leaky ReLU activations. The Generalized Focal Loss, designed to address class imbalance, enhances performance for small and difficult-to-detect objects by focusing on hard examples. The training utilizes the AdamW optimizer with specific hyperparameters to optimize convergence and model performance. <a href="https://example.com/your-research-link" target="_blank">[Your Research Link]</a></p>
+  <img src="ai_topic_01.png" alt="TA Badger ">
+  <p style="font-style: italic; margin-top: 0px;">Fig. 1. TA Badger agent is trained with bi-level optimization, involving two loops: the outer loop, which focuses on lifelong learning and other requirements, and the inner loop, where the agent undergoes extensive training on various curricula to develop skills approaching human-level proficiency. <a href="https://www.goodai.com/goodai-research-roadmap-2021-2022/" target="_blank">Goodai-Research-Roadmap</a></p>
+</div>
+
+<div style="text-align: center;">
+  <img src="featured.png" alt="Kao">
+  <p style="font-style: italic; margin-top: 0px;">Fig. 2. I had the chance to dive into "Career Paths for AI Research Scientists: My Journey and Insights" during a talk at Sirindhorn Science Home (SSH). It was a great opportunity to share my experiences and offer some tips on navigating the exciting world of AI research. <a href="https://www.nstda.or.th/ssh/" target="_blank">Sirindhorn Science Home (SSH)</a></p>
 </div>
 
 
@@ -194,9 +199,13 @@ For those considering a career in AI research, my advice is simple: find a topic
 
 ## Before I Go: Here’s Some Exciting News!
 
-I’m thrilled to announce that I’ve been awarded a prestigious scholarship by Her Royal Highness Princess Maha Chakri Sirindhorn to attend the Global Young Scientists Summit (GYSS) in Singapore from January 6-10, 2025. This recognition is a major boost for my passion and drive to push the envelope in innovation!
+I’m thrilled to announce that I’ve been awarded a prestigious scholarship by Her Royal Highness Princess Maha Chakri Sirindhorn to attend the Global Young Scientists Summit (GYSS) (Fig. 3) in Singapore from January 6-10, 2025. This recognition is a major boost for my passion and drive to push the envelope in innovation!
 
-![](panboonyuen_GYSS2025.jpg)
+<div style="text-align: center;">
+  <img src="panboonyuen_GYSS2025.jpg" alt="Kao_GYSS2025">
+  <p style="font-style: italic; margin-top: 0px;">Fig. 3. I am excited to announce that I have been awarded a prestigious scholarship by Her Royal Highness Princess Maha Chakri Sirindhorn to attend the Global Young Scientists Summit (GYSS) in Singapore from January 6-10, 2025. This esteemed recognition greatly fuels my passion and determination to drive forward innovation! <a href="https://www.facebook.com/photo.php?fbid=1061339665992254&set=pb.100063486913512.-2207520000&type=3" target="_blank">(Facebook) Global Young Scientists Summit</a></p>
+</div>
+
 
 The **Global Young Scientists Summit (GYSS)** is a dynamic annual event that brings together exceptional young researchers and leading scientific minds from around the world. Held in Singapore, this summit is a unique platform for discussing groundbreaking research and exploring how it can address major global challenges. 
 
