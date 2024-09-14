@@ -42,7 +42,7 @@ projects: []
 You can view the presentation slides for the talk 🪴 [here](https://kaopanboonyuen.github.io/files/slides/20240802_Panboonyuen_GenerativeAI.pdf).
 {{% /callout %}}
 
-{{< toc mobile_only=true is_open=true >}}
+<!-- {{< toc mobile_only=true is_open=true >}} -->
 
 ## Introduction
 

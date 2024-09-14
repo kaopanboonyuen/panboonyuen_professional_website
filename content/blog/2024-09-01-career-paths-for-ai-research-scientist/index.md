@@ -42,10 +42,16 @@ projects: []
 You can view the presentation slides for the talk 🌿 [here](https://kaopanboonyuen.github.io/files/slides/20240902_Career_Paths_for_Research_Scientists.pdf).
 {{% /callout %}}
 
-{{< toc mobile_only=true is_open=true >}}
+<!-- {{< toc mobile_only=true is_open=true >}} -->
 
 ## Introduction
-Hi guys! Welcome to my blog—I’m stoked to have you here. I’m Teerapong Panboonyuen (ธีรพงศ์ ปานบุญยืน), but you can call me Kao (เก้า). I’m currently rocking the roles of Senior Research Scientist at MARS (Motor AI Recognition Solution) and Postdoctoral Fellow at Chulalongkorn University. In this space, I’m excited to share the highs and lows of my AI journey, how I juggle between academic and industry work, and the coolest trends shaking up the AI world. Stick around and dive into the world of AI with me!
+Hi guys! Welcome to my blog—I’m stoked to have you here. I’m currently rocking the roles of Senior Research Scientist at MARS (Motor AI Recognition Solution) and Postdoctoral Fellow at Chulalongkorn University. 
+
+> Teerapong Panboonyuen (ธีรพงศ์ ปานบุญยืน)
+
+> but you can call me Kao (เก้า).
+
+In this space, I’m excited to share the highs and lows of my AI journey, how I juggle between academic and industry work, and the coolest trends shaking up the AI world. Stick around and dive into the world of AI with me!
 
 {{< twitter user="kaopanboonyuen" id="1819576227579212096" >}}
 
