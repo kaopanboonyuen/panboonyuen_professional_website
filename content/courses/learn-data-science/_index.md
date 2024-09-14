@@ -1,7 +1,7 @@
 ---
 title: Data Science for Beginners
 linkTitle: Data Science
-summary: An sample of using Wowchemy's Book layout for publishing online courses.
+summary: Data Science for Beginners
 date: '2024-01-24'
 type: book
 ---

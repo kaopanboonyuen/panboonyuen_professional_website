@@ -68,7 +68,13 @@ projects:
 ---
 ### Exploring Career Paths in AI Research
 
-Hi guys! Welcome to my blog—I’m stoked to have you here. I’m Teerapong Panboonyuen (ธีรพงศ์ ปานบุญยืน), but you can call me Kao (เก้า). I’m currently rocking the roles of Senior Research Scientist at MARS (Motor AI Recognition Solution) and Postdoctoral Fellow at Chulalongkorn University. In this space, I’m excited to share the highs and lows of my AI journey, how I juggle between academic and industry work, and the coolest trends shaking up the AI world. Stick around and dive into the world of AI with me!
+Hi guys! Welcome to my posts—I’m stoked to have you here. I’m currently rocking the roles of Senior Research Scientist at MARS (Motor AI Recognition Solution) and Postdoctoral Fellow at Chulalongkorn University. 
+
+> Teerapong Panboonyuen (ธีรพงศ์ ปานบุญยืน)
+
+> but you can call me Kao (เก้า).
+
+In this space, I’m excited to share the highs and lows of my AI journey, how I juggle between academic and industry work, and the coolest trends shaking up the AI world. Stick around and dive into the world of AI with me!
 
 {{< twitter user="kaopanboonyuen" id="1819576227579212096" >}}
 
@@ -96,7 +102,7 @@ Right now, I’m diving deep as a Postdoctoral Fellow in AI research, a role I�
 
 Curious to know more about my work and adventures? Check out my profile here: [kaopanboonyuen.github.io](https://kaopanboonyuen.github.io/).
 
-![](featured_vertical.png)
+<!-- ![](featured_vertical.png) -->
 
 ---
 
@@ -123,7 +129,7 @@ The ideal characteristics (Fig. 2) envisioned for AI agents are numerous, each p
 </div>
 
 <div style="text-align: center;">
-  <img src="featured.png" alt="Kao">
+  <img src="featured_03.png" alt="Kao">
   <p style="font-style: italic; margin-top: 0px;">Fig. 2. I had the chance to dive into "Career Paths for AI Research Scientists: My Journey and Insights" during a talk at Sirindhorn Science Home (SSH). It was a great opportunity to share my experiences and offer some tips on navigating the exciting world of AI research. <a href="https://www.nstda.or.th/ssh/" target="_blank">Sirindhorn Science Home (SSH)</a></p>
 </div>
 
