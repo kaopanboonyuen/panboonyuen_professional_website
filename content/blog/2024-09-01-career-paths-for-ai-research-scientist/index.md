@@ -45,14 +45,37 @@ You can view the presentation slides for the talk 🌿 [here](https://kaopanboon
 {{< toc mobile_only=true is_open=true >}}
 
 ## Introduction
-Welcome to my blog! I'm thrilled to share insights from my journey in the world of Artificial Intelligence (AI) research. My name is Teerapong Panboonyuen (in Thai: ธีรพงศ์ ปานบุญยืน), but you can call me Kao (เก้า). I'm a Senior AI Research Scientist at MARS (Motor AI Recognition Solution) and a Postdoctoral Fellow at Chulalongkorn University. In this post, I'll discuss my career path, the balance between academic and industrial research, and some exciting trends in AI.
+Hi guys! Welcome to my blog—I’m stoked to have you here. I’m Teerapong Panboonyuen (ธีรพงศ์ ปานบุญยืน), but you can call me Kao (เก้า). I’m currently rocking the roles of Senior Research Scientist at MARS (Motor AI Recognition Solution) and Postdoctoral Fellow at Chulalongkorn University. In this space, I’m excited to share the highs and lows of my AI journey, how I juggle between academic and industry work, and the coolest trends shaking up the AI world. Stick around and dive into the world of AI with me!
+
+{{< twitter user="kaopanboonyuen" id="1819576227579212096" >}}
+
 
 ## My Journey into AI Research
-My passion for AI began during my Master's degree in Computer Engineering at Chulalongkorn University. It was there that I first encountered the intriguing challenges and opportunities that AI research offered. However, my commitment to AI deepened during my Ph.D. studies at the same university. I graduated with a Master's degree at the age of 24 and earned my Ph.D. by 27. Since then, I have been immersed in AI research, focusing on fields like Remote Sensing and Computer Vision.
+I got into AI back when I was doing my Master’s at Chulalongkorn University. The challenges and possibilities in AI were just too exciting to ignore. By 24, I had my Master’s under my belt, and by 27, I was rocking a Ph.D. Since then, I’ve been diving deep into AI research, especially in areas like Remote Sensing and Computer Vision. I’m all about the hardcore math behind AI—like optimization and statistical learning. My big goal? Using AI to solve real-world problems and make the world a better place. If you want to see what I’m working on, check out my profile here: [kaopanboonyuen.github.io](https://kaopanboonyuen.github.io/).
 
-> Currently, I am a Postdoctoral Fellow in AI research, a role I have held from age 27 to the present, 31. My research spans the development of advanced algorithms in Pattern Recognition, Optimization Theory, and Statistical Learning. At MARS, I am involved in applying AI to real-world problems, particularly in the auto insurance industry.
+---
+**Exploring the Life of an AI Research Scientist**
+
+In the world of AI research, every day is a blend of cutting-edge exploration and meticulous analysis. As an AI research scientist, your life revolves around decoding complex algorithms, fine-tuning models, and pushing the boundaries of what artificial intelligence can achieve. The journey typically involves diving into vast datasets, developing and experimenting with sophisticated neural networks, and translating theoretical concepts into practical, real-world applications. The thrill of seeing a new model perform exceptionally well or uncovering a novel insight drives the passion in this field. Collaboration with peers and staying abreast of the latest advancements is crucial, making continuous learning an integral part of the job.
+
+{{< youtube A3TZSadhC9I >}}
+
+---
+
+**Transforming Research with Gemini and Modern LLMs**
+
+The landscape of AI research is undergoing a significant transformation with the advent of advanced large language models (LLMs) like Gemini. These cutting-edge tools are revolutionizing how researchers approach their work, enabling more efficient data processing and deeper insights. Gemini’s innovative architecture offers enhanced capabilities in understanding and generating human-like text, which streamlines the development of sophisticated AI systems. By leveraging LLMs, researchers can automate complex tasks, accelerate experimentation, and uncover patterns that were previously challenging to detect. This paradigm shift not only boosts productivity but also opens new avenues for exploration, setting the stage for groundbreaking advancements in artificial intelligence.
+
+{{< youtube sPiOP_CB54A >}}
+
+---
+Right now, I’m diving deep as a Postdoctoral Fellow in AI research, a role I’ve embraced from the age of 27 to now, at 31. My journey involves crafting next-gen algorithms in Pattern Recognition, Optimization Theory, and Statistical Learning. At MARS, I’m on the front lines, applying AI to tackle real-world challenges, especially in the auto insurance sector.
+
+Curious to know more about my work and adventures? Check out my profile here: [kaopanboonyuen.github.io](https://kaopanboonyuen.github.io/).
 
 ![](featured_vertical.png)
+
+---
 
 ## Balancing Academia and Industry
 Why do I juggle both academic and industrial roles? The answer lies in the different kinds of excitement each provides. In academia, I'm drawn to the elegance and complexity of theoretical work—understanding AI at its core and pushing its boundaries. On the other hand, the industrial side offers the thrill of seeing AI solutions deployed in real-world applications, making a tangible impact.
@@ -205,6 +228,8 @@ I’m thrilled to announce that I’ve been awarded a prestigious scholarship by
   <img src="panboonyuen_GYSS2025.jpg" alt="Kao_GYSS2025">
   <p style="font-style: italic; margin-top: 0px;">Fig. 3. I am excited to announce that I have been awarded a prestigious scholarship by Her Royal Highness Princess Maha Chakri Sirindhorn to attend the Global Young Scientists Summit (GYSS) in Singapore from January 6-10, 2025. This esteemed recognition greatly fuels my passion and determination to drive forward innovation! <a href="https://www.facebook.com/photo.php?fbid=1061339665992254&set=pb.100063486913512.-2207520000&type=3" target="_blank">(Facebook) Global Young Scientists Summit</a></p>
 </div>
+
+{{< twitter user="cueng_official" id="1829356709363798177" >}}
 
 
 The **Global Young Scientists Summit (GYSS)** is a dynamic annual event that brings together exceptional young researchers and leading scientific minds from around the world. Held in Singapore, this summit is a unique platform for discussing groundbreaking research and exploring how it can address major global challenges. 

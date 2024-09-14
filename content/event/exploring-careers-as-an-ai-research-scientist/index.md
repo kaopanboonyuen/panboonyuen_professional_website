@@ -68,57 +68,231 @@ projects:
 ---
 ### Exploring Career Paths in AI Research
 
-I recently had the privilege of engaging with high school students on the topic of “Career Paths for AI Research Scientists.” As Teerapong Panboonyuen, also known as Kao Panboonyuen, I’m a Senior AI Research Scientist at MARS and a Postdoctoral Fellow at Chulalongkorn University. This talk was an excellent opportunity to share my journey and insights into the world of artificial intelligence (AI), and to guide aspiring young minds through the myriad opportunities within this transformative field.
+Hi guys! Welcome to my blog—I’m stoked to have you here. I’m Teerapong Panboonyuen (ธีรพงศ์ ปานบุญยืน), but you can call me Kao (เก้า). I’m currently rocking the roles of Senior Research Scientist at MARS (Motor AI Recognition Solution) and Postdoctoral Fellow at Chulalongkorn University. In this space, I’m excited to share the highs and lows of my AI journey, how I juggle between academic and industry work, and the coolest trends shaking up the AI world. Stick around and dive into the world of AI with me!
 
-![](NSTDA_asGuestSpeaker_AI.png)
+{{< twitter user="kaopanboonyuen" id="1819576227579212096" >}}
 
-### The World of AI: A Technical Overview
 
-During the talk, I introduced the students to the complex and exciting realm of AI. My background includes a Ph.D. in Computer Engineering with a focus on Artificial Intelligence, Machine Learning, and Deep Learning from Chulalongkorn University. In my current role, I’m deeply involved in advanced research and development across various AI domains.
+## My Journey into AI Research
+I got into AI back when I was doing my Master’s at Chulalongkorn University. The challenges and possibilities in AI were just too exciting to ignore. By 24, I had my Master’s under my belt, and by 27, I was rocking a Ph.D. Since then, I’ve been diving deep into AI research, especially in areas like Remote Sensing and Computer Vision. I’m all about the hardcore math behind AI—like optimization and statistical learning. My big goal? Using AI to solve real-world problems and make the world a better place. If you want to see what I’m working on, check out my profile here: [kaopanboonyuen.github.io](https://kaopanboonyuen.github.io/).
 
-#### **Understanding AI Models**
+---
+**Exploring the Life of an AI Research Scientist**
 
-One of the core topics discussed was the creation and application of AI models. My research includes tasks such as:
+In the world of AI research, every day is a blend of cutting-edge exploration and meticulous analysis. As an AI research scientist, your life revolves around decoding complex algorithms, fine-tuning models, and pushing the boundaries of what artificial intelligence can achieve. The journey typically involves diving into vast datasets, developing and experimenting with sophisticated neural networks, and translating theoretical concepts into practical, real-world applications. The thrill of seeing a new model perform exceptionally well or uncovering a novel insight drives the passion in this field. Collaboration with peers and staying abreast of the latest advancements is crucial, making continuous learning an integral part of the job.
 
-- **Image Classification:** Developing algorithms that can accurately categorize images into predefined classes. For example, my work on the “MeViT: A Medium-Resolution Vision Transformer for Semantic Segmentation” highlights the use of Vision Transformers (ViTs) for high-accuracy semantic segmentation in satellite imagery.
+{{< youtube A3TZSadhC9I >}}
 
-- **Object Detection:** Designing models to identify and locate objects within an image. The “Object Detection of Road Assets Using Transformer-Based YOLOX with Feature Pyramid Decoder” is a key example where we leverage advanced object detection techniques for analyzing road assets in Thai highway panoramas.
+---
 
-- **Instance Segmentation:** Extending object detection to not just identify but also segment individual instances of objects. My research, such as “MARS Mask Attention Refinement with Sequential Quadtree Nodes for Car Damage Instance Segmentation,” showcases the use of sophisticated attention mechanisms for precise damage detection.
+**Transforming Research with Gemini and Modern LLMs**
 
-- **Domain Adaptation:** Improving model performance across different but related domains. Techniques I use involve adapting models trained on one dataset to perform well on another, a crucial aspect of making AI systems more versatile and robust.
+The landscape of AI research is undergoing a significant transformation with the advent of advanced large language models (LLMs) like Gemini. These cutting-edge tools are revolutionizing how researchers approach their work, enabling more efficient data processing and deeper insights. Gemini’s innovative architecture offers enhanced capabilities in understanding and generating human-like text, which streamlines the development of sophisticated AI systems. By leveraging LLMs, researchers can automate complex tasks, accelerate experimentation, and uncover patterns that were previously challenging to detect. This paradigm shift not only boosts productivity but also opens new avenues for exploration, setting the stage for groundbreaking advancements in artificial intelligence.
 
-- **Explainable AI (XAI) and Interpretable AI:** Developing methods to make AI decisions more transparent and understandable. My work involves creating models that not only perform well but also provide insights into their decision-making processes.
+{{< youtube sPiOP_CB54A >}}
 
-### Career Paths in AI Research
+---
+Right now, I’m diving deep as a Postdoctoral Fellow in AI research, a role I’ve embraced from the age of 27 to now, at 31. My journey involves crafting next-gen algorithms in Pattern Recognition, Optimization Theory, and Statistical Learning. At MARS, I’m on the front lines, applying AI to tackle real-world challenges, especially in the auto insurance sector.
 
-Exploring the diverse career opportunities in AI, I shared insights into several key roles:
+Curious to know more about my work and adventures? Check out my profile here: [kaopanboonyuen.github.io](https://kaopanboonyuen.github.io/).
 
-- **Academic Researcher:** This role involves advancing theoretical understanding and pushing the boundaries of AI knowledge. My academic contributions, such as those found in “Semantic Labeling in Remote Sensing Corpora Using Feature Fusion-Based Enhanced Global Convolutional Network,” reflect the innovative approaches necessary for academic research.
+![](featured_vertical.png)
 
-- **Industry Research Scientist:** Applying research to solve real-world problems is the focus here. At MARS, I’m involved in developing practical AI solutions for the auto insurance industry, translating cutting-edge research into deployable technologies.
+---
 
-- **Data Scientist:** This role revolves around analyzing complex datasets and applying AI techniques to extract valuable insights. My expertise in platforms like GCP and AWS, coupled with proficiency in tools such as Python, PyTorch, and Hugging Face, is crucial for executing data-driven strategies.
+## Balancing Academia and Industry
+Why do I juggle both academic and industrial roles? The answer lies in the different kinds of excitement each provides. In academia, I'm drawn to the elegance and complexity of theoretical work—understanding AI at its core and pushing its boundaries. On the other hand, the industrial side offers the thrill of seeing AI solutions deployed in real-world applications, making a tangible impact.
 
-- **Machine Learning Engineer:** Implementing and optimizing AI models for production use is key in this role. My skills in managing cloud resources with Docker-Compose and Kubernetes, and using Gradio for model deployment, exemplify the technical proficiency required for this position.
+{{% callout note %}}
+I firmly believe that combining both worlds enriches my research. It's incredibly fulfilling to publish groundbreaking work and even more exhilarating when that research translates into practical solutions that benefit society. This dual approach keeps me grounded in the realities of implementation while allowing me to explore theoretical possibilities.{{% /callout %}}
 
-### My Journey as a Postdoctoral Researcher
+## Key Qualities for Ideal AI Agents
 
-Reflecting on my experiences as a postdoctoral researcher, I emphasized the continuous learning and adaptation necessary for success in AI. My journey includes:
+The ideal characteristics (Fig. 2) envisioned for AI agents are numerous, each presenting its own significant research challenge before even considering the automatic acquisition of these traits:
 
-- Conducting research that spans a wide range of AI applications, from road segmentation using deep convolutional neural networks to semantic segmentation with enhanced global convolutional networks.
-- Publishing key papers such as “Semantic Segmentation on Remotely Sensed Images Using an Enhanced Global Convolutional Network” and “An Enhanced Deep Convolutional Encoder-Decoder Network for Road Segmentation on Aerial Imagery,” which highlight advancements in AI techniques and methodologies.
+- **Learning to learn**: The ability to enhance its learning process over time [2]–[8].
+- **Lifelong learning**: Engaging in continual and incremental learning throughout its existence [9]–[13].
+- **Gradual knowledge and skill accumulation**: Building up knowledge and abilities progressively, layer by layer.
+- **Reuse of learned knowledge**: Applying previously acquired skills to discover and learn new ones, incorporating both forward and backward knowledge transfer [10].
+- **Open-ended exploration**: The capability to explore without predefined boundaries [14], [15] and to set its own self-invented goals for learning [16]–[20].
+- **Out-of-distribution generalization**: Extending its learning capabilities to new and previously unseen problems [21]–[24] and making logical extrapolations beyond its initial training data [25], [26].
 
-### Inspiring the Next Generation
+<div style="text-align: center;">
+  <img src="ai_topic_01.png" alt="TA Badger ">
+  <p style="font-style: italic; margin-top: 0px;">Fig. 1. TA Badger agent is trained with bi-level optimization, involving two loops: the outer loop, which focuses on lifelong learning and other requirements, and the inner loop, where the agent undergoes extensive training on various curricula to develop skills approaching human-level proficiency. <a href="https://www.goodai.com/goodai-research-roadmap-2021-2022/" target="_blank">Goodai-Research-Roadmap</a></p>
+</div>
 
-Engaging with students and discussing their potential career paths in AI was incredibly rewarding. My aim was to inspire and provide practical guidance on how to enter and excel in the field of AI. As AI continues to evolve, the opportunities for new research and innovations are vast. I hope my insights into the various career paths and my own journey will motivate young minds to explore and pursue their passions in this exciting field.
+<div style="text-align: center;">
+  <img src="featured.png" alt="Kao">
+  <p style="font-style: italic; margin-top: 0px;">Fig. 2. I had the chance to dive into "Career Paths for AI Research Scientists: My Journey and Insights" during a talk at Sirindhorn Science Home (SSH). It was a great opportunity to share my experiences and offer some tips on navigating the exciting world of AI research. <a href="https://www.nstda.or.th/ssh/" target="_blank">Sirindhorn Science Home (SSH)</a></p>
+</div>
 
-> Super excited to share that I’ve snagged a scholarship from Her Royal Highness Princess Maha Chakri Sirindhorn to hit up the Global Young Scientists Summit (GYSS) in Singapore from January 6-10, 2025. It’s a huge boost for my commitment to pushing the boundaries of innovation!
 
-![](panboonyuen_GYSS2025.jpg)
+There are various strategies to develop agents with these properties. At GoodAI, they have converged on foundational principles such as the modularity of agents, a shared policy across modules with varying internal states, and a blend of meta-learning in the outer loop followed by open-ended learning in the inner loop. These principles are central to their Badger architectures and will be discussed further in the section "Towards Implementation." It is essential to highlight that these desired properties should manifest during the agent's operational phase, specifically in the inner loop (the agent’s lifetime). They often utilize a meta-learning approach, which involves a bi-level optimization process where optimization occurs at two levels [4], [27], [28]. This meta-learning framework is considered the default setting throughout this discussion unless otherwise noted.
 
-**P.S.** For a deep dive into career paths for AI research scientists, including my personal journey and insights, check out the full blog and slides here: [Career Paths for AI Research Scientists](https://kaopanboonyuen.github.io/blog/2024-09-01-career-paths-for-ai-research-scientist/)
+## The Cool Factor in Research
+One of the key motivators for any researcher is the "cool factor"—that sense of excitement when working on something groundbreaking. For me, that thrill comes from applying AI to satellite imagery for Land Use and Land Cover (LULC) analysis in agriculture. The very idea of using AI to derive insights from images captured from space is inherently fascinating.
 
-### Conclusion
+{{% callout note %}}
+Imagine using AI to assist in medical diagnostics. For instance, developing an AI model that can detect polyps or tumors during a colonoscopy more accurately than current state-of-the-art methods. Not only is this research cool, but it also has a profound impact—it can save lives. AI might not yet match human experts in every scenario, but as an early detection tool, its potential is undeniable.
+{{% /callout %}}
 
-Speaking about AI research careers offered a reflective look at my professional journey while providing valuable insights into the field. AI is a rapidly advancing domain with limitless potential. For those passionate about technology and eager to make a difference, diving into AI research presents an exciting and impactful career path. Stay curious, embrace continuous learning, and explore the many possibilities that AI has to offer.
+## Understanding the Three Types of Artificial Intelligence
+
+For those pursuing a career as AI research scientists, it's essential to understand the different categories of AI based on their capabilities:
+
+1. **Narrow AI (Weak AI or ANI):** Narrow AI is specialized in performing specific tasks. It is designed with a narrow focus and cannot operate outside its pre-defined capabilities. Research in this area involves developing and fine-tuning algorithms to perform specialized tasks efficiently, such as facial recognition, language translation, and recommendation systems. Career opportunities here include roles like AI specialist, data scientist, and machine learning engineer.
+
+2. **General AI (Strong AI or AGI):** General AI aims to mirror human cognitive abilities, enabling it to understand, learn, and apply knowledge across a wide range of tasks. Working in this field requires a deep understanding of various AI and machine learning techniques, and researchers often focus on creating systems that can think and reason like humans. Careers in this area might involve research positions in advanced AI labs, academia, or tech companies that are pioneering AGI development.
+
+3. **Artificial Superintelligence (ASI):** ASI represents the pinnacle of AI development, where machines would surpass human intelligence across all domains. Research here is still theoretical but involves exploring concepts that could eventually lead to machines with superior cognitive abilities. Professionals focusing on ASI are usually involved in speculative research, ethical considerations, and futuristic technology development. Career paths might include roles as AI ethicists, theoretical AI researchers, or innovators at cutting-edge research institutions.
+
+Understanding these AI types (Fig. 2) can guide aspiring AI researchers in choosing the right focus area for their careers, whether it's enhancing specialized AI applications or contributing to the quest for creating truly intelligent machines. 
+
+<div style="text-align: center;">
+  <img src="ai_topic_02.png" alt="Introduction Image">
+  <p style="font-style: italic; margin-top: 0px;">Fig. 2. Types of Artificial Intelligence (Image source: viso.ai, <a href="https://viso.ai/deep-learning/artificial-intelligence-types/" target="_blank">viso.ai/artificial-intelligence-types</a>)</p>
+</div>
+
+## Roadmap to Learn AI
+
+Embark on a structured journey to master Artificial Intelligence with this comprehensive roadmap. Begin with foundational mathematics, including linear algebra, calculus, and statistics, essential for understanding AI concepts. Gain proficiency in tools like Python and PyTorch, and dive into machine learning by writing algorithms from scratch, competing in challenges, and deploying models. Expand your skills in deep learning through practical applications and competitive projects, and explore advanced topics like large language models. Stay updated with the latest trends and resources to ensure continuous learning and growth in the field of AI.
+
+**Mathematics**
+- **Linear Algebra**: Learn the fundamentals of linear algebra, crucial for understanding data manipulation and algorithmic operations. For a comprehensive introduction, refer to [3Blue1Brown’s Essence of Linear Algebra](https://www.3blue1brown.com/lessons/linear-algebra) and *Introduction to Linear Algebra for Applied Machine Learning with Python*. Dive deeper with [Imperial College London’s lectures on Linear Algebra](https://www.imperial.ac.uk/computing/prospective-students/courses/undergraduate/courses/linear-algebra-and-multivariate-calculus/).
+- **Calculus**: Explore how calculus enables optimization in machine learning, crucial for learning algorithms and adjusting models. Key resources include [3Blue1Brown’s Essence of Calculus](https://www.3blue1brown.com/lessons/calculus) and [MIT OpenCourseWare’s Calculus Courses](https://ocw.mit.edu/courses/mathematics/18-01-single-variable-calculus-fall-2006/).
+- **Probability and Statistics**: Understand the role of probability and statistics in making predictions and decisions under uncertainty. Useful resources are [StatQuest’s Statistics Fundamentals](https://www.youtube.com/channel/UCtK1v8qWJghuX-GEw5A9kQQ) and the book *Mathematics for Machine Learning*.
+
+**Tools**
+- **Python**: Begin with practical Python programming using [Practical Python Programming](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/) and advance to [Advanced Python Mastery](https://www.udemy.com/course/advanced-python-mastery/). For deeper insights, explore [David Beazley’s courses](https://www.dabeaz.com/).
+- **PyTorch**: Learn PyTorch with [PyTorch Tutorials by Aladdin Persson](https://www.youtube.com/playlist?list=PLG2GkXjGgAr0UgfllZ3btzdkqT9lKjyRt) and use resources like the [official PyTorch tutorials](https://pytorch.org/tutorials/) and [Programming PyTorch for Deep Learning](https://www.oreilly.com/library/view/programming-pytorch/9781492045518/).
+
+**Machine Learning**
+- **Write from Scratch**: Practice building algorithms from scratch with repositories such as [ML-From-Scratch](https://github.com/eriklindernoren/ML-From-Scratch) and [homemade-machine-learning](https://github.com/trekhleb/homemade-machine-learning). For a more in-depth challenge, try [MiniTorch: A DIY Course on Machine Learning Engineering](https://www.youtube.com/playlist?list=PLZ9ACV_z1Zq_5jlBLuRTmExbQj-RD4O9D).
+- **Compete**: Apply your skills in machine learning competitions on platforms like [Kaggle](https://www.kaggle.com/) and [bitgrit](https://bitgrit.net/). Study past winning solutions to enhance your learning.
+- **Do Side Projects**: Start side projects using datasets from sources like [NASA Earth data](https://earthdata.nasa.gov/) and create user interfaces with [Streamlit](https://streamlit.io/). Refer to [Getting Machine Learning to Production](https://vickiboykis.com/2020/07/22/getting-machine-learning-to-production/) for practical insights.
+- **Deploy Them**: Gain experience in deploying models and managing their lifecycle with resources like [Made With ML](https://madewithml.com/) and [Evidently AI](https://evidentlyai.com/). Learn about tracking experiments and monitoring model performance with [DataTalksClub’s MLOps Zoomcamp](https://datatalks.club/mlops-zoomcamp.html).
+- **Supplementary**: Explore additional materials such as *Machine Learning with PyTorch and Scikit-Learn* and [Model Evaluation, Model Selection, and Algorithm Selection in Machine Learning](https://arxiv.org/abs/1811.12808).
+
+**Deep Learning**
+- **Fast.ai**: Engage with [Fast.ai’s courses](https://course.fast.ai/) for a top-down approach to deep learning. Explore further with [Full Stack Deep Learning](https://fullstackdeeplearning.com/) for a comprehensive view.
+- **Do More Competitions**: Participate in advanced competitions like [PlantTraits2024](https://www.kaggle.com/c/plant-traits-2024) to apply deep learning techniques.
+- **Implement Papers**: Study and implement research from resources like [labml.ai](https://labml.ai/) and [Papers with Code](https://paperswithcode.com/).
+- **Computer Vision**: Delve into [CS231n: Deep Learning for Computer Vision](http://cs231n.stanford.edu/) for an in-depth understanding of computer vision applications.
+- **NLP**: Learn from Stanford's [CS 224N: Natural Language Processing with Deep Learning](https://web.stanford.edu/class/cs224n/) and Hugging Face’s [NLP Course](https://huggingface.co/learn/nlp-course).
+
+**Large Language Models**
+- **Watch Neural Networks: Zero to Hero**: Get a comprehensive overview of large language models with [Andrej Karpathy’s Neural Networks: Zero to Hero](https://www.youtube.com/watch?v=O5xeyo8wFfQ).
+- **Free LLM Boot Camp**: Explore free boot camps on LLMs, such as [Full Stack Deep Learning’s LLM Bootcamp](https://fullstackdeeplearning.com/llm-bootcamp/).
+- **Build with LLMs**: Develop LLM applications using [Building LLM Applications for Production](https://huyenchip.com/2023/02/23/building-llm-applications-for-production.html) and [OpenAI Cookbook](https://github.com/openai/openai-cookbook).
+- **Participate in Hackathons**: Join AI hackathons on [lablab.ai](https://lablab.ai/) and connect with other participants.
+- **Read Papers**: Stay updated with LLM research from [Sebastian Raschka’s articles](https://sebastianraschka.com/) and [Papers with Code](https://paperswithcode.com/).
+- **Write Transformers from Scratch**: Follow guides to build transformers from scratch, such as [The Transformer Family Version 2.0 | Lil’Log](https://lil-log.com/transformer-family-v2/).
+- **Some Good Blogs**: Read insightful blogs like [Gradient Descent into Madness](https://lil-log.com/gradient-descent-into-madness/) and [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/).
+- **Watch Umar Jamil**: View detailed explanations and coding tutorials by [Umar Jamil](https://www.youtube.com/c/UmarJamil).
+- **Learn How to Run Open-Source Models**: Get practical experience with open-source LLMs using [ollama](https://ollama.com/).
+- **Prompt Engineering**: Study techniques for effective prompt engineering with resources like [Prompt Engineering | Lil’Log](https://lil-log.com/prompt-engineering/).
+- **Fine-Tuning LLMs**: Explore guides on fine-tuning models with [Hugging Face’s fine-tuning guide](https://huggingface.co/docs/transformers/training) and [Fine-Tuning — The GenAI Guidebook](https://genai.ai/fine-tuning/).
+- **RAG**: Learn about Retrieval-Augmented Generation with articles such as [Building RAG-based LLM Applications for Production](https://anyscale.com/blog/building-rag-based-llm-applications-for-production).
+
+**How to Stay Updated**
+- Regularly engage with leading blogs, research papers, and online courses to remain current with the latest advancements in AI and machine learning.
+
+**Other Curriculums/Listicles You May Find Useful**
+- Explore additional curriculums and listicles for a broader understanding of AI topics, available through various educational and professional resources.
+
+
+## Highlighted Publications
+Throughout my career, I've had the privilege to contribute to several exciting research projects. Below are some of my notable publications, each representing a unique challenge and innovative solution:
+
+1. **[MARS Mask Attention Refinement with Sequential Quadtree Nodes for Car Damage Instance Segmentation](https://link.springer.com/chapter/10.1007/978-3-030-86725-1_21)**  
+   *Published in: ICIAP 2023 Workshops, Lecture Notes in Computer Science, Springer, Cham*  
+   This paper introduces a novel approach for car damage detection using Mask Attention Refinement with sequential quadtree nodes, specifically designed to enhance accuracy in the segmentation of damaged areas on vehicles.
+
+2. **[MeViT: A Medium-Resolution Vision Transformer for Semantic Segmentation on Landsat Satellite Imagery for Agriculture in Thailand](https://www.mdpi.com/2072-4292/15/21/5124)**  
+   *Published in: Remote Sensing, 2023*  
+   MeViT is a Vision Transformer-based model that processes medium-resolution satellite images to classify different types of land cover in agricultural areas. This research has significant implications for monitoring and managing agricultural resources.
+
+3. **[Object Detection of Road Assets Using Transformer-Based YOLOX with Feature Pyramid Decoder on Thai Highway Panorama](https://www.mdpi.com/2078-2489/13/1/5)**  
+   *Published in: Information, 2022*  
+   This paper explores an innovative method for detecting road assets, such as traffic signs and barriers, using a Transformer-based YOLOX model. The approach significantly improves the accuracy and reliability of object detection in complex environments.
+
+4. **[Transformer-Based Decoder Designs for Semantic Segmentation on Remotely Sensed Images](https://www.mdpi.com/2072-4292/13/24/5100)**  
+   *Published in: Remote Sensing, 2021*  
+   Here, we investigate the use of Transformer-based architectures for segmenting high-resolution remote sensing images. This work pushes the boundaries of traditional convolutional neural networks by leveraging the power of self-attention mechanisms.
+
+5. **[Semantic Labeling in Remote Sensing Corpora Using Feature Fusion-Based Enhanced Global Convolutional Network](https://www.mdpi.com/2072-4292/12/8/1233)**  
+   *Published in: Remote Sensing, 2020*  
+   This publication introduces a feature fusion approach for semantic labeling tasks, combining multiple feature maps to improve the accuracy of land cover classification in remote sensing imagery.
+
+## Key Trends in AI Research
+The field of AI is constantly evolving, with several exciting trends emerging. Here's a look at some of the most promising areas:
+
+- **Generative AI**: With models like GANs and diffusion models, generative AI is revolutionizing how we create content, from art and music to realistic simulations.
+  
+- **Self-Supervised Learning**: This approach is gaining traction as it reduces the need for labeled data, making it easier to train AI models on vast datasets.
+
+- **AI for Social Good**: Applications of AI in healthcare, environmental monitoring, and disaster response highlight the technology's potential to solve some of humanity's biggest challenges.
+
+- **Explainable AI (XAI)**: As AI systems become more complex, the need for transparency and interpretability is critical. XAI focuses on making AI decisions understandable to humans.
+
+- **AI Security and Ethics**: With the growing deployment of AI, addressing ethical considerations and ensuring AI security are more important than ever.
+
+## Inspiration for Aspiring Researchers
+For those considering a career in AI research, my advice is simple: find a topic that excites you. Choose projects that you find inherently cool. This passion will sustain you through the challenges of research. Start by exploring current literature to understand what has already been done and identify gaps. Decide whether to build on existing models or innovate from scratch. Focus on how you can improve accuracy, speed, or applicability of AI solutions.
+
+> Remember, research is a journey, not a destination. Be curious, be patient, and never stop learning. The most rewarding part of research is not just the recognition that comes from publishing a paper but seeing your work make a real-world impact. Whether it's through advancing technology or improving lives, your contribution as a researcher can make a difference. 
+
+## Before I Go: Here’s Some Exciting News!
+
+I’m thrilled to announce that I’ve been awarded a prestigious scholarship by Her Royal Highness Princess Maha Chakri Sirindhorn to attend the Global Young Scientists Summit (GYSS) (Fig. 3) in Singapore from January 6-10, 2025. This recognition is a major boost for my passion and drive to push the envelope in innovation!
+
+<div style="text-align: center;">
+  <img src="panboonyuen_GYSS2025.jpg" alt="Kao_GYSS2025">
+  <p style="font-style: italic; margin-top: 0px;">Fig. 3. I am excited to announce that I have been awarded a prestigious scholarship by Her Royal Highness Princess Maha Chakri Sirindhorn to attend the Global Young Scientists Summit (GYSS) in Singapore from January 6-10, 2025. This esteemed recognition greatly fuels my passion and determination to drive forward innovation! <a href="https://www.facebook.com/photo.php?fbid=1061339665992254&set=pb.100063486913512.-2207520000&type=3" target="_blank">(Facebook) Global Young Scientists Summit</a></p>
+</div>
+
+{{< twitter user="cueng_official" id="1829356709363798177" >}}
+
+
+The **Global Young Scientists Summit (GYSS)** is a dynamic annual event that brings together exceptional young researchers and leading scientific minds from around the world. Held in Singapore, this summit is a unique platform for discussing groundbreaking research and exploring how it can address major global challenges. 
+
+With a strong emphasis on innovation and collaboration, GYSS is where future scientific leaders converge to share ideas and shape the future of research. To dive deeper into this inspiring event, visit [GYSS](https://www.gyss-one-north.sg) and join the conversation using #GYSS!
+
+![](GYSS-logo.jpg)
+
+> Just a heads up—once I wrap up at GYSS, I'll be crafting a new blog to share all the awesome experiences with you. Stay tuned!
+
+## Conclusion
+Being part of the AI revolution is a unique privilege. It's a field where theoretical elegance meets real-world impact, offering endless opportunities for those willing to explore. Whether you are inclined toward academia or industry, or like me, both, there is a place for you in AI research. Let's continue to push the boundaries and contribute to a future where AI plays a positive and transformative role in our lives.
+
+> Thank you for reading! I look forward to hearing your thoughts and engaging in discussions about AI research and career paths.
+
+## Citation
+
+> Panboonyuen, Teerapong. (Sep 2024). *Career Paths for AI Research Scientists: My Journey and Insights*. Blog post on Kao Panboonyuen. [https://kaopanboonyuen.github.io/blog/2024-09-01-career-paths-for-ai-research-scientist/](https://kaopanboonyuen.github.io/blog/2024-09-01-career-paths-for-ai-research-scientist/)
+
+Or
+
+```bash
+@article{panboonyuen2024careerpaths,
+  title   = "Career Paths for AI Research Scientists: My Journey and Insights.",
+  author  = "Panboonyuen, Teerapong",
+  journal = "kaopanboonyuen.github.io/",
+  year    = "2024",
+  month   = "Sep",
+  url     = "https://kaopanboonyuen.github.io/blog/2024-09-01-career-paths-for-ai-research-scientist/"
+}
+```
+
+{{% callout note %}}
+Did you find this page helpful? Consider sharing it 🙌
+{{% /callout %}}
+
+## References
+
+1. https://www.upwork.com/resources/how-to-become-an-ai-research-scientist/
+2. https://varthana.com/student/skills-required-to-get-a-job-in-the-artificial-intelligence-industry/
+3. https://www.goodai.com/goodai-research-roadmap-2021-2022/
+4. https://medium.com/bitgrit-data-science-publication/a-roadmap-to-learn-ai-in-2024-cc30c6aa6e16/
+5. https://viso.ai/deep-learning/artificial-intelligence-types/

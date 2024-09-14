@@ -1,22 +1,23 @@
 ---
 
-title: 'How to Fine-Tune and Deploy a Satellite-Specific LLM Model for Satellite Images'  
+title: 'How to Fine-Tune and Deploy a Satellite-Specific LLMs Model for Satellite Images'  
 subtitle: ''  
-summary: Fine-tuning a Large Language Model (LLM) for satellite imagery requires a deep understanding of both theoretical concepts and practical techniques. This blog post will guide you through the process, incorporating mathematical formulations and theoretical explanations to provide a comprehensive view of the fine-tuning and deployment process.
+summary: Fine-tuning a Large Language Models (LLMs) for satellite imagery requires a deep understanding of both theoretical concepts and practical techniques. This blog post will guide you through the process, incorporating mathematical formulations and theoretical explanations to provide a comprehensive view of the fine-tuning and deployment process.
 authors:  
 - admin  
 tags:  
-- deep-learning  
-- computer-vision  
-- object-detection
-- instance-segmentation
+- LLMs
+- LULC
+- Deep Learning
+- Satellite Images
 image:
   caption: 'Image credit: [**ArXiv**](https://arxiv.org/pdf/2401.17600v1)'
 categories:  
-- deep-learning  
-- computer-vision  
-- object-detection
-- instance-segmentation
+- LLMs
+- LULC
+- Deep Learning
+- Satellite Images
+
 date: "2024-09-08T00:00:00Z"  
 lastmod: "2024-09-08T00:00:00Z"  
 featured: true  
@@ -39,20 +40,25 @@ projects: []
 You can view the presentation slides for the talk 🌎 [here](https://kaopanboonyuen.github.io/files/slides/20240910_Panboonyuen_How_to_Fine_Tune_Satellite_Specific_LLM.pdf).
 {{% /callout %}}
 
-{{< toc mobile_only=true is_open=true >}}
+<!-- {{< toc mobile_only=true is_open=true >}} -->
 
 
 ## Introduction to Large Language Models (LLMs)
 
 Large Language Models (LLMs) are at the forefront of a revolution in Artificial Intelligence (AI) and Natural Language Processing (NLP). These models are not just sophisticated algorithms; they represent a leap forward in how machines understand and generate human language. Leveraging cutting-edge deep learning architectures, such as transformers, LLMs have transformed the landscape of language technology.
 
+{{< twitter user="OpenAI" id="1834278217626317026" >}}
+
 At their essence, LLMs are built on expansive neural networks with billions of parameters. These networks are trained on vast corpora of text data, learning to discern intricate patterns and relationships within language. Through a process known as pre-training, LLMs develop a broad understanding of linguistic structures, context, and semantics. During this phase, they utilize unsupervised learning techniques to predict masked words or sequences, refining their ability to understand and generate coherent text.
+
+{{< twitter user="kaopanboonyuen" id="1833511803739116039" >}}
 
 Following pre-training, LLMs undergo fine-tuning to adapt their general language capabilities to specific tasks or domains. This supervised learning phase involves training the model on a targeted dataset, allowing it to excel in applications such as text generation, translation, sentiment analysis, and question-answering. Techniques like transfer learning and few-shot learning further enhance the model's adaptability, enabling it to generalize from limited examples and perform across various contexts.
 
-Deploying LLMs in real-world scenarios involves addressing practical challenges related to computational resources and scalability. These models require substantial processing power and memory, often necessitating the use of advanced hardware like GPUs or TPUs. Despite these demands, the benefits of integrating LLMs into applications—such as chatbots, virtual assistants, content generation, and automated summarization—are profound, offering significant advancements in how machines interact with human language.
+> Deploying LLMs in real-world scenarios involves addressing practical challenges related to computational resources and scalability. These models require substantial processing power and memory, often necessitating the use of advanced hardware like GPUs or TPUs. Despite these demands, the benefits of integrating LLMs into applications—such as chatbots, virtual assistants, content generation, and automated summarization—are profound, offering significant advancements in how machines interact with human language.
 
 In this blog post, I will delve into the technical intricacies of LLMs, exploring their architecture, training methodologies, and deployment considerations. Prepare to discover how these powerful AI tools are pushing the boundaries of language technology and shaping the future of machine intelligence.
+
 
 ## Key Vocabulary
 
@@ -130,15 +136,24 @@ Training LLMs involves several steps:
 
 Fine-tuning a Large Language Model (LLM) like SatGPT for satellite imagery involves several critical stages. This process transforms a pre-trained model into a specialized tool capable of analyzing and generating insights from satellite images. This blog post provides a step-by-step guide to fine-tuning and deploying SatGPT, covering each phase in detail.
 
-In their 2024 paper, *“Good at Captioning, Bad at Counting: Benchmarking GPT-4V on Earth Observation Data”* ([arXiv:2401.17600](https://arxiv.org/abs/2401.17600)), Zhang and Wang focus on developing a benchmark for Vision-Language Models (VLMs) applied to Earth Observation (EO) data. Their initial framework addresses three main areas: scene understanding, localization and counting, and change detection. To assess VLM performance across these areas, they design evaluations that span various applications, from wildlife conservation to urban monitoring, as illustrated in Figure 1. Their goals are to evaluate existing VLMs, provide insights into effective prompting techniques for EO tasks, and establish a flexible system for ongoing benchmark updates and future VLM evaluations.
-
+> In their 2024 paper, *“Good at Captioning, Bad at Counting: Benchmarking GPT-4V on Earth Observation Data”* ([arXiv:2401.17600](https://arxiv.org/abs/2401.17600)), Zhang and Wang focus on developing a benchmark for Vision-Language Models (VLMs) applied to Earth Observation (EO) data. Their initial framework addresses three main areas: scene understanding, localization and counting, and change detection. To assess VLM performance across these areas, they design evaluations that span various applications, from wildlife conservation to urban monitoring, as illustrated in Figure 1. Their goals are to evaluate existing VLMs, provide insights into effective prompting techniques for EO tasks, and establish a flexible system for ongoing benchmark updates and future VLM evaluations.
+<!-- 
 For scene understanding, Zhang and Wang assess how VLMs integrate high-level image information with latent knowledge from language modeling. They use several datasets for this purpose: a new dataset for aerial landmark recognition to test the model’s ability to identify and geolocate U.S. landmarks, the RSICD dataset to evaluate the model’s capability to generate captions for Google Earth images, the BigEarthNet dataset to probe land cover identification in medium-resolution satellite images, and the fMoW-WILDS and PatternNet datasets to assess land use classification in high-resolution satellite images.
+ -->
 
+{{% callout note %}}
+The paper highlights several challenges and areas for future work. One major challenge is detecting data contamination, which is crucial for maintaining the fairness and effectiveness of benchmarks as VLMs evolve. Additionally, a more detailed analysis of model failures—such as knowledge gaps, reasoning errors, perceptual mistakes, and text misunderstandings—could provide deeper insights into current VLM capabilities. Zhang and Wang also note the static nature of benchmarks as a limitation, suggesting that dynamic updates may be necessary to keep benchmarks relevant and challenging as VLMs advance.
+{{% /callout %}}
+
+{{< twitter user="opticsinspace" id="1670688747552411649" >}}
+
+
+<!-- 
 In the domain of localization and counting, Zhang and Wang evaluate whether VLMs can extract detailed information about specific objects and understand their spatial relationships. They create datasets for this purpose, including the DIOR-RSVG dataset to test Referring Expression Comprehension (REC) abilities, where the model localizes objects based on natural language descriptions. Additionally, they use the NEON-Tree, COWC, and xBD datasets to evaluate the counting of small objects like trees, cars, and buildings in aerial and satellite images, and the aerial animal detection dataset to assess the model’s ability to count animals in tilted aerial images.
 
 For change detection, the focus is on evaluating how VLMs track changes over time. Zhang and Wang use a dataset that categorizes buildings by damage levels and presents the data in JSON format, tracking counts before and after damage across various categories.
 
-The paper highlights several challenges and areas for future work. One major challenge is detecting data contamination, which is crucial for maintaining the fairness and effectiveness of benchmarks as VLMs evolve. Additionally, a more detailed analysis of model failures—such as knowledge gaps, reasoning errors, perceptual mistakes, and text misunderstandings—could provide deeper insights into current VLM capabilities. Zhang and Wang also note the static nature of benchmarks as a limitation, suggesting that dynamic updates may be necessary to keep benchmarks relevant and challenging as VLMs advance.
+
 
 In the context of image captioning, Zhang and Wang evaluate the ability of instruction-following VLMs to describe aerial or satellite images. Their evaluation uses the RSICD dataset to compare VLM-generated captions with human-annotated examples both qualitatively and quantitatively, assessing how well VLMs describe images at various levels of detail.
 
@@ -146,8 +161,8 @@ For land use and land cover (LULC) classification, Zhang and Wang assess VLMs' p
 
 Overall, Zhang and Wang’s work underscores the importance of evolving benchmarks and VLM capabilities to address the challenges in EO data applications.
 
-They deliver an in-depth analysis of GPT-4V’s performance across different tasks. Figure 1 illustrates key scenarios and the model’s performance:
-
+They deliver an in-depth analysis of GPT-4V’s performance across different tasks. Figure 1 illustrates key scenarios and the model’s performance: -->
+<!-- 
 1. **Location Recognition**  
    **Scenario:** Identify the landmark based on its features, such as its dome and layout.  
    **Example Answer:** The landmark, recognized by its distinctive style and layout, is the Nebraska State Capitol.
@@ -187,7 +202,7 @@ They deliver an in-depth analysis of GPT-4V’s performance across different tas
 - **RefCLIP Score:** Evaluates the model’s performance on reference-based tasks.
 - **F1 Score:** Measures the model’s accuracy in classification tasks.
 - **Mean IoU:** Assesses the model’s performance in object localization.
-- **R2 Score:** Gauges the model’s predictive accuracy across various tasks.
+- **R2 Score:** Gauges the model’s predictive accuracy across various tasks. -->
 
 These findings offer valuable insights into GPT-4V’s capabilities and limitations, especially in the context of earth observation data.
 
