@@ -206,7 +206,7 @@ To further refine REG, we incorporated prediction uncertainty using a Gaussian d
 
 <div style="text-align: center;">
     <img src="REG_6.png" alt="Incorporating Prediction Uncertainty">
-    <p style="font-style: italic; margin-top: 0px;">Fig. . We model prediction uncertainty using a Gaussian distribution to handle noise and ambiguity, particularly in challenging road scenes.</p>
+    <p style="font-style: italic; margin-top: 0px;">Fig. 7. We model prediction uncertainty using a Gaussian distribution to handle noise and ambiguity, particularly in challenging road scenes.</p>
 </div>
 
 ### Mathematical Foundations for Optimization in REG
