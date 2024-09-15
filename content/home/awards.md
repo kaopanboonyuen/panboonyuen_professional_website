@@ -44,6 +44,7 @@ design:
 - [The 100th Anniversary Chulalongkorn University Fund for Doctoral Scholarship](https://kaopanboonyuen.github.io/files/scholarship/Recipient_100years_2_2560.pdf) (Ph.D.)
 - [The 90th Anniversary of Chulalongkorn University Scholarship](https://kaopanboonyuen.github.io/files/scholarship/Recipient_90yearsfund_2_2563.pdf) (Ph.D.)
 - [Ratchadapisek Somphot Fund for Postdoctoral Fellowship](https://kaopanboonyuen.github.io/files/postdoc/Recipient_Posdoc_6_65.pdf) (Chulalongkorn University, 2021, 2022, 2023, 2024, 2025)
+- Top 1% Score in University [Differential Calculus](https://en.wikipedia.org/wiki/Differential_calculus) and [Engineering Mathematics](https://en.wikipedia.org/wiki/Engineering_mathematics)
 - 2017 [Best Student Paper Award](https://link.springer.com/chapter/10.1007/978-3-319-60663-7_18) in International Conference on Computing and Information Technology ([IC2IT](https://link.springer.com/conference/ic2it))
 - 2019 [Best Young Researcher Paper Award](https://kaopanboonyuen.github.io/quality-of-life-ai-transportation/) in First International Conference on Smart Technology & Urban Development ([STUD](https://ieeexplore.ieee.org/document/9018796))
 - 2022 [Bangkok Marathon 42.195K Finisher](https://kaopanboonyuen.github.io/files/BKK_MARATHON_42KM/Kao_42K_BKKMARATHON_Finisher_01.png) with successfully completed a full marathon run (42.195 kilometers) ([Bangkok Marathon](https://www.bkkmarathon.com))

@@ -39,7 +39,7 @@ education:
     institution: Chulalongkorn University
     year: 2017
   - course: BEng in Computer Engineering
-    institution: KMUTNB (Top 5 Student Admission Quota)
+    institution: KMUTNB (Top 1% in University Mathematics)
     year: 2015
   - course: Pre-Engineering School (PET21)
     institution: KMUTNB (Senior High School, 10th - 12th Grade)
