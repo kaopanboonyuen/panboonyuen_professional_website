@@ -67,6 +67,8 @@ projects:
 - internal-project
 ---
 ![Teerapong Panboonyuen](panboonyuen_img01.jpg)
+![Teerapong Panboonyuen](panboonyuen_img02.png)
+
 <!-- {{< youtube traKBhJm4lQ >}} -->
 
 Alright, let’s break the ice! Beyond the research papers and tech jargon, here’s the real scoop about me:
@@ -83,6 +85,8 @@ So, if you want to swap stories about the newest gadgets, discuss the latest res
 ![Teerapong Panboonyuen](kao/panboonyuen_kao_02.jpg)
 ![Teerapong Panboonyuen](kao/panboonyuen_kao_03.jpg)
 ![Teerapong Panboonyuen](kao/panboonyuen_kao_04.jpg)
+![Teerapong Panboonyuen](kao/panboonyuen_kao_05.jpg)
+![Teerapong Panboonyuen](kao/panboonyuen_kao_06.jpg)
 
 
 **Kao Panboonyuen**
