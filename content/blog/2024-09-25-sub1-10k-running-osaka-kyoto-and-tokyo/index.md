@@ -46,7 +46,11 @@ projects: []
 
 ## Just finished an epic city run through Osaka, Kyoto, and Tokyo!
 
-Hey everyone! I just wrapped up an incredible running experience across Japan's vibrant cities—Osaka, Kyoto, and Tokyo. I managed to hit sub-1-hour times while soaking in the unique vibes of each place. It was the perfect mix of pushing my pace and enjoying the sights along the way!
+Hey everyone! I just completed an incredible running experience across Japan's vibrant cities—Osaka, Kyoto, and Tokyo. I managed to hit sub-1-hour times while soaking in the unique vibes of each place. It was the perfect mix of pushing my pace and enjoying the sights along the way!
+
+It was such a cool blend of testing my limits and discovering new places. Each run through those iconic spots felt like I was getting a real taste of Japan’s unique vibe and energy with every stride.
+
+{{< twitter user="kaopanboonyuen" id="1838942597387362675" >}}
 
 ### Chapter 1: Osaka Running
 
@@ -103,6 +107,10 @@ I took my first-ever Shinkansen ride from Kyoto to Tokyo, leaving at 9:39 AM and
 - **Shinkansen from Kyoto to Tokyo** [Google Map](https://goo.gl/maps/e6Fqt36Xrr32)
 
 ![](city_run_images/Kao_Shinkansen_01.png)
+![](city_run_images/Kao_Shinkansen_02.png)
+
+{{< youtube id="w3lpcZRAEK4" >}}
+
 
 ### Chapter 3: Tokyo Running
 
