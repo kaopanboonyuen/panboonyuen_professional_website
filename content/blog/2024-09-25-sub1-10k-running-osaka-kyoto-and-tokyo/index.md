@@ -41,10 +41,6 @@ projects: []
 
 ---
 
-{{% callout note %}}
-You can view the presentation slides for the talk 🌎 [here](https://kaopanboonyuen.github.io/files/slides/20240910_Panboonyuen_How_to_Fine_Tune_Satellite_Specific_LLM.pdf).
-{{% /callout %}}
-
 <!-- {{< toc mobile_only=true is_open=true >}} -->
 
 
