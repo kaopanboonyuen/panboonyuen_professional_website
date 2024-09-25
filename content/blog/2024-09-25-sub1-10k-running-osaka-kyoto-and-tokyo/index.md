@@ -43,10 +43,7 @@ projects: []
 
 <!-- {{< toc mobile_only=true is_open=true >}} -->
 
-
-## Just finished an epic city run through Osaka, Kyoto, and Tokyo!
-
-Hey everyone! I just completed an incredible running experience across Japan's vibrant cities—Osaka, Kyoto, and Tokyo. I managed to hit sub-1-hour times while soaking in the unique vibes of each place. It was the perfect mix of pushing my pace and enjoying the sights along the way!
+Hey guys! I just completed an incredible running experience across Japan's vibrant cities—Osaka, Kyoto, and Tokyo. I managed to hit sub-1-hour times while soaking in the unique vibes of each place. It was the perfect mix of pushing my pace and enjoying the sights along the way!
 
 It was such a cool blend of testing my limits and discovering new places. Each run through those iconic spots felt like I was getting a real taste of Japan’s unique vibe and energy with every stride.
 
