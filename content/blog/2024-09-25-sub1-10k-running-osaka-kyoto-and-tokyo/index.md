@@ -89,7 +89,7 @@ I crushed the city run in Kyoto, finishing 10.78K in 49 minutes (pace 4:38), whi
 
 ![](city_run_images/KAO_KYOTO_001.JPG)
 ![](city_run_images/KAO_KYOTO_002.JPG)
-![](city_run_images/KAO_KYOTO_003.JPG)
+![](city_run_images/KAO_KYOTO_003.jpg)
 ![](city_run_images/KAO_KYOTO_003_02.jpg)
 ![](city_run_images/KAO_KYOTO_003_03.jpg)
 ![](city_run_images/KAO_KYOTO_003_04.jpg)
