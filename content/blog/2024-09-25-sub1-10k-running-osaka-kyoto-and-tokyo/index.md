@@ -125,7 +125,7 @@ Finally, I’ve made it to Tokyo! There’s always a surprise waiting here. Befo
 Now, back to the final running mission. On my second day in Tokyo, I kicked off my run at 6:52 AM. The weather was perfect—18°C with a refreshing breeze—ideal for running.
 
 ![](city_run_images/KAO_TOKYO_006.jpg)
-![](city_run_images/KAO_TOKYO_005.jpg)
+![](city_run_images/KAO_VO2MAX_51.jpg)
 
 I wrapped up the city run covering 10.17K in 44 minutes at a pace of 4:25, marking a personal best! Here’s my route in Tokyo:
 
@@ -146,12 +146,30 @@ I wrapped up the city run covering 10.17K in 44 minutes at a pace of 4:25, marki
 ![](city_run_images/KAO_TOKYO_003_02.jpg)
 ![](city_run_images/KAO_TOKYO_004.jpg)
 
+### Chapter 4: Tokyo Farewell Run
+
+Before wrapping up my Tokyo adventure tomorrow, I took advantage of this morning’s cool weather, with a light drizzle setting the perfect scene for my final city run—a 5K to bid this trip a fond farewell. I covered 5.16 km in 23:54 minutes (Pace 4:38). The highlight? My VO2 Max hit a new high at 51, and Garmin labeled my training status as “Peaking.” It’s the ultimate runner’s high!
+
+![](city_run_images/KAO_PEAKING.jpg)
+![](city_run_images/KAO_VO2MAX_51.jpg)
+
+I started my run at Nihombashihakozakicho, crossed the Eitai Bashi bridge, and continued parallel to the scenic Sumida River. Passing through the vibrant Kiyosumi-Dori Avenue at kilometer 2, I found myself immersed in Tokyo’s unique urban rhythm. I reached the serene Kiyosumi Garden by kilometer 3, before heading to Gokenborui Park at kilometer 4. The run climaxed with a sprint up Shin-Ohashi bridge, finishing at the 5K mark on the dot.
+
+![](city_run_images/KAO_TOKYO_5k_001.jpg)
+![](city_run_images/KAO_TOKYO_5k_002.jpg)
+![](city_run_images/KAO_TOKYO_5k_003.jpg)
+![](city_run_images/KAO_TOKYO_5k_004.jpg)
+![](city_run_images/KAO_TOKYO_5k_006.jpg)
+
+This city run was the perfect way to close out my time in Tokyo. From the calm river views to the bustling cityscape, every step was a reminder of how much this place has to offer. Until next time, Tokyo!
+
 ### Summary of My Running Experience
 
 1. **Osaka Running:** Sub1 10.59K City Run, 49:48min, Pace 4:42
 2. **Kyoto Running:** Sub1 10.78K City Run, 49:57min, Pace 4:38
 3. **Tokyo Running:** Sub1 10.17K City Run, 44:58min, Pace 4:25
 4. **Tokyo Swimming:** 1,200m (1.2K), 28:58min, Pace 2:25
+5. **Tokyo Running:** Sub24min 5.16K City Run, 23:54min, Pace 4:38
 
 This trip to Japan was absolutely fantastic! Even though it was late summer and winter is just around the corner, running through these three major cities expanded my horizons. I encountered amazing insights into Japanese culture, met locals, and explored unseen places. 
 
