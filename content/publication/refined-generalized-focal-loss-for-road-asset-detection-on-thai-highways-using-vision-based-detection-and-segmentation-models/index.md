@@ -8,7 +8,6 @@ authors:
 - S. Thongbai
 - W. Wongweeranimit
 - R. Phukham
-- admin
 
 date: "2024-09-01T00:00:00Z"
 doi: ""
@@ -55,13 +54,13 @@ featured: true
 links:
 - name: Blog
   url: https://kaopanboonyuen.github.io/blog/2024-09-07-refined-generalized-focal-loss-for-road-asset-detection-on-thai-highways-using-vision-models/
-# - name: ICML talk
-#   url: https://www.facebook.com/watch/live/?v=355035025132741&ref=watch_permalink
+- name: ArXiv
+  url: https://www.arxiv.org/abs/2409.09877
 # - name: IEEE Spectrum article
 #   url: https://spectrum.ieee.org/tech-talk/computing/software/deepmind-teaches-ai-teamwork
 # - name: ICIAP 2017 Best Papers
 #   url: https://link.springer.com/chapter/10.1007/978-3-319-60663-7_18
-url_pdf: https://kaopanboonyuen.github.io/REG/
+url_pdf: https://www.arxiv.org/abs/2409.09877
 url_code: https://github.com/kaopanboonyuen/REG
 url_dataset: ''
 url_poster: 'https://kaopanboonyuen.github.io/REG/'
