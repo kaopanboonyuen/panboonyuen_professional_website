@@ -49,6 +49,7 @@ design:
 - 2019 [Best Young Researcher Paper Award](https://kaopanboonyuen.github.io/quality-of-life-ai-transportation/) in First International Conference on Smart Technology & Urban Development ([STUD](https://ieeexplore.ieee.org/document/9018796))
 - 2022 [Bangkok Marathon 42.195K Finisher](https://kaopanboonyuen.github.io/files/BKK_MARATHON_42KM/Kao_42K_BKKMARATHON_Finisher_01.png) with successfully completed a full marathon run (42.195 kilometers) ([Bangkok Marathon](https://www.bkkmarathon.com))
 - 2024 [IRONMAN 70.3 Finisher](https://kaopanboonyuen.github.io/files/IRONMAN703/Kao_IRONMAN2024_Finisher_01.png) with successfully completed a challenging triathlon consisting of a 1.9K swim, 90K bike ride, and 21.1K run ([IM70.3](https://www.ironman.com/races))
+- 2024 [Distinguished Reviewer for the Bronze Level](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42) of IEEE Transactions on Medical Imaging ([Certificate](https://kaopanboonyuen.github.io/files/certificate/IEEE_Transactions_on_Medical_Imaging_Distinguished_Reviewer_Certificate_2024.pdf))
 - 2025 [Global Young Scientists Summit (GYSS) Scholarship](https://kaopanboonyuen.github.io/files/GYSS/panboonyuen_GYSS2025.jpg) from Her Royal Highness Princess Maha Chakri Sirindhorn ([GYSS](https://kaopanboonyuen.github.io/files/GYSS/panboonyuen_GYSS2025_announcement_EN.pdf))
 
 Reviewer for International Journals/Conferences:
