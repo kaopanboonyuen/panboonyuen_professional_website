@@ -528,7 +528,7 @@ where $A$ and $B$ are the predicted and true segmentation masks.
 
 Our paper will undergo a **fast-track formal review process** for potential publication in the **Transportmetrica A journal**. We’re optimistic that this research will significantly contribute to highway engineering and road asset management fields.
 
-![](Kao_iCHE2024/kao_mars_x_iche2024_01.jpg)
+<!-- ![](Kao_iCHE2024/kao_mars_x_iche2024_01.jpg) -->
 
 I’m genuinely excited to share our findings at iCHE 2024 and connect with the incredible minds in the field. I hope our research sparks inspiration in others, pushing the boundaries of what’s possible. It would be truly rewarding if our work motivates even one person to contribute to something extraordinary in the world. Research is not just about discovering new things—it's about igniting ideas, fostering collaboration, and collectively making a positive impact. Here’s to all the future breakthroughs, and may this be just the beginning of many more amazing contributions ahead!
 
