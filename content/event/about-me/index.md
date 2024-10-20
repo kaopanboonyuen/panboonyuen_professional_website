@@ -85,6 +85,9 @@ So, if you want to swap stories about the newest gadgets, discuss the latest res
 ![Teerapong Panboonyuen](kao/panboonyuen_kao_02.jpg)
 ![Teerapong Panboonyuen](kao/panboonyuen_kao_03.jpg)
 ![Teerapong Panboonyuen](kao/panboonyuen_kao_04.jpg) -->
+
+![Teerapong Panboonyuen](featured_ITALY.jpg)
+
 ![Teerapong Panboonyuen](kao_japan_2024/panboonyuen_kao_japan_01.jpg)
 ![Teerapong Panboonyuen](kao_japan_2024/panboonyuen_kao_japan_02.jpg)
 ![Teerapong Panboonyuen](kao_japan_2024/panboonyuen_kao_japan_03.jpg)
