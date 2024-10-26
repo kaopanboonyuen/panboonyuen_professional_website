@@ -22,7 +22,7 @@ location: NSTDA, Pathum Thani, Thailand
   postcode: '33100'
   country: Thailand -->
 
-summary: I recently had the opportunity to speak with high school students about ‘Career Paths for AI Research Scientists.’ During the talk, I shared my experiences as a postdoctoral researcher in AI, diving into the exciting world of artificial intelligence. I discussed the various career opportunities in the field, from academic research to industry roles, and highlighted how my own journey has shaped my understanding of AI. It was a fantastic chance to inspire the next generation of AI enthusiasts and give them a glimpse into the dynamic and rapidly evolving field of artificial intelligence.
+summary: I recently had the opportunity to speak with high school students about ‘Career Paths for AI Research Scientists.’ During the talk, I shared my experiences as a postdoctoral researcher in AI, diving into the exciting world of artificial intelligence. I discussed the various career opportunities in the field, from academic research to industry roles, and highlighted how my own journey has shaped my understanding of Generative AI.
 abstract: I recently had the privilege of speaking with high school students about “Career Paths for AI Research Scientists.” As Teerapong Panboonyuen, also known as Kao Panboonyuen, a Senior AI Research Scientist at MARS and a Postdoctoral Fellow at Chulalongkorn University, I was excited to share my journey and insights into the dynamic world of artificial intelligence (AI). This talk offered a unique opportunity to guide young minds through the exciting possibilities in AI and how they can carve out their own paths in this transformative field.
 
 # Talk start and end times.

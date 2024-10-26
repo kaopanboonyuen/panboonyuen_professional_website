@@ -22,17 +22,17 @@ location: University of Udine, Italy
   postcode: '33100'
   country: Italy -->
 
-summary: I was invited to Italy to present my research, "MARS, Mask Attention Refinement with Sequential Quadtree Nodes," at the ICIAP 2023 Workshop. This prestigious conference, organized biennially by CVPL under the International Association for Pattern Recognition (IAPR), will unite experts to discuss advancements in car insurance and computer vision. My research addresses the challenge of accurately evaluating car damages using MARS, which enhances instance segmentation through self-attention mechanisms and quadtree transformers. Extensive experiments demonstrate that MARS outperforms state-of-the-art methods like Mask R-CNN, PointRend, and Mask Transfiner, significantly improving maskAP scores on the Thai car-damage dataset and offering promising applications for the car insurance industry.
+summary: I was invited to Italy to present my research, "MARS, Mask Attention Refinement with Sequential Quadtree Nodes," at the ICIAP 2023 Workshop. This prestigious conference, organized biennially by CVPL under the International Association for Pattern Recognition (IAPR), will unite experts to discuss advancements in car insurance and computer vision. My research addresses the challenge of accurately evaluating car damages using MARS, which enhances instance segmentation through self-attention mechanisms and quadtree transformers.
 abstract: I was invited to Italy to present my research, "MARS, Mask Attention Refinement with Sequential Quadtree Nodes," at the ICIAP 2023 Workshop. This prestigious conference, organized biennially by CVPL under the International Association for Pattern Recognition (IAPR), will unite experts to discuss advancements in car insurance and computer vision. My research addresses the challenge of accurately evaluating car damages using MARS, which enhances instance segmentation through self-attention mechanisms and quadtree transformers. Extensive experiments demonstrate that MARS outperforms state-of-the-art methods like Mask R-CNN, PointRend, and Mask Transfiner, significantly improving maskAP scores on the Thai car-damage dataset and offering promising applications for the car insurance industry.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2023-08-11T09:30:00Z"
+date: "2023-08-11T10:30:00Z"
 #date_end: "2030-06-01T15:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2023-08-11T09:30:00Z"
+publishDate: "2023-08-11T10:30:00Z"
 
 authors: []
 tags: []

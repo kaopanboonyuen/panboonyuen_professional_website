@@ -17,12 +17,12 @@ abstract: I was invited to teach a course on distributed machine learning to the
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2022-12-01T13:00:00Z"
+date: "2022-12-01T08:45:00Z"
 #date_end: "2030-06-01T15:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2022-01-01T00:00:00Z"
+publishDate: "2022-01-01T08:45:00Z"
 
 authors: []
 tags: []

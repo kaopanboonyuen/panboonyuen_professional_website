@@ -51,6 +51,8 @@ tags:
 featured: true
 
 links:
+- name: ICIAP Poster
+  url: https://kaopanboonyuen.github.io/files/MARS/panboonyuen_MARS_ICIAP2023_Poster.pdf
 # - name: Videos
 #   url: https://www.youtube.com/channel/UCNzeAAPyZaX4EDr720q5msg
 # - name: ICML talk
@@ -64,7 +66,7 @@ links:
 url_pdf: https://link.springer.com/chapter/10.1007/978-3-031-51023-6_3
 url_code: https://github.com/kaopanboonyuen/MARS
 url_dataset: ''
-url_poster: ''
+url_poster: 'https://kaopanboonyuen.github.io/files/MARS/panboonyuen_MARS_ICIAP2023_Poster.pdf'
 url_project: 'https://kaopanboonyuen.github.io/MARS'
 url_slides: ''
 url_source: ''

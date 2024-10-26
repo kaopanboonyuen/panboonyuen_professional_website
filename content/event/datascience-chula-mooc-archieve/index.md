@@ -22,17 +22,17 @@ location: Regent House Building, Ratchadamri, BKK
   postcode: '10330'
   country: Thailand -->
 
-summary: I was honored to be invited as the Head TA for the Data Science Pathway course organized by CHULA MOOC Achieve. In this role, I guided students through the practical applications of data science using RapidMiner and machine learning, along with Python programming. The curriculum encompassed both supervised and unsupervised learning labs, featuring tasks such as Customer Retention Prediction and Boston Housing Price Prediction, among others. This special clinic session, hosted by Bangkok Innovation House and CHULA MOOC Achieve, provided students with valuable hands-on experience and a deeper understanding of advanced data science techniques.
+summary: I was honored to be invited as the Head TA for the Data Science Pathway course organized by CHULA MOOC Achieve. In this role, I guided students through the practical applications of data science using RapidMiner and machine learning, along with Python programming. The curriculum encompassed both supervised and unsupervised learning labs, featuring tasks such as Customer Retention Prediction and Boston Housing Price Prediction, among others.
 abstract: I was honored to be invited as the Head TA for the Data Science Pathway course organized by CHULA MOOC Achieve. In this role, I guided students through the practical applications of data science using RapidMiner and machine learning, along with Python programming. The curriculum encompassed both supervised and unsupervised learning labs, featuring tasks such as Customer Retention Prediction and Boston Housing Price Prediction, among others. This special clinic session, hosted by Bangkok Innovation House and CHULA MOOC Achieve, provided students with valuable hands-on experience and a deeper understanding of advanced data science techniques.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2019-12-01T13:00:00Z"
+date: "2019-12-01T08:45:00Z"
 #date_end: "2030-06-01T15:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2019-01-01T00:00:00Z"
+publishDate: "2019-01-01T08:45:00Z"
 
 authors: []
 tags: []
