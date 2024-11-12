@@ -60,7 +60,7 @@ Reviewer for International Journals/Conferences:
 - Invited Reviewer of [Computer Vision and Image Understanding](https://www.journals.elsevier.com/computer-vision-and-image-understanding) (Elsevier)
 - Invited Reviewer of [Computers and Geosciences](https://www.journals.elsevier.com/computers-and-geosciences) (Elsevier)
 - Invited Reviewer of [Remote Sensing](https://www.mdpi.com/journal/remotesensing) (MDPI)
-- Invited Reviewer of [Scientific Reports](https://www.nature.com/srep/) (Nature Portfolio)
+- Invited Reviewer of [Scientific Reports](https://www.nature.com/srep/) (Nature Portfolio) ([Certificate](https://kaopanboonyuen.github.io/files/certificate/Springer_Nature/Reviewer%20Certificate%2011%20November%202024.pdf))
 - Invited Reviewer of [GIScience & Remote Sensing](https://www.tandfonline.com/toc/tgis20/current) (Taylor & Francis)
 - Invited Reviewer of [European Journal of Remote Sensing](https://www.tandfonline.com/journals/tejr20) (Taylor & Francis)
 - Invited Reviewer of [International Journal of Remote Sensing](https://www.tandfonline.com/journals/tres20) (Taylor & Francis)
