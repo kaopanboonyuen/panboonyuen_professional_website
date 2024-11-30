@@ -63,18 +63,26 @@ social:
 - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: fas
   link: https://scholar.google.co.th/citations?user=myy0qDgAAAAJ&hl=en
-- icon: orcid
-  icon_pack: ai
-  link: https://orcid.org/0000-0001-8464-4476
+# - icon: orcid
+#   icon_pack: ai
+#   link: https://orcid.org/0000-0001-8464-4476
+- icon: youtube
+  icon_pack: fab
+  link: https://www.youtube.com/@kaopanboonyuen
 - icon: github
   icon_pack: fab
   link: https://github.com/kaopanboonyuen
-- icon: download
-  icon_pack: fas
-  link: https://kaopanboonyuen.github.io/files/panboonyuen_cv.pdf
+# - icon: download
+#   icon_pack: fas
+#   link: https://kaopanboonyuen.github.io/files/panboonyuen_cv.pdf
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/teerapong-panboonyuen
+
+- icon: download
+  icon_pack: fas
+  link: https://kaopanboonyuen.github.io/files/panboonyuen_cv.pdf
+
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
 # and uncomment the lines below.
@@ -98,7 +106,9 @@ You can find summaries of my academic, industry, and teaching experience in my [
 
 Call me [**Teerapong Panboonyuen**](https://kaopanboonyuen.wordpress.com/), or just Kao (เก้า) in Thai: [**ธีรพงศ์ ปานบุญยืน**](https://kaopanboonyuen.wordpress.com/).
 
-{{< icon name="download" pack="fas" >}}{{< staticref "https://kaopanboonyuen.github.io/files/panboonyuen_cv.pdf" "newtab" >}}Download my CV{{< /staticref >}}.   {{< icon name="download" pack="fas" >}}{{< staticref "https://kaopanboonyuen.github.io/files/panboonyuen_cv_Thai.pdf" "newtab" >}}Download my Thai CV{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}}{{< staticref "https://kaopanboonyuen.github.io/files/panboonyuen_cv.pdf" "newtab" >}}Download my CV{{< /staticref >}}.   
+
+<!-- {{< icon name="download" pack="fas" >}}{{< staticref "https://kaopanboonyuen.github.io/files/panboonyuen_cv_Thai.pdf" "newtab" >}}Download my Thai CV{{< /staticref >}}. -->
 
 <!-- 
 {{< icon name="download" pack="fas" >}}{{< staticref "uploads/panboonyuen_cv_Thai.pdf" "newtab" >}}Download my Thai CV{{< /staticref >}}. -->
