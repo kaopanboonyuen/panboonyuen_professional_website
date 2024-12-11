@@ -55,10 +55,10 @@ featured: true
 links:
 # - name: Videos
 #   url: https://www.youtube.com/channel/UCNzeAAPyZaX4EDr720q5msg
-- name: GYSS Poster
-  url: https://kaopanboonyuen.github.io/files/GYSS/panboonyuen_MeViT_Poster_toGYSS2025.pdf
-- name: GYSS Quickfire Pitch
-  url: https://www.youtube.com/watch?v=tgcKR97Ea8I
+# - name: GYSS Poster
+#   url: https://kaopanboonyuen.github.io/files/GYSS/panboonyuen_MeViT_Poster_toGYSS2025.pdf
+# - name: GYSS Quickfire Pitch
+#   url: https://www.youtube.com/watch?v=tgcKR97Ea8I
 # - name: IEEE Spectrum article
 #   url: https://spectrum.ieee.org/tech-talk/computing/software/deepmind-teaches-ai-teamwork
 # - name: ICIAP 2017 Best Papers
