@@ -1,7 +1,7 @@
 ---
 title: Young Scientists Quickfire Pitch
 
-event: Young Scientists Quickfire Pitch (GYSS 2025)
+event: Young Scientists Quickfire Pitch
 event_url: #https://www.youtube.com/watch?v=traKBhJm4lQ
 
 location: National University of Singapore, Singapore
@@ -12,9 +12,9 @@ location: National University of Singapore, Singapore
   postcode: '138607'
   country: Singapore -->
 
-summary: In this quick pitch for GYSS2025, I’m thrilled to introduce MeViT—a medium-resolution Vision Transformer developed for high-precision semantic segmentation of Landsat satellite imagery.
+summary: In this quick pitch, I’m thrilled to introduce MeViT—a medium-resolution Vision Transformer developed for high-precision semantic segmentation of Landsat satellite imagery.
 
-abstract: In this quick pitch for GYSS2025, I’m thrilled to introduce *MeViT*—a medium-resolution Vision Transformer developed for high-precision semantic segmentation of Landsat satellite imagery. Designed specifically to handle Thailand’s key agricultural regions, MeViT allows us to classify different land use and land cover types, focusing on economically important crops like para rubber, corn, and pineapple. This application is essential for understanding crop distribution and monitoring agricultural trends at scale. MeViT is built to enhance standard Vision Transformers, integrating multi-scale depth-wise convolutions for better feature capture. This unique architecture provides MeViT with the ability to handle both local and global information, which is critical in distinguishing between various vegetation types in medium-resolution satellite images. By revising the mixed-scale convolutional feedforward network (MixCFN), MeViT balances accuracy with efficiency, achieving highly detailed results while remaining computationally efficient. Through extensive experiments on publicly available Thai Landsat data, MeViT has outperformed leading models in the field, showing superior performance across key metrics like precision, recall, F1 score, and mean IoU. This research highlights MeViT’s potential for scalable, accurate land-cover mapping in Southeast Asia, promising valuable insights for the agriculture sector. Check out my full work [here](https://kaopanboonyuen.github.io/publication/mevit-a-medium-resolution-vision-transformer/), and let’s drive innovation together!
+abstract: In this quick pitch, I’m thrilled to introduce *MeViT*—a medium-resolution Vision Transformer developed for high-precision semantic segmentation of Landsat satellite imagery. Designed specifically to handle Thailand’s key agricultural regions, MeViT allows us to classify different land use and land cover types, focusing on economically important crops like para rubber, corn, and pineapple. This application is essential for understanding crop distribution and monitoring agricultural trends at scale. MeViT is built to enhance standard Vision Transformers, integrating multi-scale depth-wise convolutions for better feature capture. This unique architecture provides MeViT with the ability to handle both local and global information, which is critical in distinguishing between various vegetation types in medium-resolution satellite images. By revising the mixed-scale convolutional feedforward network (MixCFN), MeViT balances accuracy with efficiency, achieving highly detailed results while remaining computationally efficient. Through extensive experiments on publicly available Thai Landsat data, MeViT has outperformed leading models in the field, showing superior performance across key metrics like precision, recall, F1 score, and mean IoU. This research highlights MeViT’s potential for scalable, accurate land-cover mapping in Southeast Asia, promising valuable insights for the agriculture sector. Check out my full work [here](https://kaopanboonyuen.github.io/publication/mevit-a-medium-resolution-vision-transformer/), and let’s drive innovation together!
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

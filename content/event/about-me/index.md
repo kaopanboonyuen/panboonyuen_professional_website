@@ -22,8 +22,8 @@ location: Faculty of Engineering, Chulalongkorn University
   postcode: '10330'
   country: Thailand -->
 
-summary: Hey everyone! I’m Teerapong Panboonyuen, but you can call me Kao. I’m passionate about creating impactful AI. While working on my Ph.D. in Computer Engineering at Chula, I’ve taught, tackled exciting data science projects, and assisted in machine learning classes. My goal? To elevate AI and leverage it for a better world. Let’s innovate technology that truly matters!
-abstract: Hey everyone! I’m Teerapong Panboonyuen, but you can call me Kao. I’m passionate about developing AI that makes a meaningful impact on the world. Currently, I’m a Senior AI Research Scientist at MARS (Motor AI Recognition Solution) and a Postdoctoral Fellow at Chulalongkorn University, where I earned my Ph.D. in Computer Engineering with a focus on AI methodologies. In my research, I delve into advanced architectures like LLMs and Transformers, leveraging attention mechanisms to optimize model performance. I’m particularly fascinated by their applications in remote sensing and geospatial analysis, where we can apply mathematical techniques such as convolutional neural networks (CNNs) and recurrent neural networks (RNNs) to extract meaningful patterns from complex datasets. My work often involves employing statistical models and optimization algorithms to enhance predictive accuracy and interpretability. I also enjoy teaching machine learning, guiding students through concepts like gradient descent, regularization techniques, and the intricacies of deep learning frameworks. My mission is to push the boundaries of AI, harnessing its power to tackle real-world challenges through rigorous mathematical foundations and innovative problem-solving. Together, let’s create technology that not only advances our understanding but also drives positive change in our communities!
+summary: Hey everyone! I’m Teerapong Panboonyuen, but you can call me Kao. I’m passionate about creating impactful AI. While working on my Ph.D. in Computer Engineering at Chula, I’ve taught, tackled exciting data science projects, and assisted in machine learning classes. My goal? To elevate AI and leverage it for a better world. My journey has been a thrilling exploration of advanced technologies, from diffusion models and generative adversarial networks (GANs) to self-supervised learning and probabilistic modeling.
+abstract: Hey everyone! I’m Teerapong Panboonyuen, but you can call me Kao. I’m passionate about building AI that drives meaningful impact. Currently, I’m a Senior AI Research Scientist at MARS (Motor AI Recognition Solution) and a Postdoctoral Fellow at Chulalongkorn University, where I earned my Ph.D. in Computer Engineering, specializing in advanced AI methodologies. My research focuses on pushing the boundaries of AI through transformer architectures, diffusion models, and generative adversarial networks (GANs), with a strong foundation in optimization theory, latent spaces, and stochastic processes. I’m especially drawn to applications in remote sensing and geospatial analysis, where I leverage deep learning techniques like CNNs and RNNs to uncover patterns in complex data. Beyond research, I love teaching machine learning and mentoring students on concepts like gradient descent, regularization, and the inner workings of deep learning frameworks. My mission is to blend rigorous mathematical principles with innovative problem-solving to create AI that tackles real-world challenges. Whether it’s exploring the potential of attention mechanisms in LLMs or enhancing predictive models with statistical optimization, I’m constantly seeking to expand what’s possible in AI. Let’s collaborate to build technology that inspires, solves problems, and makes a lasting difference!
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -66,6 +66,7 @@ url_embed: #https://www.youtube.com/embed/traKBhJm4lQ
 projects:
 - internal-project
 ---
+![Teerapong Panboonyuen](kao_japan_2020/KAO_PANBOONYUEN_JP20_02.jpg)
 ![Teerapong Panboonyuen](panboonyuen_img01.jpg)
 ![Teerapong Panboonyuen](panboonyuen_img02.png)
 
@@ -89,6 +90,8 @@ So, if you want to swap stories about the newest gadgets, discuss the latest res
 ![Teerapong Panboonyuen](kao/panboonyuen_kao_04.jpg) -->
 
 <!-- ![Teerapong Panboonyuen](featured_ITALY.jpg) -->
+
+![Teerapong Panboonyuen](kao_japan_2020/KAO_PANBOONYUEN_JP20_01.jpg)
 
 ![Teerapong Panboonyuen](kao_japan_2024/panboonyuen_kao_japan_01.jpg)
 ![Teerapong Panboonyuen](kao_japan_2024/panboonyuen_kao_japan_02.jpg)
