@@ -14,4 +14,4 @@ header:
   image: ""
 ---
 
-👋 Hi, this is **Kao**. I'm leading a team at MARS focused on **practical AI**, and I'm also sharing my learning notes here on the blog. You can gauge how much ChatGPT is involved in my posts by looking at the number of grammar errors. 🥱
+👋 Hi, I'm Kao. I'm passionate about learning representations and diving deep into the world of practical AI. I share my insights and research notes here on the blog.

@@ -102,7 +102,7 @@ I am currently a **Senior AI Research Scientist** at [**MARS (Motor AI Recogniti
 
 My passion is focused on **Cognitive Intelligence** to unlock human potential. I am keenly interested in **Remote Sensing**, where LLMs reveals transformative insights and redefines how we perceive and interact with our environment.
 
-You can find summaries of my academic, industry, and teaching experience in my [**CV**](https://kaopanboonyuen.github.io/files/panboonyuen_cv.pdf), and explore more about my personal life on my [**blog**](https://kaopanboonyuen.wordpress.com/). Additionally, check out some of my [**music on SoundCloud**](https://soundcloud.com/kaopanboonyuen).
+You can find summaries of my academic, industry, and teaching experience in my [**CV**](https://kaopanboonyuen.github.io/files/panboonyuen_cv.pdf), and explore more about my personal life on my [**blog**](https://kaopanboonyuen.wordpress.com/) and [**tumblr**](https://kaopanboonyuen.tumblr.com/). Additionally, check out some of my [**music on SoundCloud**](https://soundcloud.com/kaopanboonyuen).
 
 Thai name: [**ธีรพงศ์ ปานบุญยืน**](https://kaopanboonyuen.wordpress.com/), aka [**Kao Panboonyuen**](https://kaopanboonyuen.wordpress.com/), or just Kao (เก้า).
 
