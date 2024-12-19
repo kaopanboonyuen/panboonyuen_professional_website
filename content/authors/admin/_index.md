@@ -96,15 +96,16 @@ email: ""
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-My research focuses on **Learning Representations**—developing cutting-edge algorithms with optimization theory to push AI's limits. I work with advanced models like GANs and Diffusion Models, leverage Self-Supervised Learning, delve into Adversarial Attacks with Large Language Models (LLMs) to revolutionize AI capabilities.
+My research focuses on **Learning Representations**—developing cutting-edge algorithms with optimization theory to push AI's limits. I work with advanced models like GANs and Diffusion Models, leverage Self-Supervised Learning, explore how Adversarial Attacks on Large Language Models (LLMs) could reshape the future of AI.
+<!-- My research focuses on **Learning Representations**, developing advanced algorithms based on optimization theory to push the boundaries of AI. I work with models like GANs and Diffusion Models, leverage Self-Supervised Learning, and explore Adversarial Attacks on Large Language Models (LLMs) to redefine AI's potential. -->
 
 I am currently a **Senior AI Research Scientist** at [**MARS (Motor AI Recognition Solution)**](https://www.marssolution.io/) and a **Postdoctoral Fellow** at [**Chulalongkorn University**](https://www.chula.ac.th/en/). I earned my [**Ph.D. in Computer Engineering**](https://www.cp.eng.chula.ac.th/en/prospective/graduate/phd-computerengineering/) from  <a href="https://www.chula.ac.th/en/" style="color:#FF69B4;" target="_blank">**Chulalongkorn University**</a>, where I specialized in AI.
 
 <!-- My passion is focused on **Cognitive Intelligence** to unlock human potential. I am keenly interested in **Remote Sensing**, where LLMs reveals transformative insights and redefines how we perceive and interact with our environment. -->
 
-Passionate about Cognitive Intelligence and unlocking human potential. Also deeply engaged in Geospatial Intelligence, where LLMs uncover game-changing insights and completely transform how we understand and interact with the world.
+Passionate about **Cognitive Intelligence** and unlocking human potential, I’m also deeply immersed in **Geospatial Intelligence**, where LLMs uncover groundbreaking insights that reshape how we understand and interact with our world.
 
-You can find summaries of my academic, industry, and teaching experience in my [**CV**](https://kaopanboonyuen.github.io/files/panboonyuen_cv.pdf), and explore more about my personal life on my [**blog**](https://kaopanboonyuen.wordpress.com/) and [**tumblr**](https://kaopanboonyuen.tumblr.com/). Also, feel free to vibe to some of my [**music on SoundCloud**](https://soundcloud.com/kaopanboonyuen).
+Detailed summaries of my academic, industry, and teaching experience can be found in my [**CV**](https://kaopanboonyuen.github.io/files/panboonyuen_cv.pdf), and get a glimpse into my personal life on my [**blog**](https://kaopanboonyuen.wordpress.com/) and [**tumblr**](https://kaopanboonyuen.tumblr.com/). Also, feel free to vibe to my [**music on SoundCloud**](https://soundcloud.com/kaopanboonyuen).
 
 Thai name: [**ธีรพงศ์ ปานบุญยืน**](https://kaopanboonyuen.wordpress.com/), aka [**Kao Panboonyuen**](https://kaopanboonyuen.wordpress.com/), or just Kao (เก้า).
 
