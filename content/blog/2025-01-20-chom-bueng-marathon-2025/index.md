@@ -109,7 +109,6 @@ The Chombueng Marathon isn’t just a race—it’s a memory, a tradition, and a
 Thank you, Chombueng, for the beautiful scenery, the incredible community, and the unforgettable memories. This race will forever hold a special place in my heart, and I can’t wait to come back again.
 
 Until next time, Chombueng.
-This format uses Hugo's front matter for metadata, making it easy to categorize and tag your post, while the content itself is structured and visually appealing. Let me know if you’d like further adjustments! 
 
 ![](https://raw.githubusercontent.com/kaopanboonyuen/kaopanboonyuen.github.io/main/files/CBM2025_MARATHON_42KM/IMG_0614.jpg)
 
