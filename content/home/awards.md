@@ -51,7 +51,7 @@ design:
 - 2024 [IRONMAN 70.3 Finisher](https://kaopanboonyuen.github.io/files/IRONMAN703/Kao_IRONMAN2024_Finisher_01.png) with successfully completed a challenging triathlon consisting of a 1.9K swim, 90K bike ride, and 21.1K run ([IM70.3](https://www.ironman.com/races))
 - 2024 [Laguna Phuket Triathlon Finisher](https://kaopanboonyuen.github.io/files/Laguna_Phuket_Triathlon/Panboonyuen_RaceCertificate_LAGUNA_PHUKHET_TRI_2024.png) with successfully completed a challenging triathlon consisting of a 1.8K swim, 55K bike ride, and 12K run ([LPT](https://www.lagunaphukettri.com/lpt-individual/))
 - 2024 [Distinguished Reviewer for the Bronze Level](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42) of IEEE Transactions on Medical Imaging ([Certificate](https://kaopanboonyuen.github.io/files/certificate/IEEE_Transactions_on_Medical_Imaging_Distinguished_Reviewer_Certificate_2024.pdf))
-- 2025 [Chombueng Marathon 42KM Finisher](https://kaopanboonyuen.github.io/files/CBM2025_MARATHON_42KM/KAO_CBM2025_CERT.png) with successfully completed a full marathon run (42 kilometers) ([Chombueng Marathon](https://www.runningconnect.com/event/CBM2025))
+- 2025 [Chombueng Marathon 42.195K Finisher](https://kaopanboonyuen.github.io/files/CBM2025_MARATHON_42KM/KAO_CBM2025_CERT.png) with successfully completed a full marathon run (42.195 kilometers) ([Chombueng Marathon](https://www.runningconnect.com/event/CBM2025))
 - 2025 [Global Young Scientists Summit (GYSS) Scholarship](https://kaopanboonyuen.github.io/files/GYSS/panboonyuen_GYSS2025.jpg) from Her Royal Highness Princess Maha Chakri Sirindhorn ([GYSS](https://kaopanboonyuen.github.io/files/GYSS/panboonyuen_GYSS2025_announcement_EN.pdf))
 
 Reviewer for International Journals/Conferences:
