@@ -114,18 +114,18 @@ Until next time, Chombueng.
 
 ## Citation
 
-> Panboonyuen, Teerapong. (Jan 2025). *42.195K at Chombueng Marathon 2025*. Blog post on Kao Panboonyuen. [https://kaopanboonyuen.github.io/blog/2025-01-20-chombueng-marathon-2025/](https://kaopanboonyuen.github.io/blog/2025-01-20-chombueng-marathon-2025/)
+> Panboonyuen, Teerapong. (Feb 2024). *The Day I Became an IRONMAN*. Blog post on Kao Panboonyuen. [https://kaopanboonyuen.github.io/blog/2024-02-21-the-day-I-became-an-IRONMAN/](https://kaopanboonyuen.github.io/blog/2024-02-21-the-day-I-became-an-IRONMAN/)
 
 **For a BibTeX citation:**
 
 ```bash
-@article{panboonyuen2025chombueng,
-  title   = "42.195K at Chombueng Marathon 2025",
+@article{panboonyuen2024ironman,
+  title   = "The Day I Became an IRONMAN",
   author  = "Panboonyuen, Teerapong",
   journal = "kaopanboonyuen.github.io/",
-  year    = "2025",
-  month   = "Jan",
-  url     = "https://kaopanboonyuen.github.io/blog/2025-01-20-chombueng-marathon-2025/"}
+  year    = "2024",
+  month   = "Feb",
+  url     = "https://kaopanboonyuen.github.io/blog/2024-02-21-the-day-I-became-an-IRONMAN/"}
 ```
 
 {{% callout note %}}

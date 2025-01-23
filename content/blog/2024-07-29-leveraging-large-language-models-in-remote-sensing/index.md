@@ -1,6 +1,6 @@
 ---
 
-title: 'Leveraging Large Language Models (LLMs) in Remote Sensing for Land Use/Land Cover (LULC) and Image Classification'  
+title: 'Leveraging Large Language Models (LLMs) in Remote Sensing'  
 subtitle: ''  
 summary: Exploring how LLMs can enhance remote sensing applications like LULC and image classification using Sentinel, Landsat-8, and THEOS imagery.  
 authors:  
