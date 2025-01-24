@@ -110,11 +110,24 @@ The happiness I find in this journey lies not just in the end goal but in the pr
 
 With immense gratitude and pride, I declare: **I am an IRONMAN.**
 
-**PS.** The year began with completing IM70.3 and ended with crossing the finish line at the Laguna Triathlon in Phuket, which included a 1.8K swim, a 55K bike ride, and a 12K run. Truly, it was a year defined by triathlons for me.
+**PS.** The year began with completing the [**IM70.3**](https://www.ironman.com/) and ended with crossing the finish line at the [**Laguna Triathlon in Phuket**](https://www.lagunaphukettri.com/), which included a 1.8K swim, a 55K bike ride, and a 12K run. Truly, it was a year defined by triathlons for me.
+
+> As I reflect on this experience, I feel immense gratitude—for the beauty of Phuket, the camaraderie of my fellow athletes, and the personal growth this race has inspired. The Laguna Phuket Triathlon is more than just an event; it’s a celebration of human spirit and perseverance.
+
+To anyone considering a triathlon, my advice is simple: go for it. Embrace the challenge, trust your training, and don’t forget to enjoy the ride. Whether you’re a seasoned athlete or a first-timer like me, the journey will leave you stronger, wiser, and more fulfilled.
+
+Until next time,
+Kao
 
 ![](img/KAO_IM703_003.png)
+![](img/KAO_LAGUNA_TRI_2025_03.png)
+![](img/KAO_LAGUNA_TRI_2025_01.png)
+![](img/KAO_LAGUNA_TRI_2025_02.png)
+![](img/KAO_LAGUNA_TRI_2025_04.jpg)
+![](img/KAO_LAGUNA_TRI_2025_05.png)
+![](img/KAO_LAGUNA_TRI_2025_06.png)
 
-#IRONMAN703 #IRONMAN #IRONMANtri #AnythingIsPossible
+#IRONMAN703 #IRONMAN #IRONMANtri #Triathlon #AnythingIsPossible
 
 ## Citation
 
