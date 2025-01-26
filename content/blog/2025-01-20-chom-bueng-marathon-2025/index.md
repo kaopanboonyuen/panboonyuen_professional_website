@@ -38,7 +38,7 @@ projects: []
 
 <!-- {{< toc mobile_only=true is_open=true >}} -->
 
-This year’s **Chombueng Marathon** marked a special milestone for me: my **second-ever full marathon**. My first was the **Bangkok Marathon 2022**, but this time, it felt even more meaningful as I returned to my **hometown, Ratchaburi**, to take on the challenge. Despite being born here, it wasn’t until now—at the age of 30—that I finally had the chance to run this iconic race in my own backyard.
+This year’s **Chombueng Marathon** marked a special milestone for me: my **second-ever full marathon**. My first was the [**Bangkok Marathon 2022**](https://kaopanboonyuen.wordpress.com/2022/11/22/full-marathon-42-195-km-bangkok-marathon-2022/), an unforgettable experience that sparked my love for the 42.195K distance. Completing that first marathon taught me the value of resilience and determination, and it’s the reason why I continue to embrace the challenge and joy of running full marathons. This time, it felt even more meaningful as I returned to my **hometown, Ratchaburi**, to take on the challenge. Despite being born here, it wasn’t until now—at the age of 30—that I finally had the chance to run this iconic race in my own backyard.
 
 The **Chombueng Marathon**, now in its **38th year**, is one of Thailand’s oldest and most cherished marathons. It’s not just a race; it’s a tradition that brings together runners from across the country and beyond, while showcasing the unique charm of this small but spirited district.
 
