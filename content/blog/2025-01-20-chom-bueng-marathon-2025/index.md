@@ -87,6 +87,24 @@ To everyone who stood out in the cool morning air to cheer us on: **thank you**.
 
 ---
 
+## The Race Atmosphere  
+
+This year’s marathon was filled with joy and excitement. I met so many incredible runners, each radiating energy and enthusiasm as we gathered at the start line at 3 a.m. The crowd was electric, with smiles all around and cheers that warmed the cool morning air. The support from the spectators was truly special, and I want to give a big shoutout to two amazing women who became unexpected guides during my race.  
+
+![](img/KAO_CBM2025_V2_001.png)
+
+Dressed in vibrant orange and blue shirts, these two seasoned runners unknowingly set the perfect pace for me during the first 15K. With their steady rhythm, I was able to maintain a comfortable **5:50 min/km pace**, which kept me going without overexerting myself. Though I hadn’t trained much and had no particular strategy in mind, following them gave me the boost I needed to tackle the early stages of the marathon.  
+
+However, reality hit midway—I realized that sustaining that pace for the rest of the race was beyond my current fitness level. Adjusting my strategy, I had to let go of my hopes for a **sub-4 finish**, but I’m incredibly grateful to those two women for helping me start strong.
+
+![](img/KAO_CBM2025_V2_002.png)
+
+In the end, I crossed the finish line in 5 hours and 38 minutes. While it wasn’t the time I dreamed of, it was still a proud moment. Next time, I know **sub-4 isn’t too far out of reach**. Here’s to continuing the journey and pushing myself to new limits!
+
+![](img/KAO_CBM2025_V2_003.png)
+
+---
+
 ## Lessons and Reflections  
 
 This was my second full marathon, and while I didn’t hit my sub-5 goal, I’m proud of what I achieved. I went into this race with very little training—my recent runs had mostly been short 5Ks. But this marathon reignited my passion for running and reminded me why I love this sport so much.
