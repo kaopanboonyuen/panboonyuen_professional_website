@@ -81,8 +81,6 @@ I’ll always remember the **monks sprinkling holy water** on us as we ran by—
 To everyone who stood out in the cool morning air to cheer us on: **thank you**. Your energy, enthusiasm, and kindness made all the difference.
 
 ![](https://raw.githubusercontent.com/kaopanboonyuen/kaopanboonyuen.github.io/main/files/CBM2025_MARATHON_42KM/CB_MARATHON_011.jpg)
-![](https://raw.githubusercontent.com/kaopanboonyuen/kaopanboonyuen.github.io/main/files/CBM2025_MARATHON_42KM/CB_MARATHON_012.jpg)
-![](https://raw.githubusercontent.com/kaopanboonyuen/kaopanboonyuen.github.io/main/files/CBM2025_MARATHON_42KM/CB_MARATHON_013.jpg)
 ![](https://raw.githubusercontent.com/kaopanboonyuen/kaopanboonyuen.github.io/main/files/CBM2025_MARATHON_42KM/CB_MARATHON_014.jpg)
 
 ---
