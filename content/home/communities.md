@@ -53,6 +53,10 @@ design:
   * [Invitation Letter for a Special Lecturer Position (Order อว 660101.26/13320)](https://kaopanboonyuen.github.io/files/panboonyuen_kku_spm.pdf)
 
 * Guest Lecturer and AI Committee Member
+
+  * [AI Instructor - Department of Lands, Thailand (2025)](https://kaopanboonyuen.github.io/files/invitation_letters/Invitation_toDOL_2025.pdf)  
+    * Taught Large Language Models (LLMs) using land title deed data and demonstrated AI-driven automation for creating land deeds. [Code and Lecture Slides](https://github.com/kaopanboonyuen/ai_for_dept_of_lands)
+
   * [NSTDA One Day Camp at Sirindhorn Science Home](https://kaopanboonyuen.github.io/files/GYSS/panboonyuen_NSTDA2024_invitation_letter.pdf)
     * Talking about career opportunities and becoming a research scientist in AI as part of the GYSS2025 scholarship program.
     * [Full Blog and Slide: Career Paths for AI Research Scientists](https://kaopanboonyuen.github.io/blog/2024-09-01-career-paths-for-ai-research-scientist/)
