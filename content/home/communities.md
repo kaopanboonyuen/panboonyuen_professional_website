@@ -48,6 +48,8 @@ design:
     * [CP020002 Smart Process Management](https://github.com/kaopanboonyuen/CP020002_SmartProcessManagement_2024s1): Techniques for optimizing and automating business processes.
     * [SC320002 Business Intelligence](https://github.com/kaopanboonyuen/CS101): Methods for data analysis and decision-making in business contexts.
     * [CP020001 Introduction to Computers and Programming](https://github.com/kaopanboonyuen/CP020001_ComputerProgramming_2023s1): Basics of computer systems and introductory programming skills.
+    * [DE200001 Fundamentals of Data Engineering](https://kaopanboonyuen.github.io/files/invitation_letters/Invitation_toKKU_DataEngineer_2025.pdf): Introduction to data engineering concepts and fundamental tools for beginners.
+
   * [Ministerial Order on the Appointment of Academic Staff (Order 5907-2566)](https://kaopanboonyuen.github.io/files/panboonyuen_kku.pdf)
   * [Invitation Letter for a Special Lecturer Position (Order อว 660301.26/24844)](https://kaopanboonyuen.github.io/files/panboonyuen_kku_ai.pdf)
   * [Invitation Letter for a Special Lecturer Position (Order อว 660101.26/13320)](https://kaopanboonyuen.github.io/files/panboonyuen_kku_spm.pdf)
