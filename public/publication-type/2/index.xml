@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Teerapong Panboonyuen</title>
+    <link>https://kaopanboonyuen.github.io/publication-type/2/</link>
+      <atom:link href="https://kaopanboonyuen.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©2025 Kao Panboonyuen</copyright><lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://kaopanboonyuen.github.io/media/icon_hueaa9297dc78a770d45cebdfb81bbca28_1203332_512x512_fill_lanczos_center_3.png</url>
+      <title>2</title>
+      <link>https://kaopanboonyuen.github.io/publication-type/2/</link>
+    </image>
+    
+    <item>
+      <title>DOTA: Deformable Optimized Transformer Architecture for End-to-End Text Recognition with Retrieval-Augmented Generation</title>
+      <link>https://kaopanboonyuen.github.io/publication/dota-deformable-optimized-transformer-architecture/</link>
+      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://kaopanboonyuen.github.io/publication/dota-deformable-optimized-transformer-architecture/</guid>
+      <description>&lt;h3 id=&#34;dota-deformable-optimized-transformer-architecture-for-end-to-end-text-recognition-with-retrieval-augmented-generation&#34;&gt;&lt;strong&gt;DOTA: Deformable Optimized Transformer Architecture for End-to-End Text Recognition with Retrieval-Augmented Generation&lt;/strong&gt;&lt;/h3&gt;
+&lt;h4 id=&#34;abstract&#34;&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Text recognition in natural images remains one of the most challenging yet essential tasks within the fields of computer vision and natural language processing. With applications ranging from document digitization to autonomous navigation, effective text recognition is more critical than ever before. In this paper, we introduce &lt;strong&gt;DOTA&lt;/strong&gt;, a novel end-to-end framework that combines ResNet and Vision Transformer (ViT) backbones with advanced methodologies such as &lt;strong&gt;Deformable Convolutions&lt;/strong&gt;, &lt;strong&gt;Retrieval-Augmented Generation&lt;/strong&gt;, and &lt;strong&gt;Conditional Random Fields (CRF)&lt;/strong&gt; to significantly enhance Optical Character Recognition (OCR) performance.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;At the heart of DOTA is a revolutionary approach where traditional convolution layers in the third and fourth blocks of the network are replaced with &lt;strong&gt;Deformable Convolutions&lt;/strong&gt;—a technique that offers adaptive and robust feature extraction, making it ideal for recognizing text in complex and irregular layouts. Furthermore, &lt;strong&gt;adaptive dropout&lt;/strong&gt; is integrated to ensure regularization, helping to prevent overfitting and boosting generalization. To refine the sequential modeling of text, we leverage &lt;strong&gt;CRFs&lt;/strong&gt;, which excel in capturing intricate dependencies inherent in text recognition tasks.&lt;/p&gt;
+&lt;p&gt;We conducted extensive experiments on six benchmark OCR datasets—IC13, IC15, SVT, IIIT5K, SVTP, and CUTE80. Our results demonstrate the exceptional performance of DOTA, achieving remarkable accuracies:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;IC13&lt;/strong&gt;: 97.32%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IC15&lt;/strong&gt;: 58.26%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SVT&lt;/strong&gt;: 88.10%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IIIT5K&lt;/strong&gt;: 74.13%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SVTP&lt;/strong&gt;: 82.17%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CUTE80&lt;/strong&gt;: 66.67%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This gives us an &lt;strong&gt;average accuracy of 77.77%&lt;/strong&gt;, setting a new state-of-the-art in the field of text recognition. The results clearly highlight the robustness of DOTA across a variety of challenging datasets.&lt;/p&gt;
+&lt;h4 id=&#34;introduction&#34;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Text recognition from images has long been a challenging problem, with significant implications for applications in document processing, automated data entry, and even autonomous systems. With traditional &lt;strong&gt;Optical Character Recognition (OCR)&lt;/strong&gt; systems heavily relying on &lt;strong&gt;Convolutional Neural Networks (CNNs)&lt;/strong&gt;, we’ve seen progress in extracting features from images. However, as text layouts become more complex—such as when dealing with varying fonts, orientations, and complex backgrounds—CNNs often fall short. Enter the &lt;strong&gt;Transformer architectures&lt;/strong&gt;: these models have revolutionized many areas in computer vision, particularly in handling long-range dependencies through their self-attention mechanisms, offering significant improvements for text recognition tasks.&lt;/p&gt;
+&lt;p&gt;While Transformer-based models have pushed the boundaries of OCR performance, there is still a need for further improvements, especially in the area of feature extraction and sequence modeling. That&amp;rsquo;s where &lt;strong&gt;DOTA&lt;/strong&gt; comes in. By combining the strengths of &lt;strong&gt;ResNet&lt;/strong&gt; and &lt;strong&gt;Vision Transformer (ViT)&lt;/strong&gt; backbones, this novel approach leverages &lt;strong&gt;Deformable Convolutions&lt;/strong&gt;, &lt;strong&gt;Retrieval-Augmented Generation&lt;/strong&gt;, and &lt;strong&gt;Conditional Random Fields (CRF)&lt;/strong&gt; to achieve new levels of OCR accuracy.&lt;/p&gt;
+&lt;h4 id=&#34;the-dota-framework&#34;&gt;&lt;strong&gt;The DOTA Framework&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;The architecture of DOTA is designed to enhance both feature extraction and sequence modeling, key areas in text recognition:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Deformable Convolutions&lt;/strong&gt;: By replacing standard convolutions in the network’s third and fourth blocks with &lt;strong&gt;Deformable Convolutions&lt;/strong&gt;, we allow for more flexible and adaptive feature extraction. This helps capture irregular text patterns and varying layouts more effectively.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Retrieval-Augmented Generation&lt;/strong&gt;: The integration of this approach provides context-aware enhancements, further refining the recognition process.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Conditional Random Fields (CRFs)&lt;/strong&gt;: CRFs have been incorporated into the framework to better model the sequential nature of text, providing the necessary context to improve recognition accuracy, especially for more complex sequences of characters.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Together, these components form the backbone of &lt;strong&gt;DOTA&lt;/strong&gt;, providing a more robust, adaptable, and precise model for OCR tasks. The effectiveness of DOTA is clearly demonstrated in its impressive performance across several standard OCR benchmark datasets.&lt;/p&gt;
+&lt;h4 id=&#34;experimental-results&#34;&gt;&lt;strong&gt;Experimental Results&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;We evaluated DOTA using six widely-used OCR benchmark datasets:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;IC13&lt;/strong&gt;: 97.32%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IC15&lt;/strong&gt;: 58.26%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SVT&lt;/strong&gt;: 88.10%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IIIT5K&lt;/strong&gt;: 74.13%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SVTP&lt;/strong&gt;: 82.17%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CUTE80&lt;/strong&gt;: 66.67%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With an average accuracy of 77.77%, DOTA has set a new state-of-the-art in OCR performance. The results show that the combination of Deformable Convolutions, Vision Transformers, and CRFs significantly improves recognition, even in challenging conditions where traditional methods struggle.&lt;/p&gt;
+&lt;h4 id=&#34;conclusion&#34;&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;The DOTA framework represents a major leap forward in the field of text recognition. By effectively combining ResNet and Vision Transformer backbones with advanced techniques like &lt;strong&gt;Deformable Convolutions&lt;/strong&gt;, &lt;strong&gt;Retrieval-Augmented Generation&lt;/strong&gt;, and &lt;strong&gt;Conditional Random Fields&lt;/strong&gt;, it achieves impressive accuracy across a variety of challenging datasets. This work sets a new benchmark for OCR performance, providing a powerful tool for tackling the complexities of text recognition in real-world scenarios.&lt;/p&gt;
+&lt;p&gt;With this new approach, we’ve laid the foundation for even more accurate and robust text recognition systems, paving the way for smarter applications in everything from document processing to autonomous navigation.&lt;/p&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MeViT: A Medium-Resolution Vision Transformer for Semantic Segmentation on Landsat Satellite Imagery for Agriculture in Thailand</title>
+      <link>https://kaopanboonyuen.github.io/publication/mevit-a-medium-resolution-vision-transformer/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://kaopanboonyuen.github.io/publication/mevit-a-medium-resolution-vision-transformer/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/tgcKR97Ea8I&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Semantic segmentation is vital in remote sensing, particularly for identifying and categorizing different land use and land cover types. In regions like Thailand, where agriculture is central to the economy, precise segmentation of satellite imagery can enhance our ability to track crop health, predict yields, and improve resource management. Our model, &lt;em&gt;MeViT&lt;/em&gt; (Medium-Resolution Vision Transformer), is specifically designed to classify agricultural crops like para rubber, corn, and pineapple across Thailand’s varied landscapes.&lt;/p&gt;
+&lt;h2 id=&#34;background-on-vision-transformers&#34;&gt;Background on Vision Transformers&lt;/h2&gt;
+&lt;p&gt;Unlike traditional convolutional neural networks (CNNs), which are excellent at capturing local spatial hierarchies, Vision Transformers excel at modeling long-range dependencies through self-attention mechanisms. This unique structure allows &lt;em&gt;MeViT&lt;/em&gt; to interpret both local and global features, enhancing its effectiveness in agricultural land segmentation tasks where accuracy and detail are paramount.&lt;/p&gt;
+&lt;h2 id=&#34;mevit-architecture&#34;&gt;MeViT Architecture&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;MeViT&lt;/em&gt; leverages a multi-branch architecture tailored for medium-resolution images, balancing computational efficiency with high-quality feature extraction. This design approach enables the model to capture details across multiple spatial scales, which is crucial for segmenting complex land use patterns in agricultural imagery.&lt;/p&gt;
+&lt;p&gt;In particular, the revised mixed-scale convolutional feedforward network (MixCFN) in &lt;em&gt;MeViT&lt;/em&gt; incorporates multiple depth-wise convolution paths, further refining feature extraction by allowing the model to focus on different spatial scales. This enhanced architecture achieves an efficient trade-off between model complexity and performance, making it well-suited for large-scale image analysis tasks.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;featured_backup.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;experimental-results-and-evaluation&#34;&gt;Experimental Results and Evaluation&lt;/h2&gt;
+&lt;p&gt;We extensively tested &lt;em&gt;MeViT&lt;/em&gt; on Thailand’s Landsat-8 dataset, focusing on para rubber, corn, and pineapple classifications. Compared to other models, including state-of-the-art architectures like HRViT and SegFormer, &lt;em&gt;MeViT&lt;/em&gt; demonstrated notable improvements in precision and segmentation accuracy, proving its efficacy in challenging, real-world datasets. This establishes &lt;em&gt;MeViT&lt;/em&gt; as a leading tool in medium-resolution satellite imagery analysis, surpassing previous Vision Transformer models and CNN-based methods in delivering high-quality semantic segmentation.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;compact.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;MeViT&lt;/em&gt; presents a significant advancement in Vision Transformer applications, setting a new standard for semantic segmentation in remote sensing. By combining multi-branch ViT architectures with optimized convolutional modules, &lt;em&gt;MeViT&lt;/em&gt; delivers efficient, accurate LULC classification on satellite imagery, supporting agricultural insights and sustainable resource management across Thailand. This work contributes to the broader field of environmental monitoring and opens up new possibilities for enhanced remote sensing techniques globally.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Object Detection of Road Assets Using Transformer-Based YOLOX with Feature Pyramid Decoder on Thai Highway Panorama</title>
+      <link>https://kaopanboonyuen.github.io/publication/object-detection-of-road-assets-using-transformer-based-yolox/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://kaopanboonyuen.github.io/publication/object-detection-of-road-assets-using-transformer-based-yolox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quality of Life Prediction in Driving Scenes on Thailand Roads Using Information Extraction from Deep Convolutional Neural Networks</title>
+      <link>https://kaopanboonyuen.github.io/publication/quality-of-life-prediction-in-driving-scenes-on-thailand-roads/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://kaopanboonyuen.github.io/publication/quality-of-life-prediction-in-driving-scenes-on-thailand-roads/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Performance Comparison between GIS-based and Neuron Network Methods for Flood Susceptibility Assessment in Ayutthaya Province</title>
+      <link>https://kaopanboonyuen.github.io/publication/rainfall-prediction-a-machine-learning-approach/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://kaopanboonyuen.github.io/publication/rainfall-prediction-a-machine-learning-approach/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhanced Feature Pyramid Vision Transformer for Semantic Segmentation on Thailand Landsat-8 Corpus</title>
+      <link>https://kaopanboonyuen.github.io/publication/enhanced-feature-pyramid-vision-transformert/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://kaopanboonyuen.github.io/publication/enhanced-feature-pyramid-vision-transformert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Bangkok Urbanscapes Dataset for Semantic Urban Scene Understanding Using Enhanced Encoder-Decoder with Atrous Depthwise Separable A1 Convolutional Neural Networks</title>
+      <link>https://kaopanboonyuen.github.io/publication/the-bangkok-urbanscapes-dataset/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://kaopanboonyuen.github.io/publication/the-bangkok-urbanscapes-dataset/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transformer-Based Decoder Designs for Semantic Segmentation on Remotely Sensed Images</title>
+      <link>https://kaopanboonyuen.github.io/publication/transformer-based-decoder-designs-for-semantic-segmentation/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://kaopanboonyuen.github.io/publication/transformer-based-decoder-designs-for-semantic-segmentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic Labeling in Remote Sensing Corpora Using Feature Fusion-Based Enhanced Global Convolutional Network with High-Resolution Representations and Depthwise Atrous Convolution</title>
+      <link>https://kaopanboonyuen.github.io/publication/feature-fusion-based-enhanced-global-convolutional-network-with-high-resolution-representations-and-depthwise-atrous-convolution/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://kaopanboonyuen.github.io/publication/feature-fusion-based-enhanced-global-convolutional-network-with-high-resolution-representations-and-depthwise-atrous-convolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic Segmentation on Remotely Sensed Images Using an Enhanced Global Convolutional Network with Channel Attention and Domain Specific Transfer Learning</title>
+      <link>https://kaopanboonyuen.github.io/publication/an-enhanced-global-convolutional-network-with-channel-attention-and-domain-specific-transfer-learning/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://kaopanboonyuen.github.io/publication/an-enhanced-global-convolutional-network-with-channel-attention-and-domain-specific-transfer-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transportation Mobility Factor Extraction Using Image Recognition Techniques</title>
+      <link>https://kaopanboonyuen.github.io/publication/transportation-mobility-factor-extraction-using-image-recognition-techniques/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://kaopanboonyuen.github.io/publication/transportation-mobility-factor-extraction-using-image-recognition-techniques/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Road segmentation of remotely-sensed images using deep convolutional neural networks with landscape metrics and conditional random fields</title>
+      <link>https://kaopanboonyuen.github.io/publication/road-segmentation-on-remote-sensing/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://kaopanboonyuen.github.io/publication/road-segmentation-on-remote-sensing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image Vectorization of Road Satellite Data Sets</title>
+      <link>https://kaopanboonyuen.github.io/publication/image-vectorization-of-road-satellite-data-sets/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>https://kaopanboonyuen.github.io/publication/image-vectorization-of-road-satellite-data-sets/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
