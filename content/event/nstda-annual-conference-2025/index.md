@@ -150,7 +150,12 @@ Get ready for a one-of-a-kind experience at **NAC2025**—the 20th NSTDA Annual 
 
 At **NAC2025**, we’re exploring how AI is transforming industries and driving a more sustainable future for Thailand. But on **March 26th**, I’m turning the spotlight on a super fun and interactive topic—teaching AI to spot **Waldo** in a crowd! With **Vision Transformers** and **Deep Learning**, we’ll break down how AI can “see” the world just like humans and even find that elusive red-and-white-striped figure hiding among distractions.
 
+![](NAC2025_Kao_01.png)
+![](NAC2025_Kao_02.png)
+
 So, if you’re ready to learn the basics of AI, dive into **computer vision**, and have a blast solving the “Where’s Waldo?” puzzle, don’t miss this exclusive event on March 26th! The rest of the **NAC2025** conference is packed with innovation, but this hands-on workshop is your chance to get involved, ask questions, and **train your very own AI model**. Trust me, it’s going to be a lot of fun! 
+
+![](NAC2025_Kao_03.png)
 
 See you there on March 26th—let's crack the code and find Waldo together! 🔍
 

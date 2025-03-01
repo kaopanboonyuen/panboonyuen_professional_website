@@ -103,6 +103,8 @@ Hi guys, fellow tech enthusiasts! I'm thrilled to unveil a cutting-edge innovati
 
 > So, what’s the big deal with REG? Imagine a detection system that not only sees but truly understands the intricate details of highway scenes. REG pushes the boundaries of current vision-based detection models by tackling the most challenging issues: imbalanced datasets, tiny objects, and complex highway backdrops.
 
+![](featured.png)
+
 My method (check out Fig. 1) brings a whole new level of precision to the table. By integrating a custom loss function into the detection architecture, REG doesn't just improve performance—it redefines it. This means sharper, more reliable detection of critical road assets like signs, lane markings, and barriers. And let’s be real, that’s a game-changer for infrastructure management and road safety.
 
 <div style="text-align: center;"> 
@@ -121,12 +123,12 @@ This isn’t just about the future of intelligent transportation systems; it’s
 
 Thailand's highway infrastructure plays a critical role in its economic development and connectivity. However, managing and maintaining these extensive road networks presents numerous challenges, particularly in detecting and assessing road assets. Accurate identification of road features such as signs, barriers, and markings is essential for effective maintenance and safety management.
 
+![](RE_REG_01.png)
+![](RE_REG_02.png)
+
 {{% callout note %}}
 In this context, our research addresses a pressing need in highway engineering: improving road asset detection on Thai highways. Traditional object detection methods often struggle with the diverse and complex conditions found on roadways, leading to inaccuracies and inefficiencies. To tackle this challenge, we have developed a novel approach that leverages an advanced vision model with a refined Generalized Focal Loss.
 {{% /callout %}}
-
-
-
 
 Our proposed method (Fig. 2) enhances the capability of REG-based object detection systems by incorporating a tailored loss function designed to address the unique characteristics of Thai highway imagery. By optimizing the detection process, our approach aims to provide more reliable and precise data for road asset management. This advancement not only contributes to the field of highway engineering but also supports the development of more efficient infrastructure management practices in Thailand.
 
@@ -145,9 +147,6 @@ Here I am, presenting our work on the Enhanced REG model and its application in 
 ![](Kao_iCHE2024/kao_mars_x_iche2024_02.jpg)
 
 We have visualizations of the detection results produced by the Enhanced REG model. The bounding boxes and labels demonstrate the model’s ability to accurately locate and classify objects. These visuals reflect the high-resolution output and the model’s performance in detecting road assets in various environments. The clarity of these results illustrates the practical utility of our model in real-time applications. It effectively showcases how our model handles complex and dynamic scenes.
-
-
-
 
 ### Generalized Focal Loss for Multi-Class Detection
 
@@ -178,8 +177,6 @@ This chart presents a comparison of performance metrics between our Enhanced REG
 ![](Kao_iCHE2024/kao_mars_x_iche2024_05.jpg)
 
 Finally, this image illustrates the training process for the Enhanced REG model. It depicts the stages of optimization and fine-tuning, with various datasets and augmentation techniques used to enhance the model’s performance. The iterative process shown here is crucial for achieving the high accuracy demonstrated in our results. Observing these training phases provides insights into how we refined the model. This rigorous approach is key to ensuring the model’s effectiveness and reliability in practical applications.
-
-
 
 ### Refinement Term for Spatial-Contextual Learning
 
@@ -310,8 +307,6 @@ Where:
 - $p_t$ represents the predicted probability for the correct class.
 - $\alpha$ is a balancing factor that adjusts the importance of positive and negative examples to handle class imbalance.
 - $\gamma$ is the focusing parameter that controls the extent to which hard examples are emphasized. Higher values of $\gamma$ increase the focus on difficult examples.
-
-
 
 {{% callout note %}}
 For detecting objects like Pedestrian Bridges or Concrete Guardrails, which may appear in challenging conditions, GFL reduces the weight of easy examples and enhances the learning from complex cases, such as those with partial occlusions or poor lighting.
