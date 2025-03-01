@@ -26,8 +26,8 @@ publishDate: "2024-09-09T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Preprint*
-publication_short: In *Preprint*
+publication: In 17th International Conference on Knowledge and Smart Technology (KST2025)
+publication_short: In 17th International Conference on Knowledge and Smart Technology (KST2025)
 
 abstract: Forecasting sea surface currents is essential for applications such as maritime navigation, environmental monitoring, and climate analysis, particularly in regions like the Gulf of Thailand and the Andaman Sea. This paper introduces SEA-ViT, an advanced deep learning model that integrates Vision Transformer (ViT) with bidirectional Gated Recurrent Units (GRUs) to capture spatio-temporal covariance for predicting sea surface currents (U, V) using high-frequency radar (HF) data. The name SEA-ViT is derived from Sea Surface Currents Forecasting using Vision Transformer, highlighting the model's emphasis on ocean dynamics and its use of the ViT architecture to enhance forecasting capabilities. SEA-ViT is designed to unravel complex dependencies by leveraging a rich dataset spanning over 30 years and incorporating ENSO indices (El Niño, La Niña, and neutral phases) to address the intricate relationship between geographic coordinates and climatic variations. This development enhances the predictive capabilities for sea surface currents, supporting the efforts of the Geo-Informatics and Space Technology Development Agency (GISTDA) in Thailand's maritime regions. The code and pretrained models are available at https://github.com/kaopanboonyuen/gistda-ai-sea-surface-currents.
 
