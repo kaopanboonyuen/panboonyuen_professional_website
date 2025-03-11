@@ -56,6 +56,8 @@ links:
   url: https://kaopanboonyuen.github.io/blog/2024-09-07-refined-generalized-focal-loss-for-road-asset-detection-on-thai-highways-using-vision-models/
 - name: ArXiv
   url: https://www.arxiv.org/abs/2409.09877
+- name: Certificate
+  url: 'https://kaopanboonyuen.github.io/files/certificate/KST2025/Panboonyuen-Certificate-of-Contributions-57.pdf'
 # - name: IEEE Spectrum article
 #   url: https://spectrum.ieee.org/tech-talk/computing/software/deepmind-teaches-ai-teamwork
 # - name: ICIAP 2017 Best Papers

@@ -47,6 +47,8 @@ featured: false
 links:
 - name: ArXiv
   url: 'https://arxiv.org/'
+- name: Certificate
+  url: 'https://kaopanboonyuen.github.io/files/certificate/KST2025/Panboonyuen-Certificate-of-Contributions-53.pdf'
 # - name: ICML talk
 #   url: https://www.facebook.com/watch/live/?v=355035025132741&ref=watch_permalink
 # - name: IEEE Spectrum article
