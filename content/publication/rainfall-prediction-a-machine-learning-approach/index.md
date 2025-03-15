@@ -42,7 +42,7 @@ tags:
 - Artificial Neural Networks
 - GIS
 
-featured: false
+featured: true
 
 links:
 # - name: Videos
