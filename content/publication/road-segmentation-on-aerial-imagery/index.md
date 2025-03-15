@@ -48,7 +48,7 @@ tags:
 - Encoder-Decoder Networks
 - Exponential Linear Unit
 
-featured: true
+featured: false
 
 links:
 # - name: Videos
@@ -57,7 +57,7 @@ links:
 #   url: https://www.facebook.com/watch/live/?v=355035025132741&ref=watch_permalink
 # - name: IEEE Spectrum article
 #   url: https://spectrum.ieee.org/tech-talk/computing/software/deepmind-teaches-ai-teamwork
-- name: ICIAP 2017 Best Paper Award
+- name: IC2IT 2017 Best Paper Award
   url: https://link.springer.com/chapter/10.1007/978-3-319-60663-7_18
 url_pdf: https://link.springer.com/chapter/10.1007/978-3-319-60663-7_18
 url_code: https://github.com/kaopanboonyuen/
