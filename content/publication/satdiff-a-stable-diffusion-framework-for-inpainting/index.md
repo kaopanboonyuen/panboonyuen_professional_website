@@ -2,6 +2,7 @@
 title: "SatDiff: A Stable Diffusion Framework for Inpainting Very High-Resolution Satellite Imagery"
 authors:
 - admin
+- C. Charoenphon
 - C. Satirapod
 
 date: "2025-03-13T00:00:00Z"
@@ -27,8 +28,8 @@ publishDate: "2025-03-13T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: IEEE Access 2025
-publication_short: IEEE Access 2025
+publication:  In *IEEE Access* **Impact Factor 3.4**
+publication_short:  In *IEEE Access* **Impact Factor 3.4**
 
 abstract: Satellite image inpainting is a critical task in remote sensing, requiring accurate restoration of missing or occluded regions for reliable image analysis. In this paper, we present SatDiff, an advanced inpainting framework based on diffusion models, specifically designed to tackle the challenges posed by very high-resolution (VHR) satellite datasets such as DeepGlobe and the Massachusetts Roads Dataset. Building on insights from our previous work, SatInPaint, we enhance the approach to achieve even higher recall and overall performance. SatDiff introduces a novel Latent Space Conditioning technique that leverages a compact latent space for efficient and precise inpainting. Additionally, we integrate Explicit Propagation into the diffusion process, enabling forward-backward fusion for improved stability and accuracy. Inspired by encoder-decoder architectures like the Segment Anything Model (SAM), SatDiff is seamlessly adaptable to diverse satellite imagery scenarios. By balancing the efficiency of preconditioned models with the flexibility of postconditioned approaches, SatDiff establishes a new benchmark in VHR satellite datasets, offering a scalable and high-performance solution for satellite image restoration. The code for SatDiff is publicly available at https://github.com/kaopanboonyuen/SatDiff.
 
@@ -85,8 +86,6 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-![](featured.png)
 
 ## Keywords
 
