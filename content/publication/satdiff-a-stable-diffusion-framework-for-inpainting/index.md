@@ -47,7 +47,7 @@ featured: true
 
 links:
 - name: ArXiv
-  url: 'https://arxiv.org/'
+  url: 'https://ieeexplore.ieee.org/abstract/document/10929005/'
 # - name: Certificate
 #   url: 'https://kaopanboonyuen.github.io/files/certificate/KST2025/Panboonyuen-Certificate-of-Contributions-53.pdf'
 # - name: ICML talk
@@ -56,7 +56,7 @@ links:
 #   url: https://spectrum.ieee.org/tech-talk/computing/software/deepmind-teaches-ai-teamwork
 # - name: ICIAP 2017 Best Papers
 #   url: https://link.springer.com/chapter/10.1007/978-3-319-60663-7_18
-url_pdf: 'https://ieeeaccess.ieee.org/featured-articles/'
+url_pdf: 'https://ieeexplore.ieee.org/abstract/document/10929005/'
 url_code: 'https://github.com/kaopanboonyuen/SatDiff'
 url_dataset: ''
 # url_poster: 'https://kaopanboonyuen.github.io/REG/'
