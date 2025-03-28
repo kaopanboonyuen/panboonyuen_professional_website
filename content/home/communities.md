@@ -56,8 +56,13 @@ design:
 
 * Guest Lecturer and AI Committee Member
 
+  * [Keynote Speaker - UAMC2025](https://kaopanboonyuen.github.io/files/invitation_letters/UAMC2025_TVIxMARSxKMITL.pdf)  
+    * Delivered keynote on "Mathematical Foundations of Vision Transformers in Car Insurance AI." 
+    * [Poster: UAMC2025](https://kaopanboonyuen.github.io/files/poster/UAMC2025_TVIxMARSxKMITL_Poster.png)
+
   * [AI Instructor - Department of Lands, Thailand (2025)](https://kaopanboonyuen.github.io/files/invitation_letters/Invitation_toDOL_2025.pdf)  
-    * Taught Large Language Models (LLMs) using land title deed data and demonstrated AI-driven automation for creating land deeds. [Code and Lecture Slides](https://github.com/kaopanboonyuen/ai_for_dept_of_lands)
+    * Taught Large Language Models (LLMs) using land title deed data and demonstrated AI-driven automation for creating land deeds. 
+    * [Code and Lecture Slides](https://github.com/kaopanboonyuen/ai_for_dept_of_lands)
 
   * [AI Instructor - Office of the Cane and Sugar Board (2025)](https://kaopanboonyuen.github.io/files/invitation_letters/Invitation_toKMUTNB_OCSB_2025.pdf)
     * Leveraged Vision Transformer model for accurate sugarcane area classification and boundary detection from satellite images.
