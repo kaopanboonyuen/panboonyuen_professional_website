@@ -1,5 +1,5 @@
 ---
-title: Inspiring the Future of AI Innovations and Mastering LLM
+title: Inspiring the Future of AI Innovations
 
 event: Orientation to ECE KMUTNB Bachelor Students
 event_url: #https://www.youtube.com/watch?v=traKBhJm4lQ

@@ -69,6 +69,15 @@ Topic: Mathematical Foundations of Vision Transformers in Car Insurance AI
 
 ![](featured.png)
 
+![](uamc2025_images/UAMC2025xMARS_05.jpg)
+![](uamc2025_images/UAMC2025xMARS_02.jpg)
+![](uamc2025_images/UAMC2025xMARS_04.jpg)
+![](uamc2025_images/UAMC2025xMARS_03.jpg)
+![](uamc2025_images/UAMC2025xMARS_06.jpg)
+![](uamc2025_images/UAMC2025xMARS_01.jpg)
+![](uamc2025_images/UAMC2025xMARS_07.jpg)
+![](uamc2025_images/UAMC2025xMARS_08.jpg)
+
 ---
 
 In recent years, Vision Transformers (ViTs) have emerged as one of the most powerful models in the field of deep learning, particularly in tasks involving image recognition. This blog post explores the mathematical foundations of ViTs and their application in car insurance AI, with a focus on improving accuracy in claims prediction. We will cover key concepts such as the self-attention mechanism, custom loss functions, and how large language models (LLMs) could further enhance these AI systems. By the end of this article, you’ll have a deeper understanding of how cutting-edge AI technologies are reshaping the insurance industry.

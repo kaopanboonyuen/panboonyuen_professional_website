@@ -1,7 +1,7 @@
 ---
-title: Invited to Italy for ICIAP 2023 Presenting MARS Research
+title: Invited to Italy for ICIAP2023
 
-event: Invited to Italy for ICIAP 2023 Presenting MARS Research
+event: Invited to Italy for ICIAP2023
 
 date: 2023-08-11
 
