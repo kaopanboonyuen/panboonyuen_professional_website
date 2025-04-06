@@ -31,7 +31,7 @@ education:
   courses:
   - course: PostDoc Fellow in AI
     institution: Chulalongkorn University
-    year: 2025
+    year: 2026
   - course: PhD in Computer Engineering
     institution: Chulalongkorn University
     year: 2020
