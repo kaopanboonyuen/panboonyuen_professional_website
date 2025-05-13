@@ -69,6 +69,23 @@ Topic: Mathematical Foundations of Vision Transformers in Car Insurance AI
 
 ![](featured.png)
 
+![](uamc2025_images/UAMC2025xTVIxMARS_0001.png)
+![](uamc2025_images/UAMC2025xTVIxMARS_0002.png)
+
+---
+
+**Read more on Thaivivat's blog:** [Here](https://careers.thaivivat.co.th/newsandevents/6808628ebfad6e8912fd5c57)
+
+{{% callout note %}}
+In this insightful session, Dr. Teerapong Panboonyuen (Dr. Kao) will explore the mathematical foundations behind Vision Transformers (ViTs) and their groundbreaking applications in car insurance AI.
+{{% /callout %}}
+
+> As the insurance industry increasingly leverages artificial intelligence, understanding the complex mathematical principles that drive these innovations is key. This talk will shed light on how ViTs are revolutionizing the way car insurance companies analyze and predict risk, offering a glimpse into the future of InsurTech. Whether you're a student or a professional, this is an exciting opportunity to dive into the intersection of math, AI, and insurance. 
+
+> *(Reference on UAMC 2025)*
+
+---
+
 ![](uamc2025_images/UAMC2025xMARS_05.jpg)
 ![](uamc2025_images/UAMC2025xMARS_02.jpg)
 ![](uamc2025_images/UAMC2025xMARS_04.jpg)
