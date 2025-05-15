@@ -52,7 +52,7 @@ design:
 
   * [Ministerial Order on the Appointment of Academic Staff (Order 5907-2566)](https://kaopanboonyuen.github.io/files/panboonyuen_kku.pdf)
   * [Invitation Letter for a Special Lecturer Position (Order อว 660101.26/9304)](https://kaopanboonyuen.github.io/files/panboonyuen_kku_ai_2025.pdf)
-  * [Invitation Letter for a Special Lecturer Position (Order อว 660301.26/24844)](https://kaopanboonyuen.github.io/files/panboonyuen_kku_ai.pdf)
+  * [Invitation Letter for a Special Lecturer Position (Order อว 660101.26/24844)](https://kaopanboonyuen.github.io/files/panboonyuen_kku_ai.pdf)
   * [Invitation Letter for a Special Lecturer Position (Order อว 660101.26/13320)](https://kaopanboonyuen.github.io/files/panboonyuen_kku_spm.pdf)
 
 * Guest Lecturer and AI Committee Member
