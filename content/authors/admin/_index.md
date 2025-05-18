@@ -105,7 +105,7 @@ I am currently a **Senior AI Research Scientist** at [**MARS (Motor AI Recogniti
 
 Passionate about **Cognitive Intelligence** and unlocking human potential, I’m also deeply immersed in **Geospatial Intelligence**, where LLMs uncover groundbreaking insights that reshape how we understand and interact with our world.
 
-Detailed summaries of my academic, industry, and teaching experience can be found in my [**CV**](https://kaopanboonyuen.github.io/files/panboonyuen_cv.pdf) or [**IEEE Biography**](https://kaopanboonyuen.github.io/files/IEEE/IEEE_KAO_2025_V2.pdf), and get a glimpse into my personal life on my [**blog**](https://kaopanboonyuen.wordpress.com/) and [**tumblr**](https://kaopanboonyuen.tumblr.com/). Also, feel free to vibe to my [**music on SoundCloud**](https://soundcloud.com/kaopanboonyuen).
+Detailed summaries of my academic, industry, and teaching experience can be found in my [**CV**](https://kaopanboonyuen.github.io/files/panboonyuen_cv.pdf) or [**IEEE Biography**](IEEE_Biography_Panboonyuen_01.pdf), and get a glimpse into my personal life on my [**blog**](https://kaopanboonyuen.wordpress.com/) and [**tumblr**](https://kaopanboonyuen.tumblr.com/). Also, feel free to vibe to my [**music on SoundCloud**](https://soundcloud.com/kaopanboonyuen).
 
 Thai name: [**ธีรพงศ์ ปานบุญยืน**](https://kaopanboonyuen.github.io/kaopanboonyuen/), aka [**Kao Panboonyuen**](https://kaopanboonyuen.wordpress.com/), or just Kao (เก้า).
 
