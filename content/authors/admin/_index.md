@@ -109,7 +109,7 @@ Detailed summaries of my academic, industry, and teaching experience can be foun
 
 Thai name: [**ธีรพงศ์ ปานบุญยืน**](https://kaopanboonyuen.github.io/kaopanboonyuen/), aka [**Kao Panboonyuen**](https://kaopanboonyuen.wordpress.com/), or just Kao (เก้า).
 
-{{< icon name="download" pack="fas" >}}{{< staticref "https://kaopanboonyuen.github.io/files/panboonyuen_cv.pdf" "newtab" >}}Download my CV{{< /staticref >}}.  {{< icon name="download" pack="fas" >}}{{< staticref "https://kaopanboonyuen.github.io/files/panboonyuen_cv_th.pdf" "newtab" >}}Download my Thai CV (for official use only){{< /staticref >}}.  
+{{< icon name="download" pack="fas" >}}{{< staticref "https://kaopanboonyuen.github.io/files/panboonyuen_cv.pdf" "newtab" >}}Download my CV{{< /staticref >}}.  {{< icon name="download" pack="fas" >}}{{< staticref "https://kaopanboonyuen.github.io/files/panboonyuen_cv_th.pdf" "newtab" >}}Download my Thai CV (Restricted to Thai government use only){{< /staticref >}}.  
 
 
 
