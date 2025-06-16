@@ -58,11 +58,11 @@ design:
 Reviewer for International Journals/Conferences:
 
 - Invited Reviewer of [Pattern Recognition](https://www.journals.elsevier.com/pattern-recognition) (Elsevier)
-- Invited Reviewer of [Neural Networks](https://www.sciencedirect.com/journal/neural-networks) (Elsevier)
 - Invited Reviewer of [Neurocomputing](https://www.journals.elsevier.com/neurocomputing) (Elsevier)
 - Invited Reviewer of [Transactions on Knowledge Discovery from Data](https://dl.acm.org/journal/tkdd) (ACM)
 - Invited Reviewer of [Computer Vision and Image Understanding](https://www.journals.elsevier.com/computer-vision-and-image-understanding) (Elsevier)
 - Invited Reviewer of [Computers and Geosciences](https://www.journals.elsevier.com/computers-and-geosciences) (Elsevier)
+- Invited Reviewer of [Neural Networks](https://www.sciencedirect.com/journal/neural-networks) (Elsevier)
 - Invited Reviewer of [Remote Sensing](https://www.mdpi.com/journal/remotesensing) (MDPI)
 - Invited Reviewer of [Artificial Intelligence Review](https://link.springer.com/journal/10462) (Nature Portfolio)
 - Invited Reviewer of [Scientific Reports](https://www.nature.com/srep/) (Nature Portfolio) ([Certificate](https://kaopanboonyuen.github.io/files/certificate/Springer_Nature/Reviewer%20Certificate%2011%20November%202024.pdf))
