@@ -115,8 +115,11 @@ For a comprehensive explanation of the method, experimental protocol, and benchm
 
 As we move into 2025, MARSAIL continues to push the frontier of AI for automotive insurance and repair through multimodal AI systems, low-parameter transformer architectures, and high-resolution OCR solutions tailored for real-world document processing. These efforts aim to expand our automation ecosystem beyond just car damage detection — now encompassing risk prediction, document understanding, vehicle condition analytics, and identity verification pipelines. Below we highlight three key models from our most recent research drop.
 
+---
 
 ### 1. ALBERT: Efficient Transformer for Automotive Localization
+
+---
 
 ALBERT (Advanced Localization and Bidirectional Encoder Representations from Transformers) is our compact vision transformer (ViT) tailored for car damage assessment. Unlike standard ViT and DETR-based approaches, ALBERT introduces structural inductive biases using localized deformable tokens and parameter sharing to reduce model size and memory usage while preserving high-resolution localization.
 
@@ -128,7 +131,11 @@ $$
 
 Where MSA is a multi-scale self-attention with learnable spatial offsets adapted to car damage priors. Through selective hard sampling and token grouping, ALBERT reduces GPU memory by 40% during training while achieving higher IoU for small scratches and localized bumper cracks. This model is ideal for mobile deployments in insurance apps and in-vehicle camera assessments ([arXiv:2506.10524](http://arxiv.org/abs/2506.10524)).
 
+---
+
 ### 2. SLICK: Knowledge-Enhanced Instance Segmentation
+
+---
 
 SLICK (Selective Localization and Instance Calibration with Knowledge) augments vision transformer-based instance segmentation using both spatial priors and domain knowledge graphs. By integrating policy-driven insurance metadata — e.g., bumper policy zones, model-specific weak points — SLICK dynamically adjusts attention weights and segmentation proposals. This results in better prediction under diverse lighting, weather, and occlusion scenarios, especially for aging or modified vehicles.
 
@@ -140,8 +147,11 @@ $$
 
 SLICK delivers +2.5 maskAP improvement over MARS in high-noise scenes, setting a new benchmark in our internal Thai Vehicle Damage dataset ([arXiv:2506.10528](http://arxiv.org/abs/2506.10528)).
 
+---
 
 ### 3. DOTA: Deformable Optimized Transformer for OCR
+
+---
 
 DOTA (Deformable Optimized Transformer Architecture) is our OCR engine designed for reading Thai ID cards, driver licenses, vehicle registration books, VIN plates, and inspection forms in real-world garage conditions. Using a retrieval-augmented architecture and deformable attention blocks, DOTA can accurately recognize text even under motion blur, glare, or partial occlusion.
 

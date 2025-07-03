@@ -67,7 +67,11 @@ However, this precision comes with a computational cost. ALBERT requires powerfu
   <p style="font-style: italic; margin-top: 0px;">Figure 2: MARSAIL-ALBERT model showcasing detailed and precise damage segmentation results.</p>
 </div>
 
+---
+
 ### SLICK: The Student Model — Lightning Speed Meets Smart Knowledge
+
+---
 
 To address real-time insurance needs, MARSAIL developed **SLICK** — *Selective Localization and Instance Calibration with Knowledge*. This model distills knowledge from ALBERT and integrates domain-specific insurance metadata like bumper zones and vehicle model weak points. 
 
