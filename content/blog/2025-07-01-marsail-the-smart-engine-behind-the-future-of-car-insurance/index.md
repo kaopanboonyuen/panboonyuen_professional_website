@@ -158,7 +158,7 @@ Unlike traditional CRNN or standard transformer OCRs, DOTA uses a hybrid vision-
 
 ---
 
-At **MARSAIL**, under the guidance of Dr. Teerapong Panboonyuen (ดร. ธีรพงศ์ ปานบุญยืน) or Dr.Kao (ดร. เก้า), our team is on a mission: to fuse cutting-edge **vision systems** with real-world auto insurance workflows. Our latest work—published in Springer—introduces a dynamic way to analyze vehicle damage and process claims faster, smarter, and more precisely than ever before.
+At **MARSAIL**, under the guidance of Dr. Teerapong Panboonyuen (ดร. ธีรพงศ์ ปานบุญยืน) or Dr. Kao (ดร. เก้า), our team is on a mission: to fuse cutting-edge **vision systems** with real-world auto insurance workflows. Our latest work—published in Springer—introduces a dynamic way to analyze vehicle damage and process claims faster, smarter, and more precisely than ever before.
 
 ### 🔍 what sets our approach apart
 
