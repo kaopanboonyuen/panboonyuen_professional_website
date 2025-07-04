@@ -1,6 +1,6 @@
 ---
 
-title: 'MARSAIL: Driving the Future of Car Insurance with AI'  
+title: 'MARSAIL: The Smart Engine Behind the Future of Car Insurance'  
 subtitle: ''  
 summary: Explore how MARSAIL, Thailand’s premier automotive AI lab, revolutionizes car insurance and vehicle repair with deep learning.  
 authors:  
@@ -79,19 +79,13 @@ At MARSAIL’s mission lies our flagship model — MARS (Mask Attention Refineme
 </div>
 
 
-The core idea of MARS is inspired by classical quadtree spatial partitioning. A standard convolutional encoder struggles to retain structural priors in large feature maps due to the limitations of fixed receptive fields. In contrast, we define a learnable partitioning function \( Q(x, \theta) \) that hierarchically splits an input image region \( x \) based on its visual entropy or variance — allocating deeper refinement to more complex regions. This enables what we call Sequential Quadtree Nodes (SQN), which dynamically expand only where the model requires increased focus.
-
-
-
-Each node \( q_i \) in the quadtree contributes to the global segmentation mask through a combination of spatial attention \( A(q_i) \), confidence gating \( g(q_i) \), and localized refinement. Mathematically, the final segmentation map \( M \) is formed by a recursive mask integration:
-
+The core concept behind MARS draws inspiration from traditional quadtree spatial partitioning methods. Unlike standard convolutional encoders, which often struggle to preserve important structural details in large feature maps due to fixed processing limits, MARS takes a more adaptive approach. It uses a trainable system that breaks an image into regions based on how visually complex each area is. Simpler areas are processed more lightly, while more detailed or chaotic regions get extra attention.
 
 $$
 M = \sum_{i=1}^{N} g(q_i) \cdot A(q_i) \cdot F(q_i)
 $$
 
-
-Where \( F(q_i) \) is the feature vector derived from node \( q_i \), and \( g(q_i) \in [0, 1] \) is a learned gate controlling its contribution to the final prediction. The gating is modeled as a sigmoid activation over a relevance score computed via a learned MLP with residual feedback from previous nodes.
+This leads to what the team calls Sequential Quadtree Nodes (SQN) — a smart structure that expands only where deeper analysis is needed. Each of these nodes contributes to the overall segmentation by combining spatial focus, a confidence check, and fine-tuned local adjustments. The system selectively decides which parts of the image matter most, refining the final output by integrating all these localized insights into one coherent segmentation result.
 
 
 <div style="text-align: center;">
@@ -160,6 +154,133 @@ Unlike traditional CRNN or standard transformer OCRs, DOTA uses a hybrid vision-
 
 ---
 
+### 4. MARS: Mask Attention Refinement with Sequential Quadtree Nodes for Car Damage Instance Segmentation
+
+---
+
+At **MARSAIL**, under the guidance of Dr. Teerapong Panboonyuen (ดร. ธีรพงศ์ ปานบุญยืน) or Dr.Kao (ดร. เก้า), our team is on a mission: to fuse cutting-edge **vision systems** with real-world auto insurance workflows. Our latest work—published in Springer—introduces a dynamic way to analyze vehicle damage and process claims faster, smarter, and more precisely than ever before.
+
+### 🔍 what sets our approach apart
+
+Standard image-analysis tools often struggle to keep structural details intact when dealing with complex scenes or large images. In our paper (Springer, Chapter 3), we introduce a **hierarchical, attention-driven method** that adapts dynamically to the visual complexity of each region:
+
+- **Smart partitioning** — the system learns to divide an image into smaller, more granular regions where details matter most.  
+- **Targeted refinement** — complex zones receive deeper analysis, while simpler areas are processed more lightly.  
+- **Sequential quadtree nodes** — these elements expand only in areas needing sharper focus, concentrating computing power where it counts.
+
+### 🧠 how it works in practice
+
+Each **quadtree node** contributes to the final damage map by combining:
+- **Spatial focus** — where exactly to look,
+- **Confidence-based gating** — deciding *how much* to trust that region,
+- **Local feature tweaks** — refining the outcome with sharp, situational insight.
+
+Imagine a damaged car: intricate scratches around the headlight trigger more detailed analysis, while broader, simpler zones are processed more efficiently. The combined result is a crisp and accurate segmentation mask covering the entire vehicle.
+
+### 🏎️ why it matters for insurers & workshops
+
+- **Faster, smarter estimates** — automation tackles repetitive image tasks instantly.  
+- **Sharper insights** — context-aware focus pinpoints damage with precision.  
+- **Efficiency-driven** — resources are optimized for the parts of the image that matter, reducing processing load.  
+- **Scalable architecture** — adaptable from single images to massive fleets seamlessly.
+
+### ✅ conclusions & next steps
+
+Published under the banner of "MARSAIL" in the latest Springer volume, this work signals a bold step in auto-insurance intelligence. With a pioneering lab approach and visionary leadership from Dr. Kao, MARSAIL is crafting systems that are fast, precise, and endlessly adaptable.
+
+Up next: integrating our quadtree vision engine into live insurer workflows, and testing it in real-world garages across Thailand.
+
+> Reference: [Springer Nature Link](https://link.springer.com/chapter/10.1007/978-3-031-51023-6_3)
+
+---
+
+Auto insurance fraud is a massive challenge that costs billions worldwide every year, slowing down claim processing and increasing premiums for honest customers. At **MARSAIL** (Motor AI Recognition Solution Artificial Intelligence Laboratory), we are on the frontlines of this battle, deploying cutting-edge AI to automate and streamline the entire insurance claim process — from damage detection to fraud prevention — without relying on manual human intervention.
+
+---
+
+### Fighting Fraud with Intelligent Automation
+
+---
+
+Fraudsters exploit loopholes and manual processes in traditional insurance workflows, making it difficult for companies to detect suspicious claims quickly and accurately. MARSAIL leverages advanced computer vision and domain-specific knowledge to transform this game. By analyzing images and metadata from vehicles in real-time, our AI models not only identify damages precisely but also flag potential fraud patterns, speeding up claim approval and reducing false payouts.
+
+<div style="text-align: center;">
+  <img src="img/MARSAIL_FROM_OTHER_SAMPLE_01.jpg" alt="Using AI to Automate Car Insurance Claims">
+  <p style="font-style: italic; margin-top: 0px;">Fig. 4. Demonstration of AI-powered automation in car insurance claims (Image source: <a href="https://www.addenda.tech/post/the-battle-against-auto-insurance-fraud---and-how-ai-can-help-win-it" target="_blank">Addenda Tech</a>)</p>
+</div>
+
+---
+
+### Visual Damage Interpretation — Smarter and Faster
+
+---
+
+Using state-of-the-art AI, MARSAIL interprets vehicle damage from photos submitted through mobile apps or web platforms. This automated damage assessment removes subjectivity and human error, ensuring fair and consistent evaluation across all claims.
+
+<div style="text-align: center;">
+  <img src="img/MARSAIL_FROM_OTHER_SAMPLE_02.jpeg" alt="AI Interpreting Car Damage in Application">
+  <p style="font-style: italic; margin-top: 0px;">Fig. 5. AI-driven damage interpretation on insurance applications and web portals (Image source: <a href="https://www.addenda.tech/post/the-battle-against-auto-insurance-fraud---and-how-ai-can-help-win-it" target="_blank">Addenda Tech</a>)</p>
+</div>
+
+---
+
+### Translating Damage Into Precise Repair Estimates
+
+---
+
+MARSAIL’s AI doesn’t stop at identifying damage. It accurately translates the visual information into detailed labor and parts costs, providing transparent and consistent repair estimates that speed up approvals and payments.
+
+<div style="text-align: center;">
+  <img src="img/MARSAIL_FROM_OTHER_SAMPLE_03.jpeg" alt="AI Converting Damage to Labor and Parts Cost">
+  <p style="font-style: italic; margin-top: 0px;">Fig. 6. AI converting damage images into labor and parts cost estimates (Image source: <a href="https://www.addenda.tech/post/the-battle-against-auto-insurance-fraud---and-how-ai-can-help-win-it" target="_blank">Addenda Tech</a>)</p>
+</div>
+
+---
+
+### AI-Powered Fraud Detection — Catching the Unseen
+
+---
+
+One of MARSAIL’s critical strengths is its ability to detect anomalies and fraudulent claims. By cross-referencing damage patterns, metadata, and historical data, the AI flags suspicious cases automatically, drastically reducing fraud risk and protecting insurers and honest customers alike.
+
+<div style="text-align: center;">
+  <img src="img/MARSAIL_FROM_OTHER_SAMPLE_04.jpeg" alt="AI Detecting Fraud in Auto Insurance Claims">
+  <p style="font-style: italic; margin-top: 0px;">Fig. 7. AI-powered fraud detection in insurance claims (Image source: <a href="https://www.addenda.tech/post/the-battle-against-auto-insurance-fraud---and-how-ai-can-help-win-it" target="_blank">Addenda Tech</a>)</p>
+</div>
+
+---
+
+### Comprehensive, Automated Reporting for Faster Decisions
+
+---
+
+MARSAIL’s automated reporting delivers a clear, itemized breakdown of all repair costs and identified damages, allowing claims adjusters and repair shops to make faster, more informed decisions — with complete transparency and no human bias.
+
+<div style="text-align: center;">
+  <img src="img/MARSAIL_FROM_OTHER_SAMPLE_05.jpeg" alt="Final AI Report of Car Damage and Repair Cost">
+  <p style="font-style: italic; margin-top: 0px;">Fig. 8. Final AI-generated report summarizing car damage and repair costs (Image source: <a href="https://www.addenda.tech/post/the-battle-against-auto-insurance-fraud---and-how-ai-can-help-win-it" target="_blank">Addenda Tech</a>)</p>
+</div>
+
+---
+
+### Why MARSAIL Leads the Charge
+
+---
+
+By automating the entire claims process — from damage detection and cost estimation to fraud detection and reporting — MARSAIL empowers insurers with unmatched speed, accuracy, and trustworthiness. This end-to-end AI solution minimizes human error and bias, reduces processing time dramatically, and safeguards the insurance ecosystem from fraudulent activities.
+
+The result? Faster claims, fairer settlements, and a more secure insurance future — powered entirely by intelligent automation.
+
+---
+
+### Join the Future of Auto Insurance
+
+---
+
+MARSAIL is not just innovating AI for automotive damage detection; we are transforming the entire insurance experience — making it smarter, safer, and more efficient. Together, we’re winning the battle against auto insurance fraud and paving the way for a better, fairer tomorrow.
+
+---
+
 ## Future Work: Beyond Damage – Toward Full-Lifecycle Intelligence
 
 ---
@@ -191,7 +312,7 @@ Found this blog insightful? Consider sharing it with friends or researchers in t
 
 ## References
 
-1. **Panboonyuen, T., et al.** (2023). *MARS: Mask Attention Refinement with Sequential Quadtree Nodes for Car Damage Instance Segmentation*. ICIAP 2023. Springer. [Link](https://link.springer.com/chapter/10.1007/978-3-031-51023-6_3)
+1. Panboonyuen, Teerapong, et al. "Mars: Mask attention refinement with sequential quadtree nodes for car damage instance segmentation." International Conference on Image Analysis and Processing. Cham: Springer Nature Switzerland, 2023.
 
 2. Wang, X., X. Li, and Z. Wu. (2023). *Cardd: A new dataset for vision-based car damage detection*. IEEE Transactions on Intelligent Transportation Systems, 24(7), 7202-7214.
 
@@ -232,3 +353,5 @@ Found this blog insightful? Consider sharing it with friends or researchers in t
 20. Xie, E., P. Sun, X. Song, W. Wang, X. Liu, D. Liang, C. Shen, and P. Luo. (2020). *Polarmask: Single shot instance segmentation with polar representation*. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 12193–12202.
 
 21. Zhang, Q., X. Chang, and S. Bian. (2020). *Vehicle-damage-detection segmentation algorithm based on improved Mask R-CNN*. IEEE Access, 8, 6997–7004.
+
+22. The battle against auto insurance fraud – and how AI can help win it: https://www.addenda.tech/post/the-battle-against-auto-insurance-fraud---and-how-ai-can-help-win-it

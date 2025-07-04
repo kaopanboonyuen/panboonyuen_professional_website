@@ -50,7 +50,17 @@ You can explore our GitHub project page 📦 [here](https://kaopanboonyuen.githu
 
 ---
 
-In 2025, MARSAIL (Motor AI Recognition Solution Artificial Intelligence Laboratory) is proud to introduce two groundbreaking AI models that are redefining car damage assessment for insurance — **ALBERT** and **SLICK**. These models embody a teacher-student relationship: ALBERT, the teacher, delivers uncompromising accuracy, while SLICK, the student, achieves blazing-fast speeds tailored for real-time insurance applications.
+
+In the fast-evolving world of automotive insurance, precision and speed are absolutely critical. Enter **MARSAIL** (Motor AI Recognition Solution Artificial Intelligence Laboratory), Thailand’s pioneering hub of automotive AI innovation. In 2025, MARSAIL proudly unveils two revolutionary models that are reshaping how car damage is detected, analyzed, and processed for insurance claims — **ALBERT** and **SLICK**.
+
+These models represent more than just technological progress; they embody a new philosophy in AI-powered insurance: a seamless synergy between **uncompromising accuracy** and **lightning-fast efficiency**, inspired by the teacher-student paradigm.
+
+At the core of this paradigm lies **ALBERT**, the “teacher” — a powerhouse model meticulously engineered for razor-sharp precision. ALBERT dives deep into images, discerning the finest scratches, dents, and cracks with near-human expertise. It’s a master of detail, leaving no nuance unseen, perfect for complex offline investigations and comprehensive damage evaluations where absolute accuracy is essential.
+
+> Yet, speed is just as critical in today’s insurance ecosystem, especially for frontline claim processing and on-site damage assessments. This is where **SLICK**, the “student,” steps in. Trained and guided by ALBERT’s expert knowledge, SLICK is designed to be nimble, agile, and incredibly fast — capable of delivering reliable damage detection results instantly on edge devices or even mobile phones. Its streamlined architecture empowers insurance agents and repair shops to operate smarter and faster without compromising quality.
+
+Together, **ALBERT** and **SLICK** form a powerful duo that bridges the traditional divide between accuracy and efficiency — offering the best of both worlds to revolutionize car insurance workflows across Thailand and beyond.
+
 
 ---
 
@@ -84,6 +94,106 @@ SLICK boosts processing speed by over **700%** compared to ALBERT, enabling inst
 
 ---
 
+### 🚘 Teaching machines to see smarter and faster: the MARSAIL teacher-student model
+
+---
+
+In the race to deliver the best car damage detection for insurance claims, MARSAIL takes a cutting-edge approach inspired by how humans learn: through mentorship. Our **teacher-student model** architecture pairs a high-capacity “teacher” network with a lean, speedy “student” model, capturing the best of both worlds — precision and efficiency.
+
+<div style="text-align: center;">
+  <img src="img/MARSAIL_TS_MODEL_01.png" alt="Teacher-Student Model Concept Architecture">
+  <p style="font-style: italic; margin-top: 0px;">Fig. 4. Conceptual architecture of the MARSAIL teacher-student model (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
+</div>
+
+---
+
+### What is the teacher-student model?
+
+---
+
+Think of the **teacher** as a seasoned expert with a deep understanding of vehicle damage nuances — it’s large, powerful, and painstakingly precise. The **student**, meanwhile, is like an apprentice: smaller, faster, and designed to perform well in real-world settings with limited resources.
+
+The magic happens when the student **learns to mimic** the teacher's insights without needing to replicate its full complexity. This process is known as **knowledge distillation** — where the teacher’s “soft” predictions guide the student’s training, helping it grasp subtle visual patterns that would be hard to learn from raw data alone.
+
+<div style="text-align: center;">
+  <img src="img/MARSAIL_TS_MODEL_02.png" alt="Simple Teacher-Student Model Concept">
+  <p style="font-style: italic; margin-top: 0px;">Fig. 5. Simplified overview of the teacher-student learning framework (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
+</div>
+
+---
+
+### Measuring size and efficiency: teacher vs. student
+
+---
+
+To illustrate the trade-off, here’s a glimpse of the teacher and student model sizes trained on the CIFAR-10 dataset. The teacher is notably larger but more precise, while the student’s compact size enables rapid inference — crucial for insurance agents working on the go.
+
+<div style="text-align: center;">
+  <img src="img/MARSAIL_TS_MODEL_03.png" alt="Teacher Size (left) and Student Size (right) on CIFAR-10 dataset">
+  <p style="font-style: italic; margin-top: 0px;">Fig. 6. Visual comparison of teacher (left) and student (right) model sizes (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
+</div>
+
+---
+
+### How does the student learn from the teacher?
+
+---
+
+The training process involves the student observing both the teacher’s output and the ground truth, gradually adjusting itself to replicate the teacher’s nuanced judgments. This dual supervision accelerates the student’s learning curve, enabling it to deliver near-teacher accuracy with significantly fewer parameters.
+
+<div style="text-align: center;">
+  <img src="img/MARSAIL_TS_MODEL_04.png" alt="How to Learn from Teacher-Student">
+  <p style="font-style: italic; margin-top: 0px;">Fig. 7. Diagram showing how the student model learns from the teacher model (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
+</div>
+
+---
+
+### Results that speak volumes
+
+---
+
+On multiple datasets and architectures (including CNN and ResNet), MARSAIL’s teacher-student training methods consistently improved student model accuracy across the board — sometimes by over 3% compared to training without guidance.
+
+| Model   | Dataset  | No KD (%) | BLKD (%) | TAKD (%) |
+|---------|----------|-----------|----------|----------|
+| CNN     | CIFAR-10 | 70.16     | 72.57    | **73.51**|
+| CNN     | CIFAR-100| 41.09     | 44.57    | **44.92**|
+| ResNet  | CIFAR-10 | 88.52     | 88.65    | **88.98**|
+| ResNet  | CIFAR-100| 61.37     | 61.41    | **61.82**|
+| ResNet  | ImageNet | 65.20     | 66.60    | **67.36**|
+
+<div style="text-align: center;">
+  <img src="img/MARSAIL_TS_MODEL_05.png" alt="Result Comparison of Models on CIFAR datasets">
+  <p style="font-style: italic; margin-top: 0px;">Fig. 8. Model accuracy comparison showing improvement using knowledge distillation techniques (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
+</div>
+
+---
+
+### Final layer feature summaries
+
+---
+
+This image visualizes how different layers in each model contribute to the final representation, highlighting the efficiency gains from knowledge distillation that help the student model stay compact yet powerful.
+
+<div style="text-align: center;">
+  <img src="img/MARSAIL_TS_MODEL_06.png" alt="Summary of Final Layers in Each Model">
+  <p style="font-style: italic; margin-top: 0px;">Fig. 9. Summary of final layer features in teacher and student models (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
+</div>
+
+---
+
+## why does this matter for car insurance?
+
+---
+
+- **Speed without compromise:** Insurance agents and garages need fast, reliable damage detection on smartphones or edge devices. The student model delivers rapid results, trained under the teacher’s expert supervision.
+
+- **Resource efficiency:** Smaller models reduce computational costs and power consumption, enabling scalable deployment across Thailand’s wide insurance ecosystem.
+
+- **Robust accuracy:** Guided by the teacher, the student avoids common pitfalls of lightweight models, maintaining high performance even in challenging real-world conditions.
+
+---
+
 ### Why This Matters for Car Insurance
 
 ---
@@ -100,19 +210,24 @@ SLICK boosts processing speed by over **700%** compared to ALBERT, enabling inst
 
 ---
 
-ALBERT refines its internal feature embeddings \( z^{(l)} \) at layer \( l \) through multi-scale self-attention (MSA) and multilayer perceptron (MLP) modules with layer normalization (LN):
+At the heart of our system lies a sophisticated process that refines how the model understands and represents visual data at every step. Imagine ALBERT as a multi-layered brain that carefully adjusts its internal view of an image piece by piece. At each layer, it uses two powerful tools: one that lets it look broadly across different parts of the image to understand overall patterns (multi-scale self-attention), and another that processes these insights through focused, step-by-step reasoning (a multilayer perceptron).
 
 $$
 z^{(l+1)} = z^{(l)} + \text{MSA}(\text{LN}(z^{(l)})) + \text{MLP}(\text{LN}(z^{(l)}))
 $$
 
-Meanwhile, SLICK enhances mask quality scores \( s_{mask} \) by combining image features \( f_{img} \) with knowledge graph embeddings \( f_{kg} \) gated by a sigmoid activation \( \sigma \):
+This dynamic combination helps ALBERT balance the big picture with fine details, ensuring that the model not only recognizes individual features but also how they relate to each other in context. To keep this learning smooth and stable, it applies a normalization step—similar to tuning an instrument—to make sure each layer’s output remains consistent and meaningful.
+
+Parallel to this, SLICK operates like an intelligent curator, enhancing the model’s confidence in its predictions. It does this by merging two streams of knowledge: the direct visual cues from the image itself and additional information pulled from a structured knowledge graph—think of this as a database of domain-specific facts and relationships.
 
 $$
 s_{mask} = \sigma(W_q [f_{img} \| f_{kg}]) + b
 $$
 
-This formula reflects how SLICK intelligently modulates attention using both visual and domain knowledge.
+
+To blend these inputs effectively, SLICK employs a gating mechanism that acts like a smart filter or valve. This gate carefully weighs how much influence the visual data and the knowledge graph should each have in shaping the final mask quality scores. By doing so, the model doesn’t just rely on what it sees but also on what it knows about the world, leading to sharper, more reliable segmentation.
+
+In essence, this combination of refined visual understanding and context-aware knowledge integration lets our system adapt its focus dynamically—prioritizing regions and details that matter most for accurate damage assessment and claim processing.
 
 ---
 
@@ -164,3 +279,5 @@ Found this blog insightful? Consider sharing it with friends or researchers in t
 1. Panboonyuen, Teerapong.  "ALBERT: Advanced Localization and Bidirectional Encoder Representations from Transformers for Automotive Damage Evaluation." arXiv preprint arXiv:2506.10524 (2025). [https://arxiv.org/abs/2506.10524](https://arxiv.org/abs/2506.10524)
 
 2. Panboonyuen, Teerapong.  "SLICK: Selective Localization and Instance Calibration for Knowledge-Enhanced Car Damage Segmentation in Automotive Insurance." arXiv preprint arXiv:2506.10528 (2025). [https://arxiv.org/abs/2506.10528](https://arxiv.org/abs/2506.10528)
+
+3. Knowledge Distillation with Teacher Assistant for Model Compression: https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/
