@@ -74,7 +74,7 @@ However, this precision comes with a computational cost. ALBERT requires powerfu
 
 <div style="text-align: center;">
   <img src="img/ALBERT_01.png" alt="MARSAIL ALBERT Model Result">
-  <p style="font-style: italic; margin-top: 0px;">Figure 2: MARSAIL-ALBERT model showcasing detailed and precise damage segmentation results.</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 1: MARSAIL-ALBERT model showcasing detailed and precise damage segmentation results.</p>
 </div>
 
 ---
@@ -89,7 +89,7 @@ SLICK boosts processing speed by over **700%** compared to ALBERT, enabling inst
 
 <div style="text-align: center;">
   <img src="img/SLICK_01.png" alt="MARSAIL SLICK Model Result">
-  <p style="font-style: italic; margin-top: 0px;">Figure 3: MARSAIL-SLICK model delivering rapid, knowledge-enhanced damage segmentation optimized for real-time insurance workflows.</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 2: MARSAIL-SLICK model delivering rapid, knowledge-enhanced damage segmentation optimized for real-time insurance workflows.</p>
 </div>
 
 ---
@@ -102,7 +102,7 @@ In the race to deliver the best car damage detection for insurance claims, MARSA
 
 <div style="text-align: center;">
   <img src="img/MARSAIL_TS_MODEL_01.png" alt="Teacher-Student Model Concept Architecture">
-  <p style="font-style: italic; margin-top: 0px;">Fig. 4. Conceptual architecture of the MARSAIL teacher-student model (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 3: Conceptual architecture of the MARSAIL teacher-student model (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
 </div>
 
 ---
@@ -117,7 +117,7 @@ The magic happens when the student **learns to mimic** the teacher's insights wi
 
 <div style="text-align: center;">
   <img src="img/MARSAIL_TS_MODEL_02.png" alt="Simple Teacher-Student Model Concept">
-  <p style="font-style: italic; margin-top: 0px;">Fig. 5. Simplified overview of the teacher-student learning framework (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 4: Simplified overview of the teacher-student learning framework (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
 </div>
 
 ---
@@ -130,7 +130,7 @@ To illustrate the trade-off, here’s a glimpse of the teacher and student model
 
 <div style="text-align: center;">
   <img src="img/MARSAIL_TS_MODEL_03.png" alt="Teacher Size (left) and Student Size (right) on CIFAR-10 dataset">
-  <p style="font-style: italic; margin-top: 0px;">Fig. 6. Visual comparison of teacher (left) and student (right) model sizes (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 5: Visual comparison of teacher (left) and student (right) model sizes (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
 </div>
 
 ---
@@ -143,7 +143,7 @@ The training process involves the student observing both the teacher’s output 
 
 <div style="text-align: center;">
   <img src="img/MARSAIL_TS_MODEL_04.png" alt="How to Learn from Teacher-Student">
-  <p style="font-style: italic; margin-top: 0px;">Fig. 7. Diagram showing how the student model learns from the teacher model (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 6: Diagram showing how the student model learns from the teacher model (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
 </div>
 
 ---
@@ -164,7 +164,7 @@ On multiple datasets and architectures (including CNN and ResNet), MARSAIL’s t
 
 <div style="text-align: center;">
   <img src="img/MARSAIL_TS_MODEL_05.png" alt="Result Comparison of Models on CIFAR datasets">
-  <p style="font-style: italic; margin-top: 0px;">Fig. 8. Model accuracy comparison showing improvement using knowledge distillation techniques (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 7: Model accuracy comparison showing improvement using knowledge distillation techniques (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
 </div>
 
 ---
@@ -177,7 +177,7 @@ This image visualizes how different layers in each model contribute to the final
 
 <div style="text-align: center;">
   <img src="img/MARSAIL_TS_MODEL_06.png" alt="Summary of Final Layers in Each Model">
-  <p style="font-style: italic; margin-top: 0px;">Fig. 9. Summary of final layer features in teacher and student models (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 8: Summary of final layer features in teacher and student models (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
 </div>
 
 ---

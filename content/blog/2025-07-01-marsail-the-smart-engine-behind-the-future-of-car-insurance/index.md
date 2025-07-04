@@ -206,7 +206,7 @@ Fraudsters exploit loopholes and manual processes in traditional insurance workf
 
 <div style="text-align: center;">
   <img src="img/MARSAIL_FROM_OTHER_SAMPLE_01.jpg" alt="Using AI to Automate Car Insurance Claims">
-  <p style="font-style: italic; margin-top: 0px;">Fig. 4. Demonstration of AI-powered automation in car insurance claims (Image source: <a href="https://www.addenda.tech/post/the-battle-against-auto-insurance-fraud---and-how-ai-can-help-win-it" target="_blank">Addenda Tech</a>)</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 4: Demonstration of AI-powered automation in car insurance claims (Image source: <a href="https://www.addenda.tech/post/the-battle-against-auto-insurance-fraud---and-how-ai-can-help-win-it" target="_blank">Addenda Tech</a>)</p>
 </div>
 
 ---
@@ -219,7 +219,7 @@ Using state-of-the-art AI, MARSAIL interprets vehicle damage from photos submitt
 
 <div style="text-align: center;">
   <img src="img/MARSAIL_FROM_OTHER_SAMPLE_02.jpeg" alt="AI Interpreting Car Damage in Application">
-  <p style="font-style: italic; margin-top: 0px;">Fig. 5. AI-driven damage interpretation on insurance applications and web portals (Image source: <a href="https://www.addenda.tech/post/the-battle-against-auto-insurance-fraud---and-how-ai-can-help-win-it" target="_blank">Addenda Tech</a>)</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 5: AI-driven damage interpretation on insurance applications and web portals (Image source: <a href="https://www.addenda.tech/post/the-battle-against-auto-insurance-fraud---and-how-ai-can-help-win-it" target="_blank">Addenda Tech</a>)</p>
 </div>
 
 ---
@@ -232,7 +232,7 @@ MARSAIL’s AI doesn’t stop at identifying damage. It accurately translates th
 
 <div style="text-align: center;">
   <img src="img/MARSAIL_FROM_OTHER_SAMPLE_03.jpeg" alt="AI Converting Damage to Labor and Parts Cost">
-  <p style="font-style: italic; margin-top: 0px;">Fig. 6. AI converting damage images into labor and parts cost estimates (Image source: <a href="https://www.addenda.tech/post/the-battle-against-auto-insurance-fraud---and-how-ai-can-help-win-it" target="_blank">Addenda Tech</a>)</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 6: AI converting damage images into labor and parts cost estimates (Image source: <a href="https://www.addenda.tech/post/the-battle-against-auto-insurance-fraud---and-how-ai-can-help-win-it" target="_blank">Addenda Tech</a>)</p>
 </div>
 
 ---
@@ -245,7 +245,7 @@ One of MARSAIL’s critical strengths is its ability to detect anomalies and fra
 
 <div style="text-align: center;">
   <img src="img/MARSAIL_FROM_OTHER_SAMPLE_04.jpeg" alt="AI Detecting Fraud in Auto Insurance Claims">
-  <p style="font-style: italic; margin-top: 0px;">Fig. 7. AI-powered fraud detection in insurance claims (Image source: <a href="https://www.addenda.tech/post/the-battle-against-auto-insurance-fraud---and-how-ai-can-help-win-it" target="_blank">Addenda Tech</a>)</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 7: AI-powered fraud detection in insurance claims (Image source: <a href="https://www.addenda.tech/post/the-battle-against-auto-insurance-fraud---and-how-ai-can-help-win-it" target="_blank">Addenda Tech</a>)</p>
 </div>
 
 ---
@@ -258,7 +258,7 @@ MARSAIL’s automated reporting delivers a clear, itemized breakdown of all repa
 
 <div style="text-align: center;">
   <img src="img/MARSAIL_FROM_OTHER_SAMPLE_05.jpeg" alt="Final AI Report of Car Damage and Repair Cost">
-  <p style="font-style: italic; margin-top: 0px;">Fig. 8. Final AI-generated report summarizing car damage and repair costs (Image source: <a href="https://www.addenda.tech/post/the-battle-against-auto-insurance-fraud---and-how-ai-can-help-win-it" target="_blank">Addenda Tech</a>)</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 8: Final AI-generated report summarizing car damage and repair costs (Image source: <a href="https://www.addenda.tech/post/the-battle-against-auto-insurance-fraud---and-how-ai-can-help-win-it" target="_blank">Addenda Tech</a>)</p>
 </div>
 
 ---
