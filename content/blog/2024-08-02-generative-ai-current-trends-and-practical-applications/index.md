@@ -1,6 +1,6 @@
 ---
 
-title: 'Generative AI: Current Trends and Practical Applications'  
+title: "Generative AI Uncovered: Emerging Trends, Real-World Applications, and the Road Ahead"
 subtitle: ''  
 summary: A comprehensive exploration of generative AI, including key trends, applications, challenges, and future directions.  
 authors:  

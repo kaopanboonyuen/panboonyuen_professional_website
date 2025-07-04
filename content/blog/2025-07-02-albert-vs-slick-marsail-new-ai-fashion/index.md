@@ -1,7 +1,7 @@
 ---
 
 title: 'ALBERT vs SLICK: MARSAIL’s New AI Fashion for Real-Time Car Insurance'  
-subtitle: 'Balancing Cutting-Edge Accuracy with Lightning-Fast Speed in Automotive AI'  
+subtitle: ''  
 summary: Discover how MARSAIL’s teacher–student model duo ALBERT and SLICK revolutionizes car damage detection with unmatched precision and blazing speed.  
 authors:  
 - admin  

@@ -1,5 +1,5 @@
 ---
-title: "The Day I Became an IRONMAN"
+title: "The Day I Became an IRONMAN: Conquering 113km of Grit and Glory at Bangsaen 2024"
 date: 2024-02-21
 subtitle: ''
 summary: "A transformative journey of grit and perseverance during the 2024 IRONMAN 70.3 Bangsaen, Thailand, completing 113km of swimming, biking, and running to earn the title of IRONMAN."

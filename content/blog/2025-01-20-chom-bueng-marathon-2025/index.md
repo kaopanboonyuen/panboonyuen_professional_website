@@ -1,6 +1,6 @@
 ---
 
-title: "42.195K at Chombueng Marathon 2025"
+title: "42.195K at Chombueng Marathon 2025 — My Second Full Marathon, Coming Home"
 date: 2025-01-20
 subtitle: ''
 summary: "A journey of 42.195 kilometers in the 38th Chombueng Marathon, blending personal nostalgia, local charm, and the triumph of completing my second-ever full marathon."
@@ -130,18 +130,19 @@ Until next time, Chombueng.
 
 ## Citation
 
-> Panboonyuen, Teerapong. (Jan 2025). *42.195K at Chombueng Marathon 2025*. Blog post on Kao Panboonyuen. [https://kaopanboonyuen.github.io/blog/2025-01-20-chom-bueng-marathon-2025/](https://kaopanboonyuen.github.io/blog/2025-01-20-chom-bueng-marathon-2025/)
+> Panboonyuen, Teerapong. (Jan 2025). *42.195K at Chombueng Marathon 2025 — My Second Full Marathon, Coming Home*. Blog post on Kao Panboonyuen. [https://kaopanboonyuen.github.io/blog/2025-01-20-chom-bueng-marathon-2025/](https://kaopanboonyuen.github.io/blog/2025-01-20-chom-bueng-marathon-2025/)
 
 **For a BibTeX citation:**
 
-```bash
+```bibtex
 @article{panboonyuen2025chombueng,
-  title   = "42.195K at Chombueng Marathon 2025",
+  title   = "42.195K at Chombueng Marathon 2025 — My Second Full Marathon, Coming Home",
   author  = "Panboonyuen, Teerapong",
   journal = "kaopanboonyuen.github.io/",
   year    = "2025",
   month   = "Jan",
-  url     = "https://kaopanboonyuen.github.io/blog/2025-01-20-chom-bueng-marathon-2025/"}
+  url     = "https://kaopanboonyuen.github.io/blog/2025-01-20-chom-bueng-marathon-2025/"
+}
 ```
 
 {{% callout note %}}
