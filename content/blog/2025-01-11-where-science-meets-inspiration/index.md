@@ -1,6 +1,6 @@
 ---
 
-title: 'Global Young Scientists Summit 2025: Where Science Meets Inspiration'
+title: 'Global Young Scientists Summit (GYSS) 2025: Where Science Meets Inspiration'
 date: 2025-01-13
 subtitle: ''
 summary: Competing for a prestigious scholarship to attend GYSS 2025 in Singapore. The summit will be an excellent opportunity to connect with global experts and young scientists, fostering innovation and interdisciplinary collaboration.
