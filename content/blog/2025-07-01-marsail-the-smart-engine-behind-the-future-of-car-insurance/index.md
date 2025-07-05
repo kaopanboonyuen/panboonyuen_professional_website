@@ -1,6 +1,6 @@
 ---
 
-title: 'MARSAIL: The Smart Engine Behind the Future of Car Insurance'  
+title: 'MARSAIL: The Smart Engine Powering the Future of Car Insurance and Intelligent Garages'  
 subtitle: ''  
 summary: Explore how MARSAIL, Thailand’s premier automotive AI lab, revolutionizes car insurance and vehicle repair with deep learning.  
 authors:  
@@ -61,6 +61,27 @@ This work is now powering what we call the “Digital Insurance Twin” — a co
 > At the heart of MARSAIL’s vision is not just efficiency but integrity. By minimizing human subjectivity and manual paperwork, our AI platform safeguards against inflated repairs, ghost accidents, and fraudulent identity claims. This builds long-term trust across the ecosystem: between insurers and policyholders, garages and customers, and regulators and service providers.
 
 Today, we train not only car damage models but also multimodal models that fuse vision and language, including transformer-based LLMs optimized for the insurance domain. We’re teaching machines to reason with documents, anticipate inconsistencies, and provide contextual understanding — allowing for seamless automation of tasks that previously required expert-level human input. Whether it’s reading a worn-out VIN from an old pickup truck or parsing a scanned Thai ID under poor lighting, MARSAIL's AI agents are learning, adapting, and improving with every new sample.
+
+---
+
+### AI-driven Car Damage Estimating: Global Innovations and MARSAIL's Vision for Thailand
+
+---
+
+The global automotive AI landscape is evolving rapidly, with companies like Tractable and Mitchell leading the way in using artificial intelligence to assess car damage, estimate repair costs, and streamline the claims process. For instance, Tractable’s AI photo-estimating system has already gained significant attention for its ability to analyze images of vehicle damage and provide accurate repair estimates. You can explore one of their impressive demonstrations in the video below:
+
+{{< youtube dvbF2BmkM3Q >}}
+
+{{< twitter user="tractable_ai" id="1656316477580902404" >}}
+
+Another example comes from Mitchell’s partnership with AI technology to enhance auto insurance workflows. This collaboration showcases the future of intelligent claims processing and damage estimation, as seen in the video below:
+
+{{< youtube hfas2mTIZyA >}}
+
+These two AI-driven innovations are setting the stage for a new era in automotive insurance, and at MARSAIL, we aim to bring similar advancements to Thailand. Our cutting-edge AI research is designed to deliver an intelligent, scalable solution for vehicle damage estimation and claims processing. By harnessing deep learning and multimodal AI models, MARSAIL will revolutionize how car damage is assessed and how repairs are priced, ensuring transparency, reducing fraud, and optimizing the entire insurance lifecycle. Just like these global players, MARSAIL will offer a seamless, efficient, and trust-enhancing solution for the Thai automotive insurance market.
+
+{{< youtube L1J3yXUE7yU >}}
+{{< youtube Aba5afny294 >}}
 
 Let us drive this transformation — not just with code and data, but with vision, integrity, and purpose.
 

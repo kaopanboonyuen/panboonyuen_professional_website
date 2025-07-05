@@ -1,5 +1,5 @@
 ---
-title: "The Day I Became an IRONMAN: Conquering 113km of Grit and Glory at Bangsaen 2024"
+title: "The Day I Became an IRONMAN: Conquering 113KM of the Limits of Pain and Human Endurance"
 date: 2024-02-21
 subtitle: ''
 summary: "A transformative journey of grit and perseverance during the 2024 IRONMAN 70.3 Bangsaen, Thailand, completing 113km of swimming, biking, and running to earn the title of IRONMAN."
@@ -39,6 +39,10 @@ projects: []
 Reflecting on the extraordinary journey to becoming an IRONMAN fills me with immense pride. This pivotal moment, the culmination of months of unwavering dedication and resilience, stands as a true testament to the power of mind and body.
 
 ![](img/KAO_IM703_001.png)
+
+{{< youtube fdvJU4-oHuY >}}
+
+{{< twitter user="IRONMANtri" id="1165104423519043584" >}}
 
 ## The Starting Line
 
@@ -109,6 +113,8 @@ After crossing the finish line, I rewarded myself with a well-deserved feast of 
 The happiness I find in this journey lies not just in the end goal but in the process itself—the struggles, triumphs, and growth along the way. To anyone considering a challenging path, embrace it wholeheartedly. Trust in the transformative power of hard work and dedication. In the pursuit of excellence, we find joy and fulfillment that words cannot capture.
 
 With immense gratitude and pride, I declare: **I am an IRONMAN.**
+
+{{< youtube ySziECwLLs4 >}}
 
 **PS.** The year began with completing the [**IM70.3**](https://www.ironman.com/) and ended with crossing the finish line at the [**Laguna Triathlon in Phuket**](https://www.lagunaphukettri.com/), which included a 1.8K swim, a 55K bike ride, and a 12K run. Truly, it was a year defined by triathlons for me.
 
