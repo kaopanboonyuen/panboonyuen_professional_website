@@ -1,6 +1,6 @@
 ---
 
-title: "Career Paths for AI Research Scientists: My Personal Journey, Lessons Learned, and Insider Insights"  
+title: "Career Paths for Research Scientists: My Personal Journey, Lessons Learned, and Insider Insights"  
 subtitle: ''  
 summary: A thorough examination of my journey as an AI Research Scientist, including insights into balancing academia and industry, significant publications, and guidance for future researchers. 
 authors:  
