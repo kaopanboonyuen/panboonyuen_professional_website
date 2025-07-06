@@ -70,7 +70,7 @@ The journey of **MARS** began not in a conference hall in Europe but in the bust
 > At **MARSAIL** — the *Motor AI Recognition Solution Artificial Intelligence Laboratory* — we asked ourselves: *Can we create a deep learning system that sees, understands, and evaluates vehicle damage better than a human?* Could we develop an AI model smart enough to assist insurers, fast enough for real-time applications, and precise enough to help garage operators deliver fair, standardized repairs?
 
 We believe the answer is yes — and our vision for this transformation is detailed in our MARSAIL blog:
-👉 [**MARSAIL: The Smart Engine Behind the Future of Car Insurance**](https://kaopanboonyuen.github.io/blog/2025-07-01-marsail-the-smart-engine-behind-the-future-of-car-insurance/)
+👉 [**MARSAIL: The Smart Engine Behind the Future of Car Insurance and Intelligent Garages**](https://kaopanboonyuen.github.io/blog/2025-07-01-marsail-the-smart-engine-behind-the-future-of-car-insurance/)
 
 The answer was **MARS** — *Mask Attention Refinement with Sequential Quadtree Nodes* — our flagship AI architecture built from the ground up for **car damage instance segmentation**. Unlike traditional models like Mask R-CNN or PointRend, which were designed for general-purpose segmentation tasks, MARS is laser-focused. It leverages **quadtree spatial hierarchies**, **self-attention refinement**, and a custom transformer-based backbone to identify scratches, dents, cracks, and broken parts — even in complex lighting, occlusion, or varied car surface conditions.
 
