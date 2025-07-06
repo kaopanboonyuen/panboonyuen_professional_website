@@ -6,17 +6,19 @@ summary: Exploring how LLMs can enhance remote sensing applications like LULC an
 authors:  
 - admin  
 tags:  
-- remote-sensing  
-- LULC  
-- image-classification  
-- LLM  
-- Sentinel  
-- Landsat
-- THEOS  
+- ai-for-earth
+- multimodal-data
+- geospatial-intelligence
+- lulc-analysis
+- remote-sensing-advancements
+- satellite-imaging
+- vision-language-models
+- deep-learning-for-remote-sensing
+- environmental-monitoring
 categories:  
-- remote-sensing  
-- LULC
-- LLM
+- geospatial-ai
+- remote-sensing
+- ai-enhanced-lulc
 date: "2025-07-05T00:00:00Z"  
 lastmod: "2025-07-05T00:00:00Z"  
 featured: true  
@@ -304,3 +306,11 @@ Thanks for reading—until next time, take care and keep pushing the boundaries 
 {{% callout note %}}
 Did you find this page helpful? Consider sharing it 🙌
 {{% /callout %}}
+
+## References
+
+1. Tao, Lijie, et al. "Advancements in Vision–Language Models for Remote Sensing: Datasets, Capabilities, and Enhancement Techniques." Remote Sensing 17.1 (2025): 162.
+
+2. Vaswani, Ashish, et al. "Attention is all you need." Advances in neural information processing systems 30 (2017).
+
+3. Dosovitskiy, Alexey, et al. "An image is worth 16x16 words: Transformers for image recognition at scale." arXiv preprint arXiv:2010.11929 (2020).
