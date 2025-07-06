@@ -313,7 +313,7 @@ We're collaborating with garages and insurers across Thailand to create a nation
 
 ## Citation
 
-> Panboonyuen, Teerapong. (Jul 2025). *MARSAIL: Driving the Future of Car Insurance with AI*. Blog post on Kao Panboonyuen. [https://kaopanboonyuen.github.io/blog/2025-07-01-marsail-driving-the-future-of-car-insurance-with-ai/](https://kaopanboonyuen.github.io/blog/2025-07-01-marsail-driving-the-future-of-car-insurance-with-ai/)
+> Panboonyuen, Teerapong. (Jul 2025). *MARSAIL: The Smart Engine Powering the Future of Car Insurance and Intelligent Garages*. Blog post on Kao Panboonyuen. [https://kaopanboonyuen.github.io/blog/2025-07-01-marsail-the-smart-engine-behind-the-future-of-car-insurance/](https://kaopanboonyuen.github.io/blog/2025-07-01-marsail-the-smart-engine-behind-the-future-of-car-insurance/)
 
 Or
 
