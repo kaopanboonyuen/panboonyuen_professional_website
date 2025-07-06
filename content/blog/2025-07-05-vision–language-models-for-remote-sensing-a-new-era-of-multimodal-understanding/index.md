@@ -229,8 +229,6 @@ While the integration of LLMs in remote sensing holds promise, several challenge
 
 Future research will focus on refining these models and exploring new techniques such as semi-supervised learning and transfer learning to further enhance performance.
 
-I'm glad you're loving the content! Here’s the smooth continuation for **Figures 6 to 9** with their respective descriptions integrated naturally:
-
 As we continue to observe the rise of **Vision–Language Models (VLMs)** in remote sensing, one notable trend is the growing body of academic work that explores their capabilities. The figure below demonstrates the increasing number of publications on VLMs in the field of remote sensing, reflecting the broad interest and potential for these models to shape the future of satellite imagery analysis. As the research landscape evolves, we can expect even more innovative approaches and applications to emerge.
 
 <div style="text-align: center;">
