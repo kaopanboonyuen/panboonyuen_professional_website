@@ -12,7 +12,7 @@ tags:
 - ICIAP2023  
 - Italy  
 image:
-  caption: 'Scientist: ดร.ธีรพงศ์ ปานบุญยืน (Teerapong Panboonyuen, Ph.D.), at Italy'
+  caption: 'Scientist: ดร.ธีรพงศ์ ปานบุญยืน (Teerapong Panboonyuen, Ph.D.) – He is at the Leaning Tower of Pisa, Italy.'
   placement: 2  
   focal_point: "Smart"  
   preview_only: false

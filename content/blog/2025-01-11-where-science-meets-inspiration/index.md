@@ -27,7 +27,7 @@ math: true
 
 # Featured image
 image:  
-  caption: "Scientist: ดร.ธีรพงศ์ ปานบุญยืน (Teerapong Panboonyuen, Ph.D.)"  
+  caption: "Scientist: ดร.ธีรพงศ์ ปานบุญยืน (Teerapong Panboonyuen, Ph.D.) – He is attending the GYSS 2025 event at NUS, Singapore."  
   placement: 2  
   focal_point: "Smart"  
   preview_only: false
