@@ -48,7 +48,7 @@ MARSAIL, or the Motor AI Recognition Solution Artificial Intelligence Laboratory
 <div style="text-align: center;">
   <img src="https://github.com/kaopanboonyuen/kaopanboonyuen.github.io/raw/main/files/MARS/MARSAIL.png" alt="MARSAIL Logo">
   <p style="font-style: italic; margin-top: 0px;">
-    Figure 1: MARSAIL — a standout AI research lab in Thailand, leading innovation in car insurance and garage solutions under the guidance of Dr. Teerapong Panboonyuen (known to us as Dr. Kao).
+    Figure 1: MARSAIL — a standout AI research lab in Thailand, leading innovation in car insurance and garage solutions.
   </p>
 </div>
 

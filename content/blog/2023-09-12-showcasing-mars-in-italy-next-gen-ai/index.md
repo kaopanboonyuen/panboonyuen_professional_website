@@ -45,19 +45,21 @@ In **September 2023**, I had the privilege of presenting my latest AI research, 
 
 Our model leverages **Self-Attention Mechanisms** combined with **Sequential Quadtree Nodes**, which together enable MARS to achieve significantly higher accuracy than state-of-the-art baselines such as Mask R-CNN (ICCV 2017), PointRend (CVPR 2020), and Mask Transfiner (CVPR 2022). These improvements were validated across multiple benchmark datasets, including a large Thai car-damage dataset.
 
-MARS was accepted at ICIAP 2023 with a competitive acceptance rate of 0.64, and our work is published in the Springer Lecture Notes in Computer Science series. This international recognition affirms the impact and novelty of our approach.
+> MARS was accepted at ICIAP 2023 with a competitive **acceptance rate of 0.64**, and our work is published in the Springer Lecture Notes in Computer Science series. This international recognition affirms the impact and novelty of our approach.
 
 <div style="text-align: center;">
-  <img src="img/KAO_ICIAP_01.jpg" alt="Me at the ICIAP 2023 Conference in Udine, Italy">
-  <p style="font-style: italic; margin-top: 0px;">Figure 1: Presenting MARS at the ICIAP 2023 conference, Udine, Italy.
+  <img src="img/KAO_ICIAP_01.jpg" alt="Presenting MARS at ICIAP 2023 Conference, Udine, Italy">
+  <p style="font-style: italic; margin-top: 0px;">
+    Figure 1: Presenting <strong>MARS: Mask Attention Refinement with Sequential Quadtree Nodes</strong> at ICIAP 2023 in Udine, Italy. MARS introduces an innovative self-attention mechanism combined with a quadtree transformer to achieve highly accurate car damage instance segmentation, significantly outperforming current state-of-the-art methods on multiple benchmark datasets. This advancement addresses critical challenges in the car insurance industry. (Source: <a href="https://link.springer.com/chapter/10.1007/978-3-031-51023-6_3" target="_blank" rel="noopener noreferrer">ICIAP 2023 - LNCS 14365</a>)
+  </p>
 </div>
 
 <div style="text-align: center;">
   <img src="img/KAO_ICIAP_03.jpg" alt="Our MARS poster presentation at ICIAP 2023">
-  <p style="font-style: italic; margin-top: 0px;">Figure 2: Poster presentation showcasing MARS at ICIAP 2023.
+  <p style="font-style: italic; margin-top: 0px;">
+    Figure 2: Showcasing the MARS project through an engaging poster presentation at ICIAP 2023, highlighting the innovative mask attention refinement techniques and sequential quadtree nodes that drive our state-of-the-art approach to car damage instance segmentation. This presentation sparked insightful discussions with experts and attendees, further emphasizing the potential real-world impact of our research in advancing intelligent vision systems.
+  </p>
 </div>
-
-Of course! Here's a **compelling, long-form motivation section** for your blog, crafted to impress readers and highlight the significance of **MARS**, your mission from **Thailand to Italy**, and the vision of **MARSAIL** in transforming car insurance and garage automation through AI:
 
 ---
 
@@ -74,23 +76,26 @@ We believe the answer is yes — and our vision for this transformation is detai
 
 The answer was **MARS** — *Mask Attention Refinement with Sequential Quadtree Nodes* — our flagship AI architecture built from the ground up for **car damage instance segmentation**. Unlike traditional models like Mask R-CNN or PointRend, which were designed for general-purpose segmentation tasks, MARS is laser-focused. It leverages **quadtree spatial hierarchies**, **self-attention refinement**, and a custom transformer-based backbone to identify scratches, dents, cracks, and broken parts — even in complex lighting, occlusion, or varied car surface conditions.
 
-What sets MARS apart is its *precision*. It doesn’t just draw rough outlines — it *understands* the contours of the damage. Whether it’s a shallow scratch on a bumper or a crumpled fender after a collision, MARS detects it with clarity, outperforming state-of-the-art models with a significant margin in our Thai car damage benchmarks. And this isn’t just academic — this is AI *for the real world*, trained with real damage cases, tuned for high-stakes applications like insurance claims and repair verification.
+> What sets MARS apart is its *precision*. It doesn’t just draw rough outlines — it *understands* the contours of the damage. Whether it’s a shallow scratch on a bumper or a crumpled fender after a collision, MARS detects it with clarity, outperforming state-of-the-art models with a significant margin in our Thai car damage benchmarks. And this isn’t just academic — this is AI *for the real world*, trained with real damage cases, tuned for high-stakes applications like insurance claims and repair verification.
 
 So when **ICIAP 2023** announced their international conference in **Udine, Italy**, we knew it was time to take our Thai-born innovation global. From Bangkok to Udine, we carried not just a poster and a paper — but a vision. A vision that **AI can transform the automotive industry**, not by replacing people, but by empowering them: giving insurers confidence, garages clarity, and drivers trust in the system.
 
 Presenting MARS in Italy wasn’t just a research milestone — it was a symbol of what’s possible when bold ideas are met with rigorous engineering and a passion for solving real-world problems. Our work was selected for publication in the **Lecture Notes in Computer Science** by **Springer**, a recognition that underscores the technical excellence and practical value of our research.
 
-At **MARSAIL**, our mission continues. We are building an end-to-end ecosystem of automotive AI: from car damage detection to **automated cost estimation**, from **OCR document parsing** to **insurance fraud detection**, all powered by AI models trained with diverse Thai datasets and built to serve global standards. MARS is just the beginning.
+{{% callout note %}}
+At **MARSAIL**, our mission continues. We are building an end-to-end ecosystem of automotive AI: from car damage detection to **automated cost estimation**, from **OCR document parsing** to **insurance fraud detection**, all powered by AI models trained with diverse Thai datasets and built to serve global standards.
+
+{{% /callout %}}
 
 Because in the future we see, **a single smartphone photo** is enough to initiate a car claim, verify vehicle condition, and provide a fair quote — all in seconds. This is the **Digital Insurance Twin** we’re crafting. And we believe it starts with intelligence, integrity, and innovation — the core values of MARS and everything we do at MARSAIL.
-
-Let’s drive the future — together. From Thailand to Italy, from inspiration to impact.
 
 ---
 
 <div style="text-align: center;">
   <img src="img/KAO_ICIAP_04.jpg" alt="MARS deep learning architecture diagram">
-  <p style="font-style: italic; margin-top: 0px;">Figure 3: Illustration of the MARS architecture highlighting sequential quadtree nodes and mask attention refinement.
+  <p style="font-style: italic; margin-top: 0px;">
+    Figure 3: Detailed illustration of the MARS deep learning architecture, emphasizing the novel integration of sequential quadtree nodes with mask attention refinement mechanisms. This design enables precise, efficient instance segmentation of car damage by capturing both global context and fine-grained details, setting a new benchmark in intelligent vision models.
+  </p>
 </div>
 
 ---
@@ -120,16 +125,21 @@ In practice, **MARS outperforms Mask R-CNN, PointRend, and Mask Transfiner by +1
 The ICIAP conference was a vibrant gathering of leading researchers and industry experts. I also had the honor to deliver a guest talk on **modern AI advances in Large Language Models (LLMs)**, engaging with an international audience about cutting-edge AI trends beyond computer vision.
 
 <div style="text-align: center;">
-  <img src="img/KAO_ICIAP_02.jpg" alt="Guest Speaker talk at ICIAP 2023 on modern AI in LLMs">
-  <p style="font-style: italic; margin-top: 0px;">Figure 4: Speaking as a guest at ICIAP 2023 on modern AI in Large Language Models.
+  <img src="img/KAO_ICIAP_02.jpg" alt="Lecture session at ICIAP 2023">
+  <p style="font-style: italic; margin-top: 0px;">
+    Figure 4: Immersed in a dynamic exchange of groundbreaking ideas at ICIAP 2023, where Professor Tomas Pajdla unraveled the complexities of Algebraic Vision, Andrew Fitzgibbon pushed the boundaries of AI hardware and real-world AI applications, and Danijel Skočaj showcased pioneering advances in data-driven surface anomaly detection—each lecture illuminating the future of intelligent vision systems.
+  </p>
 </div>
 
-The conference atmosphere was inspiring and energizing.
+The atmosphere at **ICIAP 2023** in Udine, Italy, was truly invigorating—filled with intellectual energy, meaningful discussions, and a deep sense of community among researchers pushing the boundaries of computer vision and AI.
 
 <div style="text-align: center;">
   <img src="img/KAO_ICIAP_05.jpg" alt="Conference atmosphere at ICIAP 2023, Udine, Italy">
-  <p style="font-style: italic; margin-top: 0px;">Figure 5: The vibrant atmosphere at ICIAP 2023 in Udine.
+  <p style="font-style: italic; margin-top: 0px;">
+    Figure 5: Capturing the vibrant and electric atmosphere at ICIAP 2023 in Udine, where leading minds from around the globe converged to share cutting-edge research, spark innovative collaborations, and shape the future of intelligent systems and computer vision.
+  </p>
 </div>
+
 
 ---
 
@@ -143,18 +153,37 @@ The **Colosseum**, standing proudly as an icon of ancient Roman engineering and 
 
 > For the full story of my unforgettable journey — from academic presentation to wandering the timeless streets of Rome — feel free to read my detailed travel and research blog here: [**Showcasing My AI Research in Italy: A Memorable September Work Trip**](https://kaopanboonyuen.wordpress.com/2023/09/27/showcasing-my-ai-research-in-italy-a-memorable-september-work-trip/). In that post, I share not only the highlights of presenting our MARS model at ICIAP 2023, but also the personal moments that made the trip truly special — from the intellectual exchanges at the conference to standing in awe before the Colosseum and Vatican. It was a journey that beautifully merged science, culture, and inspiration.
 
+Presenting **MARS** at ICIAP 2023 was not just a research highlight—it embodied the core mission of our lab, **MARSAIL** (*Motor AI Recognition Solution Artificial Intelligence Laboratory*). MARSAIL is a leading research hub in Thailand, dedicated to developing intelligent technologies for **automotive insurance, damage assessment, and garage automation**. Guided by **Dr. Teerapong Panboonyuen**, the lab combines academic depth with industry-driven goals, fostering impactful innovations like MARS that bridge research and real-world application.
+
+<div style="text-align: center;">
+  <img src="https://github.com/kaopanboonyuen/kaopanboonyuen.github.io/raw/main/files/MARS/MARSAIL.png" alt="MARSAIL Logo">
+  <p style="font-style: italic; margin-top: 0px;">
+    Figure 6: MARSAIL — the Motor AI Recognition Solution Artificial Intelligence Laboratory, a cutting-edge research lab in Thailand pioneering smart technologies for car insurance and garage systems.
+  </p>
+</div>
+
 ---
 
-## Learn More
+## 🚀 Dive Deeper into MARSAIL
 
 ---
 
-For a deep dive into MARS, check out our paper and demos available on [arXiv](https://arxiv.org/abs/2305.04743) and our GitHub repository:  
-https://github.com/kaopanboonyuen/MARS
+Curious how **MARS** redefines car damage segmentation with intelligent attention and quadtree refinement?
+Explore our full paper on [arXiv](https://arxiv.org/abs/2305.04743), browse code and benchmarks on [GitHub](https://github.com/kaopanboonyuen/MARS), or experience the project in action on the [official MARS project page](https://kaopanboonyuen.github.io/MARS/).
+
+Unlock the tech that’s shaping the future of automotive AI.
 
 ---
 
-Thank you for following my journey combining research and travel. Italy’s beauty and the excitement of sharing new AI breakthroughs have been unforgettable.
+{{% callout note %}}
+Attending and presenting at **ICIAP 2023** in **Udine** was an incredible opportunity to engage with a **vibrant community** of leading researchers and innovators in **image analysis and processing**. The event offered a **dynamic platform** to showcase our pioneering work on **MARS** — a breakthrough in **car damage instance segmentation** that combines advanced **self-attention** and **quadtree architectures** to push the boundaries of what **intelligent vision systems** can achieve. Beyond presenting our research, the chance to exchange ideas with experts like **Professor Tomas Pajdla**, **Andrew Fitzgibbon**, and **Danijel Skočaj** enriched our perspective and fueled new inspiration. **ICIAP 2023** not only highlighted **cutting-edge advancements** but also fostered **collaborations** that will undoubtedly shape the future of **AI-driven image understanding**. This experience has strengthened our commitment to advancing **impactful, real-world AI solutions** and deepened our excitement for the rapidly evolving field of **computer vision**.
+{{% /callout %}}
+
+---
+
+Thank you for joining me on this incredible journey where **cutting-edge AI research meets the timeless charm of Italy**. Presenting MARS at ICIAP 2023 was more than a milestone—it was a moment of inspiration, surrounded by global minds and unforgettable landscapes. Here's to pushing boundaries, one breakthrough at a time.
+
+**–  Kao Panboonyuen**
 
 ---
 
