@@ -37,7 +37,13 @@ projects: []
 
 ---
 
-Hi, it’s me again, **Kao Panboonyuen**—welcome back to my blog! 😊 Today, I’m diving into a topic that’s been on my mind a lot lately: the exciting intersection of **Remote Sensing** and **Large Language Models (LLMs)**. As you know, **remote sensing** is one of the most powerful tools for understanding the Earth’s surface, using **satellite systems** like **Sentinel-2**, **Landsat-8**, and **THEOS** to capture tons of **high-resolution data**. From monitoring **environmental changes** to assisting in **urban planning**, this data has countless applications. But here’s the catch—while we have all this amazing data at our fingertips, its sheer volume and complexity can overwhelm traditional methods of **data classification**.
+Hi, it’s me again, **Kao Panboonyuen**—welcome back to my blog!
+
+Today, I’m diving into a topic that’s been on my mind a lot lately: the exciting intersection of **Remote Sensing** and **Large Language Models (LLMs)**. As you know, **remote sensing** is one of the most powerful tools for understanding the Earth’s surface, using **satellite systems** like **Sentinel-2**, **Landsat-8**, and **THEOS** to capture tons of **high-resolution data**. From monitoring **environmental changes** to assisting in **urban planning**, this data has countless applications. But here’s the catch—while we have all this amazing data at our fingertips, its sheer volume and complexity can overwhelm traditional methods of **data classification**.
+
+> **The world is changing fast**, and technology is evolving at a rate that we can barely keep up with. But with every **challenge** comes an **opportunity**—an opportunity to **innovate**, **adapt**, and transform how we understand and interact with the world around us. The marriage of **Remote Sensing** and **Large Language Models (LLMs)** is one such opportunity. It’s a chance to take the immense potential of **satellite data** and push it to **new heights**, uncovering **insights** that we once thought were out of reach.
+
+As we stand on the cusp of a **new frontier** in data analysis, it’s exciting to think about how these advancements will not only **revolutionize industries** but also make a **tangible difference** in solving **real-world problems**. Join me on this journey as we explore the incredible potential of combining **cutting-edge technology** with the power of **Earth observation**. The **future** is here, and it’s incredibly **bright**.
 
 Older algorithms like **Support Vector Machines (SVM)** and **Random Forest (RF)** have done a decent job, but they often struggle to tap into the **deeper semantic meaning** within the data. They can classify pixels, sure, but they can’t grasp the rich, contextual relationships between them.
 
