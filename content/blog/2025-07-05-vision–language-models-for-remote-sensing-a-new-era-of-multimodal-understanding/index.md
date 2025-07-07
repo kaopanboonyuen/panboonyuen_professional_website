@@ -45,6 +45,8 @@ Today, I’m diving into a topic that’s been on my mind a lot lately: the exci
 
 As we stand on the cusp of a **new frontier** in data analysis, it’s exciting to think about how these advancements will not only **revolutionize industries** but also make a **tangible difference** in solving **real-world problems**. Join me on this journey as we explore the incredible potential of combining **cutting-edge technology** with the power of **Earth observation**. The **future** is here, and it’s incredibly **bright**.
 
+{{< twitter user="kaopanboonyuen" id="1942031731395281112" >}}
+
 Older algorithms like **Support Vector Machines (SVM)** and **Random Forest (RF)** have done a decent job, but they often struggle to tap into the **deeper semantic meaning** within the data. They can classify pixels, sure, but they can’t grasp the rich, contextual relationships between them.
 
 > That’s where **LLMs** come in! These models, originally built for **natural language processing**, have the power to **revolutionize remote sensing** by interpreting and analyzing data on a much deeper level. By **integrating contextual insights** from **satellite metadata** and **environmental reports**, **LLMs** can enhance tasks like **LULC (Land Use/Land Cover) classification** and **image analysis**. The results? Much more accurate and insightful interpretations of satellite imagery, opening up a whole new world of possibilities for **remote sensing applications**.

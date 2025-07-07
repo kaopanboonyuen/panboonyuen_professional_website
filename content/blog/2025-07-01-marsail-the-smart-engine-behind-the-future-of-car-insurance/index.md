@@ -47,12 +47,16 @@ MARSAIL, or the Motor AI Recognition Solution Artificial Intelligence Laboratory
 
 <div style="text-align: center;">
   <img src="https://github.com/kaopanboonyuen/kaopanboonyuen.github.io/raw/main/files/MARS/MARSAIL.png" alt="MARSAIL Logo">
-  <p style="font-style: italic; margin-top: 0px;">Figure 1: MARSAIL logo — symbolizing excellence in automotive AI research.
+  <p style="font-style: italic; margin-top: 0px;">
+    Figure 1: MARSAIL — a standout AI research lab in Thailand, leading innovation in car insurance and garage solutions under the guidance of Dr. Teerapong Panboonyuen (known to us as Dr. Kao).
+  </p>
 </div>
 
 > The journey of MARSAIL began with a bold, urgent question: “Can we make car insurance in Thailand smarter, faster, and fraud-free using AI?” For decades, first-class auto insurance underwriting in Thailand has been heavily reliant on manual inspections and human judgments — prone to delays, inconsistencies, and at times, manipulation. Garage estimates for labor and parts are also far from standardized, often resulting in disputes, inefficiencies, and customer dissatisfaction. Seeing these gaps not as limitations but as opportunities, MARSAIL was born with a national mission in mind: to revolutionize Thailand’s automotive insurance ecosystem through scalable, verifiable, and explainable artificial intelligence.
 
 We envisioned a future where a single image of a damaged vehicle could trigger an accurate AI-driven diagnosis — identifying every dent, crack, and broken part, then instantly calculating the repair cost and parts required. This would not only expedite claims processing but also create a tamper-proof digital trail, significantly reducing fraud in the industry. At the same time, garage operators would benefit from AI-driven estimates that standardize costs and accelerate service turnaround time — allowing businesses to grow with transparency and trust.
+
+{{< twitter user="kaopanboonyuen" id="1822723598764876000" >}}
 
 But we didn’t stop at computer vision. We realized that to fully automate the claims process, we also needed to read and understand the documents involved — from the front of a Thai driver’s license to the Vehicle Identification Number (VIN), mileage, license plate, or even the Thai National ID card of the claimant. That’s why MARSAIL also expanded into NLP and OCR research, building powerful models that combine vision and language to intelligently extract, verify, and reason over structured and unstructured vehicle-related data.
 

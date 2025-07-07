@@ -50,8 +50,18 @@ You can explore our GitHub project page 📦 [here](https://kaopanboonyuen.githu
 
 ---
 
+In the fast-moving world of automotive insurance, where accuracy and turnaround time can make or break the customer experience, **MARSAIL** (Motor AI Recognition Solution Artificial Intelligence Laboratory) stands at the forefront of transformation. Based in Thailand and led by the visionary **Dr. Teerapong Panboonyuen** — affectionately known as **Dr. Kao** — MARSAIL is redefining how artificial intelligence is used in car insurance and garage ecosystems. The lab's mission is clear: to blend deep research with real-world impact. Earlier this year, Dr. Kao shared on [Twitter](https://twitter.com/kaopanboonyuen/status/1822723598764876000) the debut of **MARS**, an innovative architecture built on Attention Refinement with Sequential Quadtree Nodes. With its combination of scientific rigor and practical relevance, MARS isn't just another academic model — it's a bold step forward in computer vision and deep learning, designed to solve tangible problems in automotive analysis.
 
-In the fast-evolving world of automotive insurance, precision and speed are absolutely critical. Enter **MARSAIL** (Motor AI Recognition Solution Artificial Intelligence Laboratory), Thailand’s pioneering hub of automotive AI innovation. In 2025, MARSAIL proudly unveils two revolutionary models that are reshaping how car damage is detected, analyzed, and processed for insurance claims — **ALBERT** and **SLICK**.
+{{< twitter user="kaopanboonyuen" id="1822723598764876000" >}}
+
+Riding on this momentum, MARSAIL has unveiled two game-changing models in 2025: **ALBERT** and **SLICK**. These systems are not just incremental updates — they represent a complete rethink of how damage detection and claim assessment can be automated with AI. ALBERT is optimized for real-time car damage classification with high precision, while SLICK focuses on smart localization and segmentation of damage areas, tailored specifically for insurance workflows. Together, they offer insurers and garages tools that are faster, smarter, and more reliable than ever before. Backed by advanced machine learning techniques and a commitment to open research, MARSAIL is helping Thailand — and the region — become a serious global player in automotive AI innovation. Whether you're in the lab or on the road, MARSAIL is making sure AI drives the future.
+
+<div style="text-align: center;">
+  <img src="https://github.com/kaopanboonyuen/kaopanboonyuen.github.io/raw/main/files/MARS/MARSAIL.png" alt="MARSAIL Logo">
+  <p style="font-style: italic; margin-top: 0px;">
+    Figure 1: MARSAIL — a leading research lab in Thailand focused on applying AI to car insurance and automotive service innovations.
+  </p>
+</div>
 
 These models represent more than just technological progress; they embody a new philosophy in AI-powered insurance: a seamless synergy between **uncompromising accuracy** and **lightning-fast efficiency**, inspired by the teacher-student paradigm.
 
