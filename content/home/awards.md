@@ -79,4 +79,4 @@ Reviewer for International Journals/Conferences:
 
 Additional Certifications in Research Ethics:
 
-- My certificate in GCP (Good Clinical Practice) – *Ethics in Human Research* is available in [my GCP Certificate](https://kaopanboonyuen.github.io/files/certificate/panboonyuen_gcp_certification.pdf).
+- My certificate in GCP (Good Clinical Practice) – *Ethics in Human Research* is available in [my GCP Certificate (English)](https://kaopanboonyuen.github.io/files/certificate/GCP/panboonyuen_GCP_certificate_2027.pdf) and [my GCP Certificate (Thai)](https://kaopanboonyuen.github.io/files/certificate/GCP/panboonyuen_GCP_certificate_2027_Thai.pdf).
