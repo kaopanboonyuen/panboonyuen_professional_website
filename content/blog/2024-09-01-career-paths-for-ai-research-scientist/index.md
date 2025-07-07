@@ -253,13 +253,13 @@ Being part of the AI revolution is a unique privilege. It's a field where theore
 
 ## Citation
 
-> Panboonyuen, Teerapong. (Sep 2024). *Career Paths for AI Research Scientists: My Journey and Insights*. Blog post on Kao Panboonyuen. [https://kaopanboonyuen.github.io/blog/2024-09-01-career-paths-for-ai-research-scientist/](https://kaopanboonyuen.github.io/blog/2024-09-01-career-paths-for-ai-research-scientist/)
+> Panboonyuen, Teerapong. (Sep 2024). *Career Paths for Research Scientists: My Personal Journey, Lessons Learned, and Insider Insights*. Blog post on Kao Panboonyuen. [https://kaopanboonyuen.github.io/blog/2024-09-01-career-paths-for-ai-research-scientist/](https://kaopanboonyuen.github.io/blog/2024-09-01-career-paths-for-ai-research-scientist/)
 
 Or
 
 ```bash
 @article{panboonyuen2024careerpaths,
-  title   = "Career Paths for AI Research Scientists: My Journey and Insights.",
+  title   = "Career Paths for Research Scientists: My Personal Journey, Lessons Learned, and Insider Insights",
   author  = "Panboonyuen, Teerapong",
   journal = "kaopanboonyuen.github.io/",
   year    = "2024",

@@ -463,19 +463,18 @@ Generative AI presents both exciting opportunities and significant challenges. T
 
 ## Citation
 
-> Panboonyuen, Teerapong. (Aug 2024). *Generative AI: Current Trends and Practical Applications*. Blog post on Kao Panboonyuen. [https://kaopanboonyuen.github.io/blog/2024-08-02-generative-ai-current-trends-and-practical-applications/](https://kaopanboonyuen.github.io/blog/2024-08-02-generative-ai-current-trends-and-practical-applications/)
+> Panboonyuen, Teerapong. (Aug 2024). *Generative AI Uncovered: Emerging Trends, Real-World Applications, and the Road Ahead*. Blog post on Kao Panboonyuen. [https://kaopanboonyuen.github.io/blog/2024-08-02-generative-ai-current-trends-and-practical-applications/](https://kaopanboonyuen.github.io/blog/2024-08-02-generative-ai-current-trends-and-practical-applications/)
 
 Or
 
 ```bash
 @article{panboonyuen2024generativeaitrends,
-  title   = "Generative AI: Current Trends and Practical Applications.",
+  title   = "Generative AI Uncovered: Emerging Trends, Real-World Applications, and the Road Ahead.",
   author  = "Panboonyuen, Teerapong",
   journal = "kaopanboonyuen.github.io/",
   year    = "2024",
   month   = "Aug",
-  url     = "https://kaopanboonyuen.github.io/blog/2024-08-02-generative-ai-current-trends-and-practical-applications/"
-}
+  url     = "https://kaopanboonyuen.github.io/blog/2024-08-02-generative-ai-current-trends-and-practical-applications/"}
 ```
 
 {{% callout note %}}

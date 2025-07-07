@@ -640,13 +640,13 @@ All in all, my experience at GYSS 2025 was beyond what I could have imagined. It
 
 ## Citation
 
-> Panboonyuen, Teerapong. (Jan 2025). *Where Science Meets Inspiration: My Experience at GYSS2025 in Singapore*. Blog post on Kao Panboonyuen. [https://kaopanboonyuen.github.io/blog/2025-01-11-where-science-meets-inspiration/](https://kaopanboonyuen.github.io/blog/2025-01-11-where-science-meets-inspiration/)
+> Panboonyuen, Teerapong. (Jan 2025). *Global Young Scientists Summit (GYSS) 2025: Where Science Meets Inspiration*. Blog post on Kao Panboonyuen. [https://kaopanboonyuen.github.io/blog/2025-01-11-where-science-meets-inspiration/](https://kaopanboonyuen.github.io/blog/2025-01-11-where-science-meets-inspiration/)
 
 **For a BibTeX citation:**
 
 ```bash
 @article{panboonyuen2025gyss,
-  title   = "Where Science Meets Inspiration: My Experience at GYSS2025 in Singapore",
+  title   = "Global Young Scientists Summit (GYSS) 2025: Where Science Meets Inspiration",
   author  = "Panboonyuen, Teerapong",
   journal = "kaopanboonyuen.github.io/",
   year    = "2025",

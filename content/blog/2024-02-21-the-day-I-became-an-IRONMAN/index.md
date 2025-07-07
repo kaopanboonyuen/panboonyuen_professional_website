@@ -137,13 +137,13 @@ Kao
 
 ## Citation
 
-> Panboonyuen, Teerapong. (Feb 2024). *The Day I Became an IRONMAN*. Blog post on Kao Panboonyuen. [https://kaopanboonyuen.github.io/blog/2024-02-21-the-day-I-became-an-IRONMAN/](https://kaopanboonyuen.github.io/blog/2024-02-21-the-day-I-became-an-IRONMAN/)
+> Panboonyuen, Teerapong. (Feb 2024). *The Day I Became an IRONMAN: Conquering 113KM of the Limits of Pain and Human Endurance*. Blog post on Kao Panboonyuen. [https://kaopanboonyuen.github.io/blog/2024-02-21-the-day-I-became-an-IRONMAN/](https://kaopanboonyuen.github.io/blog/2024-02-21-the-day-I-became-an-IRONMAN/)
 
 **For a BibTeX citation:**
 
 ```bash
 @article{panboonyuen2024ironman,
-  title   = "The Day I Became an IRONMAN",
+  title   = "The Day I Became an IRONMAN: Conquering 113KM of the Limits of Pain and Human Endurance",
   author  = "Panboonyuen, Teerapong",
   journal = "kaopanboonyuen.github.io/",
   year    = "2024",

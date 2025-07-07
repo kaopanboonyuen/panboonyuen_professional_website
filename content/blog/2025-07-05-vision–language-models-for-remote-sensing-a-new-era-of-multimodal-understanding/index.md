@@ -309,8 +309,14 @@ Did you find this page helpful? Consider sharing it 🙌
 
 ## References
 
-1. Tao, Lijie, et al. "Advancements in Vision–Language Models for Remote Sensing: Datasets, Capabilities, and Enhancement Techniques." Remote Sensing 17.1 (2025): 162.
+1. Tao, Lijie, et al. "Advancements in Vision–Language Models for Remote Sensing: Datasets, Capabilities, and Enhancement Techniques." *Remote Sensing* 17.1 (2025): 162.
 
-2. Vaswani, Ashish, et al. "Attention is all you need." Advances in neural information processing systems 30 (2017).
+2. Vaswani, Ashish, et al. "Attention is all you need." *Advances in Neural Information Processing Systems* 30 (2017).
 
-3. Dosovitskiy, Alexey, et al. "An image is worth 16x16 words: Transformers for image recognition at scale." arXiv preprint arXiv:2010.11929 (2020).
+3. Dosovitskiy, Alexey, et al. "An image is worth 16x16 words: Transformers for image recognition at scale." *arXiv preprint* arXiv:2010.11929 (2020).
+
+4. Schulman, John, et al. "Proximal policy optimization algorithms." *arXiv preprint* arXiv:1707.06347 (2017).
+
+5. Weng, Lilian. "Thinking." *Lilianweng.github.io*. May 1, 2025. [https://lilianweng.github.io/posts/2025-05-01-thinking/](https://lilianweng.github.io/posts/2025-05-01-thinking/)
+
+6. Thinking Machines. "Homepage." *Thinkingmachines.ai*. [https://thinkingmachines.ai/](https://thinkingmachines.ai/)

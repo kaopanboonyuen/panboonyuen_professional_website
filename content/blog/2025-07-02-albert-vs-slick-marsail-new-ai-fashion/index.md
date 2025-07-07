@@ -212,7 +212,7 @@ This image visualizes how different layers in each model contribute to the final
 
 ---
 
-## why does this matter for car insurance?
+### Why does this matter for car insurance?
 
 ---
 
@@ -221,12 +221,6 @@ This image visualizes how different layers in each model contribute to the final
 - **Resource efficiency:** Smaller models reduce computational costs and power consumption, enabling scalable deployment across Thailand’s wide insurance ecosystem.
 
 - **Robust accuracy:** Guided by the teacher, the student avoids common pitfalls of lightweight models, maintaining high performance even in challenging real-world conditions.
-
----
-
-### Why This Matters for Car Insurance
-
----
 
 - **Accuracy vs. Speed:** ALBERT excels in detailed offline analysis, perfect for complex claim investigations. SLICK offers instant, reliable damage detection to accelerate frontline claim approvals and garage estimates.
 
@@ -278,7 +272,7 @@ MARSAIL continues to innovate by balancing AI model accuracy and deployment effi
 
 ## Citation
 
-> Panboonyuen, Teerapong. (Jul 2025). *ALBERT vs SLICK: MARSAIL’s New AI Fashion for Car Insurance*. Blog post on Kao Panboonyuen. [https://kaopanboonyuen.github.io/blog/2025-07-02-albert-vs-slick-marsail-new-ai-fashion/](https://kaopanboonyuen.github.io/blog/2025-07-02-albert-vs-slick-marsail-new-ai-fashion/)
+> Panboonyuen, Teerapong. (Jul 2025). *ALBERT vs SLICK: MARSAIL’s New AI Fashion for Real-Time Car Insurance and Garages*. Blog post on Kao Panboonyuen. [https://kaopanboonyuen.github.io/blog/2025-07-02-albert-vs-slick-marsail-new-ai-fashion/](https://kaopanboonyuen.github.io/blog/2025-07-02-albert-vs-slick-marsail-new-ai-fashion/)
 
 Or
 

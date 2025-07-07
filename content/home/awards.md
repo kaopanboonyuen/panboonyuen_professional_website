@@ -57,14 +57,14 @@ design:
 
 Reviewer for International Journals/Conferences:
 
-- Invited Reviewer of [Pattern Recognition](https://www.journals.elsevier.com/pattern-recognition) (Elsevier) ([Certificate](https://kaopanboonyuen.github.io/files/certificate/2025/Certificate_PR_Recognised.pdf))
-- Invited Reviewer of [Neurocomputing](https://www.journals.elsevier.com/neurocomputing) (Elsevier) ([Certificate](https://kaopanboonyuen.github.io/files/certificate/2025/Certificate_NEUCOM_Recognised.pdf))
+- Invited Reviewer of [Pattern Recognition](https://www.journals.elsevier.com/pattern-recognition) (Elsevier)
+- Invited Reviewer of [Neurocomputing](https://www.journals.elsevier.com/neurocomputing) (Elsevier)
 - Invited Reviewer of [Transactions on Knowledge Discovery from Data](https://dl.acm.org/journal/tkdd) (ACM)
 - Invited Reviewer of [Computer Vision and Image Understanding](https://www.journals.elsevier.com/computer-vision-and-image-understanding) (Elsevier)
 - Invited Reviewer of [Computers and Geosciences](https://www.journals.elsevier.com/computers-and-geosciences) (Elsevier)
 - Invited Reviewer of [Neural Networks](https://www.sciencedirect.com/journal/neural-networks) (Elsevier) ([Certificate](https://kaopanboonyuen.github.io/files/certificate/2025/Certificate_NN_Recognised.pdf))
 - Invited Reviewer of [Remote Sensing](https://www.mdpi.com/journal/remotesensing) (MDPI)
-- Invited Reviewer of [Artificial Intelligence Review](https://link.springer.com/journal/10462) (Nature Portfolio) ([Certificate](https://kaopanboonyuen.github.io/files/certificate/2025/Reviewer_Certificate_03_March_2025.pdf))
+- Invited Reviewer of [Artificial Intelligence Review](https://link.springer.com/journal/10462) (Nature Portfolio)
 - Invited Reviewer of [Scientific Reports](https://www.nature.com/srep/) (Nature Portfolio) ([Certificate](https://kaopanboonyuen.github.io/files/certificate/2025/Reviewer_Certificate_25_June_2025_SR.pdf))
 - Invited Reviewer of [GIScience & Remote Sensing](https://www.tandfonline.com/toc/tgis20/current) (Taylor & Francis)
 - Invited Reviewer of [European Journal of Remote Sensing](https://www.tandfonline.com/journals/tejr20) (Taylor & Francis)
@@ -73,5 +73,10 @@ Reviewer for International Journals/Conferences:
 - Invited Reviewer of [IEEE Transactions on Image Processing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83) (IEEE)
 - Invited Reviewer of [IEEE Transactions on Medical Imaging](https://www.embs.org/tmi/) (IEEE) ([Certificate](https://kaopanboonyuen.github.io/files/certificate/IEEE_Transactions_on_Medical_Imaging_Distinguished_Reviewer_Certificate_2024.pdf))
 - Invited Reviewer of [IEEE Transactions on Geoscience and Remote Sensing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36) (IEEE)
-- Invited Reviewer of [IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34) (IEEE)
-- More reviews can be found under my WoS ID [**AAO-4985-2020**](https://www.webofscience.com/wos/author/rid/AAO-4985-2020).
+- Invited Reviewer of [Pattern Analysis and Machine Intelligence (PAMI)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34) (IEEE)
+- More reviews can be found under my WoS ID [AAO-4985-2020](https://www.webofscience.com/wos/author/rid/AAO-4985-2020).
+- More certificates of reviewers can be found at [my GitHub Repository](https://github.com/kaopanboonyuen/kaopanboonyuen.github.io/tree/main/files/certificate).
+
+Additional Certifications in Research Ethics:
+
+- My certificate in GCP (Good Clinical Practice) – *Ethics in Human Research* is available in [my GCP Certificate](https://kaopanboonyuen.github.io/files/certificate/panboonyuen_gcp_certification.pdf).
