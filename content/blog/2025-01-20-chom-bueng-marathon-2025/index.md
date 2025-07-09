@@ -38,7 +38,7 @@ projects: []
 
 <!-- {{< toc mobile_only=true is_open=true >}} -->
 
-This year’s **Chombueng Marathon** marked a special milestone for me: my **second-ever full marathon**. My first was the [**Bangkok Marathon 2022**](http://localhost:1313/blog/2022-11-22-bangkok-marathon-2022conquering-the-full-marathon/), an unforgettable experience that sparked my love for the 42.195K distance. Completing that first marathon taught me the value of resilience and determination, and it’s the reason why I continue to embrace the challenge and joy of running full marathons. 
+This year’s **Chombueng Marathon** marked a special milestone for me: my **second-ever full marathon**. My first was the [**Bangkok Marathon 2022**](https://kaopanboonyuen.github.io/blog/2022-11-22-bangkok-marathon-2022conquering-the-full-marathon/), an unforgettable experience that sparked my love for the 42.195K distance. Completing that first marathon taught me the value of resilience and determination, and it’s the reason why I continue to embrace the challenge and joy of running full marathons. 
 
 > This time, it felt even more meaningful as I returned to my **hometown, Ratchaburi**, to take on the challenge. Despite being born here, it wasn’t until now—at the age of 30—that I finally had the chance to run this iconic race in my own backyard. Running in my hometown for the most fun marathon of my life—42.195K finisher at the Chombueng Marathon 2025.
 
