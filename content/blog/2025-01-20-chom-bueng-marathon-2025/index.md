@@ -27,9 +27,9 @@ image:
 # Featured image
 image:  
   caption: "Finishing my second 42.195K marathon in my hometown at Chombueng Marathon 2025."  
-  # placement: 2  
-  # focal_point: "Smart"  
-  # preview_only: false
+  placement: 2  
+  focal_point: "Smart"  
+  preview_only: false
 
 # Projects (optional).
 projects: []
