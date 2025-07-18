@@ -4,7 +4,7 @@ title: TSCCM2025 (The 14th Critical Care Conference)
 event: TSCCM2025 (The 14th Critical Care Conference by the Thai Society of Critical Care Medicine)
 event_url: https://tsccm.org/
 
-location: Bhumisiri Mangkhalanusorn Building, King Chulalongkorn Memorial Hospital, Bangkok, Thailand
+location: Bhumisiri Mangkhalanusorn Building, King Chulalongkorn Memorial Hospital
 # address:
 #   street: Bhumisiri Mangkhalanusorn Building, King Chulalongkorn Memorial Hospital
 #   city: Bangkok
@@ -12,7 +12,7 @@ location: Bhumisiri Mangkhalanusorn Building, King Chulalongkorn Memorial Hospit
 #   postcode: '10330'
 #   country: Thailand
 
-summary: CU-ICU is an instruction-finetuned language model purpose-built for Thai ICU practitioners. In this talk, I present its architecture based on T5, fine-tuned via lightweight methods like LoRA, AdaLoRA, and IA3. The model integrates clinical guidelines (e.g., Surviving Sepsis Campaign) into its reasoning and shows strong potential as an AI assistant for frontline doctors, enabling faster and more accurate decision-making in critical care environments.
+summary: I was honored to be selected—among only 8 individuals—for an oral presentation at the 14th Critical Care Conference. My talk focused on CU-ICU, a Thai-language instruction-tuned model designed to assist ICU practitioners. Built on the T5 architecture, the model was fine-tuned using efficient techniques such as LoRA, AdaLoRA, and IA3. CU-ICU integrates evidence-based clinical guidelines, including those from the Surviving Sepsis Campaign, to support clinical reasoning.
 
 abstract: In this oral presentation, I introduce CU-ICU, a lightweight, instruction-finetuned language model customized for intensive care units (ICUs) in Thailand. The model is built upon the T5 architecture and optimized using parameter-efficient fine-tuning techniques including LoRA, AdaLoRA, and IA3. CU-ICU is designed to handle real-world prompts from ICU scenarios (e.g., hypotension, sepsis, ventilator settings), aligning its responses with medical guidelines such as the Surviving Sepsis Campaign. I also discuss its motivation—built from personal passion rather than funding—and the model’s ability to synthesize multiple clinical signals into coherent, actionable advice. Evaluation shows promising accuracy, and feedback from clinicians attending the session confirms its relevance and usefulness. This work represents a step toward human-AI collaboration in Thai healthcare, enabling clinicians to focus more on patients and less on repetitive decision support queries.
 

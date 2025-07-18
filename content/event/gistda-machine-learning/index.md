@@ -1,5 +1,5 @@
 ---
-title: Distributed Machine Learning Techniques for Geospatial Data
+title: Distributed ML for Geospatial Data
 
 event: Teaching Distributed Machine Learning at GISTDA
 event_url: #https://www.youtube.com/watch?v=traKBhJm4lQ
@@ -12,7 +12,7 @@ location: Geo-Informatics and Space Technology Development Agency (GISTDA)
   postcode: '94305'
   country: United States -->
 
-summary: I was invited to teach a course on distributed machine learning to the Geo-Informatics and Space Technology Development Agency (GISTDA). The curriculum covered fundamental concepts of PySpark, basic deep learning techniques, and practical applications of distributed training using TensorFlow. I also emphasized methods for leveraging Multi-GPU setups and implementing distributed training strategies, particularly in the context of geospatial data analytics, equipping participants with the skills needed to handle large-scale machine learning tasks efficiently.
+summary: I was invited to teach a course on distributed machine learning to the Geo-Informatics and Space Technology Development Agency (GISTDA). The curriculum covered fundamental concepts of PySpark, basic deep learning techniques, and practical applications of distributed training using TensorFlow.
 abstract: I was invited to teach a course on distributed machine learning to the Geo-Informatics and Space Technology Development Agency (GISTDA). The curriculum covered fundamental concepts of PySpark, basic deep learning techniques, and practical applications of distributed training using TensorFlow. I also emphasized methods for leveraging Multi-GPU setups and implementing distributed training strategies, particularly in the context of geospatial data analytics, equipping participants with the skills needed to handle large-scale machine learning tasks efficiently.
 
 # Talk start and end times.
