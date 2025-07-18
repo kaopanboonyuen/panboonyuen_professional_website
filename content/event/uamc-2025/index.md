@@ -1,5 +1,5 @@
 ---
-title: UAMC2025 (Undergraduate in Applied Mathematics Conference 2025)
+title: UAMC2025 (Applied Mathematics Conference)
 
 event: UAMC2025 (Undergraduate in Applied Mathematics Conference 2025)
 event_url: http://www.math.sci.kmitl.ac.th/uamc2025/index.html
