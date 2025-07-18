@@ -113,7 +113,7 @@ We fine-tuned FLAN-T5 on ICU datasets using 16-shot prompts. Here’s what CU-IC
 
 | Method | Config | Params (%) | Sepsis Acc. | Mortality Acc. |
 |--------|--------|------------|-------------|----------------|
-| **(IA)$^3$ (All Layers)** | 0.9% | **85.6%** | 80.2% |
+| **(IA)$^3$ (All Layers)** | N/A | 0.9% | **85.6%** | 80.2% |
 | AdaLoRA | 1.0 Budget, Rank=8 | 2.9% | 83.5% | **80.9%** |
 | LoRA | Rank=16 | 6.2% | 83.1% | 79.6% |
 
