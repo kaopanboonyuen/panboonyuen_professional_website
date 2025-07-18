@@ -1,5 +1,5 @@
 ---
-title: CUICU @ TSCCM2025 (The 14th Critical Care Conference)
+title: TSCCM2025 (The 14th Critical Care Conference)
 
 event: TSCCM2025 (The 14th Critical Care Conference by the Thai Society of Critical Care Medicine)
 event_url: https://tsccm.org/
