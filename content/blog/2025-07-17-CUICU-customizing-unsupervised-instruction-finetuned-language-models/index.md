@@ -45,7 +45,7 @@ projects: []
 
 ---
 
-Large Language Models (LLMs) like ChatGPT and PaLM have taken the world by storm—but adapting them to **real-world ICU settings** is another story.
+Large Language Models (LLMs) like ChatGPT and Google Gemini have taken the world by storm—but adapting them to **real-world ICU settings** is another story.
 
 In the ICU, time is critical. Clinical staff need:
 - Fast predictions (like early **sepsis detection**),
@@ -53,6 +53,8 @@ In the ICU, time is critical. Clinical staff need:
 - Understandable, **clinically relevant explanations**.
 
 But here's the catch: hospitals—especially in countries like Thailand—often lack large labeled datasets or GPU-rich infrastructure.
+
+{{< twitter user="kaopanboonyuen" id="1946147237937197550" >}}
 
 ---
 
@@ -62,7 +64,7 @@ But here's the catch: hospitals—especially in countries like Thailand—often 
 
 **CU-ICU** is our proposed framework that adapts large instruction-finetuned LLMs like T5 for ICU tasks, using **sparse parameter-efficient fine-tuning (PEFT)** techniques. It balances **accuracy**, **interpretability**, and **efficiency**.
 
-We evaluated it on:
+I evaluated it on:
 - **Sepsis Detection**
 - **Mortality Prediction**
 - **Clinical Note Generation**
@@ -103,7 +105,7 @@ With three leading PEFT strategies:
 
 ---
 
-We fine-tuned FLAN-T5 on ICU datasets using 16-shot prompts. Here’s what CU-ICU achieved:
+I fine-tuned FLAN-T5 on ICU datasets using 16-shot prompts. Here’s what CU-ICU achieved:
 
 ---
 
@@ -135,7 +137,7 @@ We fine-tuned FLAN-T5 on ICU datasets using 16-shot prompts. Here’s what CU-IC
 
 <div style="text-align: center;">
   <img src="img/CUICU_CONCLUSION.jpg" alt="CU-ICU Summary and Future Plans">
-  <p style="font-style: italic; margin-top: 0px;">Figure 6: CU-ICU currently achieves about 66% accuracy on our curated ICU question dataset. It's not perfect, but it's a beginning. With more collaboration—especially from Thai doctors who can contribute anonymized data or clinical QA patterns—we believe CU-ICU can evolve into something truly impactful. But we also emphasized that the model must remain ethical, inclusive, and safe. Biases must be addressed. Feedback must be welcomed. This is not just an AI system; it’s a co-created medical assistant, shaped by the people it aims to help.</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 6: CU-ICU currently achieves about 66% accuracy on our curated ICU question dataset. It's not perfect, but it's a beginning. With more collaboration—especially from Thai doctors who can contribute anonymized data or clinical QA patterns—I believe CU-ICU can evolve into something truly impactful. But I also emphasized that the model must remain ethical, inclusive, and safe. Biases must be addressed. Feedback must be welcomed. This is not just an AI system; it’s a co-created medical assistant, shaped by the people it aims to help.</p>
 </div>
 
 <div style="text-align: center;">
@@ -173,25 +175,12 @@ Most Thai hospitals operate under **resource constraints**. Our goal with CU-ICU
 - You can still deploy **LLM-based clinical AI**,
 - With just **a few labels**, **smart tuning**, and **open-source models**.
 
-We’re excited about bringing this into Thai ICU workflows to help overworked clinicians with decision support tools that actually make sense in practice.
+I'm excited about bringing this into Thai ICU workflows to help overworked clinicians with decision support tools that actually make sense in practice.
 
 <div style="text-align: center;">
   <img src="img/CUICU_CERTIFICATE.jpg" alt="Oral Presentation Certificate">
   <p style="font-style: italic; margin-top: 0px;">Figure 8: My certificate for the oral session—a proud reminder that I was one of just eight selected presenters. The other seven? All medical doctors. That made it even more special. Being the only AI researcher talking about LLMs in a sea of clinicians reminded me that technology must meet people where they are. One of the most heartwarming moments came afterward, when a senior doctor complimented the work. And perhaps even more emotional—this was my return to Chulalongkorn University, my Ph.D. alma mater, after nearly five years. Walking the familiar halls again, this time as a speaker, I felt immense gratitude. Chula gave me the roots, and CU-ICU is one of the branches I’ve grown.</p>
 </div>
-
----
-
-## 🔮 What’s Next?
-
----
-
-We’re exploring:
-- Thai-language ICU data alignment.
-- Integration into **real-time hospital decision systems**.
-- Expanding to pediatric and emergency care predictions.
-
-If you’re working on Thai healthcare + AI, [let’s connect](mailto:teerapong.panboonyuen@gmail.com)!
 
 ---
 
