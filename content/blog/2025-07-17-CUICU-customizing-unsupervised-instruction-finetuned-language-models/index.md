@@ -62,7 +62,7 @@ But here's the catch: hospitals—especially in countries like Thailand—often 
 
 ---
 
-**CU-ICU** is our proposed framework that adapts large instruction-finetuned LLMs like T5 for ICU tasks, using **sparse parameter-efficient fine-tuning (PEFT)** techniques. It balances **accuracy**, **interpretability**, and **efficiency**.
+**CU-ICU** is my proposed framework that adapts large instruction-finetuned LLMs like T5 for ICU tasks, using **sparse parameter-efficient fine-tuning (PEFT)** techniques. It balances **accuracy**, **interpretability**, and **efficiency**.
 
 I evaluated it on:
 - **Sepsis Detection**
@@ -91,12 +91,12 @@ With three leading PEFT strategies:
 
 <div style="text-align: center;">
   <img src="img/CUICU_WHY_I_CREATED.jpg" alt="Why CU-ICU Was Created">
-  <p style="font-style: italic; margin-top: 0px;">Figure 4: Why build CU-ICU? The answer is simple: passion. It wasn’t born from a funded research project or a corporate mandate. It came from listening to doctors—hearing how repetitive and time-consuming many of their information-related tasks can be. CU-ICU is a Thai-built large language model (LLM) designed specifically to support our local medical professionals. Its goal is not to replace anyone, but to serve as an AI assistant that understands the rhythm of a Thai ICU. By answering common clinical questions, it gives doctors more time to focus on the patient—the human behind the data. This moment of sharing that ‘why’ with a room full of doctors was the most meaningful part of the talk for me.</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 4: Why build CU-ICU? The answer is simple: passion. It wasn’t born from a funded research project or a corporate mandate. It came from listening to doctors—hearing how repetitive and time-consuming many of their information-related tasks can be. CU-ICU is a Thai-built large language model (LLM) designed specifically to support local medical professionals. Its goal is not to replace anyone, but to serve as an AI assistant that understands the rhythm of a Thai ICU. By answering common clinical questions, it gives doctors more time to focus on the patient—the human behind the data. This moment of sharing that ‘why’ with a room full of doctors was the most meaningful part of the talk for me.</p>
 </div>
 
 <div style="text-align: center;">
   <img src="img/CUICU_WHAT_IS.jpg" alt="What is CU-ICU?">
-  <p style="font-style: italic; margin-top: 0px;">Figure 5: CU-ICU is built on the FLAN-T5 architecture and fine-tuned using lightweight adaptation techniques like LoRA, AdaLoRA, and IA3. Coming from a computer vision background, diving into language models was a leap—but a thrilling one. The idea of building an AI model that could "speak medicine" in Thai was both technically challenging and emotionally rewarding. I even asked the audience—doctors from various hospitals—how many had used tools like ChatGPT, Gemini, or DeepSeek. Almost every hand went up. That moment confirmed: the future of medicine and LLMs are already intersecting. CU-ICU wants to be part of that conversation, in our own language.</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 5: CU-ICU is built on the FLAN-T5 architecture and fine-tuned using lightweight adaptation techniques like LoRA, AdaLoRA, and IA3. Coming from a computer vision background, diving into language models was a leap—but a thrilling one. The idea of building an AI model that could "speak medicine" in Thai was both technically challenging and emotionally rewarding. I even asked the audience—doctors from various hospitals—how many had used tools like ChatGPT, Gemini, or DeepSeek. Almost every hand went up. That moment confirmed: the future of medicine and LLMs are already intersecting. CU-ICU wants to be part of that conversation, in my own language.</p>
 </div>
 
 ---
@@ -137,7 +137,7 @@ I fine-tuned FLAN-T5 on ICU datasets using 16-shot prompts. Here’s what CU-ICU
 
 <div style="text-align: center;">
   <img src="img/CUICU_CONCLUSION.jpg" alt="CU-ICU Summary and Future Plans">
-  <p style="font-style: italic; margin-top: 0px;">Figure 6: CU-ICU currently achieves about 66% accuracy on our curated ICU question dataset. It's not perfect, but it's a beginning. With more collaboration—especially from Thai doctors who can contribute anonymized data or clinical QA patterns—I believe CU-ICU can evolve into something truly impactful. But I also emphasized that the model must remain ethical, inclusive, and safe. Biases must be addressed. Feedback must be welcomed. This is not just an AI system; it’s a co-created medical assistant, shaped by the people it aims to help.</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 6: CU-ICU currently achieves about 66% accuracy on my curated ICU question dataset. It's not perfect, but it's a beginning. With more collaboration—especially from Thai doctors who can contribute anonymized data or clinical QA patterns—I believe CU-ICU can evolve into something truly impactful. But I also emphasized that the model must remain ethical, inclusive, and safe. Biases must be addressed. Feedback must be welcomed. This is not just an AI system; it’s a co-created medical assistant, shaped by the people it aims to help.</p>
 </div>
 
 <div style="text-align: center;">
@@ -171,7 +171,7 @@ All without expensive GPU clusters.
 
 ---
 
-Most Thai hospitals operate under **resource constraints**. Our goal with CU-ICU is to show:
+Most Thai hospitals operate under **resource constraints**. My goal with CU-ICU is to show:
 - You can still deploy **LLM-based clinical AI**,
 - With just **a few labels**, **smart tuning**, and **open-source models**.
 
