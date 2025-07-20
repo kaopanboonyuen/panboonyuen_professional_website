@@ -107,7 +107,7 @@ Passionate about **Cognitive Intelligence** and unlocking human potential, I’m
 
 Detailed summaries of my academic, industry, and teaching experience can be found in my [**CV**](https://kaopanboonyuen.github.io/files/panboonyuen_cv.pdf) or [**IEEE Biography**](https://kaopanboonyuen.github.io/files/IEEE/IEEE_Biography_Panboonyuen_01.pdf), and get a glimpse into my personal life on my [**blog**](https://kaopanboonyuen.wordpress.com/) and [**tumblr**](https://kaopanboonyuen.tumblr.com/). By the way, feel free to vibe to my [**music on SoundCloud**](https://soundcloud.com/kaopanboonyuen).
 
-Thai name: [**ธีรพงศ์ ปานบุญยืน**](https://myrida.pages.dev/), aka [**Kao Panboonyuen**](https://kaopanboonyuen.wordpress.com/), or just Kao (เก้า).
+Thai name: [**ธีรพงศ์ ปานบุญยืน**](https://myrida.pages.dev/members/teerapong-panboonyuen/), aka [**Kao Panboonyuen**](https://kaopanboonyuen.wordpress.com/), or just Kao (เก้า).
 
 {{< icon name="download" pack="fas" >}}{{< staticref "https://kaopanboonyuen.github.io/files/panboonyuen_cv.pdf" "newtab" >}}Download my CV{{< /staticref >}}.  {{< icon name="download" pack="fas" >}}{{< staticref "https://kaopanboonyuen.github.io/files/panboonyuen_cv_th.pdf" "newtab" >}}Download my Thai CV (Restricted to Thai government use only){{< /staticref >}}.  
 
