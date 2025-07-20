@@ -59,6 +59,16 @@ We’re living in an exciting era, where **Large Language Models (LLMs)** are re
 ## Presenting My Work to Her Royal Highness Princess Maha Chakri Sirindhorn
 ---
 
+> First, I would like to sincerely thank Her Royal Highness Princess Maha Chakri Sirindhorn for her gracious support and unwavering dedication to advancing science and education in Thailand. It is through her continued encouragement and vision that young researchers like myself are given extraordinary opportunities to grow, connect with global leaders, and proudly represent our country on the world stage. Her support made this once-in-a-lifetime experience at GYSS 2025 possible, and I am deeply honored and inspired by her commitment to nurturing the next generation of Thai scientists.
+
+I feel truly honored and deeply grateful to be selected as one of only 15 young scientists from Thailand to attend the Global Young Scientists Summit (GYSS) 2025 in Singapore. I’m especially proud to be the sole representative from Thailand in the fields of computer engineering and artificial intelligence, and one of only three postdoctoral researchers selected this year. GYSS has inspired me to keep following my passion in research — it was incredibly exciting to meet world-class professors I’ve admired for years, including a legendary computer scientist who received the Turing Award. That moment truly meant the world to me.
+
+<div style="text-align: center;">
+  <img src="https://kaopanboonyuen.github.io/files/GYSS/panboonyuen_GYSS2025.jpg" alt="Thailand representative at GYSS2025">
+  <p style="font-style: italic; margin-top: 0px;">Figure 2: Honored to represent Thailand at GYSS2025 with heartfelt gratitude to HRH Princess Maha Chakri Sirindhorn. I am one of only three postdoctoral researchers selected this year — and the sole delegate from Thailand in the fields of computer engineering and AI. (Reference Image: From official Facebook of NSTDA-GYSS: <a href="https://www.facebook.com/photo.php?fbid=1061339665992254&id=100063486913512&set=a.529956069130619" target="_blank">source</a>).</p>
+</div>
+
+
 The highlight of the summit was, without a doubt, the moment I had the incredible honor of presenting my work to Her Royal Highness Princess Maha Chakri Sirindhorn.
 
 As a young scientist, I was deeply humbled to share my research titled *“MeViT: A Medium-Resolution Vision Transformer for Semantic Segmentation on Landsat Satellite Imagery for Agriculture in Thailand”* with Her Royal Highness. My work focuses on addressing challenges in agricultural monitoring and resource management by leveraging cutting-edge advancements in artificial intelligence. Specifically, MeViT is designed for semantic segmentation of Landsat satellite imagery, targeting key economic crops in Thailand such as para rubber, corn, and pineapple. By enhancing Vision Transformers (ViTs) with a medium-resolution multi-branch architecture and incorporating mixed-scale convolutional feedforward networks (MixCFN), MeViT excels at extracting multi-scale local information critical for precise segmentation.
@@ -69,27 +79,27 @@ Her Royal Highness listened with great interest, her graciousness reflecting her
 
 <div style="text-align: center;">
   <img src="GYSS2025_withHRH/KAO_GYSS2025_06_2.jpg" alt="Group photo with HRH Princess Maha Chakri Sirindhorn">
-  <p style="font-style: italic; margin-top: 0px;">Figure 2: Group photo with Her Royal Highness Princess Maha Chakri Sirindhorn.</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 3: Group photo with Her Royal Highness Princess Maha Chakri Sirindhorn.</p>
 </div>
 
 <div style="text-align: center;">
   <img src="GYSS2025_withHRH/KAO_GYSS2025_06.jpg" alt="Close-up photo with HRH at GYSS2025">
-  <p style="font-style: italic; margin-top: 0px;">Figure 3: A truly special moment—standing right behind HRH Princess Maha Chakri Sirindhorn. A deeply proud and memorable experience.</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 4: A truly special moment—standing right behind HRH Princess Maha Chakri Sirindhorn. A deeply proud and memorable experience.</p>
 </div>
 
 <div style="text-align: center;">
   <img src="GYSS2025_withHRH/KAO_GYSS2025_07.jpg" alt="Photo with HRH and NSTDA staff">
-  <p style="font-style: italic; margin-top: 0px;">Figure 4: Group photo with HRH Princess Maha Chakri Sirindhorn and NSTDA staff members.</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 5: Group photo with HRH Princess Maha Chakri Sirindhorn and NSTDA staff members.</p>
 </div>
 
 <div style="text-align: center;">
   <img src="GYSS2025_withHRH/KAO_GYSS2025_03.jpg" alt="Photo with HRH and Thai researchers">
-  <p style="font-style: italic; margin-top: 0px;">Figure 5: A proud moment with HRH and fellow Thai researchers selected for GYSS2025.</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 6: A proud moment with HRH and fellow Thai researchers selected for GYSS2025.</p>
 </div>
 
 <div style="text-align: center;">
   <img src="GYSS2025_withHRH/Her_Royal_Highness_toGYSS2025_2.png" alt="Photo with HRH and research team">
-  <p style="font-style: italic; margin-top: 0px;">Figure 6: With HRH Princess Maha Chakri Sirindhorn, fellow researchers, and NSTDA staff.</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 7: With HRH Princess Maha Chakri Sirindhorn, fellow researchers, and NSTDA staff.</p>
 </div>
 
 It was a truly humbling and inspiring moment—one that I will carry with me for the rest of my life. The opportunity to share my work with Her Royal Highness not only reaffirmed my passion for pushing the boundaries of science and technology but also strengthened my resolve to contribute to meaningful advancements that serve the nation and the global community.
@@ -117,12 +127,12 @@ The lecture began with a discussion on the architecture of modern neural network
 
 <div style="text-align: center;">
   <img src="GYSS2025_withHRH/LECTURE/IMG_0218.jpg" alt="Lecture with Professor Adi Shamir">
-  <p style="font-style: italic; margin-top: 0px;">Figure 7: Attending a lecture with Professor Adi Shamir at GYSS2025.</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 8: Attending a lecture with Professor Adi Shamir at GYSS2025.</p>
 </div>
 
 <div style="text-align: center;">
   <img src="GYSS2025_withHRH/LECTURE/IMG_0206.jpg" alt="Lecture with Professor Adi Shamir">
-  <p style="font-style: italic; margin-top: 0px;">Figure 8: Learning from the legendary Professor Adi Shamir—co-inventor of RSA and Turing Award laureate.</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 9: Learning from the legendary Professor Adi Shamir—co-inventor of RSA and Turing Award laureate.</p>
 </div>
 
 
@@ -241,7 +251,7 @@ But what truly stood out was the in-depth discussion I had with Professor Shamir
 <div style="text-align: center;">
   <img src="GYSS2025_withHRH/KAO_GYSS2025_04.jpg" alt="Photo with Professor Adi Shamir">
   <p style="font-style: italic; margin-top: 0px;">
-    Figure 9: A memorable moment meeting Professor Adi Shamir, co-inventor of RSA and recipient of the ACM A.M. Turing Award.
+    Figure 10: A memorable moment meeting Professor Adi Shamir, co-inventor of RSA and recipient of the ACM A.M. Turing Award.
     (<a href="https://amturing.acm.org/award_winners/shamir_2327856.cfm" target="_blank">Read more</a>)
   </p>
 </div>
@@ -473,7 +483,7 @@ The panel explored topics such as algorithmic bias, dual-use AI technologies, pr
 
 <div style="text-align: center;">
   <img src="GYSS2025_withHRH/LECTURE/IMG_0305.jpg" alt="Ethics of Scientific Research talk">
-  <p style="font-style: italic; margin-top: 0px;">Figure 10: Attending a talk on “Ethics of Scientific Research in the Age of AI”.</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 11: Attending a talk on “Ethics of Scientific Research in the Age of AI”.</p>
 </div>
 
 ---
@@ -599,7 +609,7 @@ A mind map summarizing these insights can help readers visualize the ethical con
 <div style="text-align: center;">
   <img src="GYSS2025_withHRH/LECTURE/GRPAH_01.png" alt="Mind map on AI ethics in scientific research">
   <p style="font-style: italic; margin-top: 0px;">
-    Figure 11: A mind map summarizing key ethical considerations in the use of AI for scientific research, discussed during GYSS2025.
+    Figure 12: A mind map summarizing key ethical considerations in the use of AI for scientific research, discussed during GYSS2025.
   </p>
 </div>
 
@@ -622,17 +632,17 @@ All in all, my experience at GYSS 2025 was beyond what I could have imagined. It
 
 <div style="text-align: center;">
   <img src="GYSS2025_withHRH/LECTURE/IMG_0111.jpg" alt="Lecture atmosphere at GYSS2025">
-  <p style="font-style: italic; margin-top: 0px;">Figure 12: Immersed in the vibrant academic atmosphere of GYSS2025.</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 13: Immersed in the vibrant academic atmosphere of GYSS2025.</p>
 </div>
 
 <div style="text-align: center;">
   <img src="GYSS2025_withHRH/KAO_GYSS2025_02.jpg" alt="Photo with GYSS2025 banner">
-  <p style="font-style: italic; margin-top: 0px;">Figure 13: Standing proudly with the GYSS2025 banner—first time wearing a formal suit in years!</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 14: Standing proudly with the GYSS2025 banner—first time wearing a formal suit in years!</p>
 </div>
 
 <div style="text-align: center;">
   <img src="GYSS2025_withHRH/LECTURE/IMG_0238.jpg" alt="NUS campus shot">
-  <p style="font-style: italic; margin-top: 0px;">Figure 14: Beautiful campus vibes at NUS, Singapore—a serene and inspiring place for learning.</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 15: Beautiful campus vibes at NUS, Singapore—a serene and inspiring place for learning.</p>
 </div>
 
 
