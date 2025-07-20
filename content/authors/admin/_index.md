@@ -12,7 +12,7 @@ superuser: true
 organizations: 
 - name: Senior AI Research Scientist, PostDoc Fellow
   url: https://kaopanboonyuen.github.io/
-- name: MARS, Chula
+- name: MARSAIL, Chula
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research focuses on leveraging advanced machine intelligence techniques, specifically computer vision, to enhance semantic understanding, learning representations, visual recognition, and geospatial data interpretation.
@@ -99,15 +99,15 @@ highlight_name: true
 My research focuses on **Learning Representations**—developing cutting-edge algorithms with optimization theory to push AI's limits. I work with advanced models like GANs and Diffusion Models, leverage Self-Supervised Learning, explore how Adversarial Attacks on Large Language Models (LLMs) could reshape the future of AI.
 <!-- My research focuses on **Learning Representations**, developing advanced algorithms based on optimization theory to push the boundaries of AI. I work with models like GANs and Diffusion Models, leverage Self-Supervised Learning, and explore Adversarial Attacks on Large Language Models (LLMs) to redefine AI's potential. -->
 
-I am currently a **Senior AI Research Scientist** at [**MARS (Motor AI Recognition Solution)**](https://www.marssolution.io/) and a <a href="https://kaopanboonyuen.github.io/files/scholarship/Website_Announcement_Postdoc_May_2025.pdf" style="color:#FF69B4;" target="_blank">**C2F High-Potential Postdoc**</a> at [**Chulalongkorn University**](https://www.chula.ac.th/en/). I received my [**Ph.D. in Computer Engineering**](https://www.cp.eng.chula.ac.th/en/prospective/graduate/phd-computerengineering/) from <a href="https://www.chula.ac.th/en/" style="color:#FF69B4;" target="_blank">**Chulalongkorn University**</a>, where I specialized in AI.
+I am currently a **Senior Research Scientist** at [**MARSAIL (Motor AI Recognition Solution Artificial Intelligence Laboratory)**](https://kaopanboonyuen.github.io/MARS/) and a <a href="https://kaopanboonyuen.github.io/files/scholarship/Website_Announcement_Postdoc_May_2025.pdf" style="color:#FF69B4;" target="_blank">**C2F High-Potential Postdoc**</a> at [**Chulalongkorn University**](https://www.chula.ac.th/en/). I received my [**Ph.D. in Computer Engineering**](https://www.cp.eng.chula.ac.th/en/prospective/graduate/phd-computerengineering/) from <a href="https://www.chula.ac.th/en/" style="color:#FF69B4;" target="_blank">**Chulalongkorn University**</a>, where I specialized in AI. On top of that, I’m the founder of <a href="https://myrida.pages.dev/" style="color:#FF69B4; font-weight:600;" target="_blank">**MYRIDA**</a>.
 
 <!-- My passion is focused on **Cognitive Intelligence** to unlock human potential. I am keenly interested in **Remote Sensing**, where LLMs reveals transformative insights and redefines how we perceive and interact with our environment. -->
 
 Passionate about **Cognitive Intelligence** and unlocking human potential, I’m also deeply immersed in **Geospatial Intelligence**, where LLMs uncover groundbreaking insights that reshape how we understand and interact with our world.
 
-Detailed summaries of my academic, industry, and teaching experience can be found in my [**CV**](https://kaopanboonyuen.github.io/files/panboonyuen_cv.pdf) or [**IEEE Biography**](https://kaopanboonyuen.github.io/files/IEEE/IEEE_Biography_Panboonyuen_01.pdf), and get a glimpse into my personal life on my [**blog**](https://kaopanboonyuen.wordpress.com/) and [**tumblr**](https://kaopanboonyuen.tumblr.com/). Also, feel free to vibe to my [**music on SoundCloud**](https://soundcloud.com/kaopanboonyuen).
+Detailed summaries of my academic, industry, and teaching experience can be found in my [**CV**](https://kaopanboonyuen.github.io/files/panboonyuen_cv.pdf) or [**IEEE Biography**](https://kaopanboonyuen.github.io/files/IEEE/IEEE_Biography_Panboonyuen_01.pdf), and get a glimpse into my personal life on my [**blog**](https://kaopanboonyuen.wordpress.com/) and [**tumblr**](https://kaopanboonyuen.tumblr.com/). By the way, feel free to vibe to my [**music on SoundCloud**](https://soundcloud.com/kaopanboonyuen).
 
-Thai name: [**ธีรพงศ์ ปานบุญยืน**](https://kaopanboonyuen.github.io/kaopanboonyuen/), aka [**Kao Panboonyuen**](https://kaopanboonyuen.wordpress.com/), or just Kao (เก้า).
+Thai name: [**ธีรพงศ์ ปานบุญยืน**](https://myrida.pages.dev/), aka [**Kao Panboonyuen**](https://kaopanboonyuen.wordpress.com/), or just Kao (เก้า).
 
 {{< icon name="download" pack="fas" >}}{{< staticref "https://kaopanboonyuen.github.io/files/panboonyuen_cv.pdf" "newtab" >}}Download my CV{{< /staticref >}}.  {{< icon name="download" pack="fas" >}}{{< staticref "https://kaopanboonyuen.github.io/files/panboonyuen_cv_th.pdf" "newtab" >}}Download my Thai CV (Restricted to Thai government use only){{< /staticref >}}.  
 
