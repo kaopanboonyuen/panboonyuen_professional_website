@@ -49,7 +49,7 @@ featured: true
 
 links:
 - name: ArXiv
-  url: 'https://kaopanboonyuen.github.io/files/paper/Panboonyuen_CUICU_TSCCM2025_arXiv.pdf'
+  url: 'http://arxiv.org/abs/2507.13655'
 # - name: Certificate
 #   url: 'https://kaopanboonyuen.github.io/files/certificate/KST2025/Panboonyuen-Certificate-of-Contributions-53.pdf'
 # - name: ICML talk
@@ -58,7 +58,7 @@ links:
 #   url: https://spectrum.ieee.org/tech-talk/computing/software/deepmind-teaches-ai-teamwork
 # - name: ICIAP 2017 Best Papers
 #   url: https://link.springer.com/chapter/10.1007/978-3-319-60663-7_18
-url_pdf: 'https://kaopanboonyuen.github.io/files/paper/Panboonyuen_CUICU_TSCCM2025_arXiv.pdf'
+url_pdf: 'http://arxiv.org/pdf/2507.13655'
 url_code: 'https://github.com/kaopanboonyuen'
 url_dataset: ''
 # url_poster: 'https://kaopanboonyuen.github.io/REG/'

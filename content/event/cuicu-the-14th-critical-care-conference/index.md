@@ -65,7 +65,7 @@ projects:
 
 🎤 You can download the full presentation slides from my CU-ICU oral talk at TSCCM 2025 [here](https://kaopanboonyuen.github.io/files/slides/Panboonyuen_CUICU_TSCCM2025_Slide.pdf).
 
-📄 Curious to dive deeper into the research? You can also read the full CU-ICU paper on arXiv [here](https://kaopanboonyuen.github.io/files/paper/Panboonyuen_CUICU_TSCCM2025_arXiv.pdf).
+📄 Curious to dive deeper into the research? You can also read the full CU-ICU paper on arXiv [here](http://arxiv.org/abs/2507.13655).
 {{% /callout %}}
 
 ---
