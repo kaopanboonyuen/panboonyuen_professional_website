@@ -25,7 +25,7 @@ publishDate: "2025-07-28T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication:  In *European Journal of Remote Sensing (Taylor & Francis)*
@@ -37,15 +37,16 @@ abstract: The importance of road segmentation in remote sensing data cannot be o
 summary: Road segmentation in remote sensing is crucial for applications like urban planning, traffic monitoring, and autonomous driving. Labeling objects via pixel-wise segmentation is challenging compared to bounding boxes. Existing weakly supervised segmentation methods often rely on heuristic bounding box priors, but we propose that box-supervised techniques can yield better results. Introducing GuidedBox, an end-to-end framework for weakly supervised instance segmentation. GuidedBox uses a teacher model to generate high-quality pseudo-masks and employs a confidence scoring mechanism to filter out noisy masks. We also introduce a noise-aware pixel loss and affinity loss to optimize the student model with pseudo-masks. Our extensive experiments show that GuidedBox outperforms state-of-the-art methods like SOLOv2, CondInst, and Mask R-CNN on the Massachusetts Roads Dataset, achieving an AP50 score of 0.9231. It also shows strong performance on SpaceNet and DeepGlobe datasets, proving its versatility in remote sensing applications. Code has been made available at https://github.com/kaopanboonyuen/GuidedBox.
 
 tags:
-- clinical-llms  
-- parameter-efficient-finetuning  
-- peft  
-- medical-ai  
-- prompt-learning  
-- flan-t5  
-- healthcare-innovation  
-- sepsis-detection  
-- icu-mortality-prediction  
+- weakly-supervised-learning
+- road-segmentation
+- remote-sensing
+- teacher-student-framework
+- pseudo-labeling
+- instance-segmentation
+- computer-vision
+- geospatial-ai
+- mask-generation
+- noise-aware-learning
 
 featured: true
 
@@ -60,7 +61,7 @@ links:
 #   url: https://spectrum.ieee.org/tech-talk/computing/software/deepmind-teaches-ai-teamwork
 # - name: ICIAP 2017 Best Papers
 #   url: https://link.springer.com/chapter/10.1007/978-3-319-60663-7_18
-url_pdf: 'https://www.tandfonline.com/journals/tejr20'
+url_pdf: 'https://www.tandfonline.com/doi/full/10.1080/22797254.2025.2540963'
 url_code: 'https://github.com/kaopanboonyuen/GuidedBox/'
 # url_dataset: ''
 # url_poster: 'https://kaopanboonyuen.github.io/REG/'

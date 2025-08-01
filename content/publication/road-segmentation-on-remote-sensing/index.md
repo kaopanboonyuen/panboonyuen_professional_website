@@ -29,8 +29,8 @@ publishDate: "2017-09-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Remote Sensing* **Impact Factor 4.2**
-publication_short: In *Remote Sensing* **Impact Factor 4.2**
+publication: In *Remote Sensing*
+publication_short: In *Remote Sensing*
 
 abstract: Semantic segmentation of remotely-sensed aerial (or very-high resolution, VHS) images and satellite (or high-resolution, HR) images has numerous application domains, particularly in road extraction, where the segmented objects serve as essential layers in geospatial databases. Despite several efforts to use deep convolutional neural networks (DCNNs) for road extraction from remote sensing images, accuracy remains a challenge. This paper introduces an enhanced DCNN framework specifically designed for road extraction from remote sensing images by incorporating landscape metrics (LMs) and conditional random fields (CRFs). Our framework employs the exponential linear unit (ELU) activation function to improve the DCNN, leading to a higher quantity and more accurate road extraction. Additionally, to minimize false classifications of road objects, we propose a solution based on the integration of LMs. To further refine the extracted roads, a CRF method is incorporated into our framework. Experiments conducted on Massachusetts road aerial imagery and Thailand Earth Observation System (THEOS) satellite imagery datasets demonstrated that our proposed framework outperforms SegNet, a state-of-the-art object segmentation technique, in most cases regarding precision, recall, and F1 score across various types of remote sensing imagery.
 

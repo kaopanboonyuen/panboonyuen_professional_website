@@ -28,8 +28,8 @@ publishDate: "2025-02-02T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication:  In *IEEE Access* **Impact Factor 3.4**
-publication_short:  In *IEEE Access* **Impact Factor 3.4**
+publication:  In *IEEE Access*
+publication_short:  In *IEEE Access*
 
 abstract: State-space graphs and automata serve as fundamental tools for modeling and analyzing the behavior of computational systems. Recurrent neural networks (RNNs) and language models are deeply intertwined, as RNNs provide the foundational architecture that enables language models to process sequential data, capture contextual dependencies, and improve natural language processing tasks. Both RNNs and state-space graphs are used to evaluate discrete-time systems within this formal framework. However, the basic question of their equivalence remains an open challenge, particularly with regard to the models governing sentence structure in natural language and the formal models in automata theory. In this paper, we present ENGRU (Enhanced Gated Recurrent Units), a novel deep learning-based approach for formal verification. ENGRU integrates model checking techniques, Colored Petri Nets (CPNs), and sequential learning to analyze systems at a high level of abstraction. CPN models undergo state-space enumeration through a model-checking tool, generating a state-space graph and an automaton based on inherent state transition patterns. These graphs are transformed into sequential representations as sub-paths, enabling ENGRU to learn execution paths and predict system behaviors. ENGRU effectively predicts goal states within discrete-time models, leveraging the competency of gated recurrent mechanisms. This encourages early bug detection and enables predictive state-space exploration. Experimental results demonstrate that ENGRU achieves high accuracy and efficiency in goal state predictions. The source code for ENGRU is available at https://github.com/kaopanboonyuen/ENGRU.
 
@@ -44,7 +44,7 @@ tags:
 - Computational Modeling
 - Analytical Models
 
-featured: true
+featured: false
 
 links:
 # - name: ArXiv
