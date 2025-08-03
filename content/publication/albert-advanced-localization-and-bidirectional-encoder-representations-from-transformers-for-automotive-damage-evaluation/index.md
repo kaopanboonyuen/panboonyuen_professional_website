@@ -26,8 +26,8 @@ publishDate: "2025-03-15T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication:  In *arXiv:2506.10524v1 [cs.CV]*
-publication_short:  In *arXiv:2506.10524v1 [cs.CV]*
+publication:  In *arXiv:2506.10524 [cs.CV]*
+publication_short:  In *arXiv:2506.10524 [cs.CV]*
 
 abstract: This paper introduces ALBERT, an instance segmentation model designed specifically for comprehensive car damage and part segmentation. Leveraging the power of Bidirectional Encoder Representations, ALBERT incorporates advanced localization mechanisms to accurately identify and differentiate between real and fake damages as well as segment individual car parts. The model is trained on a large-scale, richly annotated automotive dataset, categorizing damage into 26 types, identifying 7 fake damage variants, and segmenting 61 distinct car parts. Our approach demonstrates strong performance in both segmentation accuracy and damage classification, paving the way for intelligent automotive inspection and assessment applications.
 

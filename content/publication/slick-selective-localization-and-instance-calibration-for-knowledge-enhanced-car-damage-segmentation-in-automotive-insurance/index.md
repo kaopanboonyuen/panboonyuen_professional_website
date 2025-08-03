@@ -26,8 +26,8 @@ publishDate: "2025-03-07T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication:  In *arXiv:2506.10524v1 [cs.CV]*
-publication_short:  In *arXiv:2506.10524v1 [cs.CV]*
+publication:  In *arXiv:2506.10528 [cs.CV]*
+publication_short:  In *arXiv:2506.10528 [cs.CV]*
 
 abstract: We present SLICK, a novel framework for precise and robust car damage segmentation that leverages structural priors and domain knowledge to tackle real-world automotive inspection challenges. SLICK introduces five key components (1) Selective Part Segmentation using a high-resolution semantic backbone guided by structural priors to achieve surgical accuracy in segmenting vehicle parts even under occlusion, deformation, or paint loss; (2) Localization-Aware Attention blocks that dynamically focus on damaged regions, enhancing fine-grained damage detection in cluttered and complex street scenes; (3) an Instance-Sensitive Refinement head that leverages panoptic cues and shape priors to disentangle overlapping or adjacent parts, enabling precise boundary alignment; (4) Cross-Channel Calibration through multi-scale channel attention that amplifies subtle damage signals such as scratches and dents while suppressing noise like reflections and decals; and (5) a Knowledge Fusion Module that integrates synthetic crash data, part geometry, and real-world insurance datasets to improve generalization and handle rare cases effectively. Experiments on large-scale automotive datasets demonstrate SLICK's superior segmentation performance, robustness, and practical applicability for insurance and automotive inspection workflows.
 
