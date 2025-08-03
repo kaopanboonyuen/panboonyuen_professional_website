@@ -58,6 +58,10 @@ featured: true
 links:
 - name: ArXiv
   url: 'https://arxiv.org/abs/2506.10528'
+- name: MARSAIL
+  url: 'https://kaopanboonyuen.github.io/blog/2025-07-01-marsail-the-smart-engine-behind-the-future-of-car-insurance/'
+- name: Blog
+  url: 'https://kaopanboonyuen.github.io/blog/2025-07-02-albert-vs-slick-marsail-new-ai-fashion/'
 # - name: Certificate
 #   url: 'https://kaopanboonyuen.github.io/files/certificate/KST2025/Panboonyuen-Certificate-of-Contributions-53.pdf'
 # - name: ICML talk
@@ -70,7 +74,7 @@ url_pdf: 'https://arxiv.org/pdf/2506.10528'
 url_code: 'https://github.com/kaopanboonyuen/MARS'
 url_dataset: ''
 # url_poster: 'https://kaopanboonyuen.github.io/REG/'
-url_project: 'https://kaopanboonyuen.github.io/MARS'
+url_project: 'https://kaopanboonyuen.github.io/blog/2025-07-02-albert-vs-slick-marsail-new-ai-fashion/'
 # url_slides: 'https://kaopanboonyuen.github.io/files/slides/20240906_Panboonyuen_AI_ThaiHighway.pdf'
 # url_source: 'https://kaopanboonyuen.github.io/blog/2024-09-07-refined-generalized-focal-loss-for-road-asset-detection-on-thai-highways-using-vision-models/'
 url_video: ''
