@@ -50,6 +50,48 @@ You can explore our GitHub project page 📦 [here](https://kaopanboonyuen.githu
 
 ---
 
+> *In Thailand’s rapidly evolving automotive insurance sector, the integration of transformer-based segmentation models like **MARSAIL-ALBERT** and **MARSAIL-SLICK** marks a pivotal shift toward scalable, AI-driven damage assessment—bringing unprecedented accuracy, efficiency, and trust to claim processing pipelines.*
+
+---
+
+In addressing the complex challenge of fine-grained automotive damage segmentation, we present **MARSAIL-ALBERT** (Figure 1), a high-capacity teacher model architected on the principles of bidirectional transformer encoding and spatially-aware representation learning. Leveraging the power of attention mechanisms within a multi-scale encoder-decoder framework, MARSAIL-ALBERT excels at capturing subtle visual cues—scratches, dents, fractures—amid high-variance automotive imagery. It is explicitly optimized to model long-range dependencies across both local textures and global structural semantics, enabling precise localization of damage under varying viewpoints, illumination conditions, and occlusion levels. 
+
+As demonstrated in Figure 2, the model consistently produces highly detailed segmentation maps, revealing strong robustness to environmental perturbations such as specular highlights, cast shadows, and surface complexity. Functioning as the supervisory core of our framework, MARSAIL-ALBERT serves not only as a performant segmentation engine but also as a teacher network for structured knowledge distillation.
+
+<div style="text-align: center;">
+  <img src="https://kaopanboonyuen.github.io/publication/albert-advanced-localization-and-bidirectional-encoder-representations-from-transformers-for-automotive-damage-evaluation/featured.png" alt="ALBERT Architecture">
+  <p style="font-style: italic; margin-top: 0px;">
+    Figure 1: The architecture of the proposed MARSAIL-ALBERT model, a teacher network that leverages advanced localization and bidirectional encoder representations from transformers for high-precision car damage segmentation. This design facilitates robust spatial reasoning and context-aware feature extraction critical for complex automotive insurance scenarios.
+  </p>
+</div>
+
+<div style="text-align: center;">
+  <img src="https://kaopanboonyuen.github.io/publication/albert-advanced-localization-and-bidirectional-encoder-representations-from-transformers-for-automotive-damage-evaluation/compact.png" alt="ALBERT Results">
+  <p style="font-style: italic; margin-top: 0px;">
+    Figure 2: Visualization of segmentation outcomes produced by MARSAIL-ALBERT, highlighting the model’s ability to localize fine-grained vehicle damage under varying lighting and occlusion conditions, showcasing its generalization capability across diverse automotive imagery.
+  </p>
+</div>
+
+To extend this capability into real-time and resource-constrained settings—typical of large-scale deployment in automotive insurance operations—we introduce **MARSAIL-SLICK** (Figure 3), a compact yet powerful student model distilled directly from MARSAIL-ALBERT. It incorporates a novel Selective Localization mechanism that prioritizes critical damage regions, coupled with an Instance Calibration module that aligns feature representation across inter-instance variability. This combination allows MARSAIL-SLICK to retain the semantic fidelity of its teacher while drastically reducing parameter count and inference time. 
+
+As evidenced in Figure 4, the student model maintains competitive segmentation performance, particularly in high-throughput scenarios such as claim triage or automated fleet inspection. Together, the ALBERT–SLICK teacher-student architecture offers a robust, scalable solution for real-world visual understanding tasks in the automotive insurance pipeline, aligning state-of-the-art deep learning with industry-grade reliability and speed.
+
+<div style="text-align: center;">
+  <img src="https://kaopanboonyuen.github.io/publication/slick-selective-localization-and-instance-calibration-for-knowledge-enhanced-car-damage-segmentation-in-automotive-insurance/featured.png" alt="SLICK Architecture">
+  <p style="font-style: italic; margin-top: 0px;">
+    Figure 3: The architecture of MARSAIL-SLICK, a lightweight student model that incorporates selective localization and instance calibration mechanisms for knowledge-enhanced car damage segmentation. This model efficiently distills knowledge from the teacher network to enable real-time deployment while preserving semantic precision.
+  </p>
+</div>
+
+<div style="text-align: center;">
+  <img src="https://kaopanboonyuen.github.io/publication/slick-selective-localization-and-instance-calibration-for-knowledge-enhanced-car-damage-segmentation-in-automotive-insurance/compact.png" alt="SLICK Results">
+  <p style="font-style: italic; margin-top: 0px;">
+    Figure 4: Output predictions from the MARSAIL-SLICK model, demonstrating its capability to maintain high segmentation fidelity despite its reduced computational footprint. The results affirm the effectiveness of our teacher-student framework in knowledge transfer for robust performance in resource-constrained settings.
+  </p>
+</div>
+
+---
+
 In the fast-moving world of automotive insurance, where accuracy and turnaround time can make or break the customer experience, **MARSAIL** (Motor AI Recognition Solution Artificial Intelligence Laboratory) stands at the forefront of transformation. Based in Thailand and led by the visionary **Dr. Teerapong Panboonyuen** — affectionately known as **Dr. Kao** — MARSAIL is redefining how artificial intelligence is used in car insurance and garage ecosystems. The lab's mission is clear: to blend deep research with real-world impact. Earlier this year, Dr. Kao shared on [Twitter](https://twitter.com/kaopanboonyuen/status/1822723598764876000) the debut of **MARS**, an innovative architecture built on Attention Refinement with Sequential Quadtree Nodes. With its combination of scientific rigor and practical relevance, MARS isn't just another academic model — it's a bold step forward in computer vision and deep learning, designed to solve tangible problems in automotive analysis.
 
 {{< twitter user="kaopanboonyuen" id="1822723598764876000" >}}
@@ -59,7 +101,7 @@ Riding on this momentum, MARSAIL has unveiled two game-changing models in 2025: 
 <div style="text-align: center;">
   <img src="https://github.com/kaopanboonyuen/kaopanboonyuen.github.io/raw/main/files/MARS/MARSAIL.png" alt="MARSAIL Logo">
   <p style="font-style: italic; margin-top: 0px;">
-    Figure 1: MARSAIL — a leading research lab in Thailand focused on applying AI to car insurance and automotive service innovations.
+    Figure 5: MARSAIL — a leading research lab in Thailand focused on applying AI to car insurance and automotive service innovations.
   </p>
 </div>
 
@@ -114,7 +156,7 @@ However, this precision comes with a computational cost. ALBERT requires powerfu
 
 <div style="text-align: center;">
   <img src="img/ALBERT_01.png" alt="MARSAIL ALBERT Model Result">
-  <p style="font-style: italic; margin-top: 0px;">Figure 2: MARSAIL-ALBERT model showcasing detailed and precise damage segmentation results.</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 6: MARSAIL-ALBERT model showcasing detailed and precise damage segmentation results.</p>
 </div>
 
 ---
@@ -129,7 +171,7 @@ SLICK boosts processing speed by over **700%** compared to ALBERT, enabling inst
 
 <div style="text-align: center;">
   <img src="img/SLICK_01.png" alt="MARSAIL SLICK Model Result">
-  <p style="font-style: italic; margin-top: 0px;">Figure 3: MARSAIL-SLICK model delivering rapid, knowledge-enhanced damage segmentation optimized for real-time insurance workflows.</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 7: MARSAIL-SLICK model delivering rapid, knowledge-enhanced damage segmentation optimized for real-time insurance workflows.</p>
 </div>
 
 ---
@@ -142,7 +184,7 @@ In the race to deliver the best car damage detection for insurance claims, MARSA
 
 <div style="text-align: center;">
   <img src="img/MARSAIL_TS_MODEL_01.png" alt="Teacher-Student Model Concept Architecture">
-  <p style="font-style: italic; margin-top: 0px;">Figure 4: Conceptual architecture of the MARSAIL teacher-student model (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 8: Conceptual architecture of the MARSAIL teacher-student model (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
 </div>
 
 ---
@@ -157,7 +199,7 @@ The magic happens when the student **learns to mimic** the teacher's insights wi
 
 <div style="text-align: center;">
   <img src="img/MARSAIL_TS_MODEL_02.png" alt="Simple Teacher-Student Model Concept">
-  <p style="font-style: italic; margin-top: 0px;">Figure 5: Simplified overview of the teacher-student learning framework (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 9: Simplified overview of the teacher-student learning framework (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
 </div>
 
 ---
@@ -170,7 +212,7 @@ To illustrate the trade-off, here’s a glimpse of the teacher and student model
 
 <div style="text-align: center;">
   <img src="img/MARSAIL_TS_MODEL_03.png" alt="Teacher Size (left) and Student Size (right) on CIFAR-10 dataset">
-  <p style="font-style: italic; margin-top: 0px;">Figure 6: Visual comparison of teacher (left) and student (right) model sizes (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 10: Visual comparison of teacher (left) and student (right) model sizes (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
 </div>
 
 ---
@@ -183,7 +225,7 @@ The training process involves the student observing both the teacher’s output 
 
 <div style="text-align: center;">
   <img src="img/MARSAIL_TS_MODEL_04.png" alt="How to Learn from Teacher-Student">
-  <p style="font-style: italic; margin-top: 0px;">Figure 7: Diagram showing how the student model learns from the teacher model (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 11: Diagram showing how the student model learns from the teacher model (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
 </div>
 
 ---
@@ -204,7 +246,7 @@ On multiple datasets and architectures (including CNN and ResNet), MARSAIL’s t
 
 <div style="text-align: center;">
   <img src="img/MARSAIL_TS_MODEL_05.png" alt="Result Comparison of Models on CIFAR datasets">
-  <p style="font-style: italic; margin-top: 0px;">Figure 8: Model accuracy comparison showing improvement using knowledge distillation techniques (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 12: Model accuracy comparison showing improvement using knowledge distillation techniques (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
 </div>
 
 ---
@@ -217,7 +259,7 @@ This image visualizes how different layers in each model contribute to the final
 
 <div style="text-align: center;">
   <img src="img/MARSAIL_TS_MODEL_06.png" alt="Summary of Final Layers in Each Model">
-  <p style="font-style: italic; margin-top: 0px;">Figure 9: Summary of final layer features in teacher and student models (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
+  <p style="font-style: italic; margin-top: 0px;">Figure 13: Summary of final layer features in teacher and student models (Image source: <a href="https://www.dailydoseofds.com/p/knowledge-distillation-with-teacher-assistant-for-model-compression/" target="_blank">Daily Dose of Data Science</a>).</p>
 </div>
 
 ---
