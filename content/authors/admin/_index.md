@@ -109,7 +109,10 @@ Detailed summaries of my academic, industry, and teaching experience can be foun
 
 Thai name: [**ธีรพงศ์ ปานบุญยืน**](https://myrida.pages.dev/members/teerapong-panboonyuen/), aka [**Kao Panboonyuen**](https://kaopanboonyuen.wordpress.com/), or just Kao (เก้า).
 
-{{< icon name="download" pack="fas" >}}{{< staticref "https://kaopanboonyuen.github.io/files/panboonyuen_cv.pdf" "newtab" >}}Download my CV{{< /staticref >}}.  {{< icon name="download" pack="fas" >}}{{< staticref "https://kaopanboonyuen.github.io/files/panboonyuen_cv_th.pdf" "newtab" >}}Download my Thai CV (Restricted to Thai government use only){{< /staticref >}}.  
+{{< icon name="download" pack="fas" >}}{{< staticref "https://kaopanboonyuen.github.io/files/panboonyuen_cv.pdf" "newtab" >}}Download my CV{{< /staticref >}}. {{< icon name="user" pack="fas" >}}{{< staticref "https://myrida.pages.dev/members/teerapong-panboonyuen/" "newtab" >}}Know Me in a Minute{{< /staticref >}}.
+
+
+ <!-- {{< icon name="download" pack="fas" >}}{{< staticref "https://kaopanboonyuen.github.io/files/panboonyuen_cv_th.pdf" "newtab" >}}Download my Thai CV (Restricted to Thai government use only){{< /staticref >}}.   -->
 
 
 

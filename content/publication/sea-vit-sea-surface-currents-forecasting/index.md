@@ -54,7 +54,7 @@ links:
 #   url: https://spectrum.ieee.org/tech-talk/computing/software/deepmind-teaches-ai-teamwork
 # - name: ICIAP 2017 Best Papers
 #   url: https://link.springer.com/chapter/10.1007/978-3-319-60663-7_18
-url_pdf: 'https://arxiv.org/abs/2409.16313'
+url_pdf: 'https://ieeexplore.ieee.org/document/11003320'
 url_code: 'https://github.com/kaopanboonyuen/gistda-ai-sea-surface-currents'
 url_dataset: ''
 # url_poster: 'https://kaopanboonyuen.github.io/REG/'
