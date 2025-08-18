@@ -55,10 +55,10 @@ links:
 # - name: ICIAP 2017 Best Papers
 #   url: https://link.springer.com/chapter/10.1007/978-3-319-60663-7_18
 url_pdf: 'https://ieeexplore.ieee.org/document/11003320'
-url_code: 'https://github.com/kaopanboonyuen/gistda-ai-sea-surface-currents'
+url_code: 'https://github.com/kaopanboonyuen/GISTDA-SeaViT'
 url_dataset: ''
 # url_poster: 'https://kaopanboonyuen.github.io/REG/'
-url_project: 'https://kaopanboonyuen.github.io/gistda-ai-sea-surface-currents/'
+url_project: 'https://kaopanboonyuen.github.io/GISTDA-SeaViT/'
 # url_slides: 'https://kaopanboonyuen.github.io/files/slides/20240906_Panboonyuen_AI_ThaiHighway.pdf'
 # url_source: 'https://kaopanboonyuen.github.io/blog/2024-09-07-refined-generalized-focal-loss-for-road-asset-detection-on-thai-highways-using-vision-models/'
 url_video: ''

@@ -64,10 +64,10 @@ links:
 # - name: ICIAP 2017 Best Papers
 #   url: https://link.springer.com/chapter/10.1007/978-3-319-60663-7_18
 url_pdf: https://www.mdpi.com/2072-4292/9/7/680
-url_code: https://github.com/kaopanboonyuen/
+url_code: https://github.com/kaopanboonyuen/RemoteSegTransformer
 url_dataset: ''
 url_poster: ''
-url_project: ''
+url_project: 'https://kaopanboonyuen.github.io/RemoteSegTransformer/'
 url_slides: https://kaopanboonyuen.github.io/files/panboonyuen_IC2IT2017_BestPaperAward.pdf
 url_source: ''
 url_video: ''

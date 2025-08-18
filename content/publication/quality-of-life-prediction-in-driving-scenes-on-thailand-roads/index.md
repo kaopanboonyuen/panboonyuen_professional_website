@@ -60,10 +60,10 @@ links:
 - name: GitHub Page
   url: https://kaopanboonyuen.github.io/bkkurbanscapes
 url_pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9779212
-url_code: https://github.com/kaopanboonyuen
+url_code: https://github.com/kaopanboonyuen/QOL-TransportAI
 url_dataset: ''
 url_poster: ''
-url_project: ''
+url_project: 'https://kaopanboonyuen.github.io/QOL-TransportAI'
 url_slides: ''
 url_source: ''
 url_video: ''

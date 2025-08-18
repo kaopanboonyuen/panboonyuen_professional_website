@@ -58,10 +58,10 @@ links:
 # - name: ArXiv
 #   url: https://arxiv.org/pdf/2305.04743
 url_pdf: https://www.mdpi.com/2078-2489/13/5/259
-url_code: https://github.com/kaopanboonyuen
+url_code: https://github.com/kaopanboonyuen/GeoAI-Landslides
 url_dataset: ''
 url_poster: ''
-url_project: ''
+url_project: 'https://kaopanboonyuen.github.io/GeoAI-Landslides/'
 url_slides: ''
 url_source: ''
 url_video: ''

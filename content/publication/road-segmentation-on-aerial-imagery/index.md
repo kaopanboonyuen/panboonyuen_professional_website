@@ -60,10 +60,10 @@ links:
 - name: IC2IT 2017 Best Paper Award
   url: https://link.springer.com/chapter/10.1007/978-3-319-60663-7_18
 url_pdf: https://link.springer.com/chapter/10.1007/978-3-319-60663-7_18
-url_code: https://github.com/kaopanboonyuen/
+url_code: https://github.com/kaopanboonyuen/RemoteSegTransformer
 url_dataset: ''
 url_poster: ''
-url_project: ''
+url_project: 'https://kaopanboonyuen.github.io/RemoteSegTransformer/'
 url_slides: https://kaopanboonyuen.github.io/files/panboonyuen_IC2IT2017_BestPaperAward.pdf
 url_source: ''
 url_video: ''

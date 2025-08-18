@@ -54,10 +54,10 @@ links:
 # - name: ICIAP 2017 Best Papers
 #   url: https://link.springer.com/chapter/10.1007/978-3-319-60663-7_18
 url_pdf: https://tis.wu.ac.th/index.php/tis/article/view/2038
-url_code: https://github.com/kaopanboonyuen/rainfall-prediction-a-machine-learning-approach
+url_code: https://github.com/kaopanboonyuen/RainNet-ML
 url_dataset: ''
 url_poster: ''
-url_project: 'https://kaopanboonyuen.github.io/rainfall-prediction-a-machine-learning-approach'
+url_project: 'https://kaopanboonyuen.github.io/RainNet-ML'
 url_slides: ''
 url_source: ''
 url_video: ''

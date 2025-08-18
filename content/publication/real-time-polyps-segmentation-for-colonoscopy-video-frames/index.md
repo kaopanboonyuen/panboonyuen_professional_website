@@ -57,10 +57,10 @@ links:
 # - name: ArXiv
 #   url: https://arxiv.org/pdf/2305.04743
 url_pdf: https://link.springer.com/chapter/10.1007/978-3-319-73603-7_32
-url_code: https://github.com/kaopanboonyuen
+url_code: https://github.com/kaopanboonyuen/VisionDL
 url_dataset: ''
 url_poster: ''
-url_project: ''
+url_project: 'https://kaopanboonyuen.github.io/VisionDL/'
 url_slides: ''
 url_source: ''
 url_video: ''
