@@ -2,10 +2,6 @@
 title: "Object Detection of Road Assets Using Transformer-Based YOLOX with Feature Pyramid Decoder on Thai Highway Panorama"
 authors:
 - admin
-- S. Thongbai
-- W. Wongweeranimit
-- P. Santitamnont
-- K. Suphan
 - C. Charoenphon
 
 date: "2022-09-01T00:00:00Z"

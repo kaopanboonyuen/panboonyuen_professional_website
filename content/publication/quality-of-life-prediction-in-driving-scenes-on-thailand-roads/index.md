@@ -27,7 +27,7 @@ publishDate: "2022-03-01T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["2"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *Sustainability*
@@ -58,8 +58,8 @@ links:
 # - name: ACM
 #   url: https://dl.acm.org/doi/10.1007/978-3-031-51023-6_3
 - name: GitHub Page
-  url: https://kaopanboonyuen.github.io/bkkurbanscapes
-url_pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9779212
+  url: https://kaopanboonyuen.github.io/QOL-TransportAI
+url_pdf: https://www.mdpi.com/2071-1050/15/3/2847
 url_code: https://github.com/kaopanboonyuen/QOL-TransportAI
 url_dataset: ''
 url_poster: ''

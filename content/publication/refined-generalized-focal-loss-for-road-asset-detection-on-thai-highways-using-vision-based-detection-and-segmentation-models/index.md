@@ -2,12 +2,6 @@
 title: "REG: Refined Generalized Focal Loss for Road Asset Detection on Thai Highways Using Vision-Based Detection and Segmentation Models"
 authors:
 - admin
-- N. Rattanachona
-- P. Thungthin
-- N. Subsompon
-- S. Thongbai
-- W. Wongweeranimit
-- R. Phukham
 
 date: "2024-09-01T00:00:00Z"
 doi: ""
