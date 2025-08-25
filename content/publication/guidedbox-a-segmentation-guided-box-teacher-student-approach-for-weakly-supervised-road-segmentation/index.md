@@ -51,6 +51,8 @@ tags:
 featured: true
 
 links:
+- name: PBY.LAB
+  url: 'https://pbylab.github.io/'
 # - name: ArXiv
 #   url: 'http://arxiv.org/abs/2507.13655'
 # - name: Certificate
