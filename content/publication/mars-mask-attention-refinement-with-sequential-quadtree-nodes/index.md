@@ -63,6 +63,10 @@ links:
   url: https://dl.acm.org/doi/10.1007/978-3-031-51023-6_3
 - name: ArXiv
   url: https://arxiv.org/pdf/2305.04743
+- name: MARSAIL
+  url: https://kaopanboonyuen.github.io/blog/2025-07-01-marsail-the-smart-engine-behind-the-future-of-car-insurance/
+- name: Website
+  url: https://kaopanboonyuen.github.io/MARS
 url_pdf: https://link.springer.com/chapter/10.1007/978-3-031-51023-6_3
 url_code: https://github.com/kaopanboonyuen/MARS
 url_dataset: ''
