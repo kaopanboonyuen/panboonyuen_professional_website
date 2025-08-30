@@ -56,6 +56,29 @@ url_embed: ""
 projects:
 - internal-project
 ---
+
+## 🎓 Ph.D. Dissertation Defense – Triumphant
+
+On **July 9, 2020**, I successfully defended my Ph.D. dissertation titled *"Semantic Segmentation on Remotely Sensed Images Using Deep Convolutional Encoder-Decoder Neural Network"* before a distinguished committee of Thai professors, each of whom earned their doctoral degrees from world-renowned international universities.
+
+![](panboonyuen_phd_defense_day_01.png)
+
+The list below shows the names of those who submitted their final Ph.D. dissertations; considering I’m from the class of 2017 (student ID: 6071467821) and graduated in 2019, it took me just two years to complete this journey—an achievement that reflects my dedication and perseverance. I’m deeply proud and grateful to myself for the commitment I gave to this work.
+
+![](panboonyuen_phd_defense_day_02.png)
+
+🧠 The research focused on applying deep learning techniques—specifically convolutional encoder-decoder architectures—for high-accuracy semantic segmentation in remotely sensed imagery, pushing the boundaries of geospatial AI.
+
+🔗 **Explore the full dissertation, source code, and project resources here:**  
+👉 [https://kaopanboonyuen.github.io/FusionNetGeoLabel/](https://kaopanboonyuen.github.io/FusionNetGeoLabel/)
+
+🔗 **Interested in the full presentation slides? You can view them here:**  
+👉 [Ph.D. Defense Slides](https://kaopanboonyuen.github.io/files/panboonyuen_phd_defense_2020.pdf)
+
+---
+
+> **One word to define the journey:** `Triumphant` 🚀
+
 ### PhD Journey: A Milestone Achieved
 
 On May 19, 2022, I proudly completed my PhD at Chulalongkorn University, closing a remarkable chapter in my academic journey. This milestone was not just a moment of personal triumph, but also a time of reflection and deep gratitude. Graduating with a doctoral degree was a dream realized, filled with emotions that I will carry with me forever.

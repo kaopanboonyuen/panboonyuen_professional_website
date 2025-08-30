@@ -49,6 +49,10 @@ tags:
 featured: false
 
 links:
+- name: Slides
+  url: https://kaopanboonyuen.github.io/files/panboonyuen_phd_defense_2020.pdf
+- name: Blog
+  url: https://kaopanboonyuen.github.io/FusionNetGeoLabel/
 # - name: Videos
 #   url: https://www.youtube.com/channel/UCNzeAAPyZaX4EDr720q5msg
 # - name: ICML talk

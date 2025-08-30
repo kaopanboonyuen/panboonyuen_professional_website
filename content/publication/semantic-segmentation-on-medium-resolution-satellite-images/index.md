@@ -47,6 +47,8 @@ tags:
 featured: false
 
 links:
+- name: Blog
+  url: https://kaopanboonyuen.github.io/FusionNetGeoLabel/
 # - name: Videos
 #   url: https://www.youtube.com/channel/UCNzeAAPyZaX4EDr720q5msg
 # - name: ICML talk

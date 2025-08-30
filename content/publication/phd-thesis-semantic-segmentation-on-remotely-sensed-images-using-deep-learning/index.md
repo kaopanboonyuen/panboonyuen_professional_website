@@ -54,10 +54,10 @@ tags:
 featured: true
 
 links:
-# - name: Videos
-#   url: https://www.youtube.com/channel/UCNzeAAPyZaX4EDr720q5msg
-# - name: ICML talk
-#   url: https://www.facebook.com/watch/live/?v=355035025132741&ref=watch_permalink
+- name: PhD Blog
+  url: https://kaopanboonyuen.github.io/talk/ph.d.-thesis-defense/
+- name: PhD Showcase
+  url: https://kaopanboonyuen.github.io/FusionNetGeoLabel/
 # - name: IEEE Spectrum article
 #   url: https://spectrum.ieee.org/tech-talk/computing/software/deepmind-teaches-ai-teamwork
 # - name: ICIAP 2017 Best Papers

@@ -53,6 +53,8 @@ tags:
 featured: true
 
 links:
+- name: Blog
+  url: https://kaopanboonyuen.github.io/FusionNetGeoLabel/
 - name: IC2IT 2017 Best Paper Award
   url: https://link.springer.com/chapter/10.1007/978-3-319-60663-7_18
 # - name: Videos
