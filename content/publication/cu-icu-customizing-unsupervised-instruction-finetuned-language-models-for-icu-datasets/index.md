@@ -26,8 +26,8 @@ publishDate: "2025-07-17T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication:  In *the 14th Critical Care Conference*
-publication_short:  In *the 14th Critical Care Conference*
+publication:  In *the 14th Critical Care Conference (King Chulalongkorn Memorial Hospital)*
+publication_short:  In *the 14th Critical Care Conference (King Chulalongkorn Memorial Hospital)*
 
 abstract: Integrating large language models into specialized domains like healthcare presents unique challenges, including domain adaptation and limited labeled data. We introduce CU-ICU, a method for customizing unsupervised instruction-finetuned language models for ICU datasets by leveraging the Text-to-Text Transfer Transformer (T5) architecture. CU-ICU employs a sparse fine-tuning approach that combines few-shot prompting with selective parameter updates, enabling efficient adaptation with minimal supervision. Our evaluation across critical ICU tasks—early sepsis detection, mortality prediction, and clinical note generation—demonstrates that CU-ICU consistently improves predictive accuracy and interpretability over standard fine-tuning methods. Notably, CU-ICU achieves up to a 15% increase in sepsis detection accuracy and a 20% enhancement in generating clinically relevant explanations while updating fewer than 1% of model parameters in its most efficient configuration. These results establish CU-ICU as a scalable, low-overhead solution for delivering accurate and interpretable clinical decision support in real-world ICU environments.
 

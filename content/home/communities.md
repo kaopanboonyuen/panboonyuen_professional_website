@@ -57,7 +57,11 @@ design:
 
 * Guest Lecturer and AI Committee Member
 
-  * [Keynote Speaker - UAMC2025](https://kaopanboonyuen.github.io/files/invitation_letters/UAMC2025_TVIxMARSxKMITL.pdf)  
+  * [Smart Detective: AI in Solving Mysteries (NAC2025)](https://www.nstda.or.th/nac/2025/youth-activities/youth-activity-2/)  
+    * Delivered an interactive workshop on deep learning and computer vision, introducing how Vision Transformers achieve breakthroughs in image recognition.  
+    * Guided hands‑on model building—training an AI system to detect Waldo.  
+
+  * [Keynote Speaker (UAMC2025)](https://kaopanboonyuen.github.io/files/invitation_letters/UAMC2025_TVIxMARSxKMITL.pdf)  
     * Delivered keynote on "Mathematical Foundations of Vision Transformers in Car Insurance AI." 
     * [Poster: UAMC2025](https://kaopanboonyuen.github.io/files/poster/UAMC2025_TVIxMARSxKMITL_Poster.png)
 
