@@ -100,7 +100,8 @@ design:
 
   * [AI Instructor - Department of Lands, Thailand](https://kaopanboonyuen.github.io/files/invitation_letters/Invitation_toLandDept_AI_2024.pdf)
     * Taught AI using land title deed data. [Code and Lecture Slides](https://github.com/kaopanboonyuen/ai_for_dept_of_lands)
-
+    
+<!-- 
 * [AI-Powered Image Recognition for Transportation Mobility Factors: A Quality of Life Perspective for Bangkok City](https://kaopanboonyuen.github.io/quality-of-life-ai-transportation/)
   * Urban development hinges on improving the Quality of Life (QOL) for city inhabitants. Traditionally, QOL assessments rely heavily on questionnaire surveys, which, while informative, can be costly and time-consuming.
   * [Project (GitHub Page)](https://kaopanboonyuen.github.io/quality-of-life-ai-transportation/), [Paper](https://ieeexplore.ieee.org/document/9018796), [Code](https://github.com/kaopanboonyuen/quality-of-life-ai-transportation), [Cite](https://kaopanboonyuen.github.io/files/citation/kao_phd_chula.txt)
@@ -115,7 +116,7 @@ design:
 
 * [The Bangkok Urbanscapes Dataset for Semantic Urban Scene Understanding Using Deep Learning](https://kaopanboonyuen.github.io/bkkurbanscapes)
   * To further study self-driving cars in Thailand, we provide both the proposed methods and the proposed dataset in this project. We hope that our architecture and our dataset would help self-driving autonomous developers improve systems for driving in many cities with unique traffic and driving conditions similar to Bangkok and elsewhere in Thailand.
-  * [Project (GitHub Page)](https://kaopanboonyuen.github.io/bkkurbanscapes), [Dataset](https://www.cityscapes-dataset.com/), [Paper](https://ieeexplore.ieee.org/document/9779212), [Code](https://github.com/kaopanboonyuen/bkkurbanscapes), [Cite](https://kaopanboonyuen.github.io/files/citation/kao_phd_chula.txt)
+  * [Project (GitHub Page)](https://kaopanboonyuen.github.io/bkkurbanscapes), [Dataset](https://www.cityscapes-dataset.com/), [Paper](https://ieeexplore.ieee.org/document/9779212), [Code](https://github.com/kaopanboonyuen/bkkurbanscapes), [Cite](https://kaopanboonyuen.github.io/files/citation/kao_phd_chula.txt) -->
 
 <!-- * [Object Detection of Road Assets Using Transformer-Based YOLOX with Feature Pyramid Decoder on Thai Highway Panorama](https://www.mdpi.com/2078-2489/13/1/5)
   * Identifying road asset objects in Thailand highway monitoring image sequences is essential for intelligent traffic monitoring and administration of the highway. We introduce transformer-based Feature Pyramid Network (FPN) decoder designs, injecting the FPN style of decoder design into Transformer-based YOLOX reasoning.
