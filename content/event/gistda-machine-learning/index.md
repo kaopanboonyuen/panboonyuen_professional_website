@@ -6,11 +6,12 @@ event_url: #https://www.youtube.com/watch?v=traKBhJm4lQ
 
 location: Geo-Informatics and Space Technology Development Agency (GISTDA)
 <!-- address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States -->
+  building: Ratthaprasasanabhakti Building, 6th and 7th Floor
+  street: Chaeng Wattana Road
+  district: Lak Si
+  city: Bangkok
+  postcode: '10210'
+  country: Thailand -->
 
 summary: I was invited to teach a course on distributed machine learning to the Geo-Informatics and Space Technology Development Agency (GISTDA). The curriculum covered fundamental concepts of PySpark, basic deep learning techniques, and practical applications of distributed training using TensorFlow.
 abstract: I was invited to teach a course on distributed machine learning to the Geo-Informatics and Space Technology Development Agency (GISTDA). The curriculum covered fundamental concepts of PySpark, basic deep learning techniques, and practical applications of distributed training using TensorFlow. I also emphasized methods for leveraging Multi-GPU setups and implementing distributed training strategies, particularly in the context of geospatial data analytics, equipping participants with the skills needed to handle large-scale machine learning tasks efficiently.

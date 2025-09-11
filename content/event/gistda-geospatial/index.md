@@ -6,11 +6,12 @@ event_url: #https://www.youtube.com/watch?v=traKBhJm4lQ
 
 location: Geo-Informatics and Space Technology Development Agency (GISTDA)
 <!-- address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States -->
+  building: Ratthaprasasanabhakti Building, 6th and 7th Floor
+  street: Chaeng Wattana Road
+  district: Lak Si
+  city: Bangkok
+  postcode: '10210'
+  country: Thailand -->
 
 summary: I was invited to present on advanced geospatial data analytics, focusing on how spatial and geographic information can be transformed into actionable insights. Leveraging PySpark for distributed computing significantly accelerates data processing, allowing efficient handling of large-scale geospatial datasets. The course also introduced distributed machine learning techniques to build scalable, high-performance predictive models.
 abstract: Geospatial Data Analytics involves analyzing spatial and geographical data to gain insights and make informed decisions. Using PySpark, this process is accelerated through distributed computing, enabling the handling of large datasets efficiently. Distributed Machine Learning models further enhance the analysis by providing scalable and robust predictions. Visualization tools like Looker Studio present the analyzed data in an interactive and comprehensible format, facilitating better decision-making and strategic planning. This combination of technologies allows for comprehensive geospatial data analysis, uncovering patterns and trends that drive actionable insights.

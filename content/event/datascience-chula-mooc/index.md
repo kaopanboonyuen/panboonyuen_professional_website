@@ -3,7 +3,7 @@ title: Achieve Data Science First Meet
 
 event: Achieve Data Science First Meet together with Data Science Enthusiasts
 
-date: 2022-11-19
+date: 2022-12-05
 
 time: 19:00
 
@@ -25,12 +25,12 @@ abstract: I was invited to speak at the "Achieve Data Science First Meet" for a 
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2020-12-01T09:30:00Z"
+date: "2022-12-05T09:30:00Z"
 #date_end: "2030-06-01T15:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2020-01-01T09:30:00Z"
+publishDate: "2022-12-05T09:30:00Z"
 
 authors: []
 tags: []
