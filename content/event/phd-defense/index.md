@@ -92,6 +92,34 @@ Reflecting on this journey, I am deeply grateful for the unwavering commitment I
 
 ---
 
+## 🎓 Official Recognition of Ph.D. Completion  
+
+On **January 15, 2021**, I officially graduated with the degree of **Doctor of Philosophy in Computer Engineering** from Chulalongkorn University (Student ID: 6071467821). This milestone was formally endorsed by the University Council on **January 28, 2021**, marking the successful culmination of years of research, dedication, and perseverance. This recognition stands as undeniable proof of my academic journey, where relentless effort and focus enabled me to complete my Ph.D. in an accelerated timeframe while upholding the highest standards of research excellence.  
+
+![](panboonyuen_proof_of_phd_completion_01.jpg)  
+
+![](panboonyuen_proof_of_phd_completion_02.png)  
+
+---
+
+## 👑 Commencement Ceremony Invitation  
+
+On **May 19, 2022**, I was honored to attend the **Royal Commencement Ceremony at Chulalongkorn University**, where I received my Ph.D. degree in person as part of the official convocation. Assigned **seat number 12** in the Faculty of Engineering (Doctoral Degree), this moment represented the final chapter of a journey defined by resilience, discipline, and an unwavering pursuit of knowledge. Walking across the stage in the royal hall was not just a celebration of personal achievement, but also a tribute to the countless hours of hard work and dedication that shaped me into the scholar and professional I am today.  
+
+![](panboonyuen_proof_of_phd_completion_03.jpg)  
+
+---
+
+## 🌟 A Journey of Perseverance and Pride  
+
+Looking back on this journey, I feel an overwhelming sense of pride in myself for making it through. It was a path filled with both excitement and exhaustion—endless nights of research, the anxiety of waiting on paper decisions and wondering if they would be rejected, the challenge of pushing through Q1–Tier 1 journals, and the pressure of the thesis defense. Yet, each hurdle became a stepping stone, and in the end, I emerged stronger, wiser, and more resilient. 
+
+> This achievement is more than just a degree—it is proof that I can overcome even the toughest battles. 
+
+I am truly grateful to myself, because at the core of it all, it was my own persistence and determination that carried me through. Life goes on, and I walk forward with confidence, knowing that I did this—and only I could.  
+
+---
+
 After successfully defending my Ph.D. in Artificial Intelligence, I gained a deep and comprehensive understanding of advanced AI methodologies, particularly in the areas of computer vision, deep learning, and semantic segmentation.
 
  My research on "Semantic Segmentation on Remotely Sensed Images Using Deep Convolutional Encoder-Decoder Neural Networks" has not only enhanced my technical expertise but also refined my ability to tackle complex, real-world problems with innovative solutions. 
