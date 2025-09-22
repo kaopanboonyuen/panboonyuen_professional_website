@@ -23,7 +23,7 @@ location: Faculty of Engineering, Chulalongkorn University
   country: Thailand -->
 
 summary: Hey everyone! I’m Teerapong Panboonyuen, but you can call me Kao. I’m passionate about creating impactful AI. While working on my Ph.D. in Computer Engineering at Chula, I’ve taught, tackled exciting data science projects, and assisted in machine learning classes. My goal? To elevate AI and leverage it for a better world. My journey has been a thrilling exploration of advanced technologies, from diffusion models and generative adversarial networks (GANs) to self-supervised learning and probabilistic modeling.
-abstract: Hey everyone! I’m Teerapong Panboonyuen, but you can call me Kao. I’m passionate about building AI that drives meaningful impact. Currently, I’m a Senior AI Research Scientist at MARS (Motor AI Recognition Solution) and a Postdoctoral Fellow at Chulalongkorn University, where I earned my Ph.D. in Computer Engineering, specializing in advanced AI methodologies. My research focuses on pushing the boundaries of AI through transformer architectures, diffusion models, and generative adversarial networks (GANs), with a strong foundation in optimization theory, latent spaces, and stochastic processes. I’m especially drawn to applications in remote sensing and geospatial analysis, where I leverage deep learning techniques like CNNs and RNNs to uncover patterns in complex data. Beyond research, I love teaching machine learning and mentoring students on concepts like gradient descent, regularization, and the inner workings of deep learning frameworks. My mission is to blend rigorous mathematical principles with innovative problem-solving to create AI that tackles real-world challenges. Whether it’s exploring the potential of attention mechanisms in LLMs or enhancing predictive models with statistical optimization, I’m constantly seeking to expand what’s possible in AI. Let’s collaborate to build technology that inspires, solves problems, and makes a lasting difference!
+abstract: Hey everyone! I’m Teerapong Panboonyuen, but you can call me Kao. I’m passionate about building AI that drives meaningful impact. Currently, I’m a Senior AI Research Scientist at MARSAIL (Motor AI Recognition Solution Artificial Intelligence Laboratory) and a Postdoctoral Fellow at Chulalongkorn University, where I earned my Ph.D. in Computer Engineering, specializing in advanced AI methodologies. My research focuses on pushing the boundaries of AI through transformer architectures, diffusion models, and generative adversarial networks (GANs), with a strong foundation in optimization theory, latent spaces, and stochastic processes. I’m especially drawn to applications in remote sensing and geospatial analysis, where I leverage deep learning techniques like CNNs and RNNs to uncover patterns in complex data. Beyond research, I love teaching machine learning and mentoring students on concepts like gradient descent, regularization, and the inner workings of deep learning frameworks. My mission is to blend rigorous mathematical principles with innovative problem-solving to create AI that tackles real-world challenges. Whether it’s exploring the potential of attention mechanisms in LLMs or enhancing predictive models with statistical optimization, I’m constantly seeking to expand what’s possible in AI. Let’s collaborate to build technology that inspires, solves problems, and makes a lasting difference!
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -66,6 +66,21 @@ url_embed: #https://www.youtube.com/embed/traKBhJm4lQ
 projects:
 - internal-project
 ---
+
+Here’s a glimpse of the person behind the research—my professional profile image is featured below. It captures more than just a moment; it represents my dedication to advancing AI through curiosity, discipline, and a lifelong commitment to learning. 
+
+Whether I’m deep in code, mentoring students, or exploring breakthroughs in machine learning, this image reflects the passion I bring to everything I do. From academic halls to global research stages, I carry this energy with me—driven to make technology smarter, more human, and truly impactful. 
+
+> Special thanks to Gemini 2.5 Flash for enhancing the visual quality of this image, bringing out a professional tone that truly reflects who I am.
+
+![Teerapong Panboonyuen](panboonyuen_profile_pic_01.png)
+![Teerapong Panboonyuen](panboonyuen_profile_pic_03.png)
+![Teerapong Panboonyuen](panboonyuen_profile_pic_05.png)
+![Teerapong Panboonyuen](panboonyuen_profile_pic_07.png)
+
+
+And now, a different side of me—here’s a candid travel photo, untouched by AI. No filters, no enhancements—just me enjoying life, exploring new places, and recharging outside of work. Whether it's wandering through hidden streets in Japan or soaking in the quiet beauty of nature, these moments keep me grounded and inspired. They remind me that balance is key—even for someone immersed in algorithms and machine learning.
+
 ![Teerapong Panboonyuen](kao_japan_2020/KAO_PANBOONYUEN_JP20_02.jpg)
 ![Teerapong Panboonyuen](panboonyuen_img01.jpg)
 ![Teerapong Panboonyuen](panboonyuen_img02.png)
@@ -91,10 +106,10 @@ So, if you want to swap stories about the newest gadgets, discuss the latest res
 
 <!-- ![Teerapong Panboonyuen](featured_ITALY.jpg) -->
 
-![Teerapong Panboonyuen](kao_japan_2020/KAO_PANBOONYUEN_JP20_01.jpg)
+<!-- ![Teerapong Panboonyuen](kao_japan_2020/KAO_PANBOONYUEN_JP20_01.jpg)
 
 ![Teerapong Panboonyuen](kao_japan_2024/panboonyuen_kao_japan_01.jpg)
-![Teerapong Panboonyuen](kao_japan_2024/panboonyuen_kao_japan_02.jpg)
+![Teerapong Panboonyuen](kao_japan_2024/panboonyuen_kao_japan_02.jpg) -->
 <!-- ![Teerapong Panboonyuen](kao_japan_2024/panboonyuen_kao_japan_03.jpg)
 ![Teerapong Panboonyuen](kao_japan_2024/panboonyuen_kao_japan_04.jpg) -->
 
