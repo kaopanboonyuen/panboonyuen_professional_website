@@ -3,9 +3,9 @@ title: GET TO KNOW ME BETTER
 
 event: GET TO KNOW ME BETTER
 
-date: 2018-01-19
+date: 2025-09-22
 
-time: 19:00
+time: 21:00
 
 all_day: false
 
@@ -27,12 +27,12 @@ abstract: Hi guys! I’m Teerapong Panboonyuen, but you can call me Kao. I’m p
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2018-12-01T04:30:00Z"
+date: "2025-09-22T04:30:00Z"
 #date_end: "2030-06-01T15:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2018-01-01T00:00:00Z"
+publishDate: "2025-09-22T00:00:00Z"
 
 authors: []
 tags: []
@@ -41,7 +41,7 @@ tags: []
 featured: false
 
 image:
-  caption: 'Teerapong Panboonyuen (Kao), ธีรพงศ์ ปานบุญยืน (เก้า)'
+  caption: 'Dr. Teerapong Panboonyuen (Kao), ดร. ธีรพงศ์ ปานบุญยืน (เก้า)'
   focal_point: Right
 
 links:
@@ -55,18 +55,18 @@ projects:
 - internal-project
 ---
 
-Here’s a glimpse into the person behind the research.  
+### A quick glimpse at the person behind my work
 
-This profile image isn’t just a photo—it’s a reflection of the dedication, curiosity, and commitment I carry into every aspect of my work. Whether I’m deep in code, guiding students, or exploring breakthroughs in AI, I bring the same energy and focus. From the lecture halls of Chula to international conferences, I aim to push technology forward—making it smarter, more human, and truly impactful.  
+This profile photo represents more than just a face—it reflects the passion, curiosity, and dedication I bring to everything I do. Whether I’m writing code, mentoring students, or diving into cutting-edge AI research, I approach it all with the same drive and focus. From lecture halls at Chula to stages at international conferences, my goal is to help shape technology that’s smarter, more human, and genuinely impactful.
 
-> Shout-out to Gemini 2.5 Flash for enhancing the visual quality of these shots, helping them capture the professional tone that represents me best.  
+> Big thanks to modern AI for sharpening up these visuals—helping them reflect the professional tone that best represents who I am.
 
 ![Teerapong Panboonyuen](panboonyuen_profile_pic_01.png)
 ![Teerapong Panboonyuen](panboonyuen_profile_pic_03.png)
 <!-- ![Teerapong Panboonyuen](panboonyuen_profile_pic_05.png) -->
 <!-- ![Teerapong Panboonyuen](panboonyuen_profile_pic_07.png) -->
 
-This next one is my official profile photo—the one I use on everything from academic credentials to my AI researcher profile. It’s the face I present to the world as I continue growing in both academic and professional spaces.  
+This is my official profile photo—the one I use across everything from academic credentials to my AI research profile. It represents the face I share with the world as I continue to grow in both academic and professional spheres.
 
 ![Teerapong Panboonyuen](panboonyuen_profile_pic_09.png)
 
@@ -78,7 +78,7 @@ But here’s another side of me—outside the labs and research. This candid tra
 ![Teerapong Panboonyuen](panboonyuen_img01.jpg)
 ![Teerapong Panboonyuen](panboonyuen_img02.png)
 
-PS. Here’s an art toy version of me, created with AI—just for fun. I just wanted to see what I’d look like as a cartoon figure.
+P.S. Here’s a fun little AI-generated art toy version of me—I was just curious to see what I’d look like as a cartoon character.
 
 ![Teerapong Panboonyuen](panboonyuen_art_toy_01.png)
 ![Teerapong Panboonyuen](panboonyuen_art_toy_06.png)
@@ -89,13 +89,13 @@ PS. Here’s an art toy version of me, created with AI—just for fun. I just wa
 ![Teerapong Panboonyuen](panboonyuen_art_toy_03.png)
 ![Teerapong Panboonyuen](panboonyuen_art_toy_05.png) -->
 
-### Beyond the Research  
+### Beyond the Research
 
-So who am I beyond the algorithms and equations?  
+So, who am I beyond the algorithms and equations?
 
-I’m a tech enthusiast who believes in the power of innovation to make the world better. When I’m not experimenting with neural networks, you’ll probably find me out on the track or training for a triathlon. Running, marathons, and triathlons keep me grounded—proof that with grit and perseverance, anything is possible.  
+I’m a tech enthusiast who believes in the power of innovation to make the world a better place. When I’m not deep into neural networks, you’ll likely find me on the track, in the pool, or out cycling—training for my next IRONMAN triathlon. Endurance sports like running, marathons, and triathlons keep me grounded. For me, they’re a reminder that with grit, discipline, and perseverance, anything is possible.
 
-I’m also a lifelong learner, constantly curious about the latest trends in AI, technology, and science. But learning doesn’t stop at theory—I love sharing knowledge, volunteering, and connecting with communities that inspire growth.  
+I’m also a lifelong learner—always curious about the latest trends in AI, technology, and science. But learning doesn’t stop at theory. I’m passionate about sharing knowledge, volunteering, and engaging with communities that foster growth and inspiration.
 
 If you’d like to follow along with my journey, check out [My WordPress Blog](https://kaopanboonyuen.wordpress.com/).  
 
