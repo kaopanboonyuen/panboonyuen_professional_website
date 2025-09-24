@@ -73,10 +73,18 @@ This next one is my official profile photo—the one I use on everything from ac
 But here’s another side of me—outside the labs and research. This candid travel photo is completely untouched by AI. No filters, no edits—just me exploring new places and enjoying life. Whether I’m wandering hidden streets in Japan or taking in the quiet beauty of nature, these moments remind me of the balance between ambition and reflection.  
 
 ![Teerapong Panboonyuen](kao_japan_2020/KAO_PANBOONYUEN_JP20_02.jpg)
+![Teerapong Panboonyuen](KAO_PANBOONYUEN_ITA.jpg)
+![Teerapong Panboonyuen](KAO_PANBOONYUEN_ITA_02.jpg)
 ![Teerapong Panboonyuen](panboonyuen_img01.jpg)
 ![Teerapong Panboonyuen](panboonyuen_img02.png)
 
----
+PS. Here’s an art toy version of me, created with AI—just for fun. I just wanted to see what I’d look like as a cartoon figure.
+
+![Teerapong Panboonyuen](panboonyuen_art_toy_01.png)
+![Teerapong Panboonyuen](panboonyuen_art_toy_04.png)
+![Teerapong Panboonyuen](panboonyuen_art_toy_02.png)
+![Teerapong Panboonyuen](panboonyuen_art_toy_03.png)
+
 
 ### Beyond the Research  
 
