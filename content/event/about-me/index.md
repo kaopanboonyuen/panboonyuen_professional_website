@@ -81,10 +81,13 @@ But here’s another side of me—outside the labs and research. This candid tra
 PS. Here’s an art toy version of me, created with AI—just for fun. I just wanted to see what I’d look like as a cartoon figure.
 
 ![Teerapong Panboonyuen](panboonyuen_art_toy_01.png)
-![Teerapong Panboonyuen](panboonyuen_art_toy_04.png)
+![Teerapong Panboonyuen](panboonyuen_art_toy_06.png)
+![Teerapong Panboonyuen](panboonyuen_art_toy_08.png)
+![Teerapong Panboonyuen](panboonyuen_art_toy_07.png)
+<!-- ![Teerapong Panboonyuen](panboonyuen_art_toy_04.png)
 ![Teerapong Panboonyuen](panboonyuen_art_toy_02.png)
 ![Teerapong Panboonyuen](panboonyuen_art_toy_03.png)
-![Teerapong Panboonyuen](panboonyuen_art_toy_05.png)
+![Teerapong Panboonyuen](panboonyuen_art_toy_05.png) -->
 
 ### Beyond the Research  
 
