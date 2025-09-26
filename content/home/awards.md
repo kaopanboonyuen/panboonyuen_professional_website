@@ -73,10 +73,12 @@ Reviewer for International Journals/Conferences:
 - Invited Reviewer of [European Journal of Remote Sensing](https://www.tandfonline.com/journals/tejr20) (Taylor & Francis)
 - Invited Reviewer of [International Journal of Remote Sensing](https://www.tandfonline.com/journals/tres20) (Taylor & Francis)
 - Invited Reviewer of [IEEE Transactions on Artificial Intelligence](https://cis.ieee.org/publications/ieee-transactions-on-artificial-intelligence) (IEEE)
+- Invited Reviewer of [IEEE Transactions on Big Data](https://kaopanboonyuen.github.io/files/certificate/2025/IEEE_Transactions_Reviewer_Certificate_BigData.pdf) (IEEE)
 - Invited Reviewer of [IEEE Transactions on Image Processing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83) (IEEE)
 - Invited Reviewer of [IEEE Transactions on Medical Imaging](https://www.embs.org/tmi/) (IEEE) ([Certificate](https://kaopanboonyuen.github.io/files/certificate/IEEE_Transactions_on_Medical_Imaging_Distinguished_Reviewer_Certificate_2024.pdf))
 - Invited Reviewer of [IEEE Transactions on Geoscience and Remote Sensing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36) (IEEE)
-- Invited Reviewer of [Pattern Analysis and Machine Intelligence (PAMI)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34) (IEEE)
+- Invited Reviewer of [Pattern Analysis and Machine Intelligence (PAMI)](https://kaopanboonyuen.github.io/files/certificate/2025/IEEE_Transactions_Reviewer_Certificate_PAMI.pdf) (IEEE)
+- Recognized as an [IOP Trusted Reviewer](https://kaopanboonyuen.github.io/files/certificate/2025/panboonyuen_IOP_Trusted_Reviewer.pdf) (IOP Publishing)
 - More reviews can be found under my WoS ID [AAO-4985-2020](https://www.webofscience.com/wos/author/rid/AAO-4985-2020).
 - More certificates of reviewers can be found at [my GitHub Repository](https://github.com/kaopanboonyuen/kaopanboonyuen.github.io/tree/main/files/certificate).
 
