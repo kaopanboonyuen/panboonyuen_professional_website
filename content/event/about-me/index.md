@@ -24,11 +24,11 @@ location: C2F Postdoc, Chulalongkorn University
 
 summary: Let’s meet Kao, a Senior Research Scientist at MARSAIL and a C2F High-Potential Postdoc at Chulalongkorn University. Since earning his Ph.D. in 2020, he’s been pushing the limits of AI—using transformers to unlock new insights from satellite images and geospatial data. By combining deep learning with smart optimization, Kao tackles some of the toughest challenges in remote sensing. Beyond his research, he’s passionate about inspiring and mentoring the next generation of AI innovators.
 
-abstract: Hello! I’m Teerapong “Kao” Panboonyuen, and I specialize in creating cutting‑edge AI architectures that combine rigorous theory with transformative applications. I currently work as a Senior Research Scientist at MARSAIL and a Postdoctoral Fellow at Chulalongkorn University, with a Ph.D. in Computer Engineering focused on advanced AI methods. My research centers on Vision Transformers and self‑attention mechanisms, generative adversarial networks (GANs), latent space modeling, and stochastic processes — with a strong grounding in optimization theory. I’m particularly passionate about applications in remote sensing and geospatial analytics, where capturing long‑range dependencies and global spatial context (rather than just local or sequential) is crucial. In my teaching and mentoring, I emphasize the newer tools, transformer architectures, attention heads, positional encoding, as well as optimization methods that support scalability and robustness. I weave in lessons on model inductive biases, latency/accuracy trade‑offs, and efficiency—because success at scale demands more than just accuracy. My mission is to combine mathematical rigor with creative problem solving to architect AI solutions that don’t just work in the lab — they perform, generalize, and endure in real settings. Whether pushing attention mechanisms in Vision Transformers, refining generative models, or optimizing predictive systems for environmental and remote‑sensing challenges, I'm always focused on creating AI that moves the needle. Let’s build something that matters.
+abstract: Hello! I’m Teerapong “Kao” Panboonyuen, a Senior Research Scientist at MARSAIL and a Postdoctoral Fellow at Chulalongkorn University, where I explore the intersection of rigorous mathematical foundations and transformative AI applications. I hold a Ph.D. in Computer Engineering with a strong focus on optimization theory, statistical learning, and deep neural architectures. My research bridges Vision Transformers, self-attention mechanisms, GANs, and stochastic processes, with a strong emphasis on remote sensing, geospatial analytics, and real-world predictive systems. I am particularly passionate about advancing long-range dependency modeling, inductive biases, and efficiency trade-offs, ensuring that models are not only accurate in controlled settings but also scalable and robust in real-world deployments. In teaching and mentorship, I emphasize transformer architectures, attention heads, positional encoding, and efficiency-aware optimization techniques, empowering students to apply advanced theory to impactful applications. My work spans OCR, computer vision for insurance technology, semantic segmentation in remote sensing, and generative modeling, all grounded in practical AI system design. I believe the future of AI lies in merging mathematical precision with creativity and real-world adaptability—from optimizing Transformers and refining generative models to developing predictive systems that address environmental, geospatial, and industrial challenges. My mission is simple to create AI that matters.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2025-09-22T04:30:00Z"
+date: "2025-09-22T05:30:00Z"
 #date_end: "2030-06-01T15:00:00Z"
 all_day: false
 
@@ -83,7 +83,11 @@ P.S. Here’s a fun little AI-generated art toy version of me—I was just curio
 
 ![Teerapong Panboonyuen](panboonyuen_art_toy_01.png)
 ![Teerapong Panboonyuen](panboonyuen_art_toy_06.png)
-![Teerapong Panboonyuen](panboonyuen_art_toy_08.png)
+<!-- ![Teerapong Panboonyuen](panboonyuen_art_toy_08.png) -->
+![Teerapong Panboonyuen](panboonyuen_art_toy_09.png)
+<!-- ![Teerapong Panboonyuen](panboonyuen_art_toy_10.png)
+![Teerapong Panboonyuen](panboonyuen_art_toy_11.png) -->
+![Teerapong Panboonyuen](panboonyuen_art_toy_12.png)
 ![Teerapong Panboonyuen](panboonyuen_art_toy_07.png)
 <!-- ![Teerapong Panboonyuen](panboonyuen_art_toy_04.png)
 ![Teerapong Panboonyuen](panboonyuen_art_toy_02.png)
