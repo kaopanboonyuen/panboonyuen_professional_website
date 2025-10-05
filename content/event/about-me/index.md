@@ -60,7 +60,7 @@ projects:
 
 This profile photo represents more than just a face—it reflects the passion, curiosity, and dedication I bring to everything I do. Whether I’m writing code, mentoring students, or diving into cutting-edge AI research, I approach it all with the same drive and focus. From lecture halls at Chula to stages at international conferences, my goal is to help shape technology that’s smarter, more human, and genuinely impactful.
 
-> Big thanks to modern AI for sharpening up these visuals—helping them reflect the professional tone that best represents who I am.
+> A big thank you to modern AI for enhancing these visuals, helping them align with the professional image I aim to project.
 
 ![Teerapong Panboonyuen](panboonyuen_profile_pic_01.png)
 ![Teerapong Panboonyuen](panboonyuen_profile_pic_03.png)
@@ -75,7 +75,11 @@ I tried experimenting with different outfit styles, but in my actual work life�
 ![Teerapong Panboonyuen](panboonyuen_profile_pic_13.png)
 ![Teerapong Panboonyuen](panboonyuen_profile_pic_15.png)
 
-But here’s another side of me—outside the labs and research. This candid travel photo is completely untouched by AI. No filters, no edits—just me exploring new places and enjoying life. Whether I’m wandering hidden streets in Japan or taking in the quiet beauty of nature, these moments remind me of the balance between ambition and reflection.  
+In the end, if I could choose just one photo that reflects me best, it would have to be this one.
+
+![Teerapong Panboonyuen](panboonyuen_profile_pic_19.png)
+
+Here’s another side of me—beyond the labs and research. This candid travel photo is from the real world. Just me, out exploring and soaking in life. I’ve visited Tokyo, where I loved visiting Meiji Shrine (Meiji Jingu), as well as Pisa and Rome in Italy. Experiencing places like these reminds me how much I love the real world. These moments recharge me and give me fresh energy to dive back into writing research papers with renewed passion.
 
 ![Teerapong Panboonyuen](kao_japan_2020/KAO_PANBOONYUEN_JP20_02.jpg)
 ![Teerapong Panboonyuen](KAO_PANBOONYUEN_ITA.jpg)
