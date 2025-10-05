@@ -67,9 +67,13 @@ This profile photo represents more than just a face—it reflects the passion, c
 <!-- ![Teerapong Panboonyuen](panboonyuen_profile_pic_05.png) -->
 <!-- ![Teerapong Panboonyuen](panboonyuen_profile_pic_07.png) -->
 
-This is my official profile photo—the one I use across everything from academic credentials to my AI research profile. It represents the face I share with the world as I continue to grow in both academic and professional spheres.
+I tried experimenting with different outfit styles, but in my actual work life—whether in a tech company or during my postdoc at Chulalongkorn University—I usually just wear a comfortable t-shirt. The only time I switch it up a bit is when I have a presentation, and even then, it’s still just a t-shirt. The only time I wore a suit was when I had the honor of attending the [GYSS2025](https://kaopanboonyuen.github.io/blog/2025-01-11-where-science-meets-inspiration/) event where we welcomed HRH Princess Maha Chakri Sirindhorn. That was such a proud and unforgettable moment for me.
 
-![Teerapong Panboonyuen](panboonyuen_profile_pic_09.png)
+> Fun fact: I had that suit tailored for [my PhD graduation](https://kaopanboonyuen.github.io/talk/ph.d.-thesis-defense/) at Chulalongkorn, and it was really special to be able to wear it again for another royal audience with Her Royal Highness. I felt deeply honored and grateful.
+
+![Teerapong Panboonyuen](panboonyuen_profile_pic_11.png)
+![Teerapong Panboonyuen](panboonyuen_profile_pic_13.png)
+![Teerapong Panboonyuen](panboonyuen_profile_pic_15.png)
 
 But here’s another side of me—outside the labs and research. This candid travel photo is completely untouched by AI. No filters, no edits—just me exploring new places and enjoying life. Whether I’m wandering hidden streets in Japan or taking in the quiet beauty of nature, these moments remind me of the balance between ambition and reflection.  
 
@@ -83,12 +87,13 @@ P.S. Here’s a fun little AI-generated art toy version of me—I was just curio
 
 ![Teerapong Panboonyuen](panboonyuen_art_toy_01.png)
 ![Teerapong Panboonyuen](panboonyuen_art_toy_06.png)
-<!-- ![Teerapong Panboonyuen](panboonyuen_art_toy_08.png) -->
 ![Teerapong Panboonyuen](panboonyuen_art_toy_09.png)
+<!-- ![Teerapong Panboonyuen](panboonyuen_art_toy_08.png) -->
+<!-- ![Teerapong Panboonyuen](panboonyuen_art_toy_09.png) -->
 <!-- ![Teerapong Panboonyuen](panboonyuen_art_toy_10.png)
-![Teerapong Panboonyuen](panboonyuen_art_toy_11.png) -->
-![Teerapong Panboonyuen](panboonyuen_art_toy_12.png)
-![Teerapong Panboonyuen](panboonyuen_art_toy_07.png)
+<!-- ![Teerapong Panboonyuen](panboonyuen_art_toy_11.png) -->
+<!-- ![Teerapong Panboonyuen](panboonyuen_art_toy_12.png) -->
+<!-- ![Teerapong Panboonyuen](panboonyuen_art_toy_07.png) -->
 <!-- ![Teerapong Panboonyuen](panboonyuen_art_toy_04.png)
 ![Teerapong Panboonyuen](panboonyuen_art_toy_02.png)
 ![Teerapong Panboonyuen](panboonyuen_art_toy_03.png)
