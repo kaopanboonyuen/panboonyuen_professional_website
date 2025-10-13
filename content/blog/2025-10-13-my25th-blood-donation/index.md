@@ -43,7 +43,11 @@ If the average lifespan is between 70 and 90 years, I’ve probably walked throu
 
 <div style="text-align: center;">
   <img src="my_25th_blood_donation/KAO_25th_Blood_Donation_00001.jpg" alt="Kao donating blood at Thai Red Cross Bangkok">
-  <p style="font-style: italic; margin-top: 0px;">Figure 1: On the donation chair — familiar faces, familiar kindness. The nurse smiles and says, “Your blood looks strong today.”</p>
+  <p style="font-style: italic; margin-top: 0px;">
+    Figure 1: Settled into the donation chair, the needle in place — and once again, the blood flows strong.  
+    The nurse, warm and kind as always, smiles and says, “Your blood looks especially rich today.”  
+    I dedicate the merit from this donation to all of humanity. May everyone be safe, healthy, and well.
+  </p>
 </div>
 
 For me, meaning often comes through **giving** — especially in small, quiet ways that ripple far beyond what we see.  
@@ -61,7 +65,11 @@ Giving blood wasn’t something she bragged about — it was something she did b
 
 <div style="text-align: center;">
   <img src="my_25th_blood_donation/KAO_25th_Blood_Donation_00003.jpg" alt="Thai Red Cross Ratchaburi memories">
-  <p style="font-style: italic; margin-top: 0px;">Figure 2: A distant memory — the Ratchaburi donation room where my mother first taught me that kindness could be routine.</p>
+  <p style="font-style: italic; margin-top: 0px;">
+    Figure 2: After the donation, I received a small snack pack and a bottle of water — a simple gesture that always feels thoughtful.  
+    On the back of the snack bag, it said: “Thank you to all our heroes.”  
+    It made me smile. I truly hope this blood helps keep someone’s life going, somewhere out there.
+  </p>
 </div>
 
 Back then, I didn’t understand.  
@@ -79,7 +87,11 @@ Each donation follows a rhythm: health check, warm greeting, the quick sting of 
 
 <div style="text-align: center;">
   <img src="my_25th_blood_donation/KAO_25th_Blood_Donation_00005.jpg" alt="Blood bag filling during donation">
-  <p style="font-style: italic; margin-top: 0px;">Figure 3: Watching the crimson line form — a quiet connection between two lives who may never meet.</p>
+  <p style="font-style: italic; margin-top: 0px;">
+    Figure 3: Lying back in the donation room, I watched the deep crimson line slowly fill the bag — a quiet, powerful connection between two strangers who may never meet.  
+    The nurse laughed when she saw the color: “No need for iron supplements today — your blood's already super rich!”  
+    (To be fair, I had just swum a full kilometer before coming in — didn’t want to miss my workout after donating!)
+  </p>
 </div>
 
 This time was special.  
@@ -97,7 +109,11 @@ It’s not just a number — it’s a symbol of continuity, of living healthily,
 
 <div style="text-align: center;">
   <img src="my_25th_blood_donation/KAO_25th_Blood_Donation_00006.jpg" alt="Blood donation pin collection">
-  <p style="font-style: italic; margin-top: 0px;">Figure 4: My collection of pins — small symbols of consistency, reminders that kindness is cumulative.</p>
+  <p style="font-style: italic; margin-top: 0px;">
+    Figure 4: My collection of blood donation pins — each one marking a checkpoint along the way.  
+    They feel a bit like Garmin badges to me — small but meaningful rewards for showing up again and again. 😄  
+    A reminder that kindness, like fitness, adds up over time.
+  </p>
 </div>
 
 Each bag donated equals a chance for another heart to keep beating.  
@@ -140,7 +156,14 @@ May his light continue to inspire us to serve with kindness and purpose.
 
 <div style="text-align: center;">
   <img src="my_25th_blood_donation/KAO_25th_Blood_Donation_00010.jpg" alt="Donation site interior">
-  <p style="font-style: italic; margin-top: 0px;">Figure 8: The quiet interior of the Thai Red Cross hall — white walls, gentle light, and rows of small acts of courage.</p>
+  <p style="font-style: italic; margin-top: 0px;">
+    Figure 8: Today, I received an official certificate from the Thai Red Cross confirming that I’ve completed 24 blood donations.  
+    (Though today was actually my 25th — the staff kindly issued the certificate retroactively.)  
+    The 24th donation is a major milestone recognized by the Red Cross, and the next one will be at 36.  
+    Honestly, receiving the certificate made me happy — but I’ve felt joy from the very first time I donated.  
+    If my blood can help someone continue living — and living happily — that’s all I’ve ever wished for.  
+    May everyone be safe and healthy. I’m aiming to reach 100 donations in this lifetime.
+  </p>
 </div>
 
 <!-- <div style="text-align: center;">
