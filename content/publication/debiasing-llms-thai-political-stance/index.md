@@ -54,10 +54,17 @@ tags:
 featured: true
 
 links:
-# - name: PBY.LAB
-#   url: 'https://pbylab.github.io/'
-# - name: ArXiv
-#   url: 'http://arxiv.org/abs/2507.13655'
+
+- name: ArXiv Paper
+  url: 'https://arxiv.org/abs/2509.21946v1'
+
+- name: My ACL Profile
+  url: 'https://aclanthology.org/people/teerapong-panboonyuen/'
+
+- name: ACL Official Publication
+  url: 'https://aclanthology.org/2025.winlp-main.13/'
+
+
 # - name: Certificate
 #   url: 'https://kaopanboonyuen.github.io/files/certificate/KST2025/Panboonyuen-Certificate-of-Contributions-53.pdf'
 # - name: ICML talk
@@ -66,11 +73,11 @@ links:
 #   url: https://spectrum.ieee.org/tech-talk/computing/software/deepmind-teaches-ai-teamwork
 # - name: ICIAP 2017 Best Papers
 #   url: https://link.springer.com/chapter/10.1007/978-3-319-60663-7_18
-url_pdf: 'https://arxiv.org/abs/2509.21946v1'
+url_pdf: 'https://aclanthology.org/2025.winlp-main.13/'
 # url_code: 'https://github.com/kaopanboonyuen/'
 # url_dataset: ''
-# url_poster: 'https://kaopanboonyuen.github.io/REG/'
-# url_project: 'https://arxiv.org/abs/2509.21946v1'
+url_poster: 'https://aclanthology.org/2025.winlp-main.13/'
+url_project: 'https://aclanthology.org/2025.winlp-main.13/'
 # url_slides: 'https://kaopanboonyuen.github.io/files/slides/Panboonyuen_CUICU_TSCCM2025_Slide.pdf'
 # url_source: 'https://arxiv.org/abs/2509.21946v1'
 # url_video: ''
