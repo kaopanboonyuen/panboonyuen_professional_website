@@ -76,7 +76,7 @@ links:
 url_pdf: 'https://aclanthology.org/2025.winlp-main.13/'
 # url_code: 'https://github.com/kaopanboonyuen/'
 # url_dataset: ''
-url_poster: 'https://aclanthology.org/2025.winlp-main.13/'
+url_poster: 'https://kaopanboonyuen.github.io/files/poster/WiNLP-EMNLP2025-Panboonyuen-Poster.pdf'
 url_project: 'https://aclanthology.org/2025.winlp-main.13/'
 # url_slides: 'https://kaopanboonyuen.github.io/files/slides/Panboonyuen_CUICU_TSCCM2025_Slide.pdf'
 # url_source: 'https://arxiv.org/abs/2509.21946v1'
