@@ -86,3 +86,13 @@ Reviewer for International Journals/Conferences:
 Additional Certifications in Research Ethics:
 
 - My certificate in GCP (Good Clinical Practice) – *Ethics in Human Research* is available in [my GCP Certificate (English)](https://kaopanboonyuen.github.io/files/certificate/GCP/panboonyuen_GCP_certificate_2027.pdf) and [my GCP Certificate (Thai)](https://kaopanboonyuen.github.io/files/certificate/GCP/panboonyuen_GCP_certificate_2027_Thai.pdf).
+
+Editor for International Journals/Conferences:
+
+* I serve as an **Editorial Board Member / Editor** for *Discover Artificial Intelligence* (Springer).
+  My editorial training certificates are available here:
+
+  - *Welcome Course for Inclusive Journals*: [Certificate](https://kaopanboonyuen.github.io/files/certificate/2025/Journal_Editor/Discover_Artificial_Intelligence/124_5_15493_1764147072_EEE_Course_Completion_Certificate.pdf)
+  - *Determining Suitability for Peer Review*: [Certificate](https://kaopanboonyuen.github.io/files/certificate/2025/Journal_Editor/Discover_Artificial_Intelligence/125_5_15493_1764147255_EEE_Course_Completion_Certificate.pdf)
+  - *Identifying and Securing Potential Candidates*: [Certificate](https://kaopanboonyuen.github.io/files/certificate/2025/Journal_Editor/Discover_Artificial_Intelligence/126_5_15493_1764147640_EEE_Course_Completion_Certificate.pdf)
+  - *Making Editorial Decisions and Evaluating Peer Reviewer Reports*: [Certificate](https://kaopanboonyuen.github.io/files/certificate/2025/Journal_Editor/Discover_Artificial_Intelligence/128_5_15493_1764148255_EEE_Course_Completion_Certificate.pdf)
