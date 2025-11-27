@@ -83,6 +83,13 @@ Here’s another side of me—beyond the labs and research. This candid travel p
 
 ![Teerapong Panboonyuen](kao_japan_2020/KAO_PANBOONYUEN_JP20_02.jpg)
 ![Teerapong Panboonyuen](KAO_PANBOONYUEN_ITA.jpg)
+
+> I tried using a diffusion model to transform a photo of me standing in front of the Colosseum in Italy into a U.S.-style licensed cartoon. The result turned out surprisingly well.
+
+![Teerapong Panboonyuen](KAO_AT_ITALY_2023_CT_V1.png)
+
+In mid-2023, when I traveled to Italy to present my research from the MARSAIL Lab, I had the chance to stop by the Leaning Tower of Pisa in the city of Pisa. It was absolutely wonderful—the weather was perfect and the place was filled with people.
+
 ![Teerapong Panboonyuen](KAO_PANBOONYUEN_ITA_02.jpg)
 ![Teerapong Panboonyuen](panboonyuen_img01.jpg)
 ![Teerapong Panboonyuen](panboonyuen_img02.png)
