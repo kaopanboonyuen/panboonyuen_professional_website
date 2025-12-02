@@ -1,6 +1,6 @@
 ---
 
-title: "My 25th Blood Donation — The Quiet Joy of Giving"  
+title: "My 25th Blood Donation — Celebrating the Quiet Joy and Lifelong Gift of Giving"  
 subtitle: "A lifetime journey of kindness, gratitude, and silent heroism"  
 summary: A heartfelt reflection on reaching my 25th blood donation milestone — a story of gratitude, discipline, and the quiet joy of giving, inspired by my mother and dedicated to His Majesty King Bhumibol Adulyadej.  
 authors:  

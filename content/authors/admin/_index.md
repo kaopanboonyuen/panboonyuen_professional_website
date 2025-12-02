@@ -105,7 +105,7 @@ I am currently a **Senior Research Scientist** at [**MARSAIL (Motor AI Recogniti
 
 Passionate about **Cognitive Intelligence** and unlocking human potential, I’m also deeply immersed in **Geospatial Intelligence**, where LLMs uncover groundbreaking insights that reshape how we understand and interact with our world.
 
-Detailed summaries of my academic, industry, and teaching experience can be found in my [**CV**](https://kaopanboonyuen.github.io/files/panboonyuen_cv.pdf) or [**IEEE Biography**](https://kaopanboonyuen.github.io/files/IEEE/IEEE_Biography_Panboonyuen.pdf), and get a glimpse into my personal life on my [**blog**](https://kaopanboonyuen.github.io/blog/) and [**tumblr**](https://kaopanboonyuen.tumblr.com/). By the way, feel free to vibe to my [**music on SoundCloud**](https://soundcloud.com/kaopanboonyuen).
+Detailed summaries of my academic, industry, and teaching experience can be found in my [**CV**](https://kaopanboonyuen.github.io/files/panboonyuen_cv.pdf) or [**IEEE Biography**](https://kaopanboonyuen.github.io/files/IEEE/IEEE_Biography_Panboonyuen.pdf), and get a glimpse into my personal life on my [**blog**](https://kaopanboonyuen.github.io/blog/) and [**tumblr**](https://kaopanboonyuen.tumblr.com/). By the way, feel free to vibe to my [**music on SoundCloud**](https://soundcloud.com/kaopanboonyuen) and my [**UTMB World**](https://utmb.world/runner/7441087.teerapong.panboonyuen).
 
 Thai name: [**ธีรพงศ์ ปานบุญยืน**](https://pbylab.github.io/members/teerapong-panboonyuen/), aka [**Kao Panboonyuen**](https://kaopanboonyuen.wordpress.com/), or just Kao (เก้า).
 
