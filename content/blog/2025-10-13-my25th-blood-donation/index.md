@@ -216,13 +216,13 @@ Here’s to the next 75 donations, to every person I may unknowingly help, and t
 
 ## Citation
 
-> Panboonyuen, Teerapong. (October 2025). *My 25th Blood Donation: A Journey of Kindness, Gratitude, and Life*. Blog post on Kao Panboonyuen. [https://kaopanboonyuen.github.io/blog/2025-10-13-my25th-blood-donation/](https://kaopanboonyuen.github.io/blog/2025-10-13-my25th-blood-donation/)
+> Panboonyuen, Teerapong. (October 2025). *My 25th Blood Donation — Celebrating the Quiet Joy and Lifelong Gift of Giving*. Blog post on Kao Panboonyuen. [https://kaopanboonyuen.github.io/blog/2025-10-13-my25th-blood-donation/](https://kaopanboonyuen.github.io/blog/2025-10-13-my25th-blood-donation/)
 
 **For a BibTeX citation:**
 
 ```bibtex
 @article{panboonyuen2025blood25,
-  title   = "My 25th Blood Donation: A Journey of Kindness, Gratitude, and Life",
+  title   = "My 25th Blood Donation — Celebrating the Quiet Joy and Lifelong Gift of Giving",
   author  = "Panboonyuen, Teerapong",
   journal = "kaopanboonyuen.github.io/",
   year    = "2025",

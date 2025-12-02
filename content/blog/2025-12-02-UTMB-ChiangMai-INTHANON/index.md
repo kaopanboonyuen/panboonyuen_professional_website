@@ -485,7 +485,7 @@ See you on the next adventure. ❤️🏃‍♂️🌄
 ## Citation
 
 > Panboonyuen, Teerapong. (December 2025). *My First-Ever UTMB World Series Adventure — Conquering Chiang Mai Inthanon 20K*. Blog post on Kao Panboonyuen.
-> [https://kaopanboonyuen.github.io/blog/2025-12-02-utmb-inthanon-20k/](https://kaopanboonyuen.github.io/blog/2025-12-02-utmb-inthanon-20k/)
+> [https://kaopanboonyuen.github.io/blog/2025-12-02-utmb-chiangmai-inthanon/](https://kaopanboonyuen.github.io/blog/2025-12-02-utmb-chiangmai-inthanon/)
 
 **For a BibTeX citation:**
 
@@ -496,7 +496,7 @@ See you on the next adventure. ❤️🏃‍♂️🌄
   journal = "kaopanboonyuen.github.io/",
   year    = "2025",
   month   = "Dec",
-  url     = "https://kaopanboonyuen.github.io/blog/2025-12-02-utmb-inthanon-20k/"
+  url     = "https://kaopanboonyuen.github.io/blog/2025-12-02-utmb-chiangmai-inthanon/"
 }
 ```
 
