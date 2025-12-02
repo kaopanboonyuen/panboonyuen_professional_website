@@ -484,14 +484,14 @@ See you on the next adventure. ❤️🏃‍♂️🌄
 
 ## Citation
 
-> Panboonyuen, Teerapong. (December 2025). *My First UTMB World Series at Chiang Mai — Inthanon 20K*. Blog post on Kao Panboonyuen.
+> Panboonyuen, Teerapong. (December 2025). *My First-Ever UTMB World Series Adventure — Conquering Chiang Mai Inthanon 20K*. Blog post on Kao Panboonyuen.
 > [https://kaopanboonyuen.github.io/blog/2025-12-02-utmb-inthanon-20k/](https://kaopanboonyuen.github.io/blog/2025-12-02-utmb-inthanon-20k/)
 
 **For a BibTeX citation:**
 
 ```bibtex
 @article{panboonyuen2025utmb20k,
-  title   = "My First UTMB World Series at Chiang Mai — Inthanon 20K",
+  title   = "My First-Ever UTMB World Series Adventure — Conquering Chiang Mai Inthanon 20K",
   author  = "Panboonyuen, Teerapong",
   journal = "kaopanboonyuen.github.io/",
   year    = "2025",
