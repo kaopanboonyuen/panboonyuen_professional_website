@@ -61,6 +61,8 @@ links:
   url: 'https://ieeexplore.ieee.org/document/11204656/'
 - name: ArXiv
   url: 'https://arxiv.org/abs/2511.02462'
+- name: Hugging Face
+  url: 'https://huggingface.co/kaopanboonyuen'
   
 # - name: Certificate
 #   url: 'https://kaopanboonyuen.github.io/files/certificate/KST2025/Panboonyuen-Certificate-of-Contributions-53.pdf'

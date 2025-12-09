@@ -50,6 +50,8 @@ featured: true
 links:
 - name: ArXiv
   url: 'http://arxiv.org/abs/2507.13655'
+- name: Hugging Face
+  url: 'https://huggingface.co/kaopanboonyuen'
 # - name: Certificate
 #   url: 'https://kaopanboonyuen.github.io/files/certificate/KST2025/Panboonyuen-Certificate-of-Contributions-53.pdf'
 # - name: ICML talk

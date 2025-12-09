@@ -59,6 +59,8 @@ links:
   url: 'https://kaopanboonyuen.github.io/blog/2025-07-01-marsail-the-smart-engine-behind-the-future-of-car-insurance/'
 - name: Blog
   url: 'https://kaopanboonyuen.github.io/blog/2025-07-02-albert-vs-slick-marsail-new-ai-fashion/'
+- name: Hugging Face
+  url: 'https://huggingface.co/kaopanboonyuen'
 # - name: Certificate
 #   url: 'https://kaopanboonyuen.github.io/files/certificate/KST2025/Panboonyuen-Certificate-of-Contributions-53.pdf'
 # - name: ICML talk

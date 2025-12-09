@@ -101,6 +101,9 @@ design:
   * [AI Instructor - Department of Lands, Thailand](https://kaopanboonyuen.github.io/files/invitation_letters/Invitation_toLandDept_AI_2024.pdf)
     * Taught AI using land title deed data. [Code and Lecture Slides](https://github.com/kaopanboonyuen/ai_for_dept_of_lands)
     
+  * [Hugging Face Models](https://huggingface.co/kaopanboonyuen)  
+    * Public AI/LLM models that I fine-tuned for the research community.
+
 <!-- 
 * [AI-Powered Image Recognition for Transportation Mobility Factors: A Quality of Life Perspective for Bangkok City](https://kaopanboonyuen.github.io/quality-of-life-ai-transportation/)
   * Urban development hinges on improving the Quality of Life (QOL) for city inhabitants. Traditionally, QOL assessments rely heavily on questionnaire surveys, which, while informative, can be costly and time-consuming.
