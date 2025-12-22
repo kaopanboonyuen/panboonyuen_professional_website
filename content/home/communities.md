@@ -54,6 +54,10 @@ design:
   * [Invitation Letter for a Special Lecturer Position (Order อว 660101.26/9304)](https://kaopanboonyuen.github.io/files/panboonyuen_kku_ai_2025.pdf)
   * [Invitation Letter for a Special Lecturer Position (Order อว 660101.26/24844)](https://kaopanboonyuen.github.io/files/panboonyuen_kku_ai.pdf)
   * [Invitation Letter for a Special Lecturer Position (Order อว 660101.26/13320)](https://kaopanboonyuen.github.io/files/panboonyuen_kku_spm.pdf)
+  * [Order on the Appointment as University Permanent Staff (Order 10634/2568)](https://kaopanboonyuen.github.io/files/panboonyuen_kku_ai_2026.pdf)
+    * [New Faculty Orientation on Zoom](https://kaopanboonyuen.github.io/files/KKU/KKU2026_KAO.png): Online orientation session welcoming newly appointed faculty members.
+    * [Digital University Staff ID on iKKU](https://kaopanboonyuen.github.io/files/KKU/KKU2026_KAO_iKKU.png): Official online staff identification card accessible through the iKKU system.
+
 
 * Guest Lecturer and AI Committee Member
 
