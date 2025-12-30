@@ -1,5 +1,5 @@
 ---
-title: "🧠 BASIC AI — Rebuilding Intelligence from First Principles"
+title: "BASIC AI — Rebuilding Intelligence from First Principles"
 linkTitle: "BASIC AI"
 summary: "A complete AI reboot course — from intuition to modern research (kids → university → researchers) 🤖✨"
 date: "2025-12-30"
