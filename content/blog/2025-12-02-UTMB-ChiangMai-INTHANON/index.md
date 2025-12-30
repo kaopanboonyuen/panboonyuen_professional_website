@@ -1,6 +1,6 @@
 ---
 
-title: "My First-Ever UTMB World Series Adventure — Conquering Chiang Mai Inthanon 20K"
+title: "UTMB World Series Debut: Chiang Mai Inthanon 20K, A First Step Into International Trail Racing"
 subtitle: "A breathtaking journey through mountains, fear, discipline, and the unexpected joy of my first-ever trail race"
 summary: My first trail running experience at UTMB Inthanon 20K — a story of cold mountain air, steep climbs, breathtaking views, personal fear, unexpected strength, and an unforgettable finish that closed my year with pride and gratitude.
 authors:
@@ -491,7 +491,7 @@ See you on the next adventure. ❤️🏃‍♂️🌄
 
 ```bibtex
 @article{panboonyuen2025utmb20k,
-  title   = "My First-Ever UTMB World Series Adventure — Conquering Chiang Mai Inthanon 20K",
+  title   = "UTMB World Series Debut: Chiang Mai Inthanon 20K, A First Step Into International Trail Racing",
   author  = "Panboonyuen, Teerapong",
   journal = "kaopanboonyuen.github.io/",
   year    = "2025",

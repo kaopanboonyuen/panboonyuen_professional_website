@@ -14,4 +14,4 @@ header:
   image: ""
 ---
 
-👋 Hi, I'm Kao. I'm passionate about learning representations and diving deep into the world of practical AI. I share my insights and research notes here on the blog.
+👋 Hi, I’m Kao. I enjoy diving deep into ideas, disciplined thinking shaped by triathlon, and sharing research notes that connect theory with practice.

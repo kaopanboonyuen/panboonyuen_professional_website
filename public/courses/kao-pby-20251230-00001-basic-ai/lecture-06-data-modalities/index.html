@@ -1,0 +1,1585 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.2.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Teerapong Panboonyuen" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://kaopanboonyuen.github.io/courses/kao-pby-20251230-00001-basic-ai/lecture-06-data-modalities/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.08f2e04360a1c87f5ad39547c02bf219.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hueaa9297dc78a770d45cebdfb81bbca28_1203332_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hueaa9297dc78a770d45cebdfb81bbca28_1203332_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://kaopanboonyuen.github.io/courses/kao-pby-20251230-00001-basic-ai/lecture-06-data-modalities/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Teerapong Panboonyuen" />
+  <meta property="og:url" content="https://kaopanboonyuen.github.io/courses/kao-pby-20251230-00001-basic-ai/lecture-06-data-modalities/" />
+  <meta property="og:title" content="Lecture 06 — Data Types &amp; Modalities | Teerapong Panboonyuen" />
+  <meta property="og:description" content="" /><meta property="og:image" content="https://kaopanboonyuen.github.io/media/icon_hueaa9297dc78a770d45cebdfb81bbca28_1203332_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://kaopanboonyuen.github.io/media/icon_hueaa9297dc78a770d45cebdfb81bbca28_1203332_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2025-12-30T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2025-12-30T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Lecture 06 — Data Types &amp; Modalities | Teerapong Panboonyuen</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="c491acdcbca727b6d829fe9a7c72cd52" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.4be02a3b391999348b0c7478778a0e4b.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Teerapong Panboonyuen</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Teerapong Panboonyuen</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#awards"><span>Awards</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#press"><span>Press</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Featured</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#tags"><span>Topics</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#communities"><span>Communities</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/blog/"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/courses/"><span>Courses</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+          
+          <li class="nav-item d-none d-lg-inline-flex">
+            <a class="nav-link" href="https://x.com/kaopanboonyuen" data-toggle="tooltip" data-placement="bottom" title="Twitter" target="_blank" rel="noopener" aria-label="Twitter">
+              <i class="fab fa-twitter" aria-hidden="true"></i>
+            </a>
+          </li>
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      <form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-md-3 w-100" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <div class="d-flex">
+      <span class="d-md-none pl-1 flex-grow-1 text-left overflow-hidden">
+        
+          BASIC AI
+        
+      </span>
+      <span><i class="fas fa-chevron-down"></i></span>
+    </div>
+  </button>
+
+  
+  <button class="form-control sidebar-search js-search d-none d-md-flex">
+    <i class="fas fa-search pr-2"></i>
+    <span class="sidebar-search-text">Search...</span>
+    <span class="sidebar-search-shortcut">/</span>
+  </button>
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  
+  
+  
+  
+
+  
+  
+    
+
+    
+      
+
+      <ul class="nav docs-sidenav">
+        <li><a href="/courses/"><i class="fas fa-arrow-left pr-1"></i>Courses</a></li>
+      </ul>
+
+      
+      
+        
+          
+        
+      
+
+
+  
+    
+    
+    
+    
+      
+    
+    
+
+    
+      <div class="docs-toc-item">
+        <a class="docs-toc-link " href="/courses/kao-pby-20251230-00001-basic-ai/">BASIC AI</a>
+    
+      
+        <ul class="nav docs-sidenav">
+      
+
+
+  <li class=""><a href="/courses/kao-pby-20251230-00001-basic-ai/lecture-01-intro/">Lecture 01 — What Is AI, Really?</a></li>
+
+
+
+  <li class=""><a href="/courses/kao-pby-20251230-00001-basic-ai/lecture-02-python/">Lecture 02 — Python: The Language of AI</a></li>
+
+
+
+  <li class=""><a href="/courses/kao-pby-20251230-00001-basic-ai/lecture-03-math/">Lecture 03 — Math Behind Intelligence</a></li>
+
+
+
+  <li class=""><a href="/courses/kao-pby-20251230-00001-basic-ai/lecture-04-data/">Lecture 04 — Data: The Fuel of AI</a></li>
+
+
+
+  <li class=""><a href="/courses/kao-pby-20251230-00001-basic-ai/lecture-05-ml-types/">Lecture 05 — Types of Machine Learning</a></li>
+
+
+
+  <li class="active"><a href="/courses/kao-pby-20251230-00001-basic-ai/lecture-06-data-modalities/">Lecture 06 — Data Types &amp; Modalities</a></li>
+
+
+
+  <li class=""><a href="/courses/kao-pby-20251230-00001-basic-ai/lecture-07-ai-fields/">Lecture 07 — AI Fields &amp; Specializations</a></li>
+
+
+
+  <li class=""><a href="/courses/kao-pby-20251230-00001-basic-ai/lecture-08-evaluation/">Lecture 08 — Evaluation Metrics</a></li>
+
+
+
+  <li class=""><a href="/courses/kao-pby-20251230-00001-basic-ai/lecture-09-deep-learning/">Lecture 09 — Deep Learning Foundations</a></li>
+
+
+
+  <li class=""><a href="/courses/kao-pby-20251230-00001-basic-ai/lecture-10-trends/">Lecture 10 — Modern AI &amp; 2026 Trends</a></li>
+
+      
+        </ul>
+      
+    
+
+    
+      </div>
+    
+
+    
+  
+</nav>
+
+    </div>
+
+    
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      
+
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#-big-idea-read-this-first">🌍 Big Idea (Read This First)</a></li>
+    <li><a href="#-data-is-everything-but-not-equal">📦 Data Is Everything (But Not Equal)</a></li>
+    <li><a href="#-what-is-a-modality">🧠 What Is a Modality?</a></li>
+    <li><a href="#-1-tabular-data-the-quiet-workhorse">🔢 1️⃣ Tabular Data (The Quiet Workhorse)</a>
+      <ul>
+        <li><a href="#-what-it-is">📘 What it is</a></li>
+        <li><a href="#-why-it-matters">🧠 Why it matters</a></li>
+        <li><a href="#-mini-project">💻 Mini Project</a></li>
+      </ul>
+    </li>
+    <li><a href="#-2-text-data-language-as-data">📚 2️⃣ Text Data (Language as Data)</a>
+      <ul>
+        <li><a href="#-what-it-is-1">📘 What it is</a></li>
+        <li><a href="#-challenge">🧠 Challenge</a></li>
+        <li><a href="#-mini-example">💻 Mini Example</a></li>
+      </ul>
+    </li>
+    <li><a href="#-3-image-data-vision">🖼️ 3️⃣ Image Data (Vision)</a>
+      <ul>
+        <li><a href="#-what-it-is-2">📘 What it is</a></li>
+        <li><a href="#-ai-does-not-see-objects">🧠 AI does NOT see objects.</a></li>
+        <li><a href="#-mini-example-1">💻 Mini Example</a></li>
+      </ul>
+    </li>
+    <li><a href="#-4-audio-data-sound-as-waves">🎧 4️⃣ Audio Data (Sound as Waves)</a>
+      <ul>
+        <li><a href="#-what-it-is-3">📘 What it is</a></li>
+        <li><a href="#-mini-example-2">💻 Mini Example</a></li>
+      </ul>
+    </li>
+    <li><a href="#-5-video-data-the-hardest-modality">🎥 5️⃣ Video Data (The Hardest Modality)</a>
+      <ul>
+        <li><a href="#-what-it-is-4">📘 What it is</a></li>
+      </ul>
+    </li>
+    <li><a href="#-6-multimodal-data-modern-ai">🔀 6️⃣ Multimodal Data (Modern AI)</a>
+      <ul>
+        <li><a href="#-what-it-is-5">📘 What it is</a></li>
+        <li><a href="#-why-multimodal-ai-matters">🤖 Why Multimodal AI Matters</a></li>
+        <li><a href="#-mini-concept-example">💻 Mini Concept Example</a></li>
+      </ul>
+    </li>
+    <li><a href="#-why-multimodal-ai-is-hard">🤯 Why Multimodal AI Is Hard</a></li>
+    <li><a href="#-data-complexity-vs-model-complexity">🧠 Data Complexity vs Model Complexity</a></li>
+    <li><a href="#-choosing-the-right-modality">🧭 Choosing the Right Modality</a></li>
+    <li><a href="#-real-world-mapping">🌍 Real-World Mapping</a></li>
+    <li><a href="#-final-big-insight">🧠 Final Big Insight</a></li>
+    <li><a href="#-final-reflection">🌱 Final Reflection</a></li>
+  </ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          
+            
+  <nav class="d-none d-md-flex" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      
+  
+  
+  
+
+  <li class="breadcrumb-item">
+    <a href="/">
+      
+        Home
+      
+    </a>
+  </li>
+
+
+  <li class="breadcrumb-item">
+    <a href="/courses/">
+      
+        Courses
+      
+    </a>
+  </li>
+
+
+  <li class="breadcrumb-item">
+    <a href="/courses/kao-pby-20251230-00001-basic-ai/">
+      
+        BASIC AI
+      
+    </a>
+  </li>
+
+
+      <li class="breadcrumb-item active" aria-current="page">
+        Lecture 06 — Data Types & Modalities
+      </li>
+    </ol>
+  </nav>
+
+
+          
+
+          <h1>Lecture 06 — Data Types &amp; Modalities</h1>
+
+          <div class="article-style">
+            <p>
+  <i class="fas fa-clock  pr-1 fa-fw"></i> ~2–2.5 hours (core data understanding lecture)</p>
+<hr>
+<h2 id="-big-idea-read-this-first">🌍 Big Idea (Read This First)</h2>
+<blockquote>
+<p><strong>AI does not see the world like humans.<br>
+It sees data representations.</strong></p>
+</blockquote>
+<p>Understanding data modalities is understanding:</p>
+<ul>
+<li>what AI can learn</li>
+<li>what AI cannot learn</li>
+<li>why some problems are harder than others</li>
+</ul>
+<hr>
+<h2 id="-data-is-everything-but-not-equal">📦 Data Is Everything (But Not Equal)</h2>
+<p>AI performance is often limited by:</p>
+<ul>
+<li>data quality</li>
+<li>data quantity</li>
+<li>data structure</li>
+</ul>
+<blockquote>
+<p>Better model + bad data = bad AI<br>
+Simple model + good data = strong AI</p>
+</blockquote>
+<hr>
+<h2 id="-what-is-a-modality">🧠 What Is a Modality?</h2>
+<p>A <strong>modality</strong> is:</p>
+<blockquote>
+<p>A way information is represented.</p>
+</blockquote>
+<p>Humans:</p>
+<ul>
+<li>see 👀</li>
+<li>hear 👂</li>
+<li>read 📖</li>
+</ul>
+<p>AI:</p>
+<ul>
+<li>processes numbers</li>
+</ul>
+<p>All modalities become <strong>numbers</strong> eventually.</p>
+<hr>
+<h2 id="-1-tabular-data-the-quiet-workhorse">🔢 1️⃣ Tabular Data (The Quiet Workhorse)</h2>
+<h3 id="-what-it-is">📘 What it is</h3>
+<p>Rows &amp; columns:</p>
+<ul>
+<li>Excel</li>
+<li>CSV</li>
+<li>databases</li>
+</ul>
+<h3 id="-why-it-matters">🧠 Why it matters</h3>
+<p>Most real-world AI is still tabular.</p>
+<p>Used in:</p>
+<ul>
+<li>finance (credit scoring)</li>
+<li>healthcare (risk prediction)</li>
+<li>business (forecasting)</li>
+</ul>
+<hr>
+<h3 id="-mini-project">💻 Mini Project</h3>
+<pre><code class="language-python">import pandas as pd
+
+df = pd.DataFrame({
+    &quot;age&quot;: [25, 40, 60],
+    &quot;income&quot;: [30000, 70000, 120000]
+})
+
+df[&quot;income&quot;].mean()
+</code></pre>
+<p>Tabular data loves:</p>
+<ul>
+<li>statistics</li>
+<li>classical ML</li>
+<li>interpretability</li>
+</ul>
+<hr>
+<h2 id="-2-text-data-language-as-data">📚 2️⃣ Text Data (Language as Data)</h2>
+<h3 id="-what-it-is-1">📘 What it is</h3>
+<ul>
+<li>sentences</li>
+<li>documents</li>
+<li>code</li>
+<li>chat logs</li>
+</ul>
+<h3 id="-challenge">🧠 Challenge</h3>
+<p>Text has:</p>
+<ul>
+<li>order</li>
+<li>meaning</li>
+<li>ambiguity</li>
+</ul>
+<p>Machines see:</p>
+<ul>
+<li>tokens</li>
+<li>embeddings</li>
+</ul>
+<hr>
+<h3 id="-mini-example">💻 Mini Example</h3>
+<pre><code class="language-text">&quot;AI is powerful&quot;
+→ [&quot;AI&quot;, &quot;is&quot;, &quot;powerful&quot;]
+→ vectors
+</code></pre>
+<p>Used in:</p>
+<ul>
+<li>NLP</li>
+<li>LLMs</li>
+<li>search engines</li>
+</ul>
+<hr>
+<h2 id="-3-image-data-vision">🖼️ 3️⃣ Image Data (Vision)</h2>
+<h3 id="-what-it-is-2">📘 What it is</h3>
+<ul>
+<li>pixels</li>
+<li>grids of numbers</li>
+</ul>
+<h3 id="-ai-does-not-see-objects">🧠 AI does NOT see objects.</h3>
+<p>It sees:</p>
+<ul>
+<li>edges</li>
+<li>textures</li>
+<li>patterns</li>
+</ul>
+<hr>
+<h3 id="-mini-example-1">💻 Mini Example</h3>
+<pre><code class="language-python">import numpy as np
+
+image = np.zeros((224, 224, 3))
+</code></pre>
+<p>Used in:</p>
+<ul>
+<li>medical imaging</li>
+<li>self-driving</li>
+<li>facial recognition</li>
+</ul>
+<hr>
+<h2 id="-4-audio-data-sound-as-waves">🎧 4️⃣ Audio Data (Sound as Waves)</h2>
+<h3 id="-what-it-is-3">📘 What it is</h3>
+<ul>
+<li>waveforms</li>
+<li>frequencies</li>
+</ul>
+<p>AI learns:</p>
+<ul>
+<li>pitch</li>
+<li>rhythm</li>
+<li>patterns</li>
+</ul>
+<hr>
+<h3 id="-mini-example-2">💻 Mini Example</h3>
+<pre><code class="language-text">Audio → waveform → spectrogram → model
+</code></pre>
+<p>Used in:</p>
+<ul>
+<li>speech recognition</li>
+<li>music generation</li>
+<li>voice assistants</li>
+</ul>
+<hr>
+<h2 id="-5-video-data-the-hardest-modality">🎥 5️⃣ Video Data (The Hardest Modality)</h2>
+<h3 id="-what-it-is-4">📘 What it is</h3>
+<p>Images + time + audio</p>
+<p>Challenges:</p>
+<ul>
+<li>massive data size</li>
+<li>temporal reasoning</li>
+<li>motion understanding</li>
+</ul>
+<p>Used in:</p>
+<ul>
+<li>action recognition</li>
+<li>surveillance</li>
+<li>robotics</li>
+</ul>
+<hr>
+<h2 id="-6-multimodal-data-modern-ai">🔀 6️⃣ Multimodal Data (Modern AI)</h2>
+<h3 id="-what-it-is-5">📘 What it is</h3>
+<p>Multiple modalities together:</p>
+<ul>
+<li>text + image</li>
+<li>image + audio</li>
+<li>text + video</li>
+</ul>
+<hr>
+<h3 id="-why-multimodal-ai-matters">🤖 Why Multimodal AI Matters</h3>
+<p>Humans understand the world multimodally.</p>
+<p>Modern AI tries to:</p>
+<ul>
+<li>align modalities</li>
+<li>share representations</li>
+</ul>
+<p>Examples:</p>
+<ul>
+<li>CLIP</li>
+<li>GPT-4V</li>
+<li>Gemini</li>
+</ul>
+<hr>
+<h3 id="-mini-concept-example">💻 Mini Concept Example</h3>
+<pre><code class="language-text">Image of cat + &quot;A cat sitting on a sofa&quot;
+→ same embedding space
+</code></pre>
+<hr>
+<h2 id="-why-multimodal-ai-is-hard">🤯 Why Multimodal AI Is Hard</h2>
+<table>
+<thead>
+<tr>
+<th>Problem</th>
+<th>Reason</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alignment</td>
+<td>Different data structures</td>
+</tr>
+<tr>
+<td>Scale</td>
+<td>Massive datasets</td>
+</tr>
+<tr>
+<td>Noise</td>
+<td>Cross-modal ambiguity</td>
+</tr>
+<tr>
+<td>Bias</td>
+<td>Uneven modality quality</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="-data-complexity-vs-model-complexity">🧠 Data Complexity vs Model Complexity</h2>
+<p>Rule of thumb:</p>
+<ul>
+<li>Simple data → simple models</li>
+<li>Complex data → deep models</li>
+</ul>
+<p>Wrong pairing = failure.</p>
+<hr>
+<h2 id="-choosing-the-right-modality">🧭 Choosing the Right Modality</h2>
+<p>Ask:</p>
+<ol>
+<li>What signal matters most?</li>
+<li>What data is available?</li>
+<li>What errors are acceptable?</li>
+</ol>
+<p>Good AI starts with <strong>data choice</strong>.</p>
+<hr>
+<h2 id="-real-world-mapping">🌍 Real-World Mapping</h2>
+<table>
+<thead>
+<tr>
+<th>System</th>
+<th>Modalities</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ChatGPT</td>
+<td>Text</td>
+</tr>
+<tr>
+<td>GPT-4V</td>
+<td>Text + Image</td>
+</tr>
+<tr>
+<td>Self-driving car</td>
+<td>Image + Video + Sensor</td>
+</tr>
+<tr>
+<td>Voice assistant</td>
+<td>Audio + Text</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="-final-big-insight">🧠 Final Big Insight</h2>
+<blockquote>
+<p><strong>The world is rich.
+Data is a simplified shadow of it.</strong></p>
+</blockquote>
+<p>Great AI engineers understand the gap.</p>
+<hr>
+<h2 id="-final-reflection">🌱 Final Reflection</h2>
+<details class="spoiler "  id="spoiler-1">
+  <summary>If you had unlimited compute but poor data, would AI succeed?</summary>
+  <p>No — data quality dominates.</p>
+</details>
+          </div>
+
+          
+
+
+
+          
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/courses/kao-pby-20251230-00001-basic-ai/lecture-05-ml-types/" rel="next">Lecture 05 — Types of Machine Learning</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/courses/kao-pby-20251230-00001-basic-ai/lecture-07-ai-fields/" rel="prev">Lecture 07 — AI Fields &amp; Specializations</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on 2025</p>
+
+          
+
+
+
+
+
+          
+
+
+
+
+          
+
+
+  
+  
+
+
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    ©2026 Kao Panboonyuen
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    Built using <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a> and the <a href="https://github.com/wowchemy/starter-hugo-academic" target="_blank" rel="noopener">Wowchemy academic template</a>. View <a href="https://github.com/kaopanboonyuen/kaopanboonyuen.github.io" target="_blank" rel="noopener">source</a>.
+        
+  </p>
+</footer>
+
+    </main>
+  </div>
+</div>
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.4/mermaid.min.js" integrity="sha512-as1BF4+iHZ3BVO6LLDQ7zrbvTXM+c/1iZ1qII/c3c4L8Rn5tHLpFUtpaEtBNS92f+xGsCzsD7b62XP3XYap6oA==" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/golang.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/latex.min.js"></script>
+        
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js" integrity="sha512-I7w3ZdSFzw5j3jU3ZkNikBNeIrl3i+hEuEdwNmqUJvwNcaBUNcijnP2gd9DtGlgVYDplfjGoD8vTNsID+lCjqg==" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.b36873e4e886c7b03b21e4eb97d9b6d7.js"></script>
+
+    
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+
+
+</body>
+</html>

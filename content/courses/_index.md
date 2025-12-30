@@ -9,4 +9,4 @@ header:
   image: ""
 ---
 
-👋 Hi, I’m Kao. I’m passionate about practical AI and teaching courses that explore cutting-edge AI concepts and techniques.
+👋 Hi, I’m Kao. I use this space to teach and share lecture-style content on practical learning systems, spanning core principles and contemporary techniques.
