@@ -1,6 +1,7 @@
 ---
 title: DE101-PD05 — Performance & Production Patterns (From Pandas to Scale)
 weight: 50
+date: '2025-12-30'
 type: book
 ---
 

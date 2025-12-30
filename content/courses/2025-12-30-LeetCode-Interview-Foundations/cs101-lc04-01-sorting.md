@@ -1,6 +1,7 @@
 ---
 title: LC-TEST-01 — Sorting an Array
 weight: 40
+date: '2025-12-30'
 type: book
 ---
 

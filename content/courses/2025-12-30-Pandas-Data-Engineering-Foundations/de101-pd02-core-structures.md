@@ -1,6 +1,7 @@
 ---
 title: DE101-PD02 — Pandas Series, DataFrame, and Indexing (Real-World Mindset)
 weight: 20
+date: '2025-12-30'
 type: book
 ---
 

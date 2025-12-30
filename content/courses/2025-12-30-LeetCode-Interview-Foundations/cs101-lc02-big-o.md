@@ -2,6 +2,7 @@
 title: CS101-LC02 — Big-O Intuition
 weight: 20
 math: true
+date: '2025-12-30'
 type: book
 ---
 

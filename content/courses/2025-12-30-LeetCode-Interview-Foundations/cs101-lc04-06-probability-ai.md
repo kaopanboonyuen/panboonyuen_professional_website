@@ -1,6 +1,7 @@
 ---
 title: LC-TEST-06 — Probability for Machine Learning
 weight: 80
+date: '2025-12-30'
 type: book
 ---
 

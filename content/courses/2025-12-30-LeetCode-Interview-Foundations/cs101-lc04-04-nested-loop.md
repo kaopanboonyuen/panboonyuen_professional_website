@@ -1,6 +1,7 @@
 ---
 title: LC-TEST-04 — Nested Loops (Thinking Beyond O(n²))
 weight: 70
+date: '2025-12-30'
 type: book
 ---
 

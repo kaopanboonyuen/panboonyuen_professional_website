@@ -1,6 +1,7 @@
 ---
 title: DE101-PD06 — Finding Insights with Pandas (From Data to Decisions)
 weight: 60
+date: '2025-12-30'
 type: book
 ---
 

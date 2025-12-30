@@ -1,6 +1,7 @@
 ---
 title: DE101-PD04 — GroupBy, Aggregation & Joins (Analytics & Interview Mastery)
 weight: 40
+date: '2025-12-30'
 type: book
 ---
 

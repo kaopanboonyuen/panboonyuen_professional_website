@@ -1,6 +1,7 @@
 ---
 title: DE101-PD03 — Data Cleaning & Transformation (Production Mindset)
 weight: 30
+date: '2025-12-30'
 type: book
 ---
 

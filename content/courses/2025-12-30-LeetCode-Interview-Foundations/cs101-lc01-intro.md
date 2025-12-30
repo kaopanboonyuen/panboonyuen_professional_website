@@ -1,6 +1,7 @@
 ---
 title: CS101-LC01 — What is LeetCode? (Why Everyone Uses It)
 weight: 10
+date: '2025-12-30'
 type: book
 ---
 

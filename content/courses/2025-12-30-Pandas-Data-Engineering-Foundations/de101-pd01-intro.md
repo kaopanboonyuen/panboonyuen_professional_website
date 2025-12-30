@@ -1,6 +1,7 @@
 ---
 title: DE101-PD01 — Pandas & the Data Engineering Mindset
 weight: 10
+date: '2025-12-30'
 type: book
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: CS101-LC03 — Python for Interviews
 weight: 30
+date: '2025-12-30'
 type: book
 ---
 

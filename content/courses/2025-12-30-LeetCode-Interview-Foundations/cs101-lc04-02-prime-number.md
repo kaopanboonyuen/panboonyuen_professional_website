@@ -1,6 +1,7 @@
 ---
 title: LC-TEST-02 — Prime Number Check
 weight: 50
+date: '2025-12-30'
 type: book
 ---
 

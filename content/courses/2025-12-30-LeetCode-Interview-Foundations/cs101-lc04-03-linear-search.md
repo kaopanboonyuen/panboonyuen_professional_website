@@ -1,6 +1,7 @@
 ---
 title: LC-TEST-03 — Linear Search
 weight: 60
+date: '2025-12-30'
 type: book
 ---
 
