@@ -1,6 +1,6 @@
 ---
-title: "BASIC AI — Rebuilding Intelligence from First Principles"
-linkTitle: "BASIC AI"
+title: "Rebuilding Intelligence from First Principles"
+linkTitle: "AI First Principles"
 summary: "A complete AI reboot course — from intuition to modern research (kids → university → researchers) 🤖✨"
 date: "2025-12-30"
 type: book

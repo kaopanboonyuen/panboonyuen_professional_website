@@ -1,0 +1,1484 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.2.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Teerapong Panboonyuen" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://kaopanboonyuen.github.io/courses/2025-12-30-pandas-data-engineering-foundations/de101-pd03-data-cleaning/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.08f2e04360a1c87f5ad39547c02bf219.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hueaa9297dc78a770d45cebdfb81bbca28_1203332_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hueaa9297dc78a770d45cebdfb81bbca28_1203332_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://kaopanboonyuen.github.io/courses/2025-12-30-pandas-data-engineering-foundations/de101-pd03-data-cleaning/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Teerapong Panboonyuen" />
+  <meta property="og:url" content="https://kaopanboonyuen.github.io/courses/2025-12-30-pandas-data-engineering-foundations/de101-pd03-data-cleaning/" />
+  <meta property="og:title" content="DE101-PD03 — Data Cleaning &amp; Transformation (Production Mindset) | Teerapong Panboonyuen" />
+  <meta property="og:description" content="" /><meta property="og:image" content="https://kaopanboonyuen.github.io/media/icon_hueaa9297dc78a770d45cebdfb81bbca28_1203332_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://kaopanboonyuen.github.io/media/icon_hueaa9297dc78a770d45cebdfb81bbca28_1203332_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+    
+  
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>DE101-PD03 — Data Cleaning &amp; Transformation (Production Mindset) | Teerapong Panboonyuen</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="f6338d5282ff5ac8eb20174dea5fb30c" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.4be02a3b391999348b0c7478778a0e4b.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Teerapong Panboonyuen</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Teerapong Panboonyuen</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#awards"><span>Awards</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#press"><span>Press</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Featured</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#tags"><span>Topics</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#communities"><span>Communities</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/blog/"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/courses/"><span>Courses</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+          
+          <li class="nav-item d-none d-lg-inline-flex">
+            <a class="nav-link" href="https://x.com/kaopanboonyuen" data-toggle="tooltip" data-placement="bottom" title="Twitter" target="_blank" rel="noopener" aria-label="Twitter">
+              <i class="fab fa-twitter" aria-hidden="true"></i>
+            </a>
+          </li>
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      <form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-md-3 w-100" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <div class="d-flex">
+      <span class="d-md-none pl-1 flex-grow-1 text-left overflow-hidden">
+        
+          Pandas Foundations
+        
+      </span>
+      <span><i class="fas fa-chevron-down"></i></span>
+    </div>
+  </button>
+
+  
+  <button class="form-control sidebar-search js-search d-none d-md-flex">
+    <i class="fas fa-search pr-2"></i>
+    <span class="sidebar-search-text">Search...</span>
+    <span class="sidebar-search-shortcut">/</span>
+  </button>
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  
+  
+  
+  
+
+  
+  
+    
+
+    
+      
+
+      <ul class="nav docs-sidenav">
+        <li><a href="/courses/"><i class="fas fa-arrow-left pr-1"></i>Courses</a></li>
+      </ul>
+
+      
+      
+        
+          
+        
+      
+
+
+  
+    
+    
+    
+    
+      
+    
+    
+
+    
+      <div class="docs-toc-item">
+        <a class="docs-toc-link " href="/courses/2025-12-30-pandas-data-engineering-foundations/">Pandas Foundations</a>
+    
+      
+        <ul class="nav docs-sidenav">
+      
+
+
+  <li class=""><a href="/courses/2025-12-30-pandas-data-engineering-foundations/de101-pd01-intro/">DE101-PD01 — Pandas &amp; the Data Engineering Mindset</a></li>
+
+
+
+  <li class=""><a href="/courses/2025-12-30-pandas-data-engineering-foundations/de101-pd02-core-structures/">DE101-PD02 — Pandas Series, DataFrame, and Indexing (Real-World Mindset)</a></li>
+
+
+
+  <li class="active"><a href="/courses/2025-12-30-pandas-data-engineering-foundations/de101-pd03-data-cleaning/">DE101-PD03 — Data Cleaning &amp; Transformation (Production Mindset)</a></li>
+
+
+
+  <li class=""><a href="/courses/2025-12-30-pandas-data-engineering-foundations/de101-pd04-groupby-joins/">DE101-PD04 — GroupBy, Aggregation &amp; Joins (Analytics &amp; Interview Mastery)</a></li>
+
+
+
+  <li class=""><a href="/courses/2025-12-30-pandas-data-engineering-foundations/de101-pd05-performance/">DE101-PD05 — Performance &amp; Production Patterns (From Pandas to Scale)</a></li>
+
+
+
+  <li class=""><a href="/courses/2025-12-30-pandas-data-engineering-foundations/de101-pd06/">DE101-PD06 — Finding Insights with Pandas (From Data to Decisions)</a></li>
+
+      
+        </ul>
+      
+    
+
+    
+      </div>
+    
+
+    
+  
+</nav>
+
+    </div>
+
+    
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      
+
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#-why-data-cleaning-is-the-real-job">🎯 Why Data Cleaning Is the Real Job</a></li>
+    <li><a href="#-what-is-data-cleaning">🧠 What Is Data Cleaning?</a></li>
+    <li><a href="#-common-real-world-data-problems">🧹 Common Real-World Data Problems</a></li>
+    <li><a href="#-example-dataset-user-analytics">📊 Example Dataset (User Analytics)</a></li>
+    <li><a href="#-step-1-inspect-before-cleaning-critical">🔍 Step 1: Inspect Before Cleaning (Critical)</a></li>
+    <li><a href="#-removing-missing-data-dropna">🗑️ Removing Missing Data (<code>dropna</code>)</a></li>
+    <li><a href="#-filling-missing-data-fillna">🩹 Filling Missing Data (<code>fillna</code>)</a></li>
+    <li><a href="#-fixing-data-types-astype">🔢 Fixing Data Types (<code>astype</code>)</a></li>
+    <li><a href="#-renaming-for-clarity">🏷️ Renaming for Clarity</a></li>
+    <li><a href="#-deduplication-very-common">🧠 Deduplication (Very Common)</a></li>
+    <li><a href="#-normalizing-categorical-data">🌍 Normalizing Categorical Data</a></li>
+    <li><a href="#-feature-transformation">🔄 Feature Transformation</a></li>
+    <li><a href="#-outlier-handling">🧪 Outlier Handling</a></li>
+    <li><a href="#-assign--functional-style">🧩 <code>.assign()</code> — Functional Style</a></li>
+    <li><a href="#-method-chaining-professional-style">🔗 Method Chaining (Professional Style)</a></li>
+    <li><a href="#-pipeline-thinking-interview-gold">🧠 Pipeline Thinking (Interview Gold)</a></li>
+    <li><a href="#-validation-checks-often-missed">🧪 Validation Checks (Often Missed)</a></li>
+    <li><a href="#-real-world-case-meta--openai">🏢 Real-World Case (Meta / OpenAI)</a></li>
+    <li><a href="#-common-beginner-mistakes">⚠️ Common Beginner Mistakes</a></li>
+    <li><a href="#-summary">🏁 Summary</a></li>
+    <li><a href="#-next-chapter">🚀 Next Chapter</a></li>
+  </ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          
+            
+  <nav class="d-none d-md-flex" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      
+  
+  
+  
+
+  <li class="breadcrumb-item">
+    <a href="/">
+      
+        Home
+      
+    </a>
+  </li>
+
+
+  <li class="breadcrumb-item">
+    <a href="/courses/">
+      
+        Courses
+      
+    </a>
+  </li>
+
+
+  <li class="breadcrumb-item">
+    <a href="/courses/2025-12-30-pandas-data-engineering-foundations/">
+      
+        Pandas Foundations
+      
+    </a>
+  </li>
+
+
+      <li class="breadcrumb-item active" aria-current="page">
+        DE101-PD03 — Data Cleaning & Transformation (Production Mindset)
+      </li>
+    </ol>
+  </nav>
+
+
+          
+
+          <h1>DE101-PD03 — Data Cleaning &amp; Transformation (Production Mindset)</h1>
+
+          <div class="article-style">
+            <p>
+  <i class="fas fa-clock  pr-1 fa-fw"></i> ~60 minutes</p>
+<h2 id="-why-data-cleaning-is-the-real-job">🎯 Why Data Cleaning Is the Real Job</h2>
+<p>In the real world:</p>
+<ul>
+<li>70–80% of data work = cleaning &amp; transformation</li>
+<li>Models fail more often due to <strong>bad data</strong>, not bad algorithms</li>
+</ul>
+<p>At companies like <strong>Google, Meta, OpenAI</strong>:</p>
+<blockquote>
+<p><em>If your data is wrong, your model is wrong.</em></p>
+</blockquote>
+<hr>
+<h2 id="-what-is-data-cleaning">🧠 What Is Data Cleaning?</h2>
+<p>Data cleaning means:</p>
+<ul>
+<li>Making data <strong>usable</strong></li>
+<li>Making assumptions <strong>explicit</strong></li>
+<li>Removing ambiguity</li>
+<li>Preventing silent bugs</li>
+</ul>
+<hr>
+<h2 id="-common-real-world-data-problems">🧹 Common Real-World Data Problems</h2>
+<table>
+<thead>
+<tr>
+<th>Problem</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Missing values</td>
+<td>NaN age, null clicks</td>
+</tr>
+<tr>
+<td>Wrong data type</td>
+<td>&ldquo;30&rdquo; instead of 30</td>
+</tr>
+<tr>
+<td>Inconsistent labels</td>
+<td>&ldquo;USA&rdquo;, &ldquo;U.S.&rdquo;, &ldquo;United States&rdquo;</td>
+</tr>
+<tr>
+<td>Duplicate rows</td>
+<td>Same user logged twice</td>
+</tr>
+<tr>
+<td>Outliers</td>
+<td>Age = 999</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="-example-dataset-user-analytics">📊 Example Dataset (User Analytics)</h2>
+<pre><code class="language-python">import pandas as pd
+import numpy as np
+
+data = {
+    &quot;user_id&quot;: [1, 2, 3, 3],
+    &quot;age&quot;: [25, None, &quot;30&quot;, 30],
+    &quot;country&quot;: [&quot;US&quot;, &quot;USA&quot;, &quot;us&quot;, &quot;USA&quot;],
+    &quot;clicks&quot;: [10, np.nan, 5, 5]
+}
+
+df = pd.DataFrame(data)
+df
+</code></pre>
+<hr>
+<h2 id="-step-1-inspect-before-cleaning-critical">🔍 Step 1: Inspect Before Cleaning (Critical)</h2>
+<p>Never clean blindly.</p>
+<pre><code class="language-python">df.info()
+df.describe(include=&quot;all&quot;)
+df.isna().sum()
+</code></pre>
+<p>This answers:</p>
+<ul>
+<li>Which columns are broken?</li>
+<li>How many missing values?</li>
+<li>Are types correct?</li>
+</ul>
+<hr>
+<h2 id="-removing-missing-data-dropna">🗑️ Removing Missing Data (<code>dropna</code>)</h2>
+<pre><code class="language-python">df.dropna()
+</code></pre>
+<p>⚠️ Dangerous in production:</p>
+<ul>
+<li>You may delete important users</li>
+<li>Always know <strong>why</strong> you drop</li>
+</ul>
+<p>Better:</p>
+<pre><code class="language-python">df.dropna(subset=[&quot;age&quot;])
+</code></pre>
+<hr>
+<h2 id="-filling-missing-data-fillna">🩹 Filling Missing Data (<code>fillna</code>)</h2>
+<pre><code class="language-python">df[&quot;clicks&quot;] = df[&quot;clicks&quot;].fillna(0)
+</code></pre>
+<p>Common strategies:</p>
+<ul>
+<li>Mean / median (numeric)</li>
+<li>Mode (categorical)</li>
+<li>Zero (counts)</li>
+<li>Forward fill (time series)</li>
+</ul>
+<hr>
+<h2 id="-fixing-data-types-astype">🔢 Fixing Data Types (<code>astype</code>)</h2>
+<pre><code class="language-python">df[&quot;age&quot;] = df[&quot;age&quot;].astype(int)
+</code></pre>
+<p>This often fails → must clean first:</p>
+<pre><code class="language-python">df[&quot;age&quot;] = pd.to_numeric(df[&quot;age&quot;], errors=&quot;coerce&quot;)
+</code></pre>
+<p>Engineers always expect type issues.</p>
+<hr>
+<h2 id="-renaming-for-clarity">🏷️ Renaming for Clarity</h2>
+<pre><code class="language-python">df.rename(columns={&quot;clicks&quot;: &quot;num_clicks&quot;})
+</code></pre>
+<p>Why this matters:</p>
+<ul>
+<li>Self-documenting code</li>
+<li>Fewer misunderstandings</li>
+<li>Cleaner downstream pipelines</li>
+</ul>
+<hr>
+<h2 id="-deduplication-very-common">🧠 Deduplication (Very Common)</h2>
+<pre><code class="language-python">df.drop_duplicates(subset=[&quot;user_id&quot;])
+</code></pre>
+<p>Used for:</p>
+<ul>
+<li>User logs</li>
+<li>Event streams</li>
+<li>Experiment tracking</li>
+</ul>
+<hr>
+<h2 id="-normalizing-categorical-data">🌍 Normalizing Categorical Data</h2>
+<pre><code class="language-python">df[&quot;country&quot;] = (
+    df[&quot;country&quot;]
+    .str.lower()
+    .replace({&quot;us&quot;: &quot;usa&quot;})
+)
+</code></pre>
+<p>Small inconsistency → huge analytics bug.</p>
+<hr>
+<h2 id="-feature-transformation">🔄 Feature Transformation</h2>
+<p>Create new features from old ones:</p>
+<pre><code class="language-python">df[&quot;is_active&quot;] = df[&quot;num_clicks&quot;] &gt; 0
+</code></pre>
+<p>This is <strong>feature engineering</strong>.</p>
+<hr>
+<h2 id="-outlier-handling">🧪 Outlier Handling</h2>
+<pre><code class="language-python">df = df[df[&quot;age&quot;] &lt; 100]
+</code></pre>
+<p>Outliers:</p>
+<ul>
+<li>Break averages</li>
+<li>Break models</li>
+<li>Must be justified, not guessed</li>
+</ul>
+<hr>
+<h2 id="-assign--functional-style">🧩 <code>.assign()</code> — Functional Style</h2>
+<pre><code class="language-python">df = df.assign(
+    age_next_year=lambda x: x[&quot;age&quot;] + 1,
+    clicks_per_age=lambda x: x[&quot;num_clicks&quot;] / x[&quot;age&quot;]
+)
+</code></pre>
+<p>No mutation. Clear logic.</p>
+<hr>
+<h2 id="-method-chaining-professional-style">🔗 Method Chaining (Professional Style)</h2>
+<pre><code class="language-python">df = (
+    df
+    .drop_duplicates(&quot;user_id&quot;)
+    .assign(
+        age=lambda x: pd.to_numeric(x[&quot;age&quot;], errors=&quot;coerce&quot;),
+        country=lambda x: x[&quot;country&quot;].str.lower()
+    )
+    .dropna(subset=[&quot;age&quot;])
+    .query(&quot;age &lt; 100&quot;)
+)
+</code></pre>
+<p>This is how <strong>production Pandas code looks</strong>.</p>
+<details class="spoiler "  id="spoiler-1">
+  <summary>Why method chaining is preferred in real projects?</summary>
+  <p>Readable, debuggable, testable, reproducible</p>
+</details>
+<hr>
+<h2 id="-pipeline-thinking-interview-gold">🧠 Pipeline Thinking (Interview Gold)</h2>
+<p>Engineers think in pipelines:</p>
+<ol>
+<li>Load data</li>
+<li>Inspect</li>
+<li>Clean</li>
+<li>Transform</li>
+<li>Validate</li>
+<li>Export</li>
+</ol>
+<p>Each step should be:</p>
+<ul>
+<li>Explicit</li>
+<li>Reproducible</li>
+<li>Testable</li>
+</ul>
+<hr>
+<h2 id="-validation-checks-often-missed">🧪 Validation Checks (Often Missed)</h2>
+<pre><code class="language-python">assert df[&quot;age&quot;].min() &gt; 0
+assert df[&quot;user_id&quot;].is_unique
+</code></pre>
+<p>These prevent silent failures.</p>
+<hr>
+<h2 id="-real-world-case-meta--openai">🏢 Real-World Case (Meta / OpenAI)</h2>
+<p>Before training models:</p>
+<ul>
+<li>Pandas pipeline cleans data</li>
+<li>Validates assumptions</li>
+<li>Logs anomalies</li>
+<li>Produces clean tables</li>
+</ul>
+<p>Only then → Spark / TensorFlow / PyTorch.</p>
+<hr>
+<h2 id="-common-beginner-mistakes">⚠️ Common Beginner Mistakes</h2>
+<p>❌ Overusing <code>dropna()</code>
+❌ Ignoring data types
+❌ Modifying DataFrame in-place blindly
+❌ No validation checks</p>
+<hr>
+<h2 id="-summary">🏁 Summary</h2>
+<ul>
+<li>Cleaning is the real job</li>
+<li>Inspect before modifying</li>
+<li>Be explicit, not clever</li>
+<li>Method chaining = professional style</li>
+<li>Pipelines prevent bugs</li>
+</ul>
+<p>Good data → good decisions → good models.</p>
+<hr>
+<h2 id="-next-chapter">🚀 Next Chapter</h2>
+<p>👉 <strong>DE101-PD04 — GroupBy, Aggregation, and Business Analytics</strong></p>
+<p>This is where insights are born.</p>
+          </div>
+
+          
+
+
+
+          
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/courses/2025-12-30-pandas-data-engineering-foundations/de101-pd02-core-structures/" rel="next">DE101-PD02 — Pandas Series, DataFrame, and Indexing (Real-World Mindset)</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/courses/2025-12-30-pandas-data-engineering-foundations/de101-pd04-groupby-joins/" rel="prev">DE101-PD04 — GroupBy, Aggregation &amp; Joins (Analytics &amp; Interview Mastery)</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on 0001</p>
+
+          
+
+
+
+
+
+          
+
+
+
+
+          
+
+
+  
+  
+
+
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    ©2026 Kao Panboonyuen
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    Built using <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a> and the <a href="https://github.com/wowchemy/starter-hugo-academic" target="_blank" rel="noopener">Wowchemy academic template</a>. View <a href="https://github.com/kaopanboonyuen/kaopanboonyuen.github.io" target="_blank" rel="noopener">source</a>.
+        
+  </p>
+</footer>
+
+    </main>
+  </div>
+</div>
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.4/mermaid.min.js" integrity="sha512-as1BF4+iHZ3BVO6LLDQ7zrbvTXM+c/1iZ1qII/c3c4L8Rn5tHLpFUtpaEtBNS92f+xGsCzsD7b62XP3XYap6oA==" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/golang.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/latex.min.js"></script>
+        
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js" integrity="sha512-I7w3ZdSFzw5j3jU3ZkNikBNeIrl3i+hEuEdwNmqUJvwNcaBUNcijnP2gd9DtGlgVYDplfjGoD8vTNsID+lCjqg==" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.b36873e4e886c7b03b21e4eb97d9b6d7.js"></script>
+
+    
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+
+
+</body>
+</html>
