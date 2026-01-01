@@ -1,0 +1,1674 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.2.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Teerapong Panboonyuen" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://kaopanboonyuen.github.io/courses/2026-01-01-llm-multimodal/lecture-08-rag-agents/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.08f2e04360a1c87f5ad39547c02bf219.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hueaa9297dc78a770d45cebdfb81bbca28_1203332_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hueaa9297dc78a770d45cebdfb81bbca28_1203332_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://kaopanboonyuen.github.io/courses/2026-01-01-llm-multimodal/lecture-08-rag-agents/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Teerapong Panboonyuen" />
+  <meta property="og:url" content="https://kaopanboonyuen.github.io/courses/2026-01-01-llm-multimodal/lecture-08-rag-agents/" />
+  <meta property="og:title" content="Lecture 08 — RAG, AI Agents &amp; Agentic Multimodal Systems | Teerapong Panboonyuen" />
+  <meta property="og:description" content="" /><meta property="og:image" content="https://kaopanboonyuen.github.io/media/icon_hueaa9297dc78a770d45cebdfb81bbca28_1203332_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://kaopanboonyuen.github.io/media/icon_hueaa9297dc78a770d45cebdfb81bbca28_1203332_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2026-01-01T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2026-01-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Lecture 08 — RAG, AI Agents &amp; Agentic Multimodal Systems | Teerapong Panboonyuen</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="97f0d2ef48ed0a222d7613049343e909" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.4be02a3b391999348b0c7478778a0e4b.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Teerapong Panboonyuen</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Teerapong Panboonyuen</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#awards"><span>Awards</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#press"><span>Press</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Featured</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#tags"><span>Topics</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#communities"><span>Communities</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/blog/"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/courses/"><span>Courses</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+          
+          <li class="nav-item d-none d-lg-inline-flex">
+            <a class="nav-link" href="https://x.com/kaopanboonyuen" data-toggle="tooltip" data-placement="bottom" title="Twitter" target="_blank" rel="noopener" aria-label="Twitter">
+              <i class="fab fa-twitter" aria-hidden="true"></i>
+            </a>
+          </li>
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      <form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-md-3 w-100" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <div class="d-flex">
+      <span class="d-md-none pl-1 flex-grow-1 text-left overflow-hidden">
+        
+          Multimodal LLM
+        
+      </span>
+      <span><i class="fas fa-chevron-down"></i></span>
+    </div>
+  </button>
+
+  
+  <button class="form-control sidebar-search js-search d-none d-md-flex">
+    <i class="fas fa-search pr-2"></i>
+    <span class="sidebar-search-text">Search...</span>
+    <span class="sidebar-search-shortcut">/</span>
+  </button>
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  
+  
+  
+  
+
+  
+  
+    
+
+    
+      
+
+      <ul class="nav docs-sidenav">
+        <li><a href="/courses/"><i class="fas fa-arrow-left pr-1"></i>Courses</a></li>
+      </ul>
+
+      
+      
+        
+          
+        
+      
+
+
+  
+    
+    
+    
+    
+      
+    
+    
+
+    
+      <div class="docs-toc-item">
+        <a class="docs-toc-link " href="/courses/2026-01-01-llm-multimodal/">Multimodal LLM</a>
+    
+      
+        <ul class="nav docs-sidenav">
+      
+
+
+  <li class=""><a href="/courses/2026-01-01-llm-multimodal/lecture-01-what-is-multimodal-llm/">Lecture 01 — What Is a Multimodal LLM, Really?</a></li>
+
+
+
+  <li class=""><a href="/courses/2026-01-01-llm-multimodal/lecture-02-thinking-like-multimodal-architect/">Lecture 02 — How to Think Like a Multimodal System Designer</a></li>
+
+
+
+  <li class=""><a href="/courses/2026-01-01-llm-multimodal/lecture-03-training-paradigms/">Lecture 03 — Training Paradigms: Pretraining, Fine-tuning, and Training from Scratch</a></li>
+
+
+
+  <li class=""><a href="/courses/2026-01-01-llm-multimodal/lecture-04-audio-text/">Lecture 04 — Audio ↔ Text ↔ Reasoning: Teaching Machines to Listen</a></li>
+
+
+
+  <li class=""><a href="/courses/2026-01-01-llm-multimodal/lecture-05-image-text/">Lecture 05 — Image ↔ Text: Teaching Machines to See and Reason</a></li>
+
+
+
+  <li class=""><a href="/courses/2026-01-01-llm-multimodal/lecture-06-video-text/">Lecture 06 — Video–Text Multimodal Intelligence</a></li>
+
+
+
+  <li class=""><a href="/courses/2026-01-01-llm-multimodal/lecture-07-vqa-docqa/">Lecture 07 — Visual Question Answering (VQA) &amp; Document Question Answering (DocQA)</a></li>
+
+
+
+  <li class="active"><a href="/courses/2026-01-01-llm-multimodal/lecture-08-rag-agents/">Lecture 08 — RAG, AI Agents &amp; Agentic Multimodal Systems</a></li>
+
+
+
+  <li class=""><a href="/courses/2026-01-01-llm-multimodal/lecture-09-evaluation/">Lecture 09 — Evaluation of Multimodal &amp; Agentic AI Systems</a></li>
+
+
+
+  <li class=""><a href="/courses/2026-01-01-llm-multimodal/lecture-10-bias-ethics-hitl/">Lecture 10 — Bias, Ethics &amp; Human-in-the-Loop (HITL) in Multimodal AI</a></li>
+
+
+
+  <li class=""><a href="/courses/2026-01-01-llm-multimodal/lecture-11-share-on-huggingface/">Lecture 11 — Sharing Your Multimodal Model with the World (Hugging Face)</a></li>
+
+
+
+  <li class=""><a href="/courses/2026-01-01-llm-multimodal/lecture-12-encoder-decoder-in-llms/">Lecture 12 — Encoder, Decoder, and the Truth About How LLMs Are Trained</a></li>
+
+
+
+  <li class=""><a href="/courses/2026-01-01-llm-multimodal/lecture-13-llm-interview/">Lecture 13 — Real-World LLM Engineer &amp; Research Scientist Interview (Top Tech Level)</a></li>
+
+
+
+  <li class=""><a href="/courses/2026-01-01-llm-multimodal/lecture-14-deep-learning-modern-ai-final/">Lecture 14 — Deep Learning Foundations &amp; Modern AI (Final Mastery)</a></li>
+
+      
+        </ul>
+      
+    
+
+    
+      </div>
+    
+
+    
+  
+</nav>
+
+    </div>
+
+    
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      
+
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#-why-this-lecture-changes-everything">🧠 Why This Lecture Changes Everything</a></li>
+    <li><a href="#-what-is-retrieval-augmented-generation-rag">🧩 What Is Retrieval-Augmented Generation (RAG)?</a></li>
+    <li><a href="#-classical-llm-vs-rag">🔁 Classical LLM vs RAG</a></li>
+    <li><a href="#-core-rag-pipeline">🧠 Core RAG Pipeline</a></li>
+    <li><a href="#-what-can-be-retrieved">📦 What Can Be Retrieved?</a></li>
+    <li><a href="#-embeddings-the-heart-of-rag">🧠 Embeddings: The Heart of RAG</a></li>
+    <li><a href="#-python-minimal-rag-example">🐍 Python: Minimal RAG Example</a></li>
+    <li><a href="#-common-rag-failure-modes">⚠️ Common RAG Failure Modes</a></li>
+    <li><a href="#-what-is-an-ai-agent">🤖 What Is an AI Agent?</a></li>
+    <li><a href="#-agent-loop-canonical">🧠 Agent Loop (Canonical)</a></li>
+    <li><a href="#-agent-components">🧩 Agent Components</a></li>
+    <li><a href="#-tools-an-agent-can-use">🛠 Tools an Agent Can Use</a></li>
+    <li><a href="#-python-simple-agent-skeleton">🐍 Python: Simple Agent Skeleton</a></li>
+    <li><a href="#-what-is-agentic-ai">🧠 What Is Agentic AI?</a></li>
+    <li><a href="#-rag--agents--power">🔗 RAG + Agents = Power</a></li>
+    <li><a href="#-multimodal-agent-example">🧠 Multimodal Agent Example</a></li>
+    <li><a href="#-risks-of-agentic-systems">⚠️ Risks of Agentic Systems</a></li>
+    <li><a href="#-evaluating-rag--agents">📏 Evaluating RAG &amp; Agents</a>
+      <ul>
+        <li><a href="#rag-evaluation">RAG Evaluation</a></li>
+        <li><a href="#agent-evaluation">Agent Evaluation</a></li>
+      </ul>
+    </li>
+    <li><a href="#-research-insight">🧠 Research Insight</a></li>
+    <li><a href="#-student-knowledge-check-hidden">🧪 Student Knowledge Check (Hidden)</a>
+      <ul>
+        <li><a href="#q1--objective">Q1 — Objective</a></li>
+        <li><a href="#q2--mcq">Q2 — MCQ</a></li>
+        <li><a href="#q3--mcq">Q3 — MCQ</a></li>
+        <li><a href="#q4--objective">Q4 — Objective</a></li>
+        <li><a href="#q5--objective">Q5 — Objective</a></li>
+      </ul>
+    </li>
+    <li><a href="#-final-reflection">🌱 Final Reflection</a></li>
+    <li><a href="#-key-takeaways">✅ Key Takeaways</a></li>
+  </ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          
+            
+  <nav class="d-none d-md-flex" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      
+  
+  
+  
+
+  <li class="breadcrumb-item">
+    <a href="/">
+      
+        Home
+      
+    </a>
+  </li>
+
+
+  <li class="breadcrumb-item">
+    <a href="/courses/">
+      
+        Courses
+      
+    </a>
+  </li>
+
+
+  <li class="breadcrumb-item">
+    <a href="/courses/2026-01-01-llm-multimodal/">
+      
+        Multimodal LLM
+      
+    </a>
+  </li>
+
+
+      <li class="breadcrumb-item active" aria-current="page">
+        Lecture 08 — RAG, AI Agents & Agentic Multimodal Systems
+      </li>
+    </ol>
+  </nav>
+
+
+          
+
+          <h1>Lecture 08 — RAG, AI Agents &amp; Agentic Multimodal Systems</h1>
+
+          <div class="article-style">
+            <p>
+  <i class="fas fa-clock  pr-1 fa-fw"></i> ~4–6 hours (modern AI systems design)</p>
+<hr>
+<h2 id="-why-this-lecture-changes-everything">🧠 Why This Lecture Changes Everything</h2>
+<blockquote>
+<p><strong>Models are not intelligent alone.<br>
+Systems are.</strong></p>
+</blockquote>
+<p>RAG and AI Agents represent a shift:</p>
+<ul>
+<li>❌ From static models</li>
+<li>✅ To <em>interactive, grounded, tool-using intelligence</em></li>
+</ul>
+<p>This lecture connects:</p>
+<ul>
+<li>LLMs</li>
+<li>Multimodality</li>
+<li>Memory</li>
+<li>Tools</li>
+<li>Reasoning</li>
+<li>Real-world deployment</li>
+</ul>
+<hr>
+<h2 id="-what-is-retrieval-augmented-generation-rag">🧩 What Is Retrieval-Augmented Generation (RAG)?</h2>
+<p><strong>RAG = Knowledge + Reasoning</strong></p>
+<p>Instead of forcing the model to:</p>
+<ul>
+<li>memorize everything</li>
+<li>hallucinate confidently</li>
+</ul>
+<p>We let it:</p>
+<ol>
+<li>Retrieve relevant information</li>
+<li>Reason over it</li>
+<li>Generate grounded answers</li>
+</ol>
+<hr>
+<h2 id="-classical-llm-vs-rag">🔁 Classical LLM vs RAG</h2>
+<table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>Classical LLM</th>
+<th>RAG</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Knowledge</td>
+<td>Frozen</td>
+<td>Dynamic</td>
+</tr>
+<tr>
+<td>Hallucination</td>
+<td>High</td>
+<td>Lower</td>
+</tr>
+<tr>
+<td>Updates</td>
+<td>Retrain</td>
+<td>Re-index</td>
+</tr>
+<tr>
+<td>Traceability</td>
+<td>Poor</td>
+<td>Strong</td>
+</tr>
+<tr>
+<td>Enterprise-ready</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>RAG turns LLMs into “open-book thinkers.”</strong></p>
+</blockquote>
+<hr>
+<h2 id="-core-rag-pipeline">🧠 Core RAG Pipeline</h2>
+<pre><code>
+User Query
+↓
+Embedding
+↓
+Retriever (Vector DB)
+↓
+Relevant Context
+↓
+LLM Reasoning
+↓
+Answer + Citations
+
+</code></pre>
+<hr>
+<h2 id="-what-can-be-retrieved">📦 What Can Be Retrieved?</h2>
+<ul>
+<li>📄 Documents</li>
+<li>🖼 Images</li>
+<li>🎥 Videos</li>
+<li>🧾 Tables</li>
+<li>📊 Logs</li>
+<li>🧠 Memories (Agent state)</li>
+</ul>
+<blockquote>
+<p>Multimodal RAG = <strong>cross-modal retrieval + reasoning</strong></p>
+</blockquote>
+<hr>
+<h2 id="-embeddings-the-heart-of-rag">🧠 Embeddings: The Heart of RAG</h2>
+<p>Embedding models map meaning → vectors.</p>
+<p>Examples:</p>
+<ul>
+<li>Text: sentence-transformers</li>
+<li>Image: CLIP</li>
+<li>Video: InternVideo</li>
+<li>Document: Layout-aware embeddings</li>
+</ul>
+<blockquote>
+<p><strong>Good retrieval beats bigger models.</strong></p>
+</blockquote>
+<hr>
+<h2 id="-python-minimal-rag-example">🐍 Python: Minimal RAG Example</h2>
+<pre><code class="language-python">query = &quot;What is transformer attention?&quot;
+
+q_emb = embedder.encode(query)
+docs = vector_db.search(q_emb, top_k=5)
+
+context = &quot;\n&quot;.join(docs)
+
+answer = llm.generate(
+    prompt=f&quot;Answer using the context below:\n{context}\n\nQuestion:{query}&quot;
+)
+</code></pre>
+<hr>
+<h2 id="-common-rag-failure-modes">⚠️ Common RAG Failure Modes</h2>
+<ul>
+<li>Retrieving irrelevant chunks</li>
+<li>Context too long</li>
+<li>Context ignored</li>
+<li>Conflicting documents</li>
+<li>Over-trusting retrieved text</li>
+</ul>
+<p>Mitigation:</p>
+<ul>
+<li>Chunking strategy</li>
+<li>Reranking</li>
+<li>Instruction tuning</li>
+<li>Answer verification</li>
+</ul>
+<hr>
+<h2 id="-what-is-an-ai-agent">🤖 What Is an AI Agent?</h2>
+<blockquote>
+<p><strong>An agent is an LLM that can act.</strong></p>
+</blockquote>
+<p>Agent abilities:</p>
+<ul>
+<li>Decide next action</li>
+<li>Use tools</li>
+<li>Store memory</li>
+<li>Observe outcomes</li>
+<li>Iterate</li>
+</ul>
+<hr>
+<h2 id="-agent-loop-canonical">🧠 Agent Loop (Canonical)</h2>
+<pre><code>Observe → Think → Act → Reflect → Repeat
+</code></pre>
+<p>This is <strong>not prompting</strong> — it is <strong>control flow</strong>.</p>
+<hr>
+<h2 id="-agent-components">🧩 Agent Components</h2>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LLM</td>
+<td>Reasoning</td>
+</tr>
+<tr>
+<td>Memory</td>
+<td>State</td>
+</tr>
+<tr>
+<td>Tools</td>
+<td>Actions</td>
+</tr>
+<tr>
+<td>Planner</td>
+<td>Decomposition</td>
+</tr>
+<tr>
+<td>Executor</td>
+<td>Tool calling</td>
+</tr>
+<tr>
+<td>Critic</td>
+<td>Self-evaluation</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="-tools-an-agent-can-use">🛠 Tools an Agent Can Use</h2>
+<ul>
+<li>Search engines</li>
+<li>Databases</li>
+<li>Code execution</li>
+<li>APIs</li>
+<li>OCR</li>
+<li>Vision models</li>
+<li>File systems</li>
+</ul>
+<blockquote>
+<p><strong>Tools extend intelligence beyond tokens.</strong></p>
+</blockquote>
+<hr>
+<h2 id="-python-simple-agent-skeleton">🐍 Python: Simple Agent Skeleton</h2>
+<pre><code class="language-python">while not task_done:
+    thought = llm.think(state)
+    action = planner.select(thought)
+    result = tools.run(action)
+    state.update(result)
+</code></pre>
+<hr>
+<h2 id="-what-is-agentic-ai">🧠 What Is Agentic AI?</h2>
+<p><strong>Agentic AI</strong> means:</p>
+<ul>
+<li>Long-horizon goals</li>
+<li>Autonomous planning</li>
+<li>Self-correction</li>
+<li>Tool orchestration</li>
+<li>Memory persistence</li>
+</ul>
+<p>Examples:</p>
+<ul>
+<li>Research agents</li>
+<li>Coding agents</li>
+<li>Multimodal assistants</li>
+<li>Auto-analysts</li>
+</ul>
+<hr>
+<h2 id="-rag--agents--power">🔗 RAG + Agents = Power</h2>
+<p>RAG answers questions.
+Agents <strong>decide what to retrieve and why</strong>.</p>
+<pre><code>Agent
+  ├── Query RAG
+  ├── Verify answer
+  ├── Ask follow-up
+  ├── Use tools
+  └── Deliver result
+</code></pre>
+<blockquote>
+<p>This is how <strong>real AI systems are built today</strong>.</p>
+</blockquote>
+<hr>
+<h2 id="-multimodal-agent-example">🧠 Multimodal Agent Example</h2>
+<p>Task:</p>
+<blockquote>
+<p>“Analyze this traffic video and explain why the accident occurred.”</p>
+</blockquote>
+<p>Agent flow:</p>
+<ol>
+<li>Extract video frames</li>
+<li>Retrieve traffic rules (RAG)</li>
+<li>Detect events</li>
+<li>Reason causality</li>
+<li>Generate explanation</li>
+</ol>
+<hr>
+<h2 id="-risks-of-agentic-systems">⚠️ Risks of Agentic Systems</h2>
+<ul>
+<li>Tool misuse</li>
+<li>Infinite loops</li>
+<li>Overconfidence</li>
+<li>Hidden failures</li>
+<li>Alignment drift</li>
+</ul>
+<p>Mitigation:</p>
+<ul>
+<li>Guardrails</li>
+<li>Cost limits</li>
+<li>Human approval</li>
+<li>Logging</li>
+<li>Evaluation</li>
+</ul>
+<hr>
+<h2 id="-evaluating-rag--agents">📏 Evaluating RAG &amp; Agents</h2>
+<h3 id="rag-evaluation">RAG Evaluation</h3>
+<ul>
+<li>Retrieval recall</li>
+<li>Faithfulness</li>
+<li>Answer correctness</li>
+<li>Citation accuracy</li>
+</ul>
+<h3 id="agent-evaluation">Agent Evaluation</h3>
+<ul>
+<li>Task success rate</li>
+<li>Steps efficiency</li>
+<li>Error recovery</li>
+<li>Human satisfaction</li>
+</ul>
+<hr>
+<h2 id="-research-insight">🧠 Research Insight</h2>
+<blockquote>
+<p>Intelligence is no longer <strong>inside the model</strong>
+It is <strong>distributed across systems</strong></p>
+</blockquote>
+<p>The future:</p>
+<ul>
+<li>Smaller models</li>
+<li>Better retrieval</li>
+<li>Smarter agents</li>
+<li>Human oversight</li>
+</ul>
+<hr>
+<h2 id="-student-knowledge-check-hidden">🧪 Student Knowledge Check (Hidden)</h2>
+<h3 id="q1--objective">Q1 — Objective</h3>
+<p>What problem does RAG primarily solve?</p>
+<details class="spoiler "  id="spoiler-1">
+  <summary>Answer</summary>
+  <p>Hallucination and static knowledge.</p>
+</details>
+<hr>
+<h3 id="q2--mcq">Q2 — MCQ</h3>
+<p>Which is NOT a core agent component?</p>
+<p>A. Memory
+B. Planner
+C. Tool interface
+D. Dataset labeler</p>
+<details class="spoiler "  id="spoiler-2">
+  <summary>Answer</summary>
+  <p>D. Dataset labeler</p>
+</details>
+<hr>
+<h3 id="q3--mcq">Q3 — MCQ</h3>
+<p>Why combine RAG with agents?</p>
+<p>A. Reduce cost
+B. Improve UI
+C. Enable decision-driven retrieval
+D. Increase model size</p>
+<details class="spoiler "  id="spoiler-3">
+  <summary>Answer</summary>
+  <p>C. Enable decision-driven retrieval</p>
+</details>
+<hr>
+<h3 id="q4--objective">Q4 — Objective</h3>
+<p>What is agentic AI?</p>
+<details class="spoiler "  id="spoiler-4">
+  <summary>Answer</summary>
+  <p>AI systems that plan, act, use tools, and self-correct toward goals.</p>
+</details>
+<hr>
+<h3 id="q5--objective">Q5 — Objective</h3>
+<p>Why is human oversight important for agents?</p>
+<details class="spoiler "  id="spoiler-5">
+  <summary>Answer</summary>
+  <p>To prevent unsafe, incorrect, or misaligned actions.</p>
+</details>
+<hr>
+<h2 id="-final-reflection">🌱 Final Reflection</h2>
+<details class="spoiler "  id="spoiler-6">
+  <summary>If AI agents can act autonomously, what must humans always control?</summary>
+  <p>Goals, values, boundaries, and accountability.</p>
+</details>
+<hr>
+<h2 id="-key-takeaways">✅ Key Takeaways</h2>
+<ul>
+<li>RAG grounds intelligence</li>
+<li>Agents enable action</li>
+<li>Agentic AI is system-level intelligence</li>
+<li>Multimodal agents are the future</li>
+<li>Humans must remain in the loop</li>
+</ul>
+<hr>
+          </div>
+
+          
+
+
+
+          
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/courses/2026-01-01-llm-multimodal/lecture-07-vqa-docqa/" rel="next">Lecture 07 — Visual Question Answering (VQA) &amp; Document Question Answering (DocQA)</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/courses/2026-01-01-llm-multimodal/lecture-09-evaluation/" rel="prev">Lecture 09 — Evaluation of Multimodal &amp; Agentic AI Systems</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on 2026</p>
+
+          
+
+
+
+
+
+          
+
+
+
+
+          
+
+
+  
+  
+
+
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    ©2026 Kao Panboonyuen
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    Built using <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a> and the <a href="https://github.com/wowchemy/starter-hugo-academic" target="_blank" rel="noopener">Wowchemy academic template</a>. View <a href="https://github.com/kaopanboonyuen/kaopanboonyuen.github.io" target="_blank" rel="noopener">source</a>.
+        
+  </p>
+</footer>
+
+    </main>
+  </div>
+</div>
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.4/mermaid.min.js" integrity="sha512-as1BF4+iHZ3BVO6LLDQ7zrbvTXM+c/1iZ1qII/c3c4L8Rn5tHLpFUtpaEtBNS92f+xGsCzsD7b62XP3XYap6oA==" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/golang.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/latex.min.js"></script>
+        
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js" integrity="sha512-I7w3ZdSFzw5j3jU3ZkNikBNeIrl3i+hEuEdwNmqUJvwNcaBUNcijnP2gd9DtGlgVYDplfjGoD8vTNsID+lCjqg==" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.b36873e4e886c7b03b21e4eb97d9b6d7.js"></script>
+
+    
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+
+
+</body>
+</html>

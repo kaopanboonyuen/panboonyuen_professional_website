@@ -1,0 +1,1661 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.2.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Teerapong Panboonyuen" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://kaopanboonyuen.github.io/courses/2026-01-01-llm-multimodal/lecture-12-encoder-decoder-in-llms/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.08f2e04360a1c87f5ad39547c02bf219.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hueaa9297dc78a770d45cebdfb81bbca28_1203332_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hueaa9297dc78a770d45cebdfb81bbca28_1203332_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://kaopanboonyuen.github.io/courses/2026-01-01-llm-multimodal/lecture-12-encoder-decoder-in-llms/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Teerapong Panboonyuen" />
+  <meta property="og:url" content="https://kaopanboonyuen.github.io/courses/2026-01-01-llm-multimodal/lecture-12-encoder-decoder-in-llms/" />
+  <meta property="og:title" content="Lecture 12 — Encoder, Decoder, and the Truth About How LLMs Are Trained | Teerapong Panboonyuen" />
+  <meta property="og:description" content="" /><meta property="og:image" content="https://kaopanboonyuen.github.io/media/icon_hueaa9297dc78a770d45cebdfb81bbca28_1203332_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://kaopanboonyuen.github.io/media/icon_hueaa9297dc78a770d45cebdfb81bbca28_1203332_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2026-01-01T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2026-01-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Lecture 12 — Encoder, Decoder, and the Truth About How LLMs Are Trained | Teerapong Panboonyuen</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="256f7dfddf2aff0d98a03e9793d8dca7" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.4be02a3b391999348b0c7478778a0e4b.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Teerapong Panboonyuen</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Teerapong Panboonyuen</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#awards"><span>Awards</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#press"><span>Press</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Featured</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#tags"><span>Topics</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#communities"><span>Communities</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/blog/"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/courses/"><span>Courses</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+          
+          <li class="nav-item d-none d-lg-inline-flex">
+            <a class="nav-link" href="https://x.com/kaopanboonyuen" data-toggle="tooltip" data-placement="bottom" title="Twitter" target="_blank" rel="noopener" aria-label="Twitter">
+              <i class="fab fa-twitter" aria-hidden="true"></i>
+            </a>
+          </li>
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      <form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-md-3 w-100" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <div class="d-flex">
+      <span class="d-md-none pl-1 flex-grow-1 text-left overflow-hidden">
+        
+          Multimodal LLM
+        
+      </span>
+      <span><i class="fas fa-chevron-down"></i></span>
+    </div>
+  </button>
+
+  
+  <button class="form-control sidebar-search js-search d-none d-md-flex">
+    <i class="fas fa-search pr-2"></i>
+    <span class="sidebar-search-text">Search...</span>
+    <span class="sidebar-search-shortcut">/</span>
+  </button>
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  
+  
+  
+  
+
+  
+  
+    
+
+    
+      
+
+      <ul class="nav docs-sidenav">
+        <li><a href="/courses/"><i class="fas fa-arrow-left pr-1"></i>Courses</a></li>
+      </ul>
+
+      
+      
+        
+          
+        
+      
+
+
+  
+    
+    
+    
+    
+      
+    
+    
+
+    
+      <div class="docs-toc-item">
+        <a class="docs-toc-link " href="/courses/2026-01-01-llm-multimodal/">Multimodal LLM</a>
+    
+      
+        <ul class="nav docs-sidenav">
+      
+
+
+  <li class=""><a href="/courses/2026-01-01-llm-multimodal/lecture-01-what-is-multimodal-llm/">Lecture 01 — What Is a Multimodal LLM, Really?</a></li>
+
+
+
+  <li class=""><a href="/courses/2026-01-01-llm-multimodal/lecture-02-thinking-like-multimodal-architect/">Lecture 02 — How to Think Like a Multimodal System Designer</a></li>
+
+
+
+  <li class=""><a href="/courses/2026-01-01-llm-multimodal/lecture-03-training-paradigms/">Lecture 03 — Training Paradigms: Pretraining, Fine-tuning, and Training from Scratch</a></li>
+
+
+
+  <li class=""><a href="/courses/2026-01-01-llm-multimodal/lecture-04-audio-text/">Lecture 04 — Audio ↔ Text ↔ Reasoning: Teaching Machines to Listen</a></li>
+
+
+
+  <li class=""><a href="/courses/2026-01-01-llm-multimodal/lecture-05-image-text/">Lecture 05 — Image ↔ Text: Teaching Machines to See and Reason</a></li>
+
+
+
+  <li class=""><a href="/courses/2026-01-01-llm-multimodal/lecture-06-video-text/">Lecture 06 — Video–Text Multimodal Intelligence</a></li>
+
+
+
+  <li class=""><a href="/courses/2026-01-01-llm-multimodal/lecture-07-vqa-docqa/">Lecture 07 — Visual Question Answering (VQA) &amp; Document Question Answering (DocQA)</a></li>
+
+
+
+  <li class=""><a href="/courses/2026-01-01-llm-multimodal/lecture-08-rag-agents/">Lecture 08 — RAG, AI Agents &amp; Agentic Multimodal Systems</a></li>
+
+
+
+  <li class=""><a href="/courses/2026-01-01-llm-multimodal/lecture-09-evaluation/">Lecture 09 — Evaluation of Multimodal &amp; Agentic AI Systems</a></li>
+
+
+
+  <li class=""><a href="/courses/2026-01-01-llm-multimodal/lecture-10-bias-ethics-hitl/">Lecture 10 — Bias, Ethics &amp; Human-in-the-Loop (HITL) in Multimodal AI</a></li>
+
+
+
+  <li class=""><a href="/courses/2026-01-01-llm-multimodal/lecture-11-share-on-huggingface/">Lecture 11 — Sharing Your Multimodal Model with the World (Hugging Face)</a></li>
+
+
+
+  <li class="active"><a href="/courses/2026-01-01-llm-multimodal/lecture-12-encoder-decoder-in-llms/">Lecture 12 — Encoder, Decoder, and the Truth About How LLMs Are Trained</a></li>
+
+
+
+  <li class=""><a href="/courses/2026-01-01-llm-multimodal/lecture-13-llm-interview/">Lecture 13 — Real-World LLM Engineer &amp; Research Scientist Interview (Top Tech Level)</a></li>
+
+
+
+  <li class=""><a href="/courses/2026-01-01-llm-multimodal/lecture-14-deep-learning-modern-ai-final/">Lecture 14 — Deep Learning Foundations &amp; Modern AI (Final Mastery)</a></li>
+
+      
+        </ul>
+      
+    
+
+    
+      </div>
+    
+
+    
+  
+</nav>
+
+    </div>
+
+    
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      
+
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#-why-this-lecture-exists">🧠 Why This Lecture Exists</a></li>
+    <li><a href="#-the-original-transformer-2017">🧩 The Original Transformer (2017)</a>
+      <ul>
+        <li><a href="#encoder">Encoder</a></li>
+        <li><a href="#decoder">Decoder</a></li>
+      </ul>
+    </li>
+    <li><a href="#-encoder-what-is-it-really-doing">🧠 Encoder: What Is It Really Doing?</a></li>
+    <li><a href="#-decoder-what-is-it-really-doing">🧠 Decoder: What Is It Really Doing?</a></li>
+    <li><a href="#-why-chatgpt-is-decoder-only">❓ Why ChatGPT Is Decoder-Only</a></li>
+    <li><a href="#-decoder-only-training-gpt-style">🧠 Decoder-Only Training (GPT Style)</a></li>
+    <li><a href="#-encoderdecoder-models-still-important">🧩 Encoder–Decoder Models (Still Important!)</a></li>
+    <li><a href="#-multimodal-llms-the-hybrid-truth">🧠 Multimodal LLMs: The Hybrid Truth</a></li>
+    <li><a href="#-why-encoders-are-usually-frozen">🔗 Why Encoders Are Usually Frozen</a></li>
+    <li><a href="#-what-is-actually-trained-very-important">🧠 What Is Actually Trained? (Very Important)</a>
+      <ul>
+        <li><a href="#pretraining">Pretraining</a></li>
+        <li><a href="#fine-tuning">Fine-tuning</a></li>
+        <li><a href="#instruction-tuning">Instruction tuning</a></li>
+      </ul>
+    </li>
+    <li><a href="#-freezing-strategies">🧩 Freezing Strategies</a></li>
+    <li><a href="#-example-freezing-encoder">🐍 Example: Freezing Encoder</a></li>
+    <li><a href="#-lora-explained-simply">🧠 LoRA Explained Simply</a></li>
+    <li><a href="#-why-not-encoder-only-llms">❓ Why Not Encoder-Only LLMs?</a></li>
+    <li><a href="#-mental-model-remember-this-forever">🧠 Mental Model (Remember This Forever)</a></li>
+    <li><a href="#-student-knowledge-check-hidden">🧪 Student Knowledge Check (Hidden)</a>
+      <ul>
+        <li><a href="#q1--objective">Q1 — Objective</a></li>
+        <li><a href="#q2--mcq">Q2 — MCQ</a></li>
+        <li><a href="#q3--mcq">Q3 — MCQ</a></li>
+        <li><a href="#q4--objective">Q4 — Objective</a></li>
+        <li><a href="#q5--objective">Q5 — Objective</a></li>
+      </ul>
+    </li>
+    <li><a href="#-final-reflection">🌱 Final Reflection</a></li>
+    <li><a href="#-final-takeaways-burn-this-in">✅ Final Takeaways (Burn This In)</a></li>
+  </ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          
+            
+  <nav class="d-none d-md-flex" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      
+  
+  
+  
+
+  <li class="breadcrumb-item">
+    <a href="/">
+      
+        Home
+      
+    </a>
+  </li>
+
+
+  <li class="breadcrumb-item">
+    <a href="/courses/">
+      
+        Courses
+      
+    </a>
+  </li>
+
+
+  <li class="breadcrumb-item">
+    <a href="/courses/2026-01-01-llm-multimodal/">
+      
+        Multimodal LLM
+      
+    </a>
+  </li>
+
+
+      <li class="breadcrumb-item active" aria-current="page">
+        Lecture 12 — Encoder, Decoder, and the Truth About How LLMs Are Trained
+      </li>
+    </ol>
+  </nav>
+
+
+          
+
+          <h1>Lecture 12 — Encoder, Decoder, and the Truth About How LLMs Are Trained</h1>
+
+          <div class="article-style">
+            <p>
+  <i class="fas fa-clock  pr-1 fa-fw"></i> ~4–5 hours (core understanding lecture)</p>
+<hr>
+<h2 id="-why-this-lecture-exists">🧠 Why This Lecture Exists</h2>
+<blockquote>
+<p><strong>Almost everyone uses LLMs.<br>
+Very few understand how they are actually built.</strong></p>
+</blockquote>
+<p>Common confusion:</p>
+<ul>
+<li>“Is ChatGPT encoder–decoder?”</li>
+<li>“Why only decoder?”</li>
+<li>“What does freezing weights really mean?”</li>
+<li>“How does multimodal fit into this?”</li>
+<li>“What exactly am I training when I fine-tune?”</li>
+</ul>
+<p>This lecture answers <strong>all of that — clearly, from first principles</strong>.</p>
+<hr>
+<h2 id="-the-original-transformer-2017">🧩 The Original Transformer (2017)</h2>
+<p>The original Transformer had <strong>two parts</strong>:</p>
+<pre><code>
+Encoder  →  Decoder
+
+</code></pre>
+<h3 id="encoder">Encoder</h3>
+<ul>
+<li>Reads the input</li>
+<li>Understands meaning</li>
+<li>Produces representations</li>
+</ul>
+<h3 id="decoder">Decoder</h3>
+<ul>
+<li>Generates output tokens</li>
+<li>Uses attention + autoregression</li>
+</ul>
+<p>This was designed for:</p>
+<ul>
+<li>Machine Translation</li>
+<li>Summarization</li>
+<li>Seq2Seq tasks</li>
+</ul>
+<hr>
+<h2 id="-encoder-what-is-it-really-doing">🧠 Encoder: What Is It Really Doing?</h2>
+<p>Encoder properties:</p>
+<ul>
+<li>Sees the <strong>entire input at once</strong></li>
+<li>Bidirectional attention</li>
+<li>Builds rich representations</li>
+<li>Does <strong>not generate text</strong></li>
+</ul>
+<p>Examples:</p>
+<ul>
+<li>BERT</li>
+<li>RoBERTa</li>
+<li>ViT (vision encoder)</li>
+<li>Audio encoders</li>
+</ul>
+<blockquote>
+<p><strong>Encoders understand. They don’t speak.</strong></p>
+</blockquote>
+<hr>
+<h2 id="-decoder-what-is-it-really-doing">🧠 Decoder: What Is It Really Doing?</h2>
+<p>Decoder properties:</p>
+<ul>
+<li>Generates tokens <strong>one by one</strong></li>
+<li>Causal (masked) attention</li>
+<li>Autoregressive</li>
+<li>Can reason, plan, and explain</li>
+</ul>
+<p>Examples:</p>
+<ul>
+<li>GPT</li>
+<li>LLaMA</li>
+<li>Mistral</li>
+<li>Qwen</li>
+</ul>
+<blockquote>
+<p><strong>Decoders speak, reason, and act.</strong></p>
+</blockquote>
+<hr>
+<h2 id="-why-chatgpt-is-decoder-only">❓ Why ChatGPT Is Decoder-Only</h2>
+<p>Key insight:</p>
+<blockquote>
+<p><strong>If you want open-ended generation, you only need a decoder.</strong></p>
+</blockquote>
+<p>Reasons:</p>
+<ul>
+<li>Decoder can read context (prompt)</li>
+<li>Decoder can generate indefinitely</li>
+<li>Encoder is not required for generation</li>
+<li>Simpler architecture</li>
+<li>Scales better</li>
+</ul>
+<p>So ChatGPT is:</p>
+<pre><code>
+Text → Decoder → Next Token → Next Token → ...
+
+</code></pre>
+<hr>
+<h2 id="-decoder-only-training-gpt-style">🧠 Decoder-Only Training (GPT Style)</h2>
+<p>Training objective:</p>
+<blockquote>
+<p><strong>Predict the next token</strong></p>
+</blockquote>
+<pre><code class="language-text">&quot;I love deep&quot; → predict &quot;learning&quot;
+</code></pre>
+<p>This single objective leads to:</p>
+<ul>
+<li>Language understanding</li>
+<li>Reasoning</li>
+<li>Code generation</li>
+<li>Planning</li>
+</ul>
+<blockquote>
+<p><strong>Understanding emerges from generation.</strong></p>
+</blockquote>
+<hr>
+<h2 id="-encoderdecoder-models-still-important">🧩 Encoder–Decoder Models (Still Important!)</h2>
+<p>Encoder–decoder models are still used when:</p>
+<ul>
+<li>Input ≠ output</li>
+<li>Strong alignment is required</li>
+<li>Input is very long or structured</li>
+</ul>
+<p>Examples:</p>
+<ul>
+<li>T5</li>
+<li>FLAN-T5</li>
+<li>Whisper (audio → text)</li>
+<li>Translation systems</li>
+</ul>
+<hr>
+<h2 id="-multimodal-llms-the-hybrid-truth">🧠 Multimodal LLMs: The Hybrid Truth</h2>
+<p>Most multimodal LLMs are:</p>
+<pre><code>Encoder (image/audio/video)
+        ↓
+Projection / Adapter
+        ↓
+Decoder-only LLM
+</code></pre>
+<p>Examples:</p>
+<ul>
+<li>CLIP → LLaMA</li>
+<li>ViT → GPT</li>
+<li>Audio encoder → LLM</li>
+</ul>
+<blockquote>
+<p><strong>Multimodal models are encoder–decoder systems,
+but the decoder is still the brain.</strong></p>
+</blockquote>
+<hr>
+<h2 id="-why-encoders-are-usually-frozen">🔗 Why Encoders Are Usually Frozen</h2>
+<p>Encoders:</p>
+<ul>
+<li>Pretrained on massive data</li>
+<li>Expensive to retrain</li>
+<li>General-purpose</li>
+</ul>
+<p>So we often:</p>
+<ul>
+<li>❄️ Freeze encoder</li>
+<li>🔧 Train adapter / projector</li>
+<li>🧠 Fine-tune decoder lightly</li>
+</ul>
+<p>This saves:</p>
+<ul>
+<li>Compute</li>
+<li>Data</li>
+<li>Stability</li>
+</ul>
+<hr>
+<h2 id="-what-is-actually-trained-very-important">🧠 What Is Actually Trained? (Very Important)</h2>
+<h3 id="pretraining">Pretraining</h3>
+<ul>
+<li>Train <strong>all weights</strong></li>
+<li>Massive data</li>
+<li>Extremely expensive</li>
+</ul>
+<h3 id="fine-tuning">Fine-tuning</h3>
+<ul>
+<li>Train <strong>some weights</strong></li>
+<li>Task-specific data</li>
+</ul>
+<h3 id="instruction-tuning">Instruction tuning</h3>
+<ul>
+<li>Train decoder to follow instructions</li>
+<li>Often freezes most layers</li>
+</ul>
+<hr>
+<h2 id="-freezing-strategies">🧩 Freezing Strategies</h2>
+<table>
+<thead>
+<tr>
+<th>Strategy</th>
+<th>What Moves</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Full fine-tune</td>
+<td>Everything</td>
+</tr>
+<tr>
+<td>Freeze encoder</td>
+<td>Decoder only</td>
+</tr>
+<tr>
+<td>LoRA</td>
+<td>Small rank matrices</td>
+</tr>
+<tr>
+<td>Adapters</td>
+<td>Tiny modules</td>
+</tr>
+<tr>
+<td>Prompt tuning</td>
+<td>No weights</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Most real-world systems do NOT full fine-tune.</strong></p>
+</blockquote>
+<hr>
+<h2 id="-example-freezing-encoder">🐍 Example: Freezing Encoder</h2>
+<pre><code class="language-python">for param in vision_encoder.parameters():
+    param.requires_grad = False
+</code></pre>
+<p>Then train:</p>
+<ul>
+<li>Projection layer</li>
+<li>LLM LoRA weights</li>
+</ul>
+<hr>
+<h2 id="-lora-explained-simply">🧠 LoRA Explained Simply</h2>
+<p>LoRA:</p>
+<ul>
+<li>Injects low-rank matrices</li>
+<li>Keeps original weights frozen</li>
+<li>Learns task-specific behavior</li>
+</ul>
+<p>Benefits:</p>
+<ul>
+<li>Cheap</li>
+<li>Stable</li>
+<li>Shareable</li>
+<li>Reversible</li>
+</ul>
+<blockquote>
+<p><strong>LoRA is how the world fine-tunes LLMs today.</strong></p>
+</blockquote>
+<hr>
+<h2 id="-why-not-encoder-only-llms">❓ Why Not Encoder-Only LLMs?</h2>
+<p>Encoder-only models:</p>
+<ul>
+<li>Cannot generate freely</li>
+<li>Need a decoder for output</li>
+<li>Not conversational</li>
+</ul>
+<p>That’s why:</p>
+<ul>
+<li>BERT ≠ ChatGPT</li>
+<li>ViT ≠ multimodal assistant</li>
+</ul>
+<hr>
+<h2 id="-mental-model-remember-this-forever">🧠 Mental Model (Remember This Forever)</h2>
+<table>
+<thead>
+<tr>
+<th>Role</th>
+<th>Model Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Understand</td>
+<td>Encoder</td>
+</tr>
+<tr>
+<td>Reason</td>
+<td>Decoder</td>
+</tr>
+<tr>
+<td>Speak</td>
+<td>Decoder</td>
+</tr>
+<tr>
+<td>Act</td>
+<td>Decoder + Tools</td>
+</tr>
+<tr>
+<td>See</td>
+<td>Vision Encoder</td>
+</tr>
+<tr>
+<td>Hear</td>
+<td>Audio Encoder</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="-student-knowledge-check-hidden">🧪 Student Knowledge Check (Hidden)</h2>
+<h3 id="q1--objective">Q1 — Objective</h3>
+<p>Why can ChatGPT work without an encoder?</p>
+<details class="spoiler "  id="spoiler-1">
+  <summary>Answer</summary>
+  <p>Because a decoder can read context and generate text autoregressively.</p>
+</details>
+<hr>
+<h3 id="q2--mcq">Q2 — MCQ</h3>
+<p>Which model is encoder-only?</p>
+<p>A. GPT
+B. LLaMA
+C. BERT
+D. ChatGPT</p>
+<details class="spoiler "  id="spoiler-2">
+  <summary>Answer</summary>
+  <p>C. BERT</p>
+</details>
+<hr>
+<h3 id="q3--mcq">Q3 — MCQ</h3>
+<p>What is usually frozen in multimodal LLMs?</p>
+<p>A. Decoder
+B. Encoder
+C. Tokenizer
+D. Loss function</p>
+<details class="spoiler "  id="spoiler-3">
+  <summary>Answer</summary>
+  <p>B. Encoder</p>
+</details>
+<hr>
+<h3 id="q4--objective">Q4 — Objective</h3>
+<p>Why use LoRA instead of full fine-tuning?</p>
+<details class="spoiler "  id="spoiler-4">
+  <summary>Answer</summary>
+  <p>To reduce cost, preserve knowledge, and improve stability.</p>
+</details>
+<hr>
+<h3 id="q5--objective">Q5 — Objective</h3>
+<p>Who is the “brain” of a multimodal LLM?</p>
+<details class="spoiler "  id="spoiler-5">
+  <summary>Answer</summary>
+  <p>The decoder-only LLM.</p>
+</details>
+<hr>
+<h2 id="-final-reflection">🌱 Final Reflection</h2>
+<details class="spoiler "  id="spoiler-6">
+  <summary>If intelligence emerges from predicting the next token, what does that say about human thinking?</summary>
+  <p>That reasoning may emerge from sequence prediction guided by experience.</p>
+</details>
+<hr>
+<h2 id="-final-takeaways-burn-this-in">✅ Final Takeaways (Burn This In)</h2>
+<ul>
+<li>ChatGPT is <strong>decoder-only</strong></li>
+<li>Encoders understand, decoders generate</li>
+<li>Multimodal = encoders + decoder brain</li>
+<li>Freezing is strategy, not weakness</li>
+<li>Fine-tuning is about <em>what to move</em></li>
+</ul>
+<hr>
+          </div>
+
+          
+
+
+
+          
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/courses/2026-01-01-llm-multimodal/lecture-11-share-on-huggingface/" rel="next">Lecture 11 — Sharing Your Multimodal Model with the World (Hugging Face)</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/courses/2026-01-01-llm-multimodal/lecture-13-llm-interview/" rel="prev">Lecture 13 — Real-World LLM Engineer &amp; Research Scientist Interview (Top Tech Level)</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on 2026</p>
+
+          
+
+
+
+
+
+          
+
+
+
+
+          
+
+
+  
+  
+
+
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    ©2026 Kao Panboonyuen
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    Built using <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a> and the <a href="https://github.com/wowchemy/starter-hugo-academic" target="_blank" rel="noopener">Wowchemy academic template</a>. View <a href="https://github.com/kaopanboonyuen/kaopanboonyuen.github.io" target="_blank" rel="noopener">source</a>.
+        
+  </p>
+</footer>
+
+    </main>
+  </div>
+</div>
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.4/mermaid.min.js" integrity="sha512-as1BF4+iHZ3BVO6LLDQ7zrbvTXM+c/1iZ1qII/c3c4L8Rn5tHLpFUtpaEtBNS92f+xGsCzsD7b62XP3XYap6oA==" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/golang.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/latex.min.js"></script>
+        
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js" integrity="sha512-I7w3ZdSFzw5j3jU3ZkNikBNeIrl3i+hEuEdwNmqUJvwNcaBUNcijnP2gd9DtGlgVYDplfjGoD8vTNsID+lCjqg==" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.b36873e4e886c7b03b21e4eb97d9b6d7.js"></script>
+
+    
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+
+
+</body>
+</html>
