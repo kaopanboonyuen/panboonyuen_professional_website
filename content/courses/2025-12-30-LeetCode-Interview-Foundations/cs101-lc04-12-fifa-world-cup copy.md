@@ -1,5 +1,5 @@
 ---
-title: LC-TEST-11 — FIFA World Cup 2026 Ultimate Analytics
+title: LC-TEST-12 — FIFA World Cup 2026 Ultimate Analytics
 weight: 120
 date: '2026-01-01'
 type: book
